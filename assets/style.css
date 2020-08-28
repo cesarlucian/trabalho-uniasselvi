@@ -1,0 +1,14 @@
+.header {
+    background-color: rgb(51, 85, 160);
+}
+
+.header .title {
+    padding: 20px;
+    font-size: 3rem;
+    background-color: rgb(82, 129, 230);
+    width: min-content;
+}
+
+.content {
+    padding: 30px;
+}
