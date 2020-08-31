@@ -80,9 +80,12 @@ class PaginadorForm {
                     }
                     else{
                         ?>
-                            <li class="<?= $prev_class; ?>"><a href="<?= $purl; ?>"><<</a></li>
-                            <li><a href="<?= $nurl; ?>">>></a></li>
-                            <p> <?= $tot_pag; ?>
+                            <li class="<?= $prev_class; ?>">
+                                <a href="<?= $purl; ?>"><<</a>
+                            </li>
+                            <li>
+                                <a href="<?= $nurl; ?>">>></a>
+                            </li>
                         <?php
                     }
                 ?>

@@ -164,7 +164,7 @@ class Alunos {
         }
     }
 
-    static function listaAlunoPag($filtro = null, $pag = 1){
+    static function listaAlunoPag($filtro, $pag = 1){
         try{
             TTransaction::open();
             
@@ -187,7 +187,7 @@ class Alunos {
                   ."LIMIT 6 "
                   ."OFFSET $offset";
 
-                // print($sql);
+                //print($sql);
 
             $conn = TTransaction::get();
             $result = $conn->query($sql);
