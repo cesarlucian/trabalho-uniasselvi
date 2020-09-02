@@ -1,0 +1,48 @@
+body .page{
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(51, 85, 160);
+    box-shadow: 0px 10px 12px 0px rgba(0,0,0,0.38);
+}
+
+.header .title {
+    padding: 10px 30px;
+    font-size: 2rem;
+    background-color: rgb(82, 129, 230);
+    width: min-content;
+    box-shadow: 8px 0px 12px 0px rgba(0,0,0,0.25);
+    color: white;
+}
+
+.header .button {
+    margin-right: 20px;
+}
+
+main {
+    padding: 30px;
+}
+
+main.form { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > form {
+    width: 80vw;
+    padding: 20px;
+    border: solid #ccc 0.5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 21px 10px rgba(204,204,204,1);
+}
+
+.form .form-group {
+    padding: 0;
+}
+
