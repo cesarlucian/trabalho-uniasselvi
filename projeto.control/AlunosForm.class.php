@@ -36,6 +36,65 @@ class AlunosForm {
         <?php
     }
 
+    static function novo() {
+        ?>
+
+        <main class="form">
+            <form action="../alunos/alunos_man.php" method="POST">
+                <input type="hidden" name="evento" id="evento" value="novo_aluno" />
+
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <label>(*) Campos Obrigat&oacute;rios</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputName">Nome*</label>
+                    <input type="text" class="form-control" name="inputName" id="inputName" required="true">
+                </div>
+                <div class="form-group row">
+                    <div class="col-6">
+                        <label for="inputNascimento">Data de Nascimento*</label>
+                        <input class="form-control" type="text" name="inputNascimento" id="inputNascimento" required="true">
+                    </div>
+                    <div class="col-6">
+                        <label for="inputCpf">CPF*</label>
+                        <input type="text" class="form-control" name="inputCpf" id="inputCpf" required="true">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-6">
+                        <label for="inputCurso">Curso*</label>
+                        <?= Cursos::campoSelect();  ?>
+                    </div>
+                    <div class="col-6">
+                        <label for="inputEmail">Email*</label>
+                        <input type="text" class="form-control" name="inputEmail" id="inputEmail" required="true">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-6">
+                        <label for="inputEndereco">Endereço*</label>
+                        <input type="text" class="form-control" name="inputEndereco" id="inputEndereco" required="true">
+                    </div>
+                    <div class="col-3">
+                        <label for="inputComplemento">Complemento</label>
+                        <input type="text" class="form-control" name="inputComplemento" id="inputComplemento">
+                    </div>
+                    <div class="col-3">
+                        <label for="inputCep">Cep*</label>
+                        <input type="text" class="form-control" name="inputCep" id="inputCep" required="true">
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </form>
+        </main>
+
+
+        <?php
+    }
+
 }
 
 

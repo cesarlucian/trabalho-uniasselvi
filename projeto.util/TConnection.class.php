@@ -9,7 +9,7 @@ final class TConnection {
     public static function open($nome = "projeto01"){
     
         $user = "root";
-        $pass = "root";
+        $pass = "";
         $name = "projeto01";
         $host = "localhost";
         $tipo = "mysql";

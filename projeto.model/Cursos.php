@@ -161,7 +161,7 @@ class Cursos {
         try{
             TTransaction::open();
 
-            $sql = "SELECT ds_curso FROM "
+            $sql = "SELECT cd_curso,ds_curso FROM "
                   ."cursos WHERE "
                   ."cursos.fg_status = 'A' "
                   ."ORDER BY cursos.ds_curso ";
@@ -208,8 +208,8 @@ class Cursos {
 
     	?>
 
-    	<select name="ds_curso" id="ds_curso" class="form-control">
-    		<option value="0" selected="selected"> Todos cursos </option>
+    	<select name="cd_curso" id="cd_curso" class="form-control" required="true">
+    		<option value="" selected="selected"></option>
 
     	<?php
 

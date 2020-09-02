@@ -2,7 +2,7 @@
 
 class AlunosList {
 
-	public function lista($lista_alunos, $pag){
+	public function lista($lista_alunos, $pag,$novo = true){
         ?>
             <form action="edicao.php" name="lista_alunos" id="lista_alunos" method="GET" role="form">
                 <div class="box box-primary">
