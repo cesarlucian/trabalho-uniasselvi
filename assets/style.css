@@ -35,7 +35,7 @@ main.form {
 }
 
 main > form {
-    width: 60vw;
+    width: 80vw;
     padding: 20px;
     border: solid #ccc 0.5px;
     border-radius: 10px;
