@@ -9,18 +9,14 @@
             </tr>
         </thead>
         <tbody>
+        <?php foreach ($alunos as $aluno) : ?>
             <tr>
-                <th scope="row">1</th>
-                <td>Léo</td>
-                <td>Ativo</td>
-                <td>Analise e Desenvolvimento de Sistemas</td>
+                <td> <?= $aluno->nr_matricula ?> </td>
+                <td> <?= $aluno->nm_principal ?> </td>
+                <td> <?= $aluno->fg_status ?> </td>
+                <td> <?= $aluno->cd_curso ?> </td>
             </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Luciano</td>
-                <td>Inativo</td>
-                <td>Analise e Desenvolvimento de Sistemas</td>
-            </tr>
+        <?php endforeach ?>
         </tbody>
     </table>
 </main>

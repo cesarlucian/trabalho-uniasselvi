@@ -7,6 +7,8 @@ error_reporting(E_ALL | E_STRICT);
 
 date_default_timezone_set('America/Sao_Paulo');
 
+require_once('projeto.util/CarregarAlunos.php');
+
 function __autoload($classe){
     if(file_exists("projeto.util/{$classe}.class.php")){
         include_once "projeto.util/{$classe}.class.php";

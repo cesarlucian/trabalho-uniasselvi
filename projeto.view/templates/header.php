@@ -14,4 +14,7 @@
         <div class="title">
             Alunos
         </div>
+        <div class="button">
+            <button type="button" class="btn btn-outline-light">Criar Aluno</button>
+        </div>
     </header>
