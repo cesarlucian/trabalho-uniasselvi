@@ -41,7 +41,7 @@ extract($_GET);
 
 <script type="text/javascript">
 	$(function() {                
-      	$("#inputNascimento").inputmask("99/99/9999");
+      	//$("#inputNascimento").inputmask("99/99/9999");
       	$("#inputCpf").inputmask("999.999.999-99");
       	$("#inputCep").inputmask("99999-999");
     });

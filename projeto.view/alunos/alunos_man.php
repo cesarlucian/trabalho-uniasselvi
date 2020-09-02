@@ -16,11 +16,10 @@ if(isset($evento)){
 
         	if(Geral::isCpfValid($inputCpf)) {
 
-        		$nova_data = DateTime::createFromFormat('d/m/Y', $inputNascimento);
         		$nova_matricula = rand(1000000, 9999999);
 
         		$novo_aluno->nm_principal   = $inputName;
-	        	$novo_aluno->dt_nascimento  = ($nova_data->format('Y-m-d'));
+	        	$novo_aluno->dt_nascimento  = $inputNascimento;
 	        	$novo_aluno->nr_cpf         = str_replace(array(".","-"), "", $inputCpf);
 	        	$novo_aluno->ds_email       = $inputEmail;
 	        	$novo_aluno->ds_endereco    = $inputEndereco;

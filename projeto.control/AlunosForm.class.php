@@ -55,7 +55,7 @@ class AlunosForm {
                 <div class="form-group row">
                     <div class="col-6">
                         <label for="inputNascimento">Data de Nascimento*</label>
-                        <input class="form-control" type="text" name="inputNascimento" id="inputNascimento" required="true">
+                        <input class="form-control" type="date" name="inputNascimento" id="inputNascimento" required="true">
                     </div>
                     <div class="col-6">
                         <label for="inputCpf">CPF*</label>
