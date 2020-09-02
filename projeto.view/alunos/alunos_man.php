@@ -6,7 +6,7 @@ extract($_POST);
 extract($_GET);
 
 // evento é o nome do formulario enviado por POST nesse caso o formulario AlunosForm::novo() é novo_aluno o nome
-// aqui ficara todos case com nome de seus formularios correspondentes , por exemplo case edita_aluno ... ai tera o codigo q vai dar update no aluno etc Poderia ser um metodo AlunosForm::edita()
+// aqui ficara todos case com nome de seus formularios correspondentes , por exemplo case edita_aluno ... ai tera o codigo q vai dar update no aluno etc Poderia ser um metodo Alunos::edita()
 
 if(isset($evento)){
     switch($evento){
