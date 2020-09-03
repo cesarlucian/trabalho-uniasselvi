@@ -45,7 +45,7 @@ if(isset($evento)){
 	                header("location: cadastro.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
 
 	        		$file = fopen("../../projeto.log/log.txt","a+");
-	        		fwrite($file,"Foi inserido um novo aluno na base de dados - ".date("Y-m-d H:i:s")."\r\n");
+	        		fwrite($file,"Erro ao cadastrar aluno na base de dados - ".date("Y-m-d H:i:s")."\r\n");
 
 	        	}
 
