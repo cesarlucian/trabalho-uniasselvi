@@ -9,3 +9,4 @@ Erro ao inserir aluno na base de dados - 2020-09-02 01:47:01
 Erro ao inserir aluno na base de dados - 2020-09-02 01:49:47
 Erro ao inserir aluno na base de dados - 2020-09-02 01:53:32
 Foi inserido um novo aluno na base de dados - 2020-09-02 01:54:55
+Foi inserido um novo aluno na base de dados - 2020-09-02 21:04:24

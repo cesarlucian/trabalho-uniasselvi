@@ -1,6 +1,6 @@
 <?php
 
-include_once('../../config.php');
+include_once("../../config.php");
 
 extract($_POST);
 extract($_GET);
@@ -35,16 +35,16 @@ if(isset($evento)){
 	                $msg_texto = "Aluno cadastrado com sucesso!";
 	                header("location: cadastro.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
 
-	        		$file = fopen("projeto.log/log.txt","a+");
+	        		$file = fopen("../../projeto.log/log.txt","a+");
 	        		fwrite($file,"Foi inserido um novo aluno na base de dados - ".date("Y-m-d H:i:s")."\r\n");
 
 	        	} else {
 
-	        		$msg_tipo = 1;
+	        		$msg_tipo = 2;
 	                $msg_texto = "Erro ao cadastrar aluno, tente novamente!";
 	                header("location: cadastro.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
 
-	        		$file = fopen("projeto.log/log.txt","a+");
+	        		$file = fopen("../../projeto.log/log.txt","a+");
 	        		fwrite($file,"Foi inserido um novo aluno na base de dados - ".date("Y-m-d H:i:s")."\r\n");
 
 	        	}
@@ -55,7 +55,7 @@ if(isset($evento)){
                 $msg_texto = "Erro ao cadastrar aluno, CPF invalido !";
                 header("location: cadastro.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
 
-                $file = fopen("projeto.log/log.txt","a+");
+                $file = fopen("../../projeto.log/log.txt","a+");
 	        	fwrite($file,"Erro ao inserir aluno na base de dados - ".date("Y-m-d H:i:s")."\r\n");
         	}
 
