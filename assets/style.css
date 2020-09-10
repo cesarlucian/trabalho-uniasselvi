@@ -4,6 +4,7 @@ body .page{
 
 .header {
     display: flex;
+    height: 10vh;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -12,11 +13,14 @@ body .page{
 }
 
 .header .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px 30px;
-    font-size: 2rem;
-    background-color: rgb(82, 129, 230);
-    width: min-content;
-    box-shadow: 8px 0px 12px 0px rgba(0,0,0,0.25);
+    width: 20rem;
+    height: 100%;
+    font-size: 3rem;
+    background-color:  rgb(51, 85, 160);
     color: white;
 }
 
@@ -52,9 +56,12 @@ main > form {
 }
 
 .menu-lateral {
-    height: 80vh;
+    height: 90vh;
     width: 20rem;
     padding: 10px;
+    background-color:  rgb(82, 129, 230);
+    box-shadow: 8px 0px 12px 0px rgba(0,0,0,0.25);
+
 }
 
 .menu-lateral ul {
@@ -71,4 +78,9 @@ main > form {
     padding: 5px;
     list-style: none;
     font-size: 2rem;
+}
+
+.menu-lateral ul li a {
+    color: white;
+
 }
