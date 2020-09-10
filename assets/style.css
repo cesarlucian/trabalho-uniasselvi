@@ -46,3 +46,29 @@ main > form {
     padding: 0;
 }
 
+.menu-inicial {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-lateral {
+    height: 80vh;
+    width: 20rem;
+    padding: 10px;
+}
+
+.menu-lateral ul {
+    height: 50%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.menu-lateral ul li {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    list-style: none;
+    font-size: 2rem;
+}
