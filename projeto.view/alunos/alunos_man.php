@@ -5,16 +5,17 @@ include_once("../../config.php");
 extract($_POST);
 extract($_GET);
 
-// evento é o nome do formulario enviado por POST nesse caso o formulario AlunosForm::novo() é novo_aluno o nome
-// aqui ficara todos case com nome de seus formularios correspondentes , por exemplo case edita_aluno ... ai tera o codigo q vai dar update no aluno etc Poderia ser um metodo Alunos::edita()
-
 if(isset($evento)){
     switch($evento){
         case 'novo_aluno':
+
+        //echo "oi";exit;
         	
         	$novo_aluno = new Alunos();
 
         	if(Geral::isCpfValid($inputCpf)) {
+
+        		// dados cadastrais
 
         		$nova_matricula = rand(100000, 999999);
 
@@ -22,12 +23,19 @@ if(isset($evento)){
 	        	$novo_aluno->dt_nascimento  = $inputNascimento;
 	        	$novo_aluno->nr_cpf         = str_replace(array(".","-"), "", $inputCpf);
 	        	$novo_aluno->ds_email       = $inputEmail;
-	        	$novo_aluno->ds_endereco    = $inputEndereco;
-	        	$novo_aluno->ds_complemento = $inputComplemento;
 	        	$novo_aluno->nr_matricula   = $nova_matricula;
-	        	$novo_aluno->nr_cep         = str_replace("-","", $inputCep);
 	        	$novo_aluno->fg_status      = "A";
 	        	$novo_aluno->cd_curso       = $cd_curso;
+
+	        	// endereco
+
+	        	$novo_aluno->nr_cep = str_replace("-", "", $nr_cep);
+	        	$novo_aluno->ds_complemento = $ds_complemento;
+	        	$novo_aluno->ds_uf = $ds_uf;
+	        	$novo_aluno->ds_cidade = $ds_cidade;
+	        	$novo_aluno->ds_bairro = $ds_bairro;
+	        	$novo_aluno->ds_endereco = $ds_endereco;
+
 
 	        	if($novo_aluno->insert()) {
 

@@ -78,7 +78,7 @@ class Alunos {
             
             $sql .= " (".$colunas.") VALUES (".$valores.") ";
 
-            print($sql);exit;
+            //print($sql);exit;
             
             $conn = TTransaction::get();
             $result = $conn->query($sql);
