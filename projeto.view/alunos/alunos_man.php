@@ -16,7 +16,7 @@ if(isset($evento)){
 
         	if(Geral::isCpfValid($inputCpf)) {
 
-        		$nova_matricula = rand(1000000, 9999999);
+        		$nova_matricula = rand(100000, 999999);
 
         		$novo_aluno->nm_principal   = $inputName;
 	        	$novo_aluno->dt_nascimento  = $inputNascimento;

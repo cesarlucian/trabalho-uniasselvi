@@ -6,6 +6,8 @@ include_once("projeto.templates/header.php");
 ?>
 
 <p>index em desenvolvimento</p>
-<div class="button">
-            <a type="button" href="projeto.view/alunos/cadastro.php" class="btn btn-primary">Criar Aluno</a>
-        </div>
+	<div class="button">
+	    <a type="button" href="projeto.view/alunos/cadastro.php" class="btn btn-primary">Criar Aluno</a>
+	</div>
+
+<?php include_once("projeto.templates/footer.php"); ?>
