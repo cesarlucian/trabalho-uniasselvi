@@ -51,6 +51,7 @@ extract($_GET);
 		    });
 		</script>
 
+</div>
 		<?php
 
 include_once("../../projeto.templates/footer.php");

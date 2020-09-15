@@ -17,6 +17,6 @@
 
     <header class="header">
         <div class="title">
-            <a href="/trabalho-uniasselvi/trabalho-uniasselvi">Projeto</a>
+            <a href="/">Projeto</a>
         </div>
     </header>
