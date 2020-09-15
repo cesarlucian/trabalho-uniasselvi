@@ -52,38 +52,36 @@ class AlunosForm {
                 <div class="row">
 
                     <div class="col-lg-6 col-md-6">
-                        <label for="inputName">Nome*</label>
-                        <input type="text" class="form-control" name="inputName" id="inputName" required="true">
+                        <label for="">Nome*</label>
+                        <input type="text" class="form-control" name="ds_nome" id="ds_nome" required="true">
                     </div>
 
 
                     <div class="col-lg-3 col-md-3">
-                        <label for="inputNascimento">Data de Nascimento*</label>
-                        <input class="form-control" type="date" name="inputNascimento" id="inputNascimento" required="true">
+                        <label for="">Data de Nascimento*</label>
+                        <input class="form-control" type="date" name="dt_nascimento" id="dt_nascimento" required="true">
                     </div>
 
 
                     <div class="col-lg-3 col-md-3">
-                        <label for="inputCpf">CPF*</label>
-                        <input type="text" class="form-control" name="inputCpf" id="inputCpf" required="true">
+                        <label for="">CPF*</label>
+                        <input type="text" class="form-control" name="nr_cpf" id="nr_cpf" required="true">
                     </div>
 
                     <div class="col-lg-6 col-md-6">
-                        <label for="inputEmail">Email*</label>
-                        <input type="text" class="form-control" name="inputEmail" id="inputEmail" required="true">
+                        <label for="">Email*</label>
+                        <input type="text" class="form-control" name="ds_email" id="ds_email" required="true">
                     </div>
 
 
                     <div class="col-lg-6 col-md-6">
-                        <label for="inputCurso">Curso*</label>
+                        <label for="">Curso*</label>
                         <?= Cursos::campoSelect();  ?>
                     </div>
 
                     <div class="col-lg-12 col-md-12">
                         <br><label>Endereço</label><br><br>
                     </div>
-
-                    <!--echo $dados_cep->uf.';'.$dados_cep->localidade.';'.$dados_cep->bairro.';'.$dados_cep->logradouro;    -->
 
                     <div class="col-lg-3 col-md-3">
                                 <label for="nr_cep">CEP*</label>
@@ -124,7 +122,7 @@ class AlunosForm {
                     
                     <div class="col-lg-12 col-md-12"><br>
                         <center>
-                            <button type="submit" class="btn btn-primary"><i class="fa fa-search">Cadastrar</button>
+                            <button type="submit" class="btn btn-success"><i class="fa fa-search">Cadastrar</button>
                         </center>
                     </div> 
                 </div>

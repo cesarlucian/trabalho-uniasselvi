@@ -4,7 +4,11 @@
 
 class Geral {
 
-	static function isCpfValid($cpf){
+    static function validaEmail($email) {
+        return filter_var($email, FILTER_VALIDATE_EMAIL);
+    }
+
+	static function validaCPF($cpf){
 
         $j=0;
         for($i=0; $i<(strlen($cpf)); $i++)
@@ -18,7 +22,7 @@ class Geral {
 
         if(count($num)!=11)
             {
-                $isCpfValid=false;
+                $validaCPF=false;
             }
 
         else
@@ -27,13 +31,13 @@ class Geral {
                     {
                         if ($num[0]==$i && $num[1]==$i && $num[2]==$i && $num[3]==$i && $num[4]==$i && $num[5]==$i && $num[6]==$i && $num[7]==$i && $num[8]==$i)
                             {
-                                $isCpfValid=false;
+                                $validaCPF=false;
                                 break;
                             }
                     }
             }
 
-        if(!isset($isCpfValid))
+        if(!isset($validaCPF))
             {
                 $j=10;
                 for($i=0; $i<9; $i++)
@@ -53,11 +57,11 @@ class Geral {
                     }
                 if($dg!=$num[9])
                     {
-                        $isCpfValid=false;
+                        $validaCPF=false;
                     }
             }
 
-        if(!isset($isCpfValid))
+        if(!isset($validaCPF))
             {
                 $j=11;
                 for($i=0; $i<10; $i++)
@@ -77,15 +81,15 @@ class Geral {
                     }
                 if($dg!=$num[10])
                     {
-                        $isCpfValid=false;
+                        $validaCPF=false;
                     }
                 else
                     {
-                        $isCpfValid=true;
+                        $validaCPF=true;
                     }
             }
 
-        return $isCpfValid;					
+        return $validaCPF;					
     }
 }
 
