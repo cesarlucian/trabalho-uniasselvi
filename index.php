@@ -4,9 +4,9 @@ include_once("config.php");
 
 new TSession();
 
-include_once("projeto.templates/header.php");
-include_once("projeto.templates/menu.php");
-include_once("projeto.templates/footer.php");
+include_once("header.php");
+include_once("menu.php");
+include_once("footer.php");
 // carregarAlunos(Alunos::listaAlunoPag(''));
 ?>
 
