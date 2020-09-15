@@ -1,6 +1,6 @@
 <?php
 
-include_once("../../config.php");
+include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."config.php");
 
 extract($_POST);
 extract($_GET);
@@ -13,16 +13,34 @@ if(isset($evento)){
         	
         	$novo_aluno = new Alunos();
 
-        	if(Geral::isCpfValid($inputCpf)) {
+        	if(!Geral::validaCPF($nr_cpf)) {
+
+        		$msg_tipo = 2;
+                $msg_texto = "CPF invalido ! Tente novamente.";
+                header("location: cadastro.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
+
+                $file = fopen("../../projeto.log/log.txt","a+");
+	        	fwrite($file,"Erro ao inserir aluno na base de dados, Erro: CPF Invalido - ".date("Y-m-d H:i:s")."\r\n");
+
+        	} else if(!Geral::validaEmail($ds_email)) {
+
+        		$msg_tipo = 2;
+                $msg_texto = "Email invalido ! Tente novamente.";
+                header("location: cadastro.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
+
+                $file = fopen("../../projeto.log/log.txt","a+");
+	        	fwrite($file,"Erro ao inserir aluno na base de dados, Erro: Email invalido - ".date("Y-m-d H:i:s")."\r\n");
+
+        	} else {
 
         		// dados cadastrais
 
         		$nova_matricula = rand(100000, 999999);
 
-        		$novo_aluno->nm_principal   = $inputName;
-	        	$novo_aluno->dt_nascimento  = $inputNascimento;
-	        	$novo_aluno->nr_cpf         = str_replace(array(".","-"), "", $inputCpf);
-	        	$novo_aluno->ds_email       = $inputEmail;
+        		$novo_aluno->nm_principal   = $ds_nome;
+	        	$novo_aluno->dt_nascimento  = $dt_nascimento;
+	        	$novo_aluno->nr_cpf         = str_replace(array(".","-"), "", $nr_cpf);
+	        	$novo_aluno->ds_email       = $ds_email;
 	        	$novo_aluno->nr_matricula   = $nova_matricula;
 	        	$novo_aluno->fg_status      = "A";
 	        	$novo_aluno->cd_curso       = $cd_curso;
@@ -56,15 +74,6 @@ if(isset($evento)){
 	        		fwrite($file,"Erro ao cadastrar aluno na base de dados - ".date("Y-m-d H:i:s")."\r\n");
 
 	        	}
-
-        	} else {
-
-        		$msg_tipo = 2;
-                $msg_texto = "Erro ao cadastrar aluno, CPF invalido !";
-                header("location: cadastro.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
-
-                $file = fopen("../../projeto.log/log.txt","a+");
-	        	fwrite($file,"Erro ao inserir aluno na base de dados - ".date("Y-m-d H:i:s")."\r\n");
         	}
 
         break;

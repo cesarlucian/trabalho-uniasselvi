@@ -1,10 +1,12 @@
 <?php
 
-include_once("../../config.php");
+include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."config.php");
 
-include_once("../../projeto.templates/header.php");
+include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."projeto.templates/header.php");
 
-	include_once("../../projeto.templates/menu.php");
+	include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."projeto.templates". DIRECTORY_SEPARATOR ."menu.php");
+
+new TSession;
 
 extract($_GET);
 
@@ -46,7 +48,7 @@ extract($_GET);
 		<script type="text/javascript">
 			$(function() {                
 		      	//$("#inputNascimento").inputmask("99/99/9999");
-		      	$("#inputCpf").inputmask("999.999.999-99");
+		      	$("#nr_cpf").inputmask("999.999.999-99");
 		      	$("#nr_cep").inputmask("99999-999");
 		    });
 		</script>
