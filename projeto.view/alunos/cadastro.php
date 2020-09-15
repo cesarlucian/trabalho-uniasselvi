@@ -11,7 +11,7 @@ new TSession;
 extract($_GET);
 
 ?>
-		<aside class="right-side">
+		
 			<section class="content">
 
 				<?php
@@ -25,7 +25,7 @@ extract($_GET);
 				?>
 
 			</section>
-		</aside>
+		
 
 		<!-- jQuery 2.0.2 -->
 		<script src="../../js/jquery-min.js"></script>
