@@ -24,6 +24,11 @@ body .page{
     color: white;
 }
 
+.header .title .title-text {
+    text-decoration: none;
+    color: white;
+}
+
 .header .button {
     margin-right: 20px;
 }

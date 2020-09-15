@@ -11,7 +11,7 @@ new TSession;
 extract($_GET);
 
 ?>
-		<aside class="right-side">
+		<aside>
 			<section class="content">
 
 				<?php

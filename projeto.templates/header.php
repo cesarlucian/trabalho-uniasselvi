@@ -17,6 +17,6 @@
 
     <header class="header">
         <div class="title">
-            <a href="/">Projeto</a>
+            <a class="title-text" href="/">Projeto</a>
         </div>
     </header>
