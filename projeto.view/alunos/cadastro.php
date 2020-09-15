@@ -2,16 +2,16 @@
 
 include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."config.php");
 
-include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."projeto.templates/header.php");
+include_once("../../header.php");
 
-	include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."projeto.templates". DIRECTORY_SEPARATOR ."menu.php");
+include_once("../../menu.php");
 
 new TSession;
 
 extract($_GET);
 
 ?>
-		
+
 			<section class="content">
 
 				<?php
@@ -25,7 +25,7 @@ extract($_GET);
 				?>
 
 			</section>
-		
+		</aside>
 
 		<!-- jQuery 2.0.2 -->
 		<script src="../../js/jquery-min.js"></script>
@@ -52,8 +52,6 @@ extract($_GET);
 		      	$("#nr_cep").inputmask("99999-999");
 		    });
 		</script>
-
-</div>
 		<?php
 
 include_once("../../projeto.templates/footer.php");
