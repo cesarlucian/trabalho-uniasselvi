@@ -20,3 +20,4 @@ Erro ao inserir aluno na base de dados, Erro: Email invalido - 2020-09-14 22:08:
 Erro ao inserir aluno na base de dados, Erro: Email invalido - 2020-09-14 22:09:30
 Foi inserido um novo aluno na base de dados - 2020-09-14 22:14:07
 Erro ao inserir aluno na base de dados, Erro: Email invalido - 2020-09-14 22:17:36
+Foi inserido um novo aluno na base de dados - 2020-09-15 20:21:52
