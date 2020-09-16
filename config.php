@@ -5,7 +5,7 @@ error_reporting(E_ALL | E_STRICT);
 
 date_default_timezone_set('America/Sao_Paulo');
 
-include_once("projeto.view". DIRECTORY_SEPARATOR ."alunos". DIRECTORY_SEPARATOR ."carregarAlunos.php");
+//include_once("projeto.view". DIRECTORY_SEPARATOR ."alunos". DIRECTORY_SEPARATOR ."carregarAlunos.php");
 
 spl_autoload_register(function ($classe){
 

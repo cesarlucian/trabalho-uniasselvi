@@ -40,13 +40,13 @@ class AlunosForm {
         ?>
 
         <main class="form">
-            <form name="novo_aluno" id="novo_aluno" action="../alunos/alunos_man.php" method="POST">
+            <form class="form" name="novo_aluno" id="novo_aluno" action="../alunos/alunos_man.php" method="POST">
                 <input type="hidden" name="evento" id="evento" value="novo_aluno" />
-
+                <h3 class="box-title">Cadastro</h3><br>
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
                         <label>(*) Campos Obrigat&oacute;rios</label><br><br>
-                        <label>Dados cadastrais</label><br><br>
+                        <label>Dados cadastrais:</label><br><br>
                     </div>
                 </div>
                 <div class="row">
@@ -80,7 +80,7 @@ class AlunosForm {
                     </div>
 
                     <div class="col-lg-12 col-md-12">
-                        <br><label>Endereço</label><br><br>
+                        <br><label>Endere&ccedil;o:</label><br><br>
                     </div>
 
                     <div class="col-lg-3 col-md-3">

@@ -2,18 +2,15 @@
 
 include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."config.php");
 
-include_once("../../header.php");
-
-include_once("../../menu.php");
-
 new TSession;
 
 extract($_GET);
 
 ?>
+		<?php include_once("../../header.php"); ?>
 
-			<section class="content">
-
+			<?php include_once("../../menu.php"); ?>
+             
 				<?php
 
 					if(isset($msg_tipo)){
@@ -23,9 +20,6 @@ extract($_GET);
 					AlunosForm::novoAluno();
 
 				?>
-
-			</section>
-		</aside>
 
 		<!-- jQuery 2.0.2 -->
 		<script src="../../js/jquery-min.js"></script>
@@ -52,6 +46,7 @@ extract($_GET);
 		      	$("#nr_cep").inputmask("99999-999");
 		    });
 		</script>
+		</div>
 		<?php
 
 include_once("../../projeto.templates/footer.php");
