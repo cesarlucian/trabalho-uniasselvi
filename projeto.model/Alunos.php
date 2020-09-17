@@ -16,6 +16,10 @@ class Alunos {
     public $ds_endereco;
     public $ds_complemento;
     public $nr_cep;
+    public $ds_sexo;
+    public $ds_uf;
+    public $ds_cidade;
+    public $ds_bairro;
     public $cd_curso; // foreing key
 
     const TABLE                 = "alunos";
@@ -150,7 +154,7 @@ class Alunos {
         try{
             TTransaction::open();
 
-            $sql = "UPDATE alunos SET fg_status = 'I' WHERE cd_aluno = ".$id;
+            $sql = "DELETE FROM alunos WHERE cd_aluno = ".$id;
             $conn = TTransaction::get();
             $result = $conn->query($sql);
             
@@ -167,7 +171,7 @@ class Alunos {
         }
     }
 
-    static function listaAlunoPag($filtro, $pag = 1){
+    static function listaAlunosPag($filtro = null,$ds_sexo = null,$filtro_pesquisa = null, $pag = 1){
         try{
             TTransaction::open();
             
@@ -175,22 +179,28 @@ class Alunos {
 
             // desc filtro
 
-            if($filtro == "") {
+            if($filtro == "1") {
 
-                $sql_filtro = " ";
+                $sql_filtro  = "WHERE alunos.nm_principal LIKE '%$filtro_pesquisa%' ";
+                $sql_ds_sexo = "AND alunos.ds_sexo LIKE '%$ds_sexo%'";
+                $sql_curso = "";
 
-            } else {
+            } else if($filtro == "2") {
 
-                $sql_filtro = "WHERE alunos.nm_principal like '%$filtro%' ";
+                $sql_filtro  = "";
+                $sql_ds_sexo = "";
+                $sql_curso   = "INNER JOIN cursos USING(cd_curso) WHERE cursos.ds_curso LIKE '%$filtro_pesquisa%' ";
             }
-            
-            $sql = "SELECT * FROM alunos "
-                  ."$sql_filtro "
-                  ."ORDER BY alunos.nm_principal "
-                  ."LIMIT 6 "
-                  ."OFFSET $offset";
 
-                // print($sql);
+            $sql = "SELECT * FROM alunos "
+                    ."$sql_curso"
+                    ."$sql_filtro"
+                    ."$sql_ds_sexo"
+                    ."ORDER BY alunos.nm_principal "  
+                    ."LIMIT 6 "
+                    ."OFFSET $offset "; 
+
+            //print($sql);exit;
 
             $conn = TTransaction::get();
             $result = $conn->query($sql);
@@ -199,7 +209,6 @@ class Alunos {
             if($result){
                 foreach($result as $data){
 
-                    //print_r($data);
                     $aluno = new Alunos;                    
                     
                     foreach($data as $key=>$campo){

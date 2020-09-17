@@ -4,6 +4,8 @@ include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."config.php")
 
 extract($_GET);
 
+$cd_aluno = @$_GET['cd_aluno'];
+
 ?>
 		<?php include_once("../../header.php"); ?>
 
@@ -15,7 +17,7 @@ extract($_GET);
 					    MensagemForm::exibir($msg_tipo, $msg_texto);
 					}
 
-					AlunosForm::novoAluno();
+					AlunosForm::editaAluno($cd_aluno);
 
 				?>
 
