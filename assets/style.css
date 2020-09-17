@@ -51,6 +51,13 @@ main > form {
     box-shadow: 0px 0px 21px 10px rgba(204,204,204,1);
 }
 
+.paginador {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
 .form .form-group {
     padding: 0;
 }
@@ -69,7 +76,7 @@ main > form {
 }
 
 .menu-lateral ul {
-    height: 50%;
+    min-height: 30%;
     display: flex;
     padding: 10px;
     flex-direction: column;
