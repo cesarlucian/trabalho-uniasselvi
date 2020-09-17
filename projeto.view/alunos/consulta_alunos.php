@@ -78,7 +78,9 @@ $pesquisa['ds_sexo']          = $ds_sexo;
 	                    ?>
 
 	                    <div class="paginador">
-	                        <?= PaginadorForm::paginador($pesquisa, $pag) ?>
+	                    	<center>
+	                        	<?= PaginadorForm::paginador($pesquisa, $pag) ?>
+	                    	</center>
 	                    </div>
 	                </section>
         	</div>
