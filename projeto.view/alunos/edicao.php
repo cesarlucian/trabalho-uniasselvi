@@ -7,9 +7,9 @@ extract($_GET);
 $cd_aluno = @$_GET['cd_aluno'];
 
 ?>
-		<?php include_once("../../header.php"); ?>
+		<?php include_once("../../projeto.template/header.php"); ?>
 
-			<?php include_once("../../menu.php"); ?>
+			<?php include_once("../../projeto.template/menu.php"); ?>
              
 				<?php
 
