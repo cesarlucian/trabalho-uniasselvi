@@ -54,11 +54,7 @@ $pesquisa['ds_sexo']          = $ds_sexo;
 
 ?>
 		<?php include_once("../../projeto.template/header.php"); ?>
-
-			<?php include_once("../../projeto.template/menu.php"); ?>
-
-				<div class="content-wrapper">
-
+		<?php include_once("../../projeto.template/menu.php"); ?>
 	                <section class="content">
 						<?php 	
 							if(isset($msg_tipo)){
@@ -78,9 +74,7 @@ $pesquisa['ds_sexo']          = $ds_sexo;
 	                    ?>
 
 	                    <div class="paginador">
-	                    	<center>
-	                        	<?= PaginadorForm::paginador($pesquisa, $pag) ?>
-	                    	</center>
+	                        <?= PaginadorForm::paginador($pesquisa, $pag) ?>
 	                    </div>
 	                </section>
         	</div>
@@ -112,6 +106,6 @@ $pesquisa['ds_sexo']          = $ds_sexo;
 		</script>
 		<?php
 
-include_once("../../footer.php");
+include_once("../../projeto.template/footer.php");
 
 ?>
