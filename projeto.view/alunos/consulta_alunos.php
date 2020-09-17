@@ -54,15 +54,9 @@ $pesquisa['ds_sexo']          = $ds_sexo;
 
 ?>
 		<?php include_once("../../header.php"); ?>
-
-			<?php include_once("../../menu.php"); ?>
-
-				<div class="content-wrapper">
-
+		<?php include_once("../../menu.php"); ?>
 	                <section class="content">
-	             
-						<?php 
-						
+						<?php 	
 							if(isset($msg_tipo)){
 					    		MensagemForm::exibir($msg_tipo, $msg_texto);
 							}
@@ -79,16 +73,10 @@ $pesquisa['ds_sexo']          = $ds_sexo;
 	                        }
 	                    ?>
 
-	                    <center>
-	                        <div class="row">
-	                            <div class="col-lg-12 col-md-12">
-	                                <?= PaginadorForm::paginador($pesquisa, $pag) ?>
-	                            </div>
-	                        </div>
-	                    </center>
-
+	                    <div class="paginador">
+	                        <?= PaginadorForm::paginador($pesquisa, $pag) ?>
+	                    </div>
 	                </section>
-            	</div>
         	</div>
 
 		<!-- jQuery 2.0.2 -->
