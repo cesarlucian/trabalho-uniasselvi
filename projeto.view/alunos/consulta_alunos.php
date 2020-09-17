@@ -53,8 +53,8 @@ $pesquisa['filtro_descricao'] = $filtro_pesquisa;
 $pesquisa['ds_sexo']          = $ds_sexo;
 
 ?>
-		<?php include_once("../../header.php"); ?>
-		<?php include_once("../../menu.php"); ?>
+		<?php include_once("../../projeto.template/header.php"); ?>
+		<?php include_once("../../projeto.template/menu.php"); ?>
 	                <section class="content">
 						<?php 	
 							if(isset($msg_tipo)){
@@ -106,6 +106,6 @@ $pesquisa['ds_sexo']          = $ds_sexo;
 		</script>
 		<?php
 
-include_once("../../footer.php");
+include_once("../../projeto.template/footer.php");
 
 ?>
