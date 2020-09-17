@@ -1,5 +1,5 @@
-body .page{
-    height: 100vh;
+body {
+    height: 100%;
 }
 
 .header {
@@ -68,7 +68,7 @@ main > form {
 }
 
 .menu-lateral {
-    height: 90vh;
+    height: 100%;
     width: 20rem;
     padding: 10px;
     background-color:  rgb(82, 129, 230);
@@ -94,3 +94,22 @@ main > form {
 .menu-lateral ul li a {
     color: white;
 }
+
+@media screen and (max-width: 992px) {
+    .menu-lateral {
+        width: 100%;
+        height: 10vh;
+        padding: 0;
+    }
+
+    .menu-lateral ul {
+        display: flex;
+        flex-direction: row;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .menu-inicial {
+        flex-direction: column;
+    }
+  }
