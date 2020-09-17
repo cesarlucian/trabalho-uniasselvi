@@ -5,9 +5,9 @@ include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."config.php")
 extract($_GET);
 
 ?>
-		<?php include_once("../../header.php"); ?>
+		<?php include_once("../../projeto.template/header.php"); ?>
 
-			<?php include_once("../../menu.php"); ?>
+			<?php include_once("../../projeto.template/menu.php"); ?>
              
 				<?php
 

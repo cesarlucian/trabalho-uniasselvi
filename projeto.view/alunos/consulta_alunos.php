@@ -53,9 +53,9 @@ $pesquisa['filtro_descricao'] = $filtro_pesquisa;
 $pesquisa['ds_sexo']          = $ds_sexo;
 
 ?>
-		<?php include_once("../../header.php"); ?>
+		<?php include_once("../../projeto.template/header.php"); ?>
 
-			<?php include_once("../../menu.php"); ?>
+			<?php include_once("../../projeto.template/menu.php"); ?>
 
 				<div class="content-wrapper">
 

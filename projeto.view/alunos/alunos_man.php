@@ -7,7 +7,7 @@ extract($_GET);
 
 if(isset($evento)){
     switch($evento){
-        case 'aluno':
+        case 'novo_aluno':
 
         	$aluno = new Alunos();
 
