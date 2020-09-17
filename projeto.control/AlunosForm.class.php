@@ -132,12 +132,17 @@ class AlunosForm {
                                 </div>
                             </div>
 
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-2 col-md-2">
                         <label for="">UF*</label>
                         <input type="text" class="form-control" name="ds_uf" id="ds_uf" required="true">
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-2 col-md-2">
+                        <label for="">Nº*</label>
+                        <input type="number" class="form-control" name="nr_endereco" id="nr_endereco" required="true">
+                    </div>
+
+                    <div class="col-lg-5 col-md-5">
                         <label for="">Rua*</label>
                         <input type="text" class="form-control" name="ds_endereco" id="ds_endereco" required="true">
                     </div>
@@ -285,12 +290,17 @@ class AlunosForm {
                                 </div>
                             </div>
 
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-2 col-md-2">
                         <label for="">UF*</label>
                         <input type="text" class="form-control" name="ds_uf" id="ds_uf" value="<?= $aluno->ds_uf; ?>" required="true">
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-2 col-md-2">
+                        <label for="">Nº*</label>
+                        <input type="number" class="form-control" name="nr_endereco" id="nr_endereco" value="<?= $aluno->nr_endereco; ?>" required="true">
+                    </div>
+
+                    <div class="col-lg-5 col-md-5">
                         <label for="">Rua*</label>
                         <input type="text" class="form-control" name="ds_endereco" id="ds_endereco" value="<?= $aluno->ds_endereco; ?>" required="true">
                     </div>

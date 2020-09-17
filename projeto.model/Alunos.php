@@ -12,6 +12,7 @@ class Alunos {
     public $ds_email;
     public $fg_status;
     public $nr_cpf;
+    public $nr_endereco;
     public $nr_matricula;
     public $ds_endereco;
     public $ds_complemento;

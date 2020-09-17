@@ -49,6 +49,7 @@ if(isset($evento)){
 	        	$aluno->nr_cep = str_replace("-", "", $nr_cep);
 	        	$aluno->ds_complemento = $ds_complemento;
 	        	$aluno->ds_uf = $ds_uf;
+	        	$aluno->nr_endereco    = $nr_endereco;
 	        	$aluno->ds_cidade = $ds_cidade;
 	        	$aluno->ds_bairro = $ds_bairro;
 	        	$aluno->ds_endereco = $ds_endereco;
@@ -116,6 +117,7 @@ if(isset($evento)){
 	        	$aluno->nr_cep = str_replace("-", "", $nr_cep);
 	        	$aluno->ds_complemento = $ds_complemento;
 	        	$aluno->ds_uf = $ds_uf;
+	        	$aluno->nr_endereco    = $nr_endereco;
 	        	$aluno->ds_cidade = $ds_cidade;
 	        	$aluno->ds_bairro = $ds_bairro;
 	        	$aluno->ds_endereco = $ds_endereco;

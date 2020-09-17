@@ -3,3 +3,40 @@ Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:28:17
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:28:18
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:30:43
+O aluno ID: '25' foi editado na base de dados - 2020-09-17 15:31:34
+O aluno ID: '25' foi excluido da base de dados - 2020-09-17 15:33:19
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:33:19
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:33:45
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:33:54
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:33:58
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:36:27
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa:  - 2020-09-17 15:36:31
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa:  - 2020-09-17 15:36:32
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa:  - 2020-09-17 15:36:32
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa:  - 2020-09-17 15:36:32
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa:  - 2020-09-17 15:36:32
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa:  - 2020-09-17 15:36:33
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa:  - 2020-09-17 15:36:33
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa:  - 2020-09-17 15:36:34
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:36:35
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:36:38
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:38:41
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:40:40
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:41:04
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:45:24
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:45:26
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:45:28
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:47:47
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:47:48
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:47:48
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:47:49
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:47:49
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:48:41
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:48:41
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:48:41
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:48:42
+Foi inserido um novo aluno na base de dados - 2020-09-17 15:55:09
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:55:30
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:55:41
+O aluno ID: '26' foi editado na base de dados - 2020-09-17 15:57:22
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-17 15:57:25
