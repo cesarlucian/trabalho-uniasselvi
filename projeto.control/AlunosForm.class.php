@@ -55,9 +55,14 @@ class AlunosForm {
                             </select>
                         </div>
 
-                        <div class="col-md-8 col-lg-8">
-                            <label>Pesquisar aluno</label>
-                            <input type="text" name="filtro_descricao" id="filtro_descricao" class="form-control">
+                        <div id="pesquisa_aluno" class="col-md-8 col-lg-8">
+                            <label>Pesquisar</label>
+                            <input type="text" name="ds_aluno" id="ds_aluno" class="form-control">
+                        </div>
+
+                        <div id="pesquisa_curso" class="col-md-10 col-lg-10 hidden">
+                            <label>Pesquisar</label>
+                            <input type="text" name="ds_curso" id="ds_curso" class="form-control">
                         </div>
 
                         <div class="col-lg-12 col-md-12"><br>
@@ -76,13 +81,17 @@ class AlunosForm {
 
                         if(filtro == 1 ){
                             filtro2 = "";
-                            $("#div_filtro2").removeClass('hidden'); // mostra a classe ( remove o HIDDEN )
+                            $("#div_filtro2").removeClass('hidden');
+                            $("#pesquisa_aluno").removeClass('hidden');
+                            $("#pesquisa_curso").addClass('hidden');
 
                         } else if(filtro == 2) {
                             filtro = "";
                             $("#div_filtro2").addClass('hidden');
+                            $("#pesquisa_aluno").addClass('hidden');
+                            $("#pesquisa_curso").removeClass('hidden');
+                            
                         }
-
                     }
                     
                 </script>

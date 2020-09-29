@@ -170,7 +170,7 @@ class Alunos {
         }
     }
 
-    static function listaAlunosPag($filtro = null,$ds_sexo = null,$filtro_pesquisa = null, $pag = 1){
+    static function listaAlunosPag($filtro = null,$ds_sexo = null,$ds_aluno = null,$ds_curso, $pag = 1){
         try{
             TTransaction::open();
             
@@ -180,26 +180,32 @@ class Alunos {
 
             if($filtro == "1") {
 
-                $sql_filtro  = "WHERE alunos.nm_principal LIKE '%$filtro_pesquisa%' ";
-                $sql_ds_sexo = "AND alunos.ds_sexo LIKE '%$ds_sexo%'";
-                $sql_curso = "";
+                if($ds_aluno) {
+
+                    $sql_ds_aluno  = "WHERE alunos.nm_principal LIKE '%$ds_aluno%' ";
+                    $sql_ds_sexo = "AND alunos.ds_sexo LIKE '%$ds_sexo%'";
+                    $sql_ds_curso = "";
+                }
 
             } else if($filtro == "2") {
 
-                $sql_filtro  = "";
-                $sql_ds_sexo = "";
-                $sql_curso   = "INNER JOIN cursos USING(cd_curso) WHERE cursos.ds_curso LIKE '%$filtro_pesquisa%' ";
+                if($ds_curso) {
+
+                    $sql_ds_curso =  "INNER JOIN cursos USING(cd_curso) WHERE cursos.ds_curso LIKE '%$ds_curso%' ";
+                    $sql_ds_aluno  = "";
+                    $sql_ds_sexo = "";
+                }
             }
 
             $sql = "SELECT * FROM alunos "
-                    ."$sql_curso"
-                    ."$sql_filtro"
+                    ."$sql_ds_curso"
+                    ."$sql_ds_aluno"
                     ."$sql_ds_sexo"
                     ."ORDER BY alunos.nm_principal "  
                     ."LIMIT 6 "
                     ."OFFSET $offset "; 
 
-            //print($sql);exit;
+            print($sql);exit;
 
             $conn = TTransaction::get();
             $result = $conn->query($sql);
