@@ -205,7 +205,7 @@ class Alunos {
                     ."LIMIT 6 "
                     ."OFFSET $offset "; 
 
-            print($sql);exit;
+            //print($sql);exit;
 
             $conn = TTransaction::get();
             $result = $conn->query($sql);

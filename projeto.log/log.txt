@@ -41,3 +41,19 @@ Foi realizada uma consulta dos alunos pelos filtros: Curso, , pesquisa:  - 2020-
 Foi realizada uma consulta dos alunos pelos filtros: Curso, , pesquisa:  - 2020-09-29 17:31:20
 Foi realizada uma consulta dos alunos pelos filtros: Curso, , pesquisa:  - 2020-09-29 17:31:20
 Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa:  - 2020-09-29 17:31:23
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa:  - 2020-09-29 17:32:17
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa:  - 2020-09-29 17:32:18
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa:  - 2020-09-29 17:32:18
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa:  - 2020-09-29 17:32:18
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa:  - 2020-09-29 17:32:18
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa:  - 2020-09-29 17:32:19
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa:  - 2020-09-29 17:32:19
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa:  - 2020-09-29 17:32:19
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:32:21
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:32:22
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:32:23
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:32:25
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:32:28
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-29 17:32:29
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:32:29
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:32:41
