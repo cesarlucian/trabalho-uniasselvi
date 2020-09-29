@@ -57,3 +57,50 @@ Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-29 17:32:29
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:32:29
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:32:41
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:33:22
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:34:06
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:34:07
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:34:31
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-29 17:34:31
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:34:32
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:34:33
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-29 17:34:33
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:34:36
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:34:37
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:34:52
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:34:53
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:35:04
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:36:09
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:36:10
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:36:10
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:36:11
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:36:19
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:36:20
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:36:21
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:36:36
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:36:37
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:36:42
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:36:43
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:36:43
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:36:49
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:36:55
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:37:11
+Foi inserido um novo aluno na base de dados - 2020-09-29 17:38:12
+O aluno ID: '40' foi editado na base de dados - 2020-09-29 17:38:19
+O aluno ID: '40' foi editado na base de dados - 2020-09-29 17:38:20
+O aluno ID: '40' foi editado na base de dados - 2020-09-29 17:38:20
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:39:28
+Foi inserido um novo aluno na base de dados - 2020-09-29 17:40:00
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:40:04
+Foi inserido um novo aluno na base de dados - 2020-09-29 17:40:36
+O aluno ID: '42' foi editado na base de dados - 2020-09-29 17:40:43
+Erro ao editar aluno na base de dados, Erro: CPF ja existe na base de dados - 2020-09-29 17:42:48
+O aluno ID: '42' foi editado na base de dados - 2020-09-29 17:43:05
+Erro ao editar aluno na base de dados, Erro: CPF ja existe na base de dados - 2020-09-29 17:43:14
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:43:18
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-29 17:43:30
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:43:31
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:43:32
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:43:34
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:43:36
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-29 17:43:36

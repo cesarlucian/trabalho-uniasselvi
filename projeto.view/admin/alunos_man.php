@@ -112,18 +112,16 @@ if(isset($evento)){
                 $file = fopen("../../projeto.log/log.txt","a+");
 	        	fwrite($file,"Erro ao editar aluno na base de dados, Erro: CPF Invalido - ".date("Y-m-d H:i:s")."\r\n");
 
-        	} else if(str_replace(array(".","-"), "", $nr_cpf) != $aluno->nr_cpf) {
+        	} else if(str_replace(array(".","-"), "", $nr_cpf) != $aluno->nr_cpf & $aluno->verificaCpfAluno(str_replace(array(".","-"), "", $nr_cpf))) {
 
-        		if($aluno->verificaCpfAluno(str_replace(array(".","-"), "", $nr_cpf))) {
+        		$msg_tipo = 2;
+                $msg_texto = "CPF ja cadastrado no sistema ! Tente novamente.";
+                header("location: edicao.php?cd_aluno=".$cd_aluno."&msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
 
-	        		$msg_tipo = 2;
-	                $msg_texto = "CPF ja cadastrado no sistema ! Tente novamente.";
-	                header("location: edicao.php?cd_aluno=".$cd_aluno."&msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
+                $file = fopen("../../projeto.log/log.txt","a+");
+	        	fwrite($file,"Erro ao editar aluno na base de dados, Erro: CPF ja existe na base de dados - ".date("Y-m-d H:i:s")."\r\n");
 
-	                $file = fopen("../../projeto.log/log.txt","a+");
-		        	fwrite($file,"Erro ao editar aluno na base de dados, Erro: CPF ja existe na base de dados - ".date("Y-m-d H:i:s")."\r\n");
 
-        		}
 
         	} else if(!Geral::validaEmail($ds_email)) {
 
