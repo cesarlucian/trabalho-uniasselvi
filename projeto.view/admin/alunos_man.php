@@ -25,7 +25,7 @@ if(isset($evento)){
 
         		$msg_tipo = 2;
                 $msg_texto = "Aluno ja cadastrado no sistema !";
-                header("location: edicao.php?cd_aluno=".$cd_aluno."&msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
+                 header("location: cadastro.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
 
                 $file = fopen("../../projeto.log/log.txt","a+");
 	        	fwrite($file,"Erro ao editar aluno na base de dados, Erro: CPF ja existe na base de dados - ".date("Y-m-d H:i:s")."\r\n");

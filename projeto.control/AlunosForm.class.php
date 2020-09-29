@@ -102,202 +102,220 @@ class AlunosForm {
     static function novoAluno() {
         ?>
 
-        <section class="content">
-        <main class="form">
-            <form name="novo_aluno" id="novo_aluno" action="../admin/alunos_man.php" method="POST">
-                <input type="hidden" name="evento" id="evento" value="novo_aluno" />
-                <h3 class="box-title">Cadastro</h3><br>
-                <div class="row">
-                    <div class="col-lg-12 col-md-12">
-                        <label>(*) Campos Obrigat&oacute;rios</label><br><br>
-                        <label>Dados cadastrais:</label><br><br>
-                    </div>
-                </div>
-                <div class="row">
-
-                    <div class="col-lg-6 col-md-6">
-                        <label for="">Nome*</label>
-                        <input type="text" class="form-control" name="ds_nome" id="ds_nome" required="true">
-                    </div>
-
-                    <div class="col-lg-6 col-md-6">
-                        <label for="">Email*</label>
-                        <input type="text" class="form-control" name="ds_email" id="ds_email" required="true">
-                    </div>
-
-
-                    <div class="col-lg-2 col-md-2">
-                        <label for="">Data de Nascimento*</label>
-                        <input class="form-control" type="date" name="dt_nascimento" id="dt_nascimento" required="true">
-                    </div>
-
-                    <div class="col-lg-2 col-md-2">
-                        <label for="">Sexo*</label>
-                        <select id="ds_sexo" name="ds_sexo" class="form-control" required="true">
-                            <option value=""></option>
-                            <option value="M">Masculino</option>
-                            <option value="F">Feminino</option>
-                            <option value="O">Outros</option>
-                        </select>
-                    </div>
-
-
-                    <div class="col-lg-2 col-md-2">
-                        <label for="">CPF*</label>
-                        <input type="text" class="form-control" name="nr_cpf" id="nr_cpf" required="true">
-                    </div>
-
-                    <div id="popup_curso" class="col-lg-3 col-md-3">
-                        <label>Curso*</label>
-                        <div class="input-group">
-                            <input type="text" class="form-control" id="ds_curso" name="ds_curso" readonly="true"/>
-                            <div class="input-group-btn">
-                                <button type="button" class="btn btn-primary" onclick="popUpCurso('novo_aluno');">
-                                    <i class="fa fa-search"></i>
-                                    Buscar
-                                </button>
-                            </div>                                        
-                        </div>
-                        <input type="hidden" class="form-control" id="cd_curso" name="cd_curso">
-                    </div>
-
-                   <div id="popup_turma" class="col-lg-3 col-md-3">
-                        <label>Turma*</label>
-                        <div class="input-group">
-                                <input type="text" class="form-control" id="nr_turma" name="nr_turma" readonly="true"/>
-                                <div class="input-group-btn">
-                                    <button type="button" class="btn btn-primary" onclick="popUpTurma('novo_aluno');">
-                                            <i class="fa fa-search"></i>
-                                            Buscar
-                                    </button>
-                                </div>                                        
+        
+        <div class="nav-tabs-custom">
+            <section class="content">
+                <main class="form">
+                    <form name="novo_aluno" id="novo_aluno" action="../admin/alunos_man.php" method="POST">
+                        <h3 class="box-title">Cadastro</h3><br>
+                        <input type="hidden" name="evento" id="evento" value="novo_aluno" />
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <label>(*) Campos Obrigat&oacute;rios</label><br><br>
                             </div>
-                        <input type="hidden" class="form-control" id="cd_turma" name="cd_turma">
-                    </div>
+                        </div>
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#div_dados_cadastrais" data-toggle="tab">Dados cadastrais</a></li>
+                            <li><a href="#div_endereco" data-toggle="tab">Endere&ccedil;o</a></li>
+                        </ul>
+                        <div class="tab-content">
 
-                    <div class="col-lg-12 col-md-12">
-                        <br><label>Endere&ccedil;o:</label><br><br>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3">
-                                <label for="nr_cep">CEP*</label>
-                                <div class="input-group">
-                                    <input type="text" class="form-control" id="nr_cep" name="nr_cep">
-                                    <div class="input-group-btn">
-                                        <button type="button" class="btn btn-primary" onclick="busca_endereco('novo_aluno');">
-                                            <i class="fa fa-search">Buscar</i>                                            
-                                        </button>
-                                    </div><!-- /btn-group -->                                            
+                            <div class="tab-pane active" id="div_dados_cadastrais">
+                                <br><div class="row">
+                                    <div class="col-lg-6 col-md-6">
+                                        <label for="">Nome*</label>
+                                        <input type="text" class="form-control" name="ds_nome" id="ds_nome" required="true">
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <label for="">Email*</label>
+                                        <input type="text" class="form-control" name="ds_email" id="ds_email" required="true">
+                                    </div>
+                                    <div class="col-lg-2 col-md-2">
+                                        <label for="">Data de Nascimento*</label>
+                                        <input class="form-control" type="date" name="dt_nascimento" id="dt_nascimento" required="true">
+                                    </div>
+                                    <div class="col-lg-2 col-md-2">
+                                        <label for="">Sexo*</label>
+                                        <select id="ds_sexo" name="ds_sexo" class="form-control" required="true">
+                                            <option value=""></option>
+                                            <option value="M">Masculino</option>
+                                            <option value="F">Feminino</option>
+                                            <option value="O">Outros</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-2 col-md-2">
+                                        <label for="">CPF*</label>
+                                        <input type="text" class="form-control" name="nr_cpf" id="nr_cpf" required="true">
+                                    </div>
+                                    <div id="popup_curso" class="col-lg-3 col-md-3">
+                                        <label>Curso*</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" id="ds_curso" name="ds_curso" readonly="true"/>
+                                            <div class="input-group-btn">
+                                                <button type="button" class="btn btn-primary" onclick="popUpCurso('novo_aluno');">
+                                                    <i class="fa fa-search"></i>
+                                                    Buscar
+                                                </button>
+                                            </div>                                        
+                                        </div>
+                                        <input type="hidden" class="form-control" id="cd_curso" name="cd_curso">
+                                    </div>
+                                    <div id="popup_turma" class="col-lg-3 col-md-3">
+                                        <label>Turma*</label>
+                                        <div class="input-group">
+                                                <input type="text" class="form-control" id="nr_turma" name="nr_turma" readonly="true"/>
+                                                <div class="input-group-btn">
+                                                    <button type="button" class="btn btn-primary" onclick="popUpTurma('novo_aluno');">
+                                                            <i class="fa fa-search"></i>
+                                                            Buscar
+                                                    </button>
+                                                </div>                                        
+                                            </div>
+                                        <input type="hidden" class="form-control" id="cd_turma" name="cd_turma">
+                                    </div>
                                 </div>
                             </div>
 
-                    <div class="col-lg-9 col-md-9">
-                        <label for="">Rua*</label>
-                        <input type="text" class="form-control" name="ds_endereco" id="ds_endereco" required="true">
-                    </div>
+                            <div class="tab-pane" id="div_endereco">
 
-                    <div class="col-lg-3 col-md-3">
-                        <label for="">Bairro*</label>
-                        <input type="text" class="form-control" name="ds_bairro" id="ds_bairro" required="true">
-                    </div>
+                                <br><div class="row">
 
-                     <div class="col-lg-3 col-md-3">
-                        <label for="">Cidade*</label>
-                        <input type="text" class="form-control" name="ds_cidade" id="ds_cidade" required="true">
-                    </div>
+                                   <div class="col-lg-3 col-md-3">
+                                        <label for="">CEP*</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" id="nr_cep" name="nr_cep" required="true">
+                                            <div class="input-group-btn">
+                                                <button type="button" class="btn btn-primary" onclick="busca_endereco('novo_aluno');">
+                                                    <i class="fa fa-search">Buscar</i>                                            
+                                                </button>
+                                            </div>                                        
+                                        </div>
+                                    </div>
 
-                    <div class="col-lg-1 col-md-1">
-                        <label for="">UF*</label>
-                        <input type="text" class="form-control" name="ds_uf" id="ds_uf" required="true">
-                    </div>
+                                    <div class="col-lg-9 col-md-9">
+                                        <label for="">Rua*</label>
+                                        <input type="text" class="form-control" name="ds_endereco" id="ds_endereco" required="true">
+                                    </div>
 
-                    <div class="col-lg-1 col-md-1">
-                        <label for="">Nº*</label>
-                        <input type="number" class="form-control" name="nr_endereco" id="nr_endereco" required="true">
-                    </div>
+                                    <div class="col-lg-3 col-md-3">
+                                        <label for="">Bairro*</label>
+                                        <input type="text" class="form-control" name="ds_bairro" id="ds_bairro" required="true">
+                                    </div>
+                                    <div class="col-lg-3 col-md-3">
+                                        <label for="">Cidade*</label>
+                                        <input type="text" class="form-control" name="ds_cidade" id="ds_cidade" required="true">
+                                    </div>
+                                    <div class="col-lg-2 col-md-2">
+                                        <label for="">Complemento</label>
+                                        <input type="text" class="form-control" name="ds_complemento" id="ds_complemento">
+                                    </div>
+                                    <div class="col-lg-2 col-md-2">
+                                        <label for="">UF*</label>
+                                        <input type="text" class="form-control" name="ds_uf" id="ds_uf" required="true">
+                                    </div>
+                                    <div class="col-lg-2 col-md-2">
+                                        <label for="">Nº*</label>
+                                        <input type="number" class="form-control" name="nr_endereco" id="nr_endereco" required="true">
+                                    </div>
 
-                    <div class="col-lg-4 col-md-4">
-                        <label for="">Complemento</label>
-                        <input type="text" class="form-control" name="ds_complemento" id="ds_complemento">
-                    </div>
-                    
-                    <div class="col-lg-12 col-md-12"><br>
-                        <center>
-                            <button type="submit" class="btn btn-success" onclick="return aviso();"><i class="fa fa-search">Cadastrar</button>
-                            <a href="/trabalho-uniasselvi/projeto.view/admin/consulta_alunos.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
-                        </center>
-                    </div> 
-                </div>
-            </form>
-            <script type="text/javascript">
-
-                function busca_endereco(form_name){
-                    var cep = document.getElementById(form_name).nr_cep.value;
-                    
-                    if(cep == ""){
-                        alert("Informe o CEP para pesquisa!");
-                    }
-                    else{
-                        $.get("../geral/busca_cep.php?cep="+cep, function( data ) {
-                            var resultado = data;
-                            
-                            var listResultado = resultado.split(';');
-                            var ds_uf       = listResultado[0];
-                            var ds_cidade   = listResultado[1];
-                            var ds_bairro   = listResultado[2];
-                            var ds_endereco = listResultado[3];                        
-
-                            document.getElementById(form_name).ds_uf.value          = ds_uf;
-                            document.getElementById(form_name).ds_cidade.value      = ds_cidade;
-                            document.getElementById(form_name).ds_bairro.value      = ds_bairro;
-                            document.getElementById(form_name).ds_endereco.value    = ds_endereco;
-                        });
-                    }
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12"><br>
+                            <center>
+                                <button type="submit" class="btn btn-success" onclick="return aviso();"><i class="fa fa-search">Cadastrar</button>
+                                <a href="/trabalho-uniasselvi/projeto.view/admin/consulta_alunos.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
+                            </center>
+                        </div> 
+                        </div>
+                    </form>
+                </main>
+            </section>
+        </div>
+        <script type="text/javascript">
+            function busca_endereco(form_name){
+                var cep = document.getElementById(form_name).nr_cep.value;
+                
+                if(cep == ""){
+                    alert("Informe o CEP para pesquisa!");
                 }
+                else{
+                    $.get("../geral/busca_cep.php?cep="+cep, function( data ) {
+                        var resultado = data;
+                        
+                        var listResultado = resultado.split(';');
+                        var ds_uf       = listResultado[0];
+                        var ds_cidade   = listResultado[1];
+                        var ds_bairro   = listResultado[2];
+                        var ds_endereco = listResultado[3];                        
 
-                function popUpCurso(form){
-
-                    window.open('../geral/popups/popup_cursos.php?form='+form, 'JANELA', 'width=800, height=600');
+                        document.getElementById(form_name).ds_uf.value          = ds_uf;
+                        document.getElementById(form_name).ds_cidade.value      = ds_cidade;
+                        document.getElementById(form_name).ds_bairro.value      = ds_bairro;
+                        document.getElementById(form_name).ds_endereco.value    = ds_endereco;
+                    });
                 }
+            }
 
-                function popUpTurma(form){
+            function popUpCurso(form){
 
-                    var cd_curso = document.novo_aluno.cd_curso.value;
+                window.open('../geral/popups/popup_cursos.php?form='+form, 'JANELA', 'width=800, height=600');
+            }
 
-                    if(cd_curso == "") {
+            function popUpTurma(form){
 
-                        alert("Selecione um curso!");
-                        return false;
+                var cd_curso = document.novo_aluno.cd_curso.value;
 
-                    } else {
+                if(cd_curso == "") {
 
-                        window.open('../geral/popups/popup_turmas.php?form='+form+'&cd_curso='+cd_curso,'JANELA', 'width=800, height=600');
+                    alert("Selecione um curso!");
+                    return false;
 
-                    }
-                    
+                } else {
+
+                    window.open('../geral/popups/popup_turmas.php?form='+form+'&cd_curso='+cd_curso,'JANELA', 'width=800, height=600');
+
                 }
+                
+            }
 
-                function aviso() {
+            function aviso() {
 
-                    var ds_curso = document.getElementById('ds_curso').value;
-                    var nr_turma = document.getElementById('nr_turma').value;
+                var ds_curso    = document.getElementById('ds_curso').value;
+                var nr_turma    = document.getElementById('nr_turma').value;
+                var nr_cep      = document.getElementById('nr_cep').value;
+                var ds_endereco = document.getElementById('ds_endereco').value;
+                var ds_bairro   = document.getElementById('ds_bairro').value;
+                var ds_cidade   = document.getElementById('ds_cidade').value;
+                var ds_uf       = document.getElementById('ds_uf').value;
+                var nr_endereco = document.getElementById('nr_endereco').value;
 
-                    if(ds_curso == "" || nr_turma == "") {
-
-                        alert("Selecione aluno / turma!")
-                        return false;
-
-                    } else {
-
-                        return true;
-                    }
+                if(ds_curso == "" || nr_turma == "") {
+                    alert("Selecione o curso e turma!")
+                    return false;
+                } else if(nr_cep == "") {
+                    alert("Informe um CEP!");
+                    return false;
+                } else if(ds_endereco == "") {
+                    alert('Preencha o campo rua!');
+                    return false;
+                } else if(ds_bairro == "") {
+                    alert('Preencha o campo bairro!');
+                    return false;
+                } else if(ds_cidade == "") {
+                    alert('Preencha o campo cidade!');
+                    return false;
+                } else if(ds_uf == "") {
+                    alert('Preencha o campo UF!');
+                    return false;
+                } else if(nr_endereco == "") {
+                    alert('Preencha o campo Nº!');
+                    return false;
+                } else {
+                    return true;
                 }
-
-            </script>
-        </main>
-
-        </section>
-
+            }   
+        </script>
+                
         <?php
     }
 
@@ -317,7 +335,6 @@ class AlunosForm {
             <form class="form" name="edita_aluno" id="edita_aluno" action="../admin/alunos_man.php" method="POST">
                 <input type="hidden" name="cd_aluno" id="cd_aluno" value="<?= $aluno->cd_aluno; ?>" />
                 <input type="hidden" name="evento" id="evento" value="edita_aluno" />
-                <h3 class="box-title">Editar</h3><br>
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
                         <label>(*) Campos Obrigat&oacute;rios</label><br><br>

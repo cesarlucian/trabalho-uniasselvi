@@ -6,8 +6,8 @@ class ChamadaForm {
      
         ?>  
             <main class="form">
-                <form action="../admin/lista_chamada.php" method="GET" name="pesquisa_chamada" id="pesquisa_chamada" role="form"> 
-                    <h3 class="box-title">Chamada</h3><br>
+                <form action="../admin/lista_chamada.php" method="GET" name="pesquisa_chamada" id="pesquisa_chamada" role="form">
+                <h3 class="box-title">Chamada</h3><br> 
                     <div class="row">
                         <div class="col-lg-12 col-md-12">
                             <label>Data chamada: <?= date('d/m/Y'); ?></label><br><br>
