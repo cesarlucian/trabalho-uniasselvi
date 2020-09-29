@@ -104,3 +104,16 @@ Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:43:34
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:43:36
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-29 17:43:36
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-29 17:45:01
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:45:04
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-29 17:45:04
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:45:06
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:45:10
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:45:16
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-29 17:45:17
+Foi realizada uma consulta das faltas justificadas - 2020-09-29 17:45:19
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-29 17:45:22
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-29 17:45:25
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 17:48:14
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-29 17:49:43
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-29 17:51:02

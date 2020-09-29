@@ -63,7 +63,7 @@ class FaltasJustificadasForm {
                 <div class="row">
 
                     <div id="popup_alunos" class="col-lg-6 col-md-6">
-                            <label>Aluno: *</label>
+                            <label>Aluno*</label>
                             <div class="input-group">
                                 <input type="text" class="form-control" id="nm_principal" name="nm_principal" readonly="true"/>
                                 <div class="input-group-btn">
@@ -77,17 +77,17 @@ class FaltasJustificadasForm {
                         </div>
 
                     <div class="col-lg-3 col-md-3">
-                        <label>Data falta:</label>
+                        <label>Data falta*</label>
                         <input type="date" class="form-control" name="dt_falta" id="dt_falta" required="true">
                     </div>    
 
                     <div class="col-lg-3 col-md-3">
-                        <label>Anexo documento: </label>
+                        <label>Anexo documento*</label>
                         <input type="file" class="form-control" name="nm_arquivo" id="nm_arquivo" required="true">
                     </div>
 
                     <div class="col-lg-12 col-md-12">
-                        <br><label for="ds_motivo">Motivo: </label><br>
+                        <br><label for="ds_motivo">Motivo</label><br>
                         <textarea class="form-control" id="ds_motivo" name="ds_motivo" rows="3">
                         </textarea>
                     </div>
@@ -143,7 +143,7 @@ class FaltasJustificadasForm {
                 <div class="row">
 
                     <div id="popup_alunos" class="col-lg-8 col-md-8">
-                        <label>Aluno: *</label>
+                        <label>Aluno*</label>
                         <div class="input-group">
                             <input type="text" class="form-control" id="nm_principal" name="nm_principal" readonly="true" value="<?= $aluno->nm_principal; ?>"/>                                   
                         </div>
@@ -151,7 +151,7 @@ class FaltasJustificadasForm {
                     </div>
 
                     <div class="col-lg-2 col-md-2">
-                        <label>Data falta:</label>
+                        <label>Data falta</label>
                         <input type="text" class="form-control" name="dt_falta" id="dt_falta" value="<?= Geral::getDataFormatada($falta->dt_falta); ?>" readonly="true">
                     </div>    
 
@@ -163,7 +163,7 @@ class FaltasJustificadasForm {
                     </div>
 
                     <div class="col-lg-12 col-md-12">
-                        <br><label for="ds_motivo">Motivo: </label><br>
+                        <br><label for="ds_motivo">Motivo</label><br>
                         <input class="form-control" type="text" id="ds_motivo" name="ds_motivo" value="<?= $falta->ds_motivo; ?>" readonly="true">
                         </textarea>
                     </div>

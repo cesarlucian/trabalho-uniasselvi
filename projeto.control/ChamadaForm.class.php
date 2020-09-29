@@ -16,7 +16,7 @@ class ChamadaForm {
                     <div class="row">
 
                         <div id="popup_curso" class="col-lg-9 col-md-9">
-                            <label>Curso: *</label>
+                            <label>Curso*</label>
                             <div class="input-group">
                                 <input type="text" class="form-control" id="ds_curso" name="ds_curso" readonly="true"/>
                                 <div class="input-group-btn">
@@ -30,7 +30,7 @@ class ChamadaForm {
                         </div>
 
                        <div id="popup_turma" class="col-lg-3 col-md-3">
-                            <label>Turma: *</label>
+                            <label>Turma*</label>
                             <div class="input-group">
                                     <input type="text" class="form-control" id="nr_turma" name="nr_turma" readonly="true"/>
                                     <div class="input-group-btn">
