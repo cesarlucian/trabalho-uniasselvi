@@ -34,7 +34,7 @@ body {
 }
 
 main {
-    padding: 20px 12px 12px 45px;
+    padding: 30px 12px;
 }
 
 main.form { 
@@ -65,35 +65,39 @@ main > form {
 .menu-inicial {
     display: flex;
     flex-direction: row;
-    height: 100%;
+    height: 90vh;
 }
 
 .menu-lateral {
-    height: 100%;
-    width: 20rem;
+    height: 90vh;
+    width: 15vw;
     padding: 10px;
     background-color:  rgb(82, 129, 230);
     box-shadow: 8px 0px 12px 0px rgba(0,0,0,0.25);
 }
 
 .menu-lateral ul {
-    min-height: 30%;
+    min-height: 80%;
     display: flex;
     padding: 10px;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .menu-lateral ul li {
     display: flex;
     justify-content: center;
-    padding: 5px;
+    padding: 15px;
     list-style: none;
     font-size: 2rem;
 }
 
 .menu-lateral ul li a {
     color: white;
+}
+.content {
+    width: 85vw;
+    overflow-y: scroll;
 }
 
 @media screen and (max-width: 992px) {
@@ -108,12 +112,22 @@ main > form {
         flex-direction: row;
         padding-left: 0;
         padding-right: 0;
+        justify-content: space-around;
     }
 
     .menu-inicial {
         flex-direction: column;
     }
+
+    .content {
+        width: 100vw;
+    }
   }
+
+
+h3.box-title {
+    font-style: normal;
+}
 
 textarea {
   -webkit-box-sizing: border-box;

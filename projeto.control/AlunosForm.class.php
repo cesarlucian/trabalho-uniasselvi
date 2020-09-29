@@ -93,8 +93,9 @@ class AlunosForm {
     static function novoAluno() {
         ?>
 
-        <main>
-            <form class="form" name="novo_aluno" id="novo_aluno" action="../admin/alunos_man.php" method="POST">
+        <section class="content">
+        <main class="form">
+            <form name="novo_aluno" id="novo_aluno" action="../admin/alunos_man.php" method="POST">
                 <input type="hidden" name="evento" id="evento" value="novo_aluno" />
                 <h3 class="box-title">Cadastro</h3><br>
                 <div class="row">
@@ -286,6 +287,7 @@ class AlunosForm {
             </script>
         </main>
 
+        </section>
 
         <?php
     }
