@@ -56,14 +56,15 @@ class ChamadaList {
                                                         <center>N&atilde;o foram encontrados alunos para realizar chamada nesta turma hoje !</center>
                                                     </td>
                                                 </tr>
-                                            </tbody>    
+                                            </tbody>
+
                                         <?php
                                     }
                                 ?>
                             </tbody>                            
                         </table>
                     </div>
-
+                    
                     <?php if($lista_alunos){ ?>
                         
                         <div class="col-lg-12 col-md-12"><br>
@@ -74,6 +75,14 @@ class ChamadaList {
                             </center>
                         </div>
 
+                    <?php } else { ?>
+
+                        <div class="col-lg-12 col-md-12"><br>
+                            <center>
+                                <button type="button" class="btn btn-primary" onclick="window.location = 'lista_faltas.php'">Analisar faltas justificadas</button>
+                                <button type="button" class="btn btn-primary" onclick="window.location = 'registra_falta.php'">Registrar falta justificada</button>
+                            </center>
+                        </div>
                     <?php } ?>
             </form>
             <script>
