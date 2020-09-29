@@ -7,7 +7,8 @@ class AlunosList {
         <main class="form">
             <form action="edicao.php" name="lista_alunos" id="lista_alunos" method="GET" role="form">
                 <div class="box-body">
-                        <br>
+                    <button type="button" class="btn btn-success pull-right" onclick="window.location = 'cadastro.php'">Inserir novo</button>
+                    <br><br><br>
                     </div>
                     <div class="box-body table-responsive">
                         <table id="example2" class="table table-bordered table-hover">
@@ -17,14 +18,18 @@ class AlunosList {
 					                <th scope="col">Nome</th>
                                     <th scope="col">CPF</th>
                                     <th scope="col">Matr&iacute;cula</th>
-                                    <th scope="col">Curso Atual</th>
-                                    <th scope="col">Situa&ccedil;&atilde;o</th>
+                                    <th scope="col">Curso</th>
+                                    <th scope="col">Turma</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <?php
                                     if($lista_alunos){
-                                        foreach($lista_alunos as $aluno){                                           
+                                        foreach($lista_alunos as $aluno){ 
+
+                                            $turma = new Turmas();
+                                            $turma->getObject($aluno->cd_turma);
+
                                             ?>
                                                 <tr>
                                                     <td align='center'>
@@ -33,7 +38,7 @@ class AlunosList {
                                                         </button>
                                                     </td>                                               
                                                     <td><?= $aluno->nm_principal; ?></td>
-                                                    <td><?= $aluno->nr_cpf; ?></td>
+                                                    <td><?= Geral::getCpfFormatado($aluno->nr_cpf); ?></td>
                                                     <td><?= $aluno->nr_matricula; ?></td>
                                                     <td>                                                        
                                                         <?php
@@ -44,20 +49,7 @@ class AlunosList {
                                                             echo $curso->ds_curso;
                                                         ?>
                                                     </td>
-                                                    <td>
-                                                        <?php
-                                                            if($aluno->fg_status == "A") {
-
-                                                                $desc_status = "Ativo";
-
-                                                            } else {
-
-                                                                $desc_status = "Inativo";
-                                                            }
-
-                                                            echo $desc_status;
-                                                        ?>
-                                                    </td>
+                                                    <td><?= $turma->nr_turma; ?></td>
                                                     
                                                 </tr>
                                             <?php
@@ -82,6 +74,67 @@ class AlunosList {
             <script>
             </script>
             </main>
+        <?php
+    }
+
+    static function listaAlunosModal($lista_alunos, $form, $pag){
+        ?>
+            <!-- TO DO List -->
+            <main class="form">
+                <div class="box-body">
+                        <br>
+                    </div>
+                <div class="box-body table-responsive">
+                    <table id="example2" class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Nome</th>
+                                <th>Matr&iacute;cula</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php
+                                if($lista_alunos){
+                                    foreach($lista_alunos as $aluno){
+                                        ?>
+                                            <tr>
+                                                <td align='center'>
+                                                    <button class="btn btn-default btn-sm" onclick="selecionaAluno('<?= $aluno->cd_aluno; ?>','<?= $aluno->nm_principal; ?>','<?= $form; ?>')">
+                                                      <i class="fa fa-reply">Selecionar</i>
+                                                    </button>
+                                                </td>
+                                                <td><?= $aluno->nm_principal; ?></td>
+                                                <td><?= $aluno->nr_matricula; ?></td>
+                                            </tr>
+                                        <?php
+                                    }
+                                }
+                                else{
+                                    ?>
+                                        <tbody>
+                                            <tr>
+                                                <td colspan="4">
+                                                    <center>N&atilde;o foram encontrados dados no sistema!</center>
+                                                </td>
+                                            </tr>
+                                        </tbody>    
+                                    <?php
+                                }
+                            ?>
+                        </tbody>                            
+                    </table>
+                </div>
+            </div>
+            <script>
+                function selecionaAluno(cd_aluno,nm_principal,form){   
+                    opener.parent.document.getElementById(form).cd_aluno.value = cd_aluno;
+                    opener.parent.document.getElementById(form).nm_principal.value   = nm_principal; 
+                    window.close();
+                }
+            </script>
+            </main>
+
         <?php
     }
 }

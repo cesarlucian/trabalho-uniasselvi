@@ -1,18 +1,18 @@
 <?php
 
 /*
- Classe: cursos
- Descrição: classe responsavel por interagir com objeto tipo cursos no banco de dados
+ Classe: turmas
+ Descrição: classe responsavel por interagir com objeto tipo turmas no banco de dados
 */
 
-class Cursos {
+class Turmas {
 
+    public $cd_turma;
+    public $nr_turma;
     public $cd_curso;
-    public $fg_status;
-    public $ds_curso;
 
-    const TABLE                 = "cursos";
-    const ID                    = "cd_curso";
+    const TABLE                 = "turmas";
+    const ID                    = "cd_turma";
     const DIRETORIO             = "projeto.view";
     
     public function getObject($id){
@@ -20,8 +20,8 @@ class Cursos {
             TTransaction::open();
 
             $sql = "SELECT * "
-                    . "FROM cursos "
-                    . "WHERE cd_curso = '".$id."' ";
+                    . "FROM turmas "
+                    . "WHERE cd_turma = '".$id."' ";
 
             $conn = TTransaction::get();
             $result = $conn->query($sql);
@@ -49,10 +49,10 @@ class Cursos {
         try{
             TTransaction::open();
 
-            $sql = "INSERT INTO cursos";
+            $sql = "INSERT INTO turmas";
             
             foreach($this as $key=>$campo){
-                if($key != 'cd_curso'){
+                if($key != 'cd_turma'){
                     if($colunas == ''){
                         $colunas = $key;
                     }
@@ -73,9 +73,9 @@ class Cursos {
             $conn = TTransaction::get();
             $result = $conn->query($sql);
             
-            $sql = "select cd_curso "
-                    . "from cursos "
-                    . "where ds_curso = '".$this->ds_curso."' ";
+            $sql = "select cd_turma "
+                    . "from turmas "
+                    . "where nr_turma = '".$this->nr_turma."' ";
 
             $conn = TTransaction::get();
             $result = $conn->query($sql);
@@ -105,10 +105,10 @@ class Cursos {
         try{
             TTransaction::open();
 
-            $sql = "UPDATE cursos SET ";
+            $sql = "UPDATE turmas SET ";
             
             foreach($this as $key=>$campo){
-                if($key != 'cd_curso'){
+                if($key != 'cd_turma'){
                     if($linhas == ''){
                         $linhas = $key." = '".addslashes($campo)."' ";
                     }
@@ -118,7 +118,7 @@ class Cursos {
                 }                
             }
             
-            $sql .= $linhas." WHERE cd_curso = ".$this->cd_curso;
+            $sql .= $linhas." WHERE cd_turma = ".$this->cd_turma;
 
             $conn = TTransaction::get();
             $result = $conn->query($sql);
@@ -140,7 +140,7 @@ class Cursos {
         try{
             TTransaction::open();
 
-            $sql = "UPDATE cursos SET fg_status = 'I' WHERE cd_curso = ".$id;
+            $sql = "DELETE FROM turmas WHERE cd_turma = ".$id;
             $conn = TTransaction::get();
             $result = $conn->query($sql);
             
@@ -157,38 +157,42 @@ class Cursos {
         }
     }
 
-    static function listaDescCurso(){
+    static function listaNrTurma($cd_curso = null){
         try{
             TTransaction::open();
 
-            $sql = "SELECT cd_curso,ds_curso FROM "
-                  ."cursos WHERE "
-                  ."cursos.fg_status = 'A' "
-                  ."ORDER BY cursos.ds_curso ";
+            if($cd_curso) {
 
-                // print($sql);
+                $sql_turma = "WHERE turmas.cd_curso = '$cd_curso' ";
+            }
+
+            $sql = "SELECT cd_turma,nr_turma FROM "
+                  ."turmas "
+                  ."$sql_turma "
+                  ."ORDER BY turmas.cd_curso ";
+
+            //print($sql);
 
             $conn = TTransaction::get();
             $result = $conn->query($sql);
             
-            $lista_cursos = null;
+            $lista_turmas = null;
             if($result){
                 foreach($result as $data){
 
-                    //print_r($data);
-                    $curso = new cursos;                    
+                    $turma = new Turmas;                    
                     
                     foreach($data as $key=>$campo){
-                        $curso->$key = $campo;
+                        $turma->$key = $campo;
                     }
                     
-                    $lista_cursos[] = $curso;
+                    $lista_turmas[] = $turma;
                     
-                    unset($curso);
+                    unset($turma);
                 }
                 
-                if(isset($lista_cursos)){                    
-                    return $lista_cursos;
+                if(isset($lista_turmas)){                    
+                    return $lista_turmas;
                 }
             }  
             unset($conn);
@@ -202,48 +206,37 @@ class Cursos {
         }
     }
 
-    static function listaCursos(){
+    public function verificaTurma($cd_curso,$cd_turma){
         try{
             TTransaction::open();
 
-            $sql = "SELECT * FROM "
-                  ."cursos WHERE "
-                  ."cursos.fg_status = 'A' "
-                  ."ORDER BY cursos.ds_curso ";
-
-                // print($sql);
+            $sql = "SELECT * FROM turmas WHERE cd_curso = $cd_curso AND cd_turma = $cd_turma";
 
             $conn = TTransaction::get();
             $result = $conn->query($sql);
-            
-            $lista_cursos = null;
-            if($result){
-                foreach($result as $data){
+            //print($sql);exit;
+            $data = $result->fetch(PDO::FETCH_ASSOC);
 
-                    //print_r($data);
-                    $curso = new cursos;                    
-                    
-                    foreach($data as $key=>$campo){
-                        $curso->$key = $campo;
-                    }
-                    
-                    $lista_cursos[] = $curso;
-                    
-                    unset($curso);
-                }
-                
-                if(isset($lista_cursos)){                    
-                    return $lista_cursos;
-                }
-            }  
-            unset($conn);
-            
-            return false;
-            
-        } catch (Exception $ex) { 
+            if(empty($data)) {
 
-            echo $ex->getMessage();
+                return false;
 
+            } else if(!empty($data)){
+
+                return true;
+            }
+
+            if(is_array($data)){
+                foreach($data as $key=>$campo){
+                    $this->$key = $campo;
+                }            
+            }
+            
+            //fecha a transação aplicando todas as transações
+            TTransaction::close();
+            
+        } catch (Exception $ex) {
+            
         }
     }
 }

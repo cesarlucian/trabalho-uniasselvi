@@ -34,7 +34,7 @@ body {
 }
 
 main {
-    padding: 30px;
+    padding: 20px 12px 12px 45px;
 }
 
 main.form { 
@@ -114,3 +114,11 @@ main > form {
         flex-direction: column;
     }
   }
+
+textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  width: 100%;
+}

@@ -10,7 +10,6 @@ class Alunos {
     public $nm_principal;
     public $dt_nascimento;
     public $ds_email;
-    public $fg_status;
     public $nr_cpf;
     public $nr_endereco;
     public $nr_matricula;
@@ -21,6 +20,7 @@ class Alunos {
     public $ds_uf;
     public $ds_cidade;
     public $ds_bairro;
+    public $cd_turma; // foreing key
     public $cd_curso; // foreing key
 
     const TABLE                 = "alunos";
@@ -82,8 +82,6 @@ class Alunos {
             }
             
             $sql .= " (".$colunas.") VALUES (".$valores.") ";
-
-            //print($sql);exit;
             
             $conn = TTransaction::get();
             $result = $conn->query($sql);
@@ -235,6 +233,144 @@ class Alunos {
 
         }
     }
+
+    static function listaAlunosModalPag($filtro = null, $pag = 1){
+        try{
+            TTransaction::open();
+            
+            $offset = (($pag-1)*6);
+
+            // desc filtro
+
+            if($filtro) {
+
+                $sql_filtro  = "WHERE alunos.nm_principal LIKE '%$filtro%' ";
+
+            }
+
+
+            $sql = "SELECT * FROM alunos "
+                    ."$sql_filtro"
+                    ."ORDER BY alunos.nm_principal "  
+                    ."LIMIT 6 "
+                    ."OFFSET $offset "; 
+
+            //print($sql);
+
+            $conn = TTransaction::get();
+            $result = $conn->query($sql);
+            
+            $lista_alunos = null;
+            if($result){
+                foreach($result as $data){
+
+                    $aluno = new Alunos;                    
+                    
+                    foreach($data as $key=>$campo){
+                        $aluno->$key = $campo;
+                    }
+                    
+                    $lista_alunos[] = $aluno;
+                    
+                    unset($aluno);
+                }
+                
+                if(isset($lista_alunos)){                    
+                    return $lista_alunos;
+                }
+            }  
+            unset($conn);
+            
+            return false;
+            
+        } catch (Exception $ex) { 
+
+            echo $ex->getMessage();
+
+        }
+    }
+
+
+    static function listaAlunosChamada($cd_curso,$cd_turma, $pag = 1){
+        try{
+            TTransaction::open();
+            
+            $offset = (($pag-1)*6);
+
+            // desc filtro
+
+            $sql = "SELECT * FROM alunos WHERE cd_turma like '%$cd_turma%' 
+            and cd_curso like '%$cd_curso%' and cd_aluno NOT IN(SELECT cd_aluno FROM chamada WHERE dt_chamada = CURRENT_DATE());"; 
+
+            //print($sql);
+
+            $conn = TTransaction::get();
+            $result = $conn->query($sql);
+            
+            $lista_alunos = null;
+            if($result){
+                foreach($result as $data){
+
+                    $aluno = new Alunos;                    
+                    
+                    foreach($data as $key=>$campo){
+                        $aluno->$key = $campo;
+                    }
+                    
+                    $lista_alunos[] = $aluno;
+                    
+                    unset($aluno);
+                }
+                
+                if(isset($lista_alunos)){                    
+                    return $lista_alunos;
+                }
+            }  
+            unset($conn);
+            
+            return false;
+            
+        } catch (Exception $ex) { 
+
+            echo $ex->getMessage();
+
+        }
+    }
+
+    public function verificaCpfAluno($cpf){
+        try{
+            TTransaction::open();
+
+            $sql = "SELECT * FROM alunos WHERE nr_cpf = $cpf";
+
+            $conn = TTransaction::get();
+            $result = $conn->query($sql);
+            //print($sql);exit;
+            $data = $result->fetch(PDO::FETCH_ASSOC);
+
+            if(empty($data)) {
+
+                return false;
+
+            } else if(!empty($data)){
+
+                return true;
+            }
+
+            if(is_array($data)){
+                foreach($data as $key=>$campo){
+                    $this->$key = $campo;
+                }            
+            }
+            
+            //fecha a transação aplicando todas as transações
+            TTransaction::close();
+            
+        } catch (Exception $ex) {
+            
+        }
+    }
+
 
     
 }
