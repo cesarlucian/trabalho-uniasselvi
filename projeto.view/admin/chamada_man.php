@@ -39,9 +39,12 @@ if(isset($evento)){
 
             } else {
 
-                $msg_tipo = 2;
-                $msg_texto = "Erro ao realizar chamada, nenhum aluno selecionado!";
-                header("location: lista_chamada.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
+                ?>
+                    <script>
+                        alert("Erro ao realizar chamada, nenhum aluno selecionado!");
+                        history.back();
+                    </script>
+                <?php
 
                 $file = fopen("../../projeto.log/log.txt","a+");
                 fwrite($file,"Erro ao realizar chamada - ".date("Y-m-d H:i:s")."\r\n");

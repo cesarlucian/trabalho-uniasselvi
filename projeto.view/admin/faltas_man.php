@@ -26,9 +26,12 @@ if(isset($evento)){
 
         if($file["size"] > "30000") {
 
-            $msg_tipo = 2;
-            $msg_texto = "Erro ao registrar falta, arquivo muito grande! Máximo 30kb";
-            header("location: registra_falta.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
+            ?>
+                <script>
+                    alert("Erro ao registrar falta, arquivo muito grande!");
+                    history.back();
+                </script>
+            <?php
 
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro ao registrar falta, arquivo muito grande, máximo 30kb - ".date("Y-m-d H:i:s")."\r\n");
@@ -52,9 +55,12 @@ if(isset($evento)){
 
                 } else {
 
-                    $msg_tipo = 2;
-                    $msg_texto = "Erro ao registrar falta, nenhuma falta encontrada nesta data!";
-                    header("location: registra_falta.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
+                    ?>
+                        <script>
+                            alert("Erro ao registrar falta, nenhuma falta encontrada nesta data!");
+                            history.back();
+                        </script>
+                    <?php
 
                     $file = fopen("../../projeto.log/log.txt","a+");
                     fwrite($file,"Erro ao registrar falta justificada, falta nao encontrada - ".date("Y-m-d H:i:s")."\r\n");
@@ -62,9 +68,12 @@ if(isset($evento)){
 
             } else {
 
-                $msg_tipo = 2;
-                $msg_texto = "Erro ao registrar falta, tipo de arquivo inválido!";
-                header("location: registra_falta.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
+                ?>
+                    <script>
+                        alert("Erro ao registrar falta, tipo de arquivo inv\u00e1lido!");
+                        history.back();
+                    </script>
+                <?php
 
                 $file = fopen("../../projeto.log/log.txt","a+");
                 fwrite($file,"Erro ao registrar falta, arquivo com extensão não permitida - ".date("Y-m-d H:i:s")."\r\n");

@@ -246,3 +246,21 @@ Foi realizada uma consulta das faltas justificadas - 2020-09-29 20:18:46
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-29 20:18:47
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-29 20:18:52
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 20:18:53
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 20:19:36
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-29 20:19:37
+Erro ao editar aluno na base de dados, Erro: CPF ja existe na base de dados - 2020-09-29 20:27:15
+Erro ao editar aluno na base de dados, Erro: CPF ja existe na base de dados - 2020-09-29 20:27:29
+Erro ao inserir aluno na base de dados, Erro: CPF Invalido - 2020-09-29 20:27:52
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 20:46:54
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 20:57:47
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 20:57:53
+O aluno ID: '40' foi editado na base de dados - 2020-09-29 20:58:38
+O aluno ID: '40' foi editado na base de dados - 2020-09-29 20:58:42
+Erro ao inserir aluno na base de dados, Erro: Turma não pertence ao curso - 2020-09-29 20:58:49
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 20:59:01
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-29 20:59:02
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 20:59:02
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 20:59:03
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-29 20:59:07
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 20:59:08
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 20:59:09
