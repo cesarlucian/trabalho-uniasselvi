@@ -176,9 +176,11 @@ class Alunos {
         }
     }
 
-    static function listaAlunosPag($filtro = null,$ds_sexo = null,$ds_aluno = null,$ds_curso, $pag = 1){
+    static function listaAlunosPag($filtro = null,$ds_sexo = null,$ds_aluno = null,$ds_curso = null, $pag = 1){
         try{
             TTransaction::open();
+
+            $sql_ds_aluno = $sql_ds_sexo = $sql_ds_curso = null
             
             $offset = (($pag-1)*6);
 
@@ -251,6 +253,8 @@ class Alunos {
     static function listaAlunosModalPag($filtro = null, $pag = 1){
         try{
             TTransaction::open();
+
+            $sql_filtro = null;
             
             $offset = (($pag-1)*6);
 

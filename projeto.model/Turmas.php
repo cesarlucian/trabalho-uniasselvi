@@ -163,6 +163,8 @@ class Turmas {
         try{
             TTransaction::open();
 
+            $sql_turma = null;
+
             if($cd_curso) {
 
                 $sql_turma = "WHERE turmas.cd_curso = '$cd_curso' ";

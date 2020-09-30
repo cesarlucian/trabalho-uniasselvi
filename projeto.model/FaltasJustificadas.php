@@ -98,6 +98,8 @@ class FaltasJustificadas {
     static function listaFaltasJustificadasPesquisaPag($cd_aluno = null,$dt_falta = null,$pag = 1){
         try{
             TTransaction::open();
+
+            $sql_aluno = $sql_data = $sql_ambos = null;
             
             $offset = (($pag-1)*6);
 

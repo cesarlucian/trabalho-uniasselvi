@@ -206,9 +206,11 @@ class Cursos {
         }
     }
 
-    static function listaCursosPag($ds_curso, $pag = 1){
+    static function listaCursosPag($ds_curso = null, $pag = 1){
         try{
             TTransaction::open();
+
+            $sql_ds_curso = null;
             
             $offset = (($pag-1)*6);
 
