@@ -131,7 +131,7 @@ class AlunosForm {
                                         <input type="text" class="form-control" name="ds_email" id="ds_email" required="true">
                                     </div>
                                     <div class="col-lg-2 col-md-2">
-                                        <label for="">Data de Nascimento*</label>
+                                        <label for="">Data de nascimento*</label>
                                         <input class="form-control" type="date" name="dt_nascimento" id="dt_nascimento" required="true">
                                     </div>
                                     <div class="col-lg-2 col-md-2">
@@ -358,7 +358,7 @@ class AlunosForm {
                                     <input type="text" class="form-control" name="ds_email" id="ds_email" required="true" value="<?= $aluno->ds_email; ?>">
                                 </div>
                                 <div class="col-lg-2 col-md-2">
-                                    <label for="">Data de Nascimento*</label>
+                                    <label for="">Data de nascimento*</label>
                                     <input class="form-control" type="date" name="dt_nascimento" id="dt_nascimento" required="true" value="<?= $aluno->dt_nascimento; ?>">
                                 </div>
                                 <div class="col-lg-2 col-md-2">
