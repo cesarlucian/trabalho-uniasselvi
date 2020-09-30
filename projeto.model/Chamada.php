@@ -284,13 +284,13 @@ class Chamada {
         }
     }
 
-    public function removeFalta($cd_chamada,$cd_aluno) {
+    public function removeFalta($dt_chamada,$cd_aluno) {
         $linhas = null;
         
         try{
             TTransaction::open();
 
-            $sql = "UPDATE chamada SET situacao_chamada = 'P' WHERE cd_chamada = $cd_chamada AND cd_aluno = $cd_aluno";
+            $sql = "UPDATE chamada SET situacao_chamada = 'P' WHERE dt_chamada = '$dt_chamada' AND cd_aluno = $cd_aluno";
 
             print($sql);
 

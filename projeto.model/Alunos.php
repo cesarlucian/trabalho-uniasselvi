@@ -180,7 +180,7 @@ class Alunos {
         try{
             TTransaction::open();
 
-            $sql_ds_aluno = $sql_ds_sexo = $sql_ds_curso = null
+            $sql_ds_aluno = $sql_ds_sexo = $sql_ds_curso = null;
             
             $offset = (($pag-1)*6);
 

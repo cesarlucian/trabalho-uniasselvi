@@ -46,6 +46,29 @@ class FaltasJustificadas {
 
 	}
 
+    static function delete($id) {
+        try{
+            TTransaction::open();
+
+            $sql = "DELETE FROM faltas_justificadas WHERE cd_falta = ".$id;
+            $conn = TTransaction::get();
+            $result = $conn->query($sql);
+            
+            TTransaction::close();
+            
+            return true;
+            
+        } catch (Exception $ex) {   
+
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            echo $ex->getMessage();
+            TTransaction::rollback();      
+            
+            return false;
+        }
+    }
+
 	static function listaFaltasJustificadasPag($pag = 1){
         try{
             TTransaction::open();
@@ -115,8 +138,8 @@ class FaltasJustificadas {
 
             if($cd_aluno & $dt_falta) {
 
-                $sql_aluno = " ";
-                $sql_data = " ";
+                $sql_aluno = "";
+                $sql_data = "";
                 $sql_ambos = " WHERE faltas_justificadas.cd_aluno = $cd_aluno AND faltas_justificadas.dt_falta = $dt_falta";
             }
 

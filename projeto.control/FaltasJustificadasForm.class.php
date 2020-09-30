@@ -138,7 +138,7 @@ class FaltasJustificadasForm {
 
         <main class="form">
             <form class="form" name="analisa_falta" id="analisa_falta" action="../faltas/faltas_man.php" method="POST" enctype="multipart/form-data">
-                <h3 class="box-title">An&aacute;lise de faltas justificadas</h3><br>
+                <h3 class="box-title">Analisar falta justificada</h3><br>
                 <input type="hidden" name="evento" id="evento" value="analisa_falta" />
                 <div class="row">
 
@@ -170,17 +170,17 @@ class FaltasJustificadasForm {
                     
                     <div class="col-lg-12 col-md-12"><br>
                         <center>
-                            <button type="button" class="btn btn-success" onclick="aceitarFalta('$falta->cd_falta');"><i class="fa fa-search">Aceitar</button>
-                            <button type="button" class="btn btn-danger" onclick="recusarFalta('$falta->cd_falta');"><i class="fa fa-search">Recusar</button>
+                            <button type="button" class="btn btn-success" onclick="aceitarFalta('<?= $falta->cd_falta; ?>','<?= $falta->dt_falta; ?>','<?= $falta->cd_aluno; ?>');"><i class="fa fa-search">Aceitar</button>
+                            <button type="button" class="btn btn-danger" onclick="recusarFalta('<?= $falta->cd_falta; ?>','<?= $falta->dt_falta; ?>','<?= $falta->cd_aluno; ?>');"><i class="fa fa-search">Recusar</button>
                              <a href="/trabalho-uniasselvi/projeto.view/faltas/consulta_faltas.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>   
                         </center>
                     </div> 
                 </div>
             </form>
             <script type="text/javascript">
-                function aceitarFalta(cd_falta){
+                function aceitarFalta(cd_falta,dt_falta,cd_aluno){
                     if(confirm("Aceitar falta justificada?")){
-                        window.location = 'faltas_man.php?cd_falta='+cd_falta+'&evento=aceitar_falta';
+                        window.location = 'faltas_man.php?cd_falta='+cd_falta+'&dt_falta='+dt_falta+'&cd_aluno='+cd_aluno+'&evento=aceitar_falta';
                     }
                 }
 
