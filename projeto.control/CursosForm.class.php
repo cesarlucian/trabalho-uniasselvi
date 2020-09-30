@@ -5,7 +5,7 @@ class CursosForm {
     static function pesquisa(){
      
         ?>  
-            <main class="form">
+            <main class="card-padrao">
                 <form action="../cursos/cursos_man.php" method="GET" id="pesquisar" name="pesquisa" role="form"> 
                     <h3 class="box-title">Cursos</h3><br>
                     <div class="row">
@@ -31,7 +31,7 @@ class CursosForm {
     static function novo() {
         ?>
 
-        <main class="form">
+        <main class="card-padrao">
             <form action="../cursos/cursos_man.php" method="POST" id="novo_curso" name="novo_curso" role="form">
                 <input type="hidden" name="evento" id="evento" value="novo_curso">
                 <h3 class="box-title">Cadastro de cursos</h3>
@@ -67,7 +67,7 @@ class CursosForm {
 
         ?>
 
-        <main class="form">
+        <main class="card-padrao">
             <form action="../cursos/cursos_man.php" method="POST" id="edita_curso" name="edita_curso" role="form">
                 <input type="hidden" name="evento" id="evento" value="edita_curso">
                 <h3 class="box-title">Editar curso</h3>

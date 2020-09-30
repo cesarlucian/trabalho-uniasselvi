@@ -4,7 +4,7 @@ class FaltasJustificadasList {
 
 	public function lista($lista_faltas, $pag,$novo = true){
         ?>
-        <main class="form">
+        <main class="card-padrao">
             <form action="edicao.php" name="lista_faltas" id="lista_faltas" method="GET" role="form">
                 <div class="box-body table-responsive">
                     <table id="example2" class="table table-bordered table-hover">

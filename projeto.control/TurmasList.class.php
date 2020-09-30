@@ -7,7 +7,7 @@ class TurmasList {
         $lista_turmas = Turmas::listaNrTurma($cd_curso);
 
         ?>
-        <main class="form">
+        <main class="card-padrao">
                 <div class="box-body">
                         <br>
                     </div>

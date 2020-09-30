@@ -5,7 +5,7 @@ class AlunosForm {
     static function pesquisaModal(){
      
         ?>  
-            <main class="form">
+            <main class="card-padrao">
                 <form action="../popups/popup_alunos.php" method="GET" name="pesquisa" role="form"> 
                     <div class="row">
                         <div class="col-md-12 col-lg-12">
@@ -30,7 +30,7 @@ class AlunosForm {
 	static function pesquisa(){
      
         ?>  
-            <main class="form">
+            <main class="card-padrao">
                 <form action="../alunos/consulta_alunos.php" method="GET" name="pesquisa" role="form"> 
                     <h3 class="box-title">Alunos</h3><br>
                     <div class="row">
@@ -101,9 +101,9 @@ class AlunosForm {
         ?>
 
         
-        <div class="nav-tabs-custom">
             <section class="content">
-                <main class="form">
+        <div class="nav-tabs-custom">
+                <main class="card-padrao">
                     <form name="novo_aluno" id="novo_aluno" action="../alunos/alunos_man.php" method="POST">
                         <h3 class="box-title">Cadastro de alunos</h3><br>
                         <input type="hidden" name="evento" id="evento" value="novo_aluno" />
@@ -227,8 +227,8 @@ class AlunosForm {
                         </div>
                     </form>
                 </main>
-            </section>
         </div>
+            </section>
         <script type="text/javascript">
             function busca_endereco(form_name){
                 var cep = document.getElementById(form_name).nr_cep.value;
@@ -329,7 +329,7 @@ class AlunosForm {
             $turma->getObject($aluno->cd_turma);
         ?>
 
-        <main class="form">
+        <main class="card-padrao">
             <form class="form" name="edita_aluno" id="edita_aluno" action="../alunos/alunos_man.php" method="POST">
                 <h3 class="box-title">Editar aluno</h3><br>
                 <input type="hidden" name="cd_aluno" id="cd_aluno" value="<?= $aluno->cd_aluno; ?>" />

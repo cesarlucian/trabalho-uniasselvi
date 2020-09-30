@@ -4,7 +4,7 @@ class AlunosList {
 
 	public function lista($lista_alunos, $pag,$novo = true){
         ?>
-        <main class="form">
+        <main class="card-padrao">
             <form action="edicao.php" name="lista_alunos" id="lista_alunos" method="GET" role="form">
                 <div class="box-body"> 
                     <button type="button" class="btn btn-success pull-right" onclick="window.location = 'cadastro.php'">Inserir novo</button>                               
@@ -80,7 +80,7 @@ class AlunosList {
     static function listaAlunosModal($lista_alunos, $form, $pag){
         ?>
             <!-- TO DO List -->
-            <main class="form">
+            <main class="card-padrao">
                 <div class="box-body">
                         <br>
                     </div>

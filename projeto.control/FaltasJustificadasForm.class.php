@@ -6,7 +6,7 @@ class FaltasJustificadasForm {
 
         ?>
 
-            <main class="form">
+            <main class="card-padrao">
                 <form action="consulta_faltas.php" method="GET" name="pesquisa_falta" id="pesquisa_falta" role="form">
                     <h3 class="box-title">Consulta de faltas justificadas</h3><br> 
                     <div class="row">
@@ -51,8 +51,8 @@ class FaltasJustificadasForm {
 	static function novaFaltaJustificada() {
         ?>
 
-        <main class="form">
-            <form class="form" name="nova_falta" id="nova_falta" action="../faltas/faltas_man.php" method="POST" enctype="multipart/form-data">
+        <main class="card-padrao">
+            <form name="nova_falta" id="nova_falta" action="../faltas/faltas_man.php" method="POST" enctype="multipart/form-data">
                 <h3 class="box-title">Registro de faltas justificadas</h3><br>
                 <input type="hidden" name="evento" id="evento" value="nova_falta" />
                 <div class="row">
@@ -136,7 +136,7 @@ class FaltasJustificadasForm {
 
         ?>
 
-        <main class="form">
+        <main class="card-padrao">
             <form class="form" name="analisa_falta" id="analisa_falta" action="../faltas/faltas_man.php" method="POST" enctype="multipart/form-data">
                 <h3 class="box-title">Analisar falta justificada</h3><br>
                 <input type="hidden" name="evento" id="evento" value="analisa_falta" />

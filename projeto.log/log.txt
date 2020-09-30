@@ -1478,3 +1478,54 @@ Falta justificada recusada com sucesso - 2020-09-30 19:50:55
 Foi realizada uma consulta das faltas justificadas - 2020-09-30 19:50:55
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 19:51:30
 Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 19:51:32
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:03:17
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) - 2020-09-30 20:03:17
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:03:44
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:03:47
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:03:52
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:04:18
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:05:50
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:05:55
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:06:01
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:07:52
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:07:53
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:08:58
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:09:10
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:12:20
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:12:22
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:15:46
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:16:15
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:16:22
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:16:30
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:17:12
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:17:13
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:17:24
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:18:04
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:18:06
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:18:09
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:18:52
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:18:53
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:18:56
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:19:20
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:19:20
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:19:22
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:21:45
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:21:46
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:21:47
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:21:49
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:23:09
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:23:23
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:24:03
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:25:55
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:26:40
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:26:41
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:26:44
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:27:49
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:28:52
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:30:03
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:30:42
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:31:06
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:31:10
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:31:11
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:31:12
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:31:20

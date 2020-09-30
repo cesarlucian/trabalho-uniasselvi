@@ -5,7 +5,7 @@ class ChamadaForm {
 	static function pesquisaChamada(){
      
         ?>  
-            <main class="form">
+            <main class="card-padrao">
                 <form action="../chamada/consulta_chamada.php" method="GET" name="pesquisa_chamada" id="pesquisa_chamada" role="form">
                 <h3 class="box-title">Chamada</h3><br> 
                     <div class="row">

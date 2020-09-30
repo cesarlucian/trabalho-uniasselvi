@@ -4,7 +4,7 @@ class ChamadaList {
 
 	public function listaChamada($lista_alunos){
         ?>
-        <main class="form">
+        <main class="card-padrao">
             <form action="chamada_man.php" name="lista_chamada" id="lista_chamada" method="GET" role="form">
                 <input type="hidden" name="evento" id="evento" value="lista_chamada">
                     <div class="box-body table-responsive">
