@@ -186,7 +186,7 @@ class Chamada {
             TTransaction::close();
             
         } catch (Exception $ex) {
-            
+            echo $ex->getMessage();
         }
     }
 
@@ -242,7 +242,7 @@ class Chamada {
             }
             
         } catch (Exception $ex) {
-            
+            echo $ex->getMessage();
         }
     }
 
@@ -284,7 +284,8 @@ class Chamada {
             
             return true;
             
-        } catch (Exception $ex) {   
+        } catch (Exception $ex) {
+            echo $ex->getMessage();   
             return false;
         }
     }

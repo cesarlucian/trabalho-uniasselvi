@@ -107,7 +107,6 @@ class Alunos {
             
             echo $ex->getMessage();
             TTransaction::rollback();      
-            
             return false;
         }
     }
@@ -373,7 +372,7 @@ class Alunos {
             TTransaction::close();
             
         } catch (Exception $ex) {
-            
+            echo $ex->getMessage();
         }
     }
 
