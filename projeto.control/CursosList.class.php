@@ -70,15 +70,16 @@ class CursosList {
         <main class="form">
             <form name="lista_cursos" id="lista_cursos" method="GET" role="form">
                 <div class="box-body"> 
-                    <button type="button" class="btn btn-success pull-right" onclick="window.location = 'cadastroCurso.php'">Inserir novo</button>                               
-                        <br><br>
+                    <button type="button" class="btn btn-success pull-right" onclick="window.location = 'cadastroCurso.php'">Inserir novo</button> <br><br><br>                                
                     </div>
+
                     <div class="box-body table-responsive">
                         <table id="example2" class="table table-bordered table-hover">
                             <thead>
                                 <tr>
                                     <th></th>
                                     <th scope="col">Curso</th>
+                                    <th scope="col">Total de turmas</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -93,6 +94,7 @@ class CursosList {
                                                         </button>
                                                 </td>
                                                     <td><?= $curso->ds_curso; ?></td>
+                                                    <td><?= Turmas::getTotal($curso->cd_curso); ?></td>
                                                 </tr>
                                             <?php
                                         }

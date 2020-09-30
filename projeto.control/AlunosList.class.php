@@ -7,7 +7,7 @@ class AlunosList {
         <main class="form">
             <form action="edicao.php" name="lista_alunos" id="lista_alunos" method="GET" role="form">
                 <div class="box-body"> 
-                    <button type="button" class="btn btn-success pull-right" onclick="window.location = 'cadastroCurso.php'">Inserir novo</button>                               
+                    <button type="button" class="btn btn-success pull-right" onclick="window.location = 'cadastro.php'">Inserir novo</button>                               
                         <br><br>
                     </div>
                     <br><div class="box-body table-responsive">

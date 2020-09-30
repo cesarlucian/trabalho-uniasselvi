@@ -107,7 +107,7 @@ class AlunosForm {
             <section class="content">
                 <main class="form">
                     <form name="novo_aluno" id="novo_aluno" action="../admin/alunos_man.php" method="POST">
-                        <h3 class="box-title">Cadastro</h3><br>
+                        <h3 class="box-title">Cadastro de alunos</h3><br>
                         <input type="hidden" name="evento" id="evento" value="novo_aluno" />
                         <div class="row">
                             <div class="col-lg-12 col-md-12">

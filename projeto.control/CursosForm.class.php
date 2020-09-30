@@ -28,6 +28,39 @@ class CursosForm {
         <?php
     }
 
+    static function novo() {
+        ?>
+
+        <main class="form">
+            <form action="../admin/cursos_man.php" method="POST" id="novo_curso" name="novo_curso" role="form">
+                <input type="hidden" name="evento" id="evento" value="novo_curso">
+                <h3 class="box-title">Cadastro de cursos</h3>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <label>(*) Campos Obrigat&oacute;rios</label><br><br>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-3 col-lg-3">
+                        <input class="form-control" type="text" name="teste" id="teste">
+                    </div>
+
+                </div>
+                <div class="col-md-12 col-lg-12">
+                    <center>
+                        <button type="submit" class="btn btn-success"><i class="fa fa-search">Cadastrar</button>
+                    </center>
+                </div>
+            </form>
+        </main>
+
+
+
+        <?php
+    }
+
     static function campoSelect() {
 
         $lista_curso = Cursos::listaDescCurso();

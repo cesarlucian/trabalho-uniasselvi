@@ -239,4 +239,27 @@ class Turmas {
             
         }
     }
+
+    static function getTotal($cd_curso){
+        try{
+            TTransaction::open();
+
+            $sql = "SELECT COUNT(cd_turma) as total "
+                    . "FROM turmas "
+                    . "WHERE cd_curso = $cd_curso";
+
+            $conn = TTransaction::get();
+            $result = $conn->query($sql);
+
+            $data = $result->fetch(PDO::FETCH_ASSOC);
+            unset($conn);
+
+            if(is_array($data)){                
+                return $data['total'];                           
+            }
+            
+        } catch (Exception $ex) {
+            
+        }
+    }
 }
