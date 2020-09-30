@@ -333,7 +333,7 @@ class AlunosForm {
 
         <main class="form">
             <form class="form" name="edita_aluno" id="edita_aluno" action="../admin/alunos_man.php" method="POST">
-                <h3 class="box-title">Editar</h3><br>
+                <h3 class="box-title">Editar aluno</h3><br>
                 <input type="hidden" name="cd_aluno" id="cd_aluno" value="<?= $aluno->cd_aluno; ?>" />
                 <input type="hidden" name="evento" id="evento" value="edita_aluno" />
                     <div class="row">

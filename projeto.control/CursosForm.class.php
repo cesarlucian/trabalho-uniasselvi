@@ -51,6 +51,43 @@ class CursosForm {
                 <div class="col-md-12 col-lg-12">
                     <center>
                         <button type="submit" class="btn btn-success"><i class="fa fa-search">Cadastrar</button>
+                        <a href="/trabalho-uniasselvi/projeto.view/admin/consulta_cursos.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
+                    </center>
+                </div>
+            </form>
+        </main>
+
+        <?php
+    }
+
+    static function edita($cd_curso) {
+
+        $curso = new Cursos();
+        $curso->getObject($cd_curso);
+
+        ?>
+
+        <main class="form">
+            <form action="../admin/cursos_man.php" method="POST" id="edita_curso" name="edita_curso" role="form">
+                <input type="hidden" name="evento" id="evento" value="edita_curso">
+                <h3 class="box-title">Editar curso</h3>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <label>(*) Campos Obrigat&oacute;rios</label><br><br>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-3 col-lg-3">
+                        <input class="form-control" type="text" name="teste" id="teste">
+                    </div>
+
+                </div>
+                <div class="col-md-12 col-lg-12">
+                    <center>
+                        <button type="submit" class="btn btn-success"><i class="fa fa-search">Cadastrar</button>
+                        <a href="/trabalho-uniasselvi/projeto.view/admin/consulta_cursos.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                     </center>
                 </div>
             </form>

@@ -16,7 +16,7 @@ $cd_curso = @$_GET['cd_curso'];
 					    MensagemForm::exibir($msg_tipo, $msg_texto);
 					}
 
-					CursosForm::editaCurso($cd_curso);
+					CursosForm::edita($cd_curso);
 
 				?>
 
