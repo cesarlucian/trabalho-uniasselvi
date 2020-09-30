@@ -6,7 +6,7 @@ class CursosForm {
      
         ?>  
             <main class="form">
-                <form action="../admin/cursos_man.php" method="GET" id="pesquisar" name="pesquisa" role="form"> 
+                <form action="../cursos/cursos_man.php" method="GET" id="pesquisar" name="pesquisa" role="form"> 
                     <h3 class="box-title">Cursos</h3><br>
                     <div class="row">
 
@@ -32,7 +32,7 @@ class CursosForm {
         ?>
 
         <main class="form">
-            <form action="../admin/cursos_man.php" method="POST" id="novo_curso" name="novo_curso" role="form">
+            <form action="../cursos/cursos_man.php" method="POST" id="novo_curso" name="novo_curso" role="form">
                 <input type="hidden" name="evento" id="evento" value="novo_curso">
                 <h3 class="box-title">Cadastro de cursos</h3>
                 <div class="row">
@@ -51,7 +51,7 @@ class CursosForm {
                 <div class="col-md-12 col-lg-12">
                     <center>
                         <button type="submit" class="btn btn-success"><i class="fa fa-search">Cadastrar</button>
-                        <a href="/trabalho-uniasselvi/projeto.view/admin/consulta_cursos.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
+                        <a href="/trabalho-uniasselvi/projeto.view/cursos/consulta_cursos.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                     </center>
                 </div>
             </form>
@@ -68,7 +68,7 @@ class CursosForm {
         ?>
 
         <main class="form">
-            <form action="../admin/cursos_man.php" method="POST" id="edita_curso" name="edita_curso" role="form">
+            <form action="../cursos/cursos_man.php" method="POST" id="edita_curso" name="edita_curso" role="form">
                 <input type="hidden" name="evento" id="evento" value="edita_curso">
                 <h3 class="box-title">Editar curso</h3>
                 <div class="row">
@@ -87,7 +87,7 @@ class CursosForm {
                 <div class="col-md-12 col-lg-12">
                     <center>
                         <button type="submit" class="btn btn-success"><i class="fa fa-search">Cadastrar</button>
-                        <a href="/trabalho-uniasselvi/projeto.view/admin/consulta_cursos.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
+                        <a href="/trabalho-uniasselvi/projeto.view/cursos/consulta_cursos.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                     </center>
                 </div>
             </form>

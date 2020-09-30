@@ -33,7 +33,7 @@ class AlunosForm {
      
         ?>  
             <main class="form">
-                <form action="../admin/consulta_alunos.php" method="GET" name="pesquisa" role="form"> 
+                <form action="../alunos/consulta_alunos.php" method="GET" name="pesquisa" role="form"> 
                     <h3 class="box-title">Alunos</h3><br>
                     <div class="row">
 
@@ -106,7 +106,7 @@ class AlunosForm {
         <div class="nav-tabs-custom">
             <section class="content">
                 <main class="form">
-                    <form name="novo_aluno" id="novo_aluno" action="../admin/alunos_man.php" method="POST">
+                    <form name="novo_aluno" id="novo_aluno" action="../alunos/alunos_man.php" method="POST">
                         <h3 class="box-title">Cadastro de alunos</h3><br>
                         <input type="hidden" name="evento" id="evento" value="novo_aluno" />
                         <div class="row">
@@ -223,7 +223,7 @@ class AlunosForm {
                             <div class="col-lg-12 col-md-12"><br>
                             <center>
                                 <button type="submit" class="btn btn-success" onclick="return aviso();"><i class="fa fa-search">Cadastrar</button>
-                                <a href="/trabalho-uniasselvi/projeto.view/admin/consulta_alunos.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
+                                <a href="/trabalho-uniasselvi/projeto.view/alunos/consulta_alunos.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                             </center>
                         </div> 
                         </div>
@@ -332,7 +332,7 @@ class AlunosForm {
         ?>
 
         <main class="form">
-            <form class="form" name="edita_aluno" id="edita_aluno" action="../admin/alunos_man.php" method="POST">
+            <form class="form" name="edita_aluno" id="edita_aluno" action="../alunos/alunos_man.php" method="POST">
                 <h3 class="box-title">Editar aluno</h3><br>
                 <input type="hidden" name="cd_aluno" id="cd_aluno" value="<?= $aluno->cd_aluno; ?>" />
                 <input type="hidden" name="evento" id="evento" value="edita_aluno" />
@@ -468,7 +468,7 @@ class AlunosForm {
                         <center>
                             <button type="submit" class="btn btn-success" onclick="return aviso();"><i class="fa fa-search">Salvar</button>
                             <button type="submit" class="btn btn-danger" onclick="excluir('<?= $aluno->cd_aluno; ?>');"><i class="fa fa-search">Salvar</button>    
-                            <a href="/trabalho-uniasselvi/projeto.view/admin/consulta_alunos.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
+                            <a href="/trabalho-uniasselvi/projeto.view/alunos/consulta_alunos.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                         </center>
                     </div> 
                     </div>
