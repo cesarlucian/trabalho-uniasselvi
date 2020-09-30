@@ -40,10 +40,34 @@ class FaltasJustificadas {
 
 		} catch(Exception $ex) {
 
-			echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
 		}
 
 	}
+
+    static function delete($id) {
+        try{
+            TTransaction::open();
+
+            $sql = "DELETE FROM faltas_justificadas WHERE cd_falta = ".$id;
+            $conn = TTransaction::get();
+            $result = $conn->query($sql);
+            
+            TTransaction::close();
+            
+            return true;
+            
+        } catch (Exception $ex) {   
+
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            echo $ex->getMessage();
+            TTransaction::rollback();      
+            
+            return false;
+        }
+    }
 
 	static function listaFaltasJustificadasPag($pag = 1){
         try{
@@ -88,7 +112,8 @@ class FaltasJustificadas {
             
         } catch (Exception $ex) { 
 
-            echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
 
         }
     }
@@ -96,6 +121,8 @@ class FaltasJustificadas {
     static function listaFaltasJustificadasPesquisaPag($cd_aluno = null,$dt_falta = null,$pag = 1){
         try{
             TTransaction::open();
+
+            $sql_aluno = $sql_data = $sql_ambos = null;
             
             $offset = (($pag-1)*6);
 
@@ -111,8 +138,8 @@ class FaltasJustificadas {
 
             if($cd_aluno & $dt_falta) {
 
-                $sql_aluno = " ";
-                $sql_data = " ";
+                $sql_aluno = "";
+                $sql_data = "";
                 $sql_ambos = " WHERE faltas_justificadas.cd_aluno = $cd_aluno AND faltas_justificadas.dt_falta = $dt_falta";
             }
 
@@ -152,7 +179,8 @@ class FaltasJustificadas {
             
         } catch (Exception $ex) { 
 
-            echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
 
         }
     }
@@ -165,7 +193,7 @@ class FaltasJustificadas {
 
             $sql = "INSERT INTO faltas_justificadas (dt_falta,ds_motivo,nm_arquivo,cd_aluno) values ('$dt_falta','$ds_motivo','$nm_arquivo',$cd_aluno)";
 
-            //print($sql);
+            //print($sql);exit;
 
             $conn = TTransaction::get();
             $result = $conn->query($sql);
@@ -175,6 +203,9 @@ class FaltasJustificadas {
             return true;
             
         } catch (Exception $ex) {   
+
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             return false;
         }
     }
@@ -209,6 +240,9 @@ class FaltasJustificadas {
             TTransaction::close();
             
         } catch (Exception $ex) {
+
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             
         }
     }

@@ -49,8 +49,10 @@ class Alunos {
             }
             
         }
-        catch (Exception $ex) {   
-            echo $ex->getMessage();         
+        catch (Exception $ex) { 
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");  
+                    
         }
     }
     
@@ -105,9 +107,10 @@ class Alunos {
             
         } catch (Exception $ex) {   
             
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             echo $ex->getMessage();
             TTransaction::rollback();      
-            
             return false;
         }
     }
@@ -141,7 +144,8 @@ class Alunos {
             return true;
             
         } catch (Exception $ex) {   
-            
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             echo $ex->getMessage();
             TTransaction::rollback();      
             return false;
@@ -163,6 +167,8 @@ class Alunos {
             
         } catch (Exception $ex) {   
 
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             echo $ex->getMessage();
             TTransaction::rollback();      
             
@@ -170,9 +176,11 @@ class Alunos {
         }
     }
 
-    static function listaAlunosPag($filtro = null,$ds_sexo = null,$filtro_pesquisa = null, $pag = 1){
+    static function listaAlunosPag($filtro = null,$ds_sexo = null,$ds_aluno = null,$ds_curso = null, $pag = 1){
         try{
             TTransaction::open();
+
+            $sql_ds_aluno = $sql_ds_sexo = $sql_ds_curso = null;
             
             $offset = (($pag-1)*6);
 
@@ -180,20 +188,26 @@ class Alunos {
 
             if($filtro == "1") {
 
-                $sql_filtro  = "WHERE alunos.nm_principal LIKE '%$filtro_pesquisa%' ";
-                $sql_ds_sexo = "AND alunos.ds_sexo LIKE '%$ds_sexo%'";
-                $sql_curso = "";
+                if($ds_aluno) {
+
+                    $sql_ds_aluno  = "WHERE alunos.nm_principal LIKE '%$ds_aluno%' ";
+                    $sql_ds_sexo = "AND alunos.ds_sexo LIKE '%$ds_sexo%'";
+                    $sql_ds_curso = "";
+                }
 
             } else if($filtro == "2") {
 
-                $sql_filtro  = "";
-                $sql_ds_sexo = "";
-                $sql_curso   = "INNER JOIN cursos USING(cd_curso) WHERE cursos.ds_curso LIKE '%$filtro_pesquisa%' ";
+                if($ds_curso) {
+
+                    $sql_ds_curso =  "INNER JOIN cursos USING(cd_curso) WHERE cursos.ds_curso LIKE '%$ds_curso%' ";
+                    $sql_ds_aluno  = "";
+                    $sql_ds_sexo = "";
+                }
             }
 
             $sql = "SELECT * FROM alunos "
-                    ."$sql_curso"
-                    ."$sql_filtro"
+                    ."$sql_ds_curso"
+                    ."$sql_ds_aluno"
                     ."$sql_ds_sexo"
                     ."ORDER BY alunos.nm_principal "  
                     ."LIMIT 6 "
@@ -229,6 +243,8 @@ class Alunos {
             
         } catch (Exception $ex) { 
 
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             echo $ex->getMessage();
 
         }
@@ -237,6 +253,8 @@ class Alunos {
     static function listaAlunosModalPag($filtro = null, $pag = 1){
         try{
             TTransaction::open();
+
+            $sql_filtro = null;
             
             $offset = (($pag-1)*6);
 
@@ -285,22 +303,22 @@ class Alunos {
             
         } catch (Exception $ex) { 
 
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             echo $ex->getMessage();
 
         }
     }
 
 
-    static function listaAlunosChamada($cd_curso,$cd_turma, $pag = 1){
+    static function listaAlunosChamada($cd_curso,$cd_turma){
         try{
             TTransaction::open();
-            
-            $offset = (($pag-1)*6);
 
             // desc filtro
 
-            $sql = "SELECT * FROM alunos WHERE cd_turma like '%$cd_turma%' 
-            and cd_curso like '%$cd_curso%' and cd_aluno NOT IN(SELECT cd_aluno FROM chamada WHERE dt_chamada = CURRENT_DATE());"; 
+            $sql = "SELECT * FROM alunos WHERE cd_turma = $cd_turma 
+            and cd_curso = $cd_curso and cd_aluno NOT IN(SELECT cd_aluno FROM chamada WHERE dt_chamada = CURRENT_DATE())"; 
 
             //print($sql);
 
@@ -332,6 +350,8 @@ class Alunos {
             
         } catch (Exception $ex) { 
 
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             echo $ex->getMessage();
 
         }
@@ -367,7 +387,10 @@ class Alunos {
             TTransaction::close();
             
         } catch (Exception $ex) {
-            
+
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            echo $ex->getMessage();
         }
     }
 

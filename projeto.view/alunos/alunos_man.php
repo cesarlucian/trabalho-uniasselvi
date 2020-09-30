@@ -14,36 +14,48 @@ if(isset($evento)){
 
         	if(!Geral::validaCPF($nr_cpf)) {
 
-        		$msg_tipo = 2;
-                $msg_texto = "CPF invalido ! Tente novamente.";
-                header("location: cadastro.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
+                ?>
+                <script>
+                    alert("CPF inv\u00e1lido!.");
+                    history.back();
+                </script>
+                <?php
 
                 $file = fopen("../../projeto.log/log.txt","a+");
 	        	fwrite($file,"Erro ao inserir aluno na base de dados, Erro: CPF Invalido - ".date("Y-m-d H:i:s")."\r\n");
 
         	} else if($aluno->verificaCpfAluno(str_replace(array(".","-"), "", $nr_cpf))) {
 
-        		$msg_tipo = 2;
-                $msg_texto = "Aluno ja cadastrado no sistema !";
-                header("location: edicao.php?cd_aluno=".$cd_aluno."&msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
+        		?>
+                <script>
+                    alert("CPF j\u00e1 cadastrado no sistema!");
+                    history.back();
+                </script>
+                <?php
 
                 $file = fopen("../../projeto.log/log.txt","a+");
 	        	fwrite($file,"Erro ao editar aluno na base de dados, Erro: CPF ja existe na base de dados - ".date("Y-m-d H:i:s")."\r\n");
 
         	} else if(!Geral::validaEmail($ds_email)) {
 
-        		$msg_tipo = 2;
-                $msg_texto = "Email invalido ! Tente novamente.";
-                header("location: cadastro.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
+        		?>
+                <script>
+                    alert("Email inv\u00e1lido!");
+                    history.back();
+                </script>
+                <?php
 
                 $file = fopen("../../projeto.log/log.txt","a+");
 	        	fwrite($file,"Erro ao inserir aluno na base de dados, Erro: Email invalido - ".date("Y-m-d H:i:s")."\r\n");
 
         	} else if (!$verifica->verificaTurma($cd_curso,$cd_turma)) {
 
-        		$msg_tipo = 2;
-                $msg_texto = "Esta turma não pertence a este curso! Tente novamente.";
-                header("location: cadastro.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
+        		?>
+                <script>
+                    alert("Esta turma n\u00e3o pertence a este curso, altere a turma !");
+                    history.back();
+                </script>
+                <?php
 
                 $file = fopen("../../projeto.log/log.txt","a+");
 	        	fwrite($file,"Erro ao inserir aluno na base de dados, Erro: Turma não pertence ao curso - ".date("Y-m-d H:i:s")."\r\n");
@@ -85,9 +97,12 @@ if(isset($evento)){
 
 	        	} else {
 
-	        		$msg_tipo = 2;
-	                $msg_texto = "Erro ao cadastrar aluno, tente novamente!";
-	                header("location: cadastro.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
+	        		?>
+                        <script>
+                            alert("Erro ao cadastrar aluno!");
+                            history.back();
+                        </script>
+                    <?php
 
 	        		$file = fopen("../../projeto.log/log.txt","a+");
 	        		fwrite($file,"Erro ao cadastrar aluno na base de dados - ".date("Y-m-d H:i:s")."\r\n");
@@ -105,40 +120,50 @@ if(isset($evento)){
         	
         	if(!Geral::validaCPF($nr_cpf)) {
 
-        		$msg_tipo = 2;
-                $msg_texto = "CPF inválido ! Tente novamente.";
-                header("location: edicao.php?cd_aluno=".$cd_aluno."&msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
+        		?>
+                <script>
+                    alert("CPF inv\u00e1lido!");
+                    history.back();
+                </script>
+                <?php
 
                 $file = fopen("../../projeto.log/log.txt","a+");
 	        	fwrite($file,"Erro ao editar aluno na base de dados, Erro: CPF Invalido - ".date("Y-m-d H:i:s")."\r\n");
 
-        	} else if(str_replace(array(".","-"), "", $nr_cpf) != $aluno->nr_cpf) {
+        	} else if(str_replace(array(".","-"), "", $nr_cpf) != $aluno->nr_cpf & $aluno->verificaCpfAluno(str_replace(array(".","-"), "", $nr_cpf))) {
 
-        		if($aluno->verificaCpfAluno(str_replace(array(".","-"), "", $nr_cpf))) {
+        		?>
+                <script>
+                    alert("CPF j\u00e1 cadastrado no sistema!");
+                    history.back();
+                </script>
+                <?php
 
-	        		$msg_tipo = 2;
-	                $msg_texto = "CPF ja cadastrado no sistema ! Tente novamente.";
-	                header("location: edicao.php?cd_aluno=".$cd_aluno."&msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
+                $file = fopen("../../projeto.log/log.txt","a+");
+	        	fwrite($file,"Erro ao editar aluno na base de dados, Erro: CPF ja existe na base de dados - ".date("Y-m-d H:i:s")."\r\n");
 
-	                $file = fopen("../../projeto.log/log.txt","a+");
-		        	fwrite($file,"Erro ao editar aluno na base de dados, Erro: CPF ja existe na base de dados - ".date("Y-m-d H:i:s")."\r\n");
 
-        		}
 
         	} else if(!Geral::validaEmail($ds_email)) {
 
-        		$msg_tipo = 2;
-                $msg_texto = "Email inválido ! Tente novamente.";
-                header("location: edicao.php?cd_aluno=".$cd_aluno."&msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
+        		?>
+                <script>
+                    alert("Email inv\u00e1lido!");
+                    history.back();
+                </script>
+                <?php
 
                 $file = fopen("../../projeto.log/log.txt","a+");
 	        	fwrite($file,"Erro ao editar aluno na base de dados, Erro: Email invalido - ".date("Y-m-d H:i:s")."\r\n");
 
         	} else if (!$verifica->verificaTurma($cd_curso,$cd_turma)) {
 
-        		$msg_tipo = 2;
-                $msg_texto = "Esta turma não pertence a este curso! Tente novamente.";
-                header("location: edicao.php?cd_aluno=".$cd_aluno."&msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
+        		?>
+                <script>
+                    alert("Esta turma n\u00e3o pertence a este curso, altere a turma !");
+                    history.back();
+                </script>
+                <?php
 
                 $file = fopen("../../projeto.log/log.txt","a+");
 	        	fwrite($file,"Erro ao inserir aluno na base de dados, Erro: Turma não pertence ao curso - ".date("Y-m-d H:i:s")."\r\n");
@@ -177,9 +202,12 @@ if(isset($evento)){
 
 	        	} else {
 	        		
-	        		$msg_tipo = 2;
-	                $msg_texto = "Erro ao editar aluno, tente novamente!";
-	                header("location: edicao.php?cd_aluno=".$cd_aluno."&msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
+	        		?>
+                        <script>
+                            alert("Erro ao editar aluno!");
+                            history.back();
+                        </script>
+                    <?php
 
 	        		$file = fopen("../../projeto.log/log.txt","a+");
 	        		fwrite($file,"Erro ao editar aluno na base de dados - ".date("Y-m-d H:i:s")."\r\n");
@@ -199,9 +227,12 @@ if(isset($evento)){
         		fwrite($file,"O aluno ID: '$cd_aluno' foi excluido da base de dados - ".date("Y-m-d H:i:s")."\r\n");
             }
             else{
-                $msg_tipo = 2;
-                $msg_texto = "Erro ao excluir aluno, tente novamente!";
-                header("location: consulta_alunos.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
+                ?>
+                        <script>
+                            alert("Erro ao excluir aluno!");
+                            history.back();
+                        </script>
+                    <?php
 
         		$file = fopen("../../projeto.log/log.txt","a+");
         		fwrite($file,"Erro ao excluir aluno da base de dados - ".date("Y-m-d H:i:s")."\r\n");

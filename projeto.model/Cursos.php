@@ -38,7 +38,9 @@ class Cursos {
             
         }
         catch (Exception $ex) {   
-            echo $ex->getMessage();         
+
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");      
         }
     }
     
@@ -92,7 +94,8 @@ class Cursos {
             
         } catch (Exception $ex) {   
             
-            echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             TTransaction::rollback();      
             
             return false;
@@ -129,7 +132,8 @@ class Cursos {
             
         } catch (Exception $ex) {   
             
-            echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             TTransaction::rollback();      
             return false;
         }
@@ -150,9 +154,9 @@ class Cursos {
             
         } catch (Exception $ex) {   
 
-            echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             TTransaction::rollback();      
-            
             return false;
         }
     }
@@ -197,7 +201,62 @@ class Cursos {
             
         } catch (Exception $ex) { 
 
-            echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+        }
+    }
+
+    static function listaCursosPag($ds_curso = null, $pag = 1){
+        try{
+            TTransaction::open();
+
+            $sql_ds_curso = null;
+            
+            $offset = (($pag-1)*6);
+
+            if($ds_curso) {
+
+                $sql_ds_curso = " AND ds_curso like '%$ds_curso%' ";
+            }
+
+            $sql = "SELECT * FROM cursos "
+                    ."$sql_ds_curso"
+                    ."ORDER BY ds_curso "  
+                    ."LIMIT 6 "
+                    ."OFFSET $offset "; 
+
+            //print($sql);
+
+            $conn = TTransaction::get();
+            $result = $conn->query($sql);
+            
+            $lista_cursos = null;
+            if($result){
+                foreach($result as $data){
+
+                    $curso = new Cursos;                    
+                    
+                    foreach($data as $key=>$campo){
+                        $curso->$key = $campo;
+                    }
+                    
+                    $lista_cursos[] = $curso;
+                    
+                    unset($curso);
+                }
+                
+                if(isset($lista_cursos)){                    
+                    return $lista_cursos;
+                }
+            }  
+            unset($conn);
+            
+            return false;
+            
+        } catch (Exception $ex) { 
+
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
 
         }
     }
@@ -242,7 +301,8 @@ class Cursos {
             
         } catch (Exception $ex) { 
 
-            echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
 
         }
     }

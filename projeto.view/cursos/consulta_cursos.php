@@ -4,30 +4,20 @@ include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."config.php")
 
 extract($_GET);
 
-$cd_curso             = @$_GET['cd_curso'];
-$cd_turma             = @$_GET['cd_turma'];
+$ds_curso   = @$_GET['ds_curso'];
 
 $pag        = @$_GET['pag'];
+$pesquisado = true;
+
+
+$file = fopen("../../projeto.log/log.txt","a+");
+fwrite($file,"Foi realizada uma consulta dos cursos pela descriçao: '$ds_curso' - ".date("Y-m-d H:i:s")."\r\n");
 
 if($pag == ''){
     $pag = 1;
 }
 
-$pesquisado = false;
-
-$pesquisa['cd_curso'] = $cd_curso;
-$pesquisa['cd_turma'] = $cd_turma;
-
-if($cd_turma != "" & $cd_curso != "") {
-
-	$pesquisado = true;
-}
-
-$desc_turma = new Turmas();
-$desc_turma->getObject($cd_turma);
-
-$file = fopen("../../projeto.log/log.txt","a+");
-fwrite($file,"Foi realizada uma consulta dos alunos da turma ".$desc_turma->nr_turma." para realizar a chamada do dia: ".date("Y-m-d H:i:s")."\r\n");
+$pesquisa['ds_curso']   = $ds_curso;
 
 ?>
 		<?php include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."projeto.template". DIRECTORY_SEPARATOR ."header.php"); ?>
@@ -38,15 +28,15 @@ fwrite($file,"Foi realizada uma consulta dos alunos da turma ".$desc_turma->nr_t
 					    		MensagemForm::exibir($msg_tipo, $msg_texto);
 							}
 
-	                        $chamada_form = new ChamadaForm; 
-	                        $chamada_form->pesquisaChamada();
+	                        $cursos_form = new CursosForm; 
+	                        $cursos_form->pesquisa();
 	                        
-	                        $chamada_list = new ChamadaList();
+	                        $cursos_list = new CursosList();
 	                        if($pesquisado){
-	                            $chamada_list->listaChamada(Alunos::listaAlunosChamada($cd_curso, $cd_turma,$pag), $pag,false);
+	                            $cursos_list->lista(Cursos::listaCursosPag($ds_curso,$pag), $pag);
 	                        }
 	                        else{
-	                            $chamada_list->listaChamada(null, $pag);
+	                            $cursos_list->lista(null, $pag);
 	                        }
 	                    ?>
 
@@ -54,6 +44,7 @@ fwrite($file,"Foi realizada uma consulta dos alunos da turma ".$desc_turma->nr_t
 	                        <?= PaginadorForm::paginador($pesquisa, $pag); ?>
 	                    </div>
 	                </section>
+        	
 
 		<script src="../../js/bootstrap.min.js" type="text/javascript"></script>
 		<script src="../../js/plugins/input-mask/jquery.inputmask.js" type="text/javascript"></script>

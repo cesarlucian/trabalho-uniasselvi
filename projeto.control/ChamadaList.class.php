@@ -2,7 +2,7 @@
 
 class ChamadaList {
 
-	public function listaChamada($lista_alunos, $pag,$novo = true){
+	public function listaChamada($lista_alunos){
         ?>
         <main class="form">
             <form action="chamada_man.php" name="lista_chamada" id="lista_chamada" method="GET" role="form">
@@ -22,7 +22,7 @@ class ChamadaList {
                                 <?php
                                     if($lista_alunos){
 
-                                        foreach($lista_alunos as $aluno){   
+                                        foreach($lista_alunos as $aluno){
 
                                             $curso = new Cursos();
                                             $curso->getObject($aluno->cd_curso);
@@ -47,13 +47,13 @@ class ChamadaList {
                                                 </tr>
                                             <?php
                                         }
-                                    }
-                                    else{
+
+                                    } else{
                                         ?>
                                             <tbody>
                                                 <tr>
                                                     <td colspan="7">
-                                                        <center>N&atilde;o foram encontrados alunos para realizar chamada nesta turma hoje !</center>
+                                                        <center>Nenhum aluno encontrado para realizar chamada nesta turma hoje</center>
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -66,28 +66,16 @@ class ChamadaList {
                     </div>
                     
                     <?php if($lista_alunos){ ?>
-                        
                         <div class="col-lg-12 col-md-12"><br>
                             <center>
-                                <button type="submit" class="btn btn-primary" onclick="return aviso();"><i class="fa fa-search">Finalizar chamada</button>
-                                <button type="button" class="btn btn-primary" onclick="window.location = 'lista_faltas.php'">Analisar faltas justificadas</button>
-                                <button type="button" class="btn btn-primary" onclick="window.location = 'registra_falta.php'">Registrar falta justificada</button>
-                            </center>
-                        </div>
-
-                    <?php } else { ?>
-
-                        <div class="col-lg-12 col-md-12"><br>
-                            <center>
-                                <button type="button" class="btn btn-primary" onclick="window.location = 'lista_faltas.php'">Analisar faltas justificadas</button>
-                                <button type="button" class="btn btn-primary" onclick="window.location = 'registra_falta.php'">Registrar falta justificada</button>
+                                <button type="submit" class="btn btn-primary" onclick="return avisoChamada();"><i class="fa fa-search">Finalizar chamada</button>
                             </center>
                         </div>
                     <?php } ?>
             </form>
             <script>
 
-                function aviso() {
+                function avisoChamada() {
 
                     var r=confirm("Tem certeza ?");
 

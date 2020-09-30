@@ -38,7 +38,9 @@ class Turmas {
             
         }
         catch (Exception $ex) {   
-            echo $ex->getMessage();         
+
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");        
         }
     }
     
@@ -92,9 +94,9 @@ class Turmas {
             
         } catch (Exception $ex) {   
             
-            echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             TTransaction::rollback();      
-            
             return false;
         }
     }
@@ -161,6 +163,8 @@ class Turmas {
         try{
             TTransaction::open();
 
+            $sql_turma = null;
+
             if($cd_curso) {
 
                 $sql_turma = "WHERE turmas.cd_curso = '$cd_curso' ";
@@ -201,7 +205,8 @@ class Turmas {
             
         } catch (Exception $ex) { 
 
-            echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
 
         }
     }
@@ -236,6 +241,34 @@ class Turmas {
             TTransaction::close();
             
         } catch (Exception $ex) {
+            
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+        }
+    }
+
+    static function getTotal($cd_curso){
+        try{
+            TTransaction::open();
+
+            $sql = "SELECT COUNT(cd_turma) as total "
+                    . "FROM turmas "
+                    . "WHERE cd_curso = $cd_curso";
+
+            $conn = TTransaction::get();
+            $result = $conn->query($sql);
+
+            $data = $result->fetch(PDO::FETCH_ASSOC);
+            unset($conn);
+
+            if(is_array($data)){                
+                return $data['total'];                           
+            }
+            
+        } catch (Exception $ex) {
+
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             
         }
     }

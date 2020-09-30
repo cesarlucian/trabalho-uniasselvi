@@ -26,7 +26,8 @@ $curso->getObject($cd_curso);
         <!-- Main content -->
         <section class="content">
             <?php
-                TurmasList::listaTurmasPopUp($cd_curso, $form);
+                $turmas_list = new TurmasList();
+                $turmas_list->listaTurmasPopUp($cd_curso,$form);
             ?>
         </section><!-- /.content -->
 

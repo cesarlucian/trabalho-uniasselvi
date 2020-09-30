@@ -34,7 +34,9 @@ class Chamada {
 
 		} catch(Exception $ex) {
 
-			echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+			
 		}
 
 	}
@@ -92,7 +94,8 @@ class Chamada {
             
         } catch (Exception $ex) {   
             
-            echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             TTransaction::rollback();      
             
             return false;
@@ -129,7 +132,8 @@ class Chamada {
             
         } catch (Exception $ex) {   
             
-            echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             TTransaction::rollback();      
             return false;
         }
@@ -149,7 +153,8 @@ class Chamada {
             
         } catch (Exception $ex) {   
 
-            echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             TTransaction::rollback();      
             
             return false;
@@ -186,6 +191,9 @@ class Chamada {
             TTransaction::close();
             
         } catch (Exception $ex) {
+
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             
         }
     }
@@ -215,6 +223,9 @@ class Chamada {
             
         } catch (Exception $ex) {
             
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            
         }
     }
 
@@ -242,6 +253,9 @@ class Chamada {
             }
             
         } catch (Exception $ex) {
+
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             
         }
     }
@@ -263,17 +277,20 @@ class Chamada {
             return true;
             
         } catch (Exception $ex) {   
+
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             return false;
         }
     }
 
-    public function removeFalta($cd_chamada,$cd_aluno) {
+    public function removeFalta($dt_chamada,$cd_aluno) {
         $linhas = null;
         
         try{
             TTransaction::open();
 
-            $sql = "UPDATE chamada SET situacao_chamada = 'P' WHERE cd_chamada = $cd_chamada AND cd_aluno = $cd_aluno";
+            $sql = "UPDATE chamada SET situacao_chamada = 'P' WHERE dt_chamada = '$dt_chamada' AND cd_aluno = $cd_aluno";
 
             print($sql);
 
@@ -284,7 +301,10 @@ class Chamada {
             
             return true;
             
-        } catch (Exception $ex) {   
+        } catch (Exception $ex) {
+
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             return false;
         }
     }

@@ -7,12 +7,11 @@ class FaltasJustificadasForm {
         ?>
 
             <main class="form">
-                <form action="lista_faltas.php" method="GET" name="pesquisa_falta" id="pesquisa_falta" role="form"> 
-                    <h3 class="box-title">Pesquisar faltas</h3><br>
+                <form action="consulta_faltas.php" method="GET" name="pesquisa_falta" id="pesquisa_falta" role="form">
+                    <h3 class="box-title">Consulta de faltas justificadas</h3><br> 
                     <div class="row">
-
                         <div id="popup_alunos" class="col-lg-9 col-md-9">
-                            <label>Aluno: </label>
+                            <label>Aluno</label>
                             <div class="input-group">
                                 <input type="text" class="form-control" id="nm_principal" name="nm_principal" readonly="true"/>
                                 <div class="input-group-btn">
@@ -26,13 +25,14 @@ class FaltasJustificadasForm {
                         </div>
 
                         <div class="col-lg-3 col-md-3">
-                            <label>Data falta:</label>
+                            <label>Data falta</label>
                             <input type="date" class="form-control" name="dt_falta" id="dt_falta">
                         </div> 
 
                         <div class="col-lg-12 col-md-12"><br>
                             <center>
                                 <button type="submit" class="btn btn-primary"><i class="fa fa-search">Pesquisar</button>
+                                 <a href="/trabalho-uniasselvi/projeto.view/chamada/consulta_chamada.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                             </center>
                         </div>
                     </div> 
@@ -52,9 +52,9 @@ class FaltasJustificadasForm {
         ?>
 
         <main class="form">
-            <form name="nova_falta" id="nova_falta" action="../admin/faltas_man.php" method="POST" enctype="multipart/form-data">
+            <form class="form" name="nova_falta" id="nova_falta" action="../faltas/faltas_man.php" method="POST" enctype="multipart/form-data">
+                <h3 class="box-title">Registro de faltas justificadas</h3><br>
                 <input type="hidden" name="evento" id="evento" value="nova_falta" />
-                <h3 class="box-title">Registro de falta justificada</h3><br>
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
                         <label>(*) Campos Obrigat&oacute;rios</label><br><br>
@@ -63,7 +63,7 @@ class FaltasJustificadasForm {
                 <div class="row">
 
                     <div id="popup_alunos" class="col-lg-6 col-md-6">
-                            <label>Aluno: *</label>
+                            <label>Aluno*</label>
                             <div class="input-group">
                                 <input type="text" class="form-control" id="nm_principal" name="nm_principal" readonly="true"/>
                                 <div class="input-group-btn">
@@ -77,17 +77,17 @@ class FaltasJustificadasForm {
                         </div>
 
                     <div class="col-lg-3 col-md-3">
-                        <label>Data falta:</label>
+                        <label>Data falta*</label>
                         <input type="date" class="form-control" name="dt_falta" id="dt_falta" required="true">
                     </div>    
 
                     <div class="col-lg-3 col-md-3">
-                        <label>Anexo documento: </label>
+                        <label>Anexo documento*</label>
                         <input type="file" class="form-control" name="nm_arquivo" id="nm_arquivo" required="true">
                     </div>
 
                     <div class="col-lg-12 col-md-12">
-                        <br><label for="ds_motivo">Motivo: </label><br>
+                        <br><label for="ds_motivo">Motivo</label><br>
                         <textarea class="form-control" id="ds_motivo" name="ds_motivo" rows="3">
                         </textarea>
                     </div>
@@ -95,7 +95,7 @@ class FaltasJustificadasForm {
                     <div class="col-lg-12 col-md-12"><br>
                         <center>
                             <button type="submit" class="btn btn-success" onclick="return aviso();"><i class="fa fa-search">Registrar</button>
-                            <a href="/trabalho-uniasselvi/projeto.view/admin/lista_chamada.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
+                            <a href="/trabalho-uniasselvi/projeto.view/chamada/consulta_chamada.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                         </center>
                     </div> 
                 </div>
@@ -137,13 +137,13 @@ class FaltasJustificadasForm {
         ?>
 
         <main class="form">
-            <form class="form" name="analisa_falta" id="analisa_falta" action="../admin/faltas_man.php" method="POST" enctype="multipart/form-data">
+            <form class="form" name="analisa_falta" id="analisa_falta" action="../faltas/faltas_man.php" method="POST" enctype="multipart/form-data">
+                <h3 class="box-title">Analisar falta justificada</h3><br>
                 <input type="hidden" name="evento" id="evento" value="analisa_falta" />
-                <h3 class="box-title">An&aacute;lise de falta justificada</h3><br>
                 <div class="row">
 
                     <div id="popup_alunos" class="col-lg-8 col-md-8">
-                        <label>Aluno: *</label>
+                        <label>Aluno*</label>
                         <div class="input-group">
                             <input type="text" class="form-control" id="nm_principal" name="nm_principal" readonly="true" value="<?= $aluno->nm_principal; ?>"/>                                   
                         </div>
@@ -151,7 +151,7 @@ class FaltasJustificadasForm {
                     </div>
 
                     <div class="col-lg-2 col-md-2">
-                        <label>Data falta:</label>
+                        <label>Data falta</label>
                         <input type="text" class="form-control" name="dt_falta" id="dt_falta" value="<?= Geral::getDataFormatada($falta->dt_falta); ?>" readonly="true">
                     </div>    
 
@@ -163,24 +163,24 @@ class FaltasJustificadasForm {
                     </div>
 
                     <div class="col-lg-12 col-md-12">
-                        <br><label for="ds_motivo">Motivo: </label><br>
+                        <br><label for="ds_motivo">Motivo</label><br>
                         <input class="form-control" type="text" id="ds_motivo" name="ds_motivo" value="<?= $falta->ds_motivo; ?>" readonly="true">
                         </textarea>
                     </div>
                     
                     <div class="col-lg-12 col-md-12"><br>
                         <center>
-                            <button type="button" class="btn btn-success" onclick="aceitarFalta('$falta->cd_falta');"><i class="fa fa-search">Aceitar</button>
-                            <button type="button" class="btn btn-danger" onclick="recusarFalta('$falta->cd_falta');"><i class="fa fa-search">Recusar</button>
-                             <a href="/trabalho-uniasselvi/projeto.view/admin/lista_faltas.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>   
+                            <button type="button" class="btn btn-success" onclick="aceitarFalta('<?= $falta->cd_falta; ?>','<?= $falta->dt_falta; ?>','<?= $falta->cd_aluno; ?>');"><i class="fa fa-search">Aceitar</button>
+                            <button type="button" class="btn btn-danger" onclick="recusarFalta('<?= $falta->cd_falta; ?>','<?= $falta->dt_falta; ?>','<?= $falta->cd_aluno; ?>');"><i class="fa fa-search">Recusar</button>
+                             <a href="/trabalho-uniasselvi/projeto.view/faltas/consulta_faltas.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>   
                         </center>
                     </div> 
                 </div>
             </form>
             <script type="text/javascript">
-                function aceitarFalta(cd_falta){
+                function aceitarFalta(cd_falta,dt_falta,cd_aluno){
                     if(confirm("Aceitar falta justificada?")){
-                        window.location = 'faltas_man.php?cd_falta='+cd_falta+'&evento=aceitar_falta';
+                        window.location = 'faltas_man.php?cd_falta='+cd_falta+'&dt_falta='+dt_falta+'&cd_aluno='+cd_aluno+'&evento=aceitar_falta';
                     }
                 }
 
