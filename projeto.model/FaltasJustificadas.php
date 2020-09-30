@@ -40,7 +40,8 @@ class FaltasJustificadas {
 
 		} catch(Exception $ex) {
 
-			echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
 		}
 
 	}
@@ -88,7 +89,8 @@ class FaltasJustificadas {
             
         } catch (Exception $ex) { 
 
-            echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
 
         }
     }
@@ -152,7 +154,8 @@ class FaltasJustificadas {
             
         } catch (Exception $ex) { 
 
-            echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
 
         }
     }
@@ -175,6 +178,9 @@ class FaltasJustificadas {
             return true;
             
         } catch (Exception $ex) {   
+
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             return false;
         }
     }
@@ -209,6 +215,9 @@ class FaltasJustificadas {
             TTransaction::close();
             
         } catch (Exception $ex) {
+
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             
         }
     }
