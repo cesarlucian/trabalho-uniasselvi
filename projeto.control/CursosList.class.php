@@ -63,5 +63,59 @@ class CursosList {
             </main>
         <?php
     }
+
+    public function lista($lista_cursos,$pag){
+
+        ?>
+        <main class="form">
+                <div class="box-body">
+                        <br>
+                    </div>
+                    <div class="box-body table-responsive">
+                        <table id="example2" class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th scope="col">Curso</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php
+                                    if($lista_cursos){
+                                        foreach($lista_cursos as $curso){                                           
+                                            ?>
+                                                <tr>                                             
+                                                     <td align='center'>
+
+                                                    <button class="btn btn-default btn-sm">
+                                                      <i class="fa fa-reply">Selecionar</i>
+                                                    </button>
+                                                </td>
+                                                    <td><?= $curso->ds_curso; ?></td>
+                                                </tr>
+                                            <?php
+                                        }
+                                    }
+                                    else{
+                                        ?>
+                                            <tbody>
+                                                <tr>
+                                                    <td colspan="7">
+                                                        <center>N&atilde;o foram encontrados cursos !</center>
+                                                    </td>
+                                                </tr>
+                                            </tbody>    
+                                        <?php
+                                    }
+                                ?>
+                            </tbody>                            
+                        </table>
+                    </div>
+            </form>
+            <script>
+            </script>
+            </main>
+        <?php
+    }
 }
 ?>

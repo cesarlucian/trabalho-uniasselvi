@@ -307,3 +307,11 @@ Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do di
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 21:14:36
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-29 21:14:36
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-29 21:14:37
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 10:24:21
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 10:24:22
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 10:24:22
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 10:25:43
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 10:34:12
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 10:34:13
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 10:34:13
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 10:34:14
