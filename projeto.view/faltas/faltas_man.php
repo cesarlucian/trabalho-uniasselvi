@@ -140,7 +140,7 @@ if(isset($evento)){
             if($faltas->delete($cd_falta)) {
 
                 $msg_tipo = 1;
-                $msg_texto = utf8_encode("Falta recusada com sucesso! Falta mantida para o aluno.");
+                $msg_texto = "Falta recusada com sucesso! Falta mantida para o aluno.";
                 header("location: consulta_faltas.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
 
                 $file = fopen("../../projeto.log/log.txt","a+");
