@@ -1564,3 +1564,4 @@ Falta justificada registrada com sucesso - 2020-09-30 20:26:54
 Foi realizada uma consulta das faltas justificadas - 2020-09-30 20:26:54
 Falta justificada aceita com sucesso - 2020-09-30 20:27:16
 Foi realizada uma consulta das faltas justificadas - 2020-09-30 20:27:16
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:44:42
