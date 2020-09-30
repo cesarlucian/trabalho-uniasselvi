@@ -70,7 +70,7 @@ class CursosList {
         <main class="form">
             <form name="lista_cursos" id="lista_cursos" method="GET" role="form">
                 <div class="box-body"> 
-                    <button type="button" class="btn btn-success pull-right" onclick="window.location = 'cadastro.php'">Inserir novo</button> <br><br><br>                                
+                    <button type="button" class="btn btn-success pull-right" onclick="window.location = 'cadastro.php'">Inserir novo</button> <br><br>                                
                     </div>
 
                     <div class="box-body table-responsive">

@@ -10,7 +10,7 @@ class AlunosList {
                     <button type="button" class="btn btn-success pull-right" onclick="window.location = 'cadastro.php'">Inserir novo</button>                               
                         <br><br>
                     </div>
-                    <br><div class="box-body table-responsive">
+                    <div class="box-body table-responsive">
                         <table id="example2" class="table table-bordered table-hover">
                             <thead>
                                 <tr>
