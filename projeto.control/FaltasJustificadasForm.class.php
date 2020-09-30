@@ -52,7 +52,7 @@ class FaltasJustificadasForm {
         ?>
 
         <main class="form">
-            <form class="form" name="nova_falta" id="nova_falta" action="../admin/faltas_man.php" method="POST" enctype="multipart/form-data">
+            <form name="nova_falta" id="nova_falta" action="../admin/faltas_man.php" method="POST" enctype="multipart/form-data">
                 <input type="hidden" name="evento" id="evento" value="nova_falta" />
                 <h3 class="box-title">Registro de falta justificada</h3><br>
                 <div class="row">

@@ -8,16 +8,16 @@ extract($_GET);
 ?>
 		<?php include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."projeto.template". DIRECTORY_SEPARATOR ."header.php"); ?>
 		<?php include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."projeto.template". DIRECTORY_SEPARATOR ."menu.php"); ?>
-             
-				<?php
+			 
+		<section class="content">
+			<?php
+				if(isset($msg_tipo)){
+					MensagemForm::exibir($msg_tipo, $msg_texto);
+				}
 
-					if(isset($msg_tipo)){
-					    MensagemForm::exibir($msg_tipo, $msg_texto);
-					}
-
-					FaltasJustificadasForm::novaFaltaJustificada();
-
-				?>
+				FaltasJustificadasForm::novaFaltaJustificada();
+			?>
+		</section>
 
 		<script src="../../js/bootstrap.min.js" type="text/javascript"></script>
 		<script src="../../js/plugins/input-mask/jquery.inputmask.js" type="text/javascript"></script>
