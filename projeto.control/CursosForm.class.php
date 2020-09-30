@@ -34,7 +34,7 @@ class CursosForm {
         <main class="form">
             <form action="../cursos/cursos_man.php" method="POST" id="novo_curso" name="novo_curso" role="form">
                 <input type="hidden" name="evento" id="evento" value="novo_curso">
-                <h3 class="box-title">Cadastro de cursos</h3>
+                <h3 class="box-title">Cadastro de curso</h3>
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
                         <label>(*) Campos Obrigat&oacute;rios</label><br><br>
