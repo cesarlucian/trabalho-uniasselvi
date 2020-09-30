@@ -1245,3 +1245,9 @@ Foi realizada uma consulta das faltas justificadas - 2020-09-30 18:54:40
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 18:55:05
 Falta justificada registrada com sucesso - 2020-09-30 18:55:17
 Foi realizada uma consulta das faltas justificadas - 2020-09-30 18:55:17
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 18:57:37
+Falta justificada registrada com sucesso - 2020-09-30 18:57:51
+Foi realizada uma consulta das faltas justificadas - 2020-09-30 18:57:51
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 18:59:24
+Falta justificada registrada com sucesso - 2020-09-30 18:59:35
+Foi realizada uma consulta das faltas justificadas - 2020-09-30 18:59:35

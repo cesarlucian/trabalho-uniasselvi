@@ -54,7 +54,7 @@ if(isset($evento)){
 
                     $nome_arquivo = $aluno->nr_matricula.".".$ext;
 
-                    move_uploaded_file($file["name"], $pasta_destino . DIRECTORY_SEPARATOR . $nome_arquivo);
+                    move_uploaded_file($file["tmp_name"], $pasta_destino . "/". $nome_arquivo);
 
                     $faltas->adicionaFaltaJustificada($cd_aluno,$dt_falta,$ds_motivo,$nome_arquivo);
 
