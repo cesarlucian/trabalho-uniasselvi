@@ -376,7 +376,7 @@ class AlunosForm {
                                             }
                                         ?>
 
-                                        <option value="aluno->ds_sexo" selected="selected"><?= $desc_sexo; ?></option>
+                                        <option value="<?= $aluno->ds_sexo; ?>" selected="selected"><?= $desc_sexo; ?></option>
                                         <option value="M">Masculino</option>
                                         <option value="F">Feminino</option>
                                         <option value="O">Outros</option>

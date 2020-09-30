@@ -1565,3 +1565,33 @@ Foi realizada uma consulta das faltas justificadas - 2020-09-30 20:26:54
 Falta justificada aceita com sucesso - 2020-09-30 20:27:16
 Foi realizada uma consulta das faltas justificadas - 2020-09-30 20:27:16
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:44:42
+O aluno ID: '40' foi editado na base de dados - 2020-09-30 20:52:31
+O aluno ID: '40' foi editado na base de dados - 2020-09-30 20:53:05
+O aluno ID: '40' foi editado na base de dados - 2020-09-30 20:53:05
+O aluno ID: '40' foi editado na base de dados - 2020-09-30 20:53:05
+O aluno ID: '40' foi editado na base de dados - 2020-09-30 20:53:05
+O aluno ID: '40' foi editado na base de dados - 2020-09-30 20:53:06
+O aluno ID: '40' foi editado na base de dados - 2020-09-30 20:53:06
+O aluno ID: '40' foi editado na base de dados - 2020-09-30 20:53:06
+O aluno ID: '40' foi editado na base de dados - 2020-09-30 20:53:07
+O aluno ID: '40' foi editado na base de dados - 2020-09-30 20:53:39
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:54:39
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:54:39
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:54:42
+Foi realizada uma consulta das faltas justificadas - 2020-09-30 20:54:43
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:54:44
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:54:55
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:54:56
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:54:56
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:54:57
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:54:59
+O aluno ID: '40' foi editado na base de dados - 2020-09-30 20:55:04
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:56:03
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:56:04
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:56:05
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:56:05
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:56:06
+O aluno ID: '40' foi editado na base de dados - 2020-09-30 20:57:22
+O aluno ID: '40' foi editado na base de dados - 2020-09-30 20:57:24
+O aluno ID: '40' foi editado na base de dados - 2020-09-30 20:57:27
+O aluno ID: '40' foi editado na base de dados - 2020-09-30 20:57:30
