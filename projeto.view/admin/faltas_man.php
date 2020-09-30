@@ -21,14 +21,18 @@ if(isset($evento)){
 
         // ------------------------
 
-        // metodo servidor upload 
-        // ----------------------
+        /* metodo servidor upload 
+        
+        $upload = new Upload;
+        $upload->efetuaUpload('trabalho-uniasselvi/projeto.arquivos/'.$file, $file['tmp_name']);
+
+        */
 
         if($file["size"] > "30000") {
 
             ?>
                 <script>
-                    alert("Erro ao registrar falta, arquivo muito grande!");
+                    alert("Erro ao registrar falta, arquivo muito grande! M\u00e1ximo 30kb");
                     history.back();
                 </script>
             <?php
