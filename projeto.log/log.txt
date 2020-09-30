@@ -1445,3 +1445,43 @@ Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:09:52
 Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:10:01
 Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:10:13
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:10:15
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:11:01
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:11:01
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:11:02
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:11:03
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:12:03
+Foi realizada uma consulta das faltas justificadas - 2020-09-30 20:12:06
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:12:07
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:12:09
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:12:13
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:12:13
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:12:22
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:12:25
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:12:25
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:12:26
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:12:26
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:13:11
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:13:12
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:13:20
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:13:33
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-09-30 20:13:38
+Chamada realizada com sucesso - 2020-09-30 20:13:53
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:13:53
+Foi realizada uma consulta das faltas justificadas - 2020-09-30 20:13:59
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:14:17
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-09-30 20:14:22
+Chamada realizada com sucesso - 2020-09-30 20:14:32
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:14:32
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-09-30 20:15:35
+Foi realizada uma consulta das faltas justificadas - 2020-09-30 20:15:38
+Foi realizada uma consulta das faltas justificadas - 2020-09-30 20:15:51
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BY dt_falta LIMIT 6 OFFSET 0' at line 1 - 2020-09-30 20:15:51
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:15:53
+Falta justificada registrada com sucesso - 2020-09-30 20:16:15
+Foi realizada uma consulta das faltas justificadas - 2020-09-30 20:16:15
+Foi realizada uma consulta das faltas justificadas - 2020-09-30 20:17:08
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:17:10
+Foi realizada uma consulta das faltas justificadas - 2020-09-30 20:17:16
+Falta justificada recusada com sucesso - 2020-09-30 20:18:03
+Foi realizada uma consulta das faltas justificadas - 2020-09-30 20:18:03
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:18:08

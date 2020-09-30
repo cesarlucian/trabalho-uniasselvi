@@ -143,7 +143,7 @@ class FaltasJustificadasForm {
                 <div class="row">
 
                     <div id="popup_alunos" class="col-lg-8 col-md-8">
-                        <label>Aluno*</label>
+                        <label>Aluno</label>
                         <div class="input-group">
                             <input type="text" class="form-control" id="nm_principal" name="nm_principal" readonly="true" value="<?= $aluno->nm_principal; ?>"/>                                   
                         </div>
