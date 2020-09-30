@@ -80,6 +80,7 @@ class CursosList {
                                     <th></th>
                                     <th scope="col">Curso</th>
                                     <th scope="col">Total de turmas</th>
+                                    <th scope="col">Total de alunos</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -94,7 +95,39 @@ class CursosList {
                                                         </button>
                                                 </td>
                                                     <td><?= $curso->ds_curso; ?></td>
-                                                    <td><?= Turmas::getTotal($curso->cd_curso); ?></td>
+                                                    <td><?php 
+
+                                                            $total_turmas = null;
+
+                                                            if(Turmas::getTotalTurmas($curso->cd_curso) == 0) {
+
+                                                                $total_turmas = "Nenhuma";
+
+                                                            } else {
+
+                                                                $total_turmas = Turmas::getTotalTurmas($curso->cd_curso);
+                                                            }
+
+                                                            echo $total_turmas;
+                                                        ?>  
+                                                    </td>
+                                                    <td><?php
+
+                                                            $total_alunos = null;
+
+                                                            if(Alunos::getTotalAlunos($curso->cd_curso) == 0) {
+
+                                                                $total_alunos = "Nenhum";
+
+                                                            } else {
+
+                                                                $total_alunos = Alunos::getTotalAlunos($curso->cd_curso);
+                                                            }
+
+                                                            echo $total_alunos;
+                                                        ?>
+                                                
+                                                     </td>
                                                 </tr>
                                             <?php
                                         }

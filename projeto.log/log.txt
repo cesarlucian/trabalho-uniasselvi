@@ -1341,3 +1341,49 @@ Falta justificada recusada com sucesso - 2020-09-30 19:50:55
 Foi realizada uma consulta das faltas justificadas - 2020-09-30 19:50:55
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 19:51:30
 Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 19:51:32
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 19:56:13
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 19:56:14
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 19:56:15
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 19:56:16
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 19:56:49
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 19:56:51
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 19:56:52
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 19:56:53
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 19:56:55
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 19:56:56
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 19:56:57
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 19:56:58
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 19:56:59
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 19:57:00
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 19:57:01
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 19:57:03
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 19:58:29
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:01:29
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:01:29
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:01:30
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:01:30
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:01:43
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:01:45
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:01:46
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:01:47
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:01:53
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:01:54
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:01:55
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:01:56
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:03:08
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:03:08
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:03:09
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:03:09
+Foi realizada uma consulta dos cursos pela descriçao: 'aud' - 2020-09-30 20:03:13
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ds_curso like '%aud%' ORDER BY ds_curso LIMIT 6 OFFSET 0' at line 1 - 2020-09-30 20:03:13
+Foi realizada uma consulta dos cursos pela descriçao: 'aud' - 2020-09-30 20:03:15
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ds_curso like '%aud%' ORDER BY ds_curso LIMIT 6 OFFSET 0' at line 1 - 2020-09-30 20:03:16
+Foi realizada uma consulta dos cursos pela descriçao: 'aud' - 2020-09-30 20:03:44
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ds_curso like '%aud%' ORDER BY ds_curso LIMIT 6 OFFSET 0' at line 1 - 2020-09-30 20:03:44
+Foi realizada uma consulta dos cursos pela descriçao: 'a' - 2020-09-30 20:03:46
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ds_curso like '%a%' ORDER BY ds_curso LIMIT 6 OFFSET 0' at line 1 - 2020-09-30 20:03:46
+Foi realizada uma consulta dos cursos pela descriçao: 'ce' - 2020-09-30 20:03:48
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ds_curso like '%ce%' ORDER BY ds_curso LIMIT 6 OFFSET 0' at line 1 - 2020-09-30 20:03:48
+Foi realizada uma consulta dos cursos pela descriçao: 'fas' - 2020-09-30 20:03:57
+Foi realizada uma consulta dos cursos pela descriçao: 'a' - 2020-09-30 20:03:58
+Foi realizada uma consulta dos cursos pela descriçao: 'aud' - 2020-09-30 20:04:00

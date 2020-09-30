@@ -6,7 +6,7 @@ class CursosForm {
      
         ?>  
             <main class="form">
-                <form action="../cursos/cursos_man.php" method="GET" id="pesquisar" name="pesquisa" role="form"> 
+                <form action="../cursos/consulta_cursos.php" method="GET" id="pesquisar" name="pesquisa" role="form"> 
                     <h3 class="box-title">Cursos</h3><br>
                     <div class="row">
 

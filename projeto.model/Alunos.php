@@ -394,6 +394,32 @@ class Alunos {
         }
     }
 
+    static function getTotalAlunos($cd_curso){
+        try{
+            TTransaction::open();
+
+            $sql = "SELECT COUNT(cd_aluno) as total "
+                    . "FROM alunos "
+                    . "WHERE cd_curso = $cd_curso";
+
+            $conn = TTransaction::get();
+            $result = $conn->query($sql);
+
+            $data = $result->fetch(PDO::FETCH_ASSOC);
+            unset($conn);
+
+            if(is_array($data)){                
+                return $data['total'];                           
+            }
+            
+        } catch (Exception $ex) {
+
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            
+        }
+    }
+
 
     
 }
