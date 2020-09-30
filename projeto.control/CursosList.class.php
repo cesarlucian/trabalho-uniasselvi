@@ -89,7 +89,7 @@ class CursosList {
                                             ?>
                                                 <tr>                                             
                                                      <td align='center'>
-                                                    <button alt="Editar" title="Editar" class="btn btn-default btn-sm" type="button" onclick="window.location = 'edicaoCurso.php?cd_curso=<?= $curso->cd_curso; ?>'">
+                                                    <button alt="Editar" title="Editar" class="btn btn-default btn-sm" type="button" onclick="window.location = 'edicao.php?cd_curso=<?= $curso->cd_curso; ?>'">
                                                             <i class="glyphicon glyphicon-new-window"></i>
                                                         </button>
                                                 </td>
