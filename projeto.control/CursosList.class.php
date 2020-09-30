@@ -68,8 +68,10 @@ class CursosList {
 
         ?>
         <main class="form">
-                <div class="box-body">
-                        <br>
+            <form name="lista_cursos" id="lista_cursos" method="GET" role="form">
+                <div class="box-body"> 
+                    <button type="button" class="btn btn-success pull-right" onclick="window.location = 'cadastroCurso.php'">Inserir novo</button>                               
+                        <br><br>
                     </div>
                     <div class="box-body table-responsive">
                         <table id="example2" class="table table-bordered table-hover">
@@ -86,10 +88,9 @@ class CursosList {
                                             ?>
                                                 <tr>                                             
                                                      <td align='center'>
-
-                                                    <button class="btn btn-default btn-sm">
-                                                      <i class="fa fa-reply">Selecionar</i>
-                                                    </button>
+                                                    <button alt="Editar" title="Editar" class="btn btn-default btn-sm" type="button" onclick="window.location = 'edicaoCurso.php?cd_curso=<?= $curso->cd_curso; ?>'">
+                                                            <i class="glyphicon glyphicon-new-window"></i>
+                                                        </button>
                                                 </td>
                                                     <td><?= $curso->ds_curso; ?></td>
                                                 </tr>

@@ -202,6 +202,58 @@ class Cursos {
         }
     }
 
+    static function listaCursosPag($ds_curso, $pag = 1){
+        try{
+            TTransaction::open();
+            
+            $offset = (($pag-1)*6);
+
+            if($ds_curso) {
+
+                $sql_ds_curso = " AND ds_curso like '%$ds_curso%' ";
+            }
+
+            $sql = "SELECT * FROM cursos "
+                    ."$sql_ds_curso"
+                    ."ORDER BY ds_curso "  
+                    ."LIMIT 6 "
+                    ."OFFSET $offset "; 
+
+            //print($sql);exit;
+
+            $conn = TTransaction::get();
+            $result = $conn->query($sql);
+            
+            $lista_cursos = null;
+            if($result){
+                foreach($result as $data){
+
+                    $curso = new Cursos;                    
+                    
+                    foreach($data as $key=>$campo){
+                        $curso->$key = $campo;
+                    }
+                    
+                    $lista_cursos[] = $curso;
+                    
+                    unset($curso);
+                }
+                
+                if(isset($lista_cursos)){                    
+                    return $lista_cursos;
+                }
+            }  
+            unset($conn);
+            
+            return false;
+            
+        } catch (Exception $ex) { 
+
+            echo $ex->getMessage();
+
+        }
+    }
+
     static function listaCursos(){
         try{
             TTransaction::open();

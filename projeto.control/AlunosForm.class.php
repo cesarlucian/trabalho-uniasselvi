@@ -34,7 +34,7 @@ class AlunosForm {
         ?>  
             <main class="form">
                 <form action="../admin/consulta_alunos.php" method="GET" name="pesquisa" role="form"> 
-                    <h3 class="box-title">Consulta</h3><br>
+                    <h3 class="box-title">Alunos</h3><br>
                     <div class="row">
 
                         <div id="div_filtro" class="col-md-2 col-lg-2">
