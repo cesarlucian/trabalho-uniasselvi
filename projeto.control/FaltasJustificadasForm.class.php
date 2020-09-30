@@ -8,7 +8,7 @@ class FaltasJustificadasForm {
 
             <main class="form">
                 <form action="lista_faltas.php" method="GET" name="pesquisa_falta" id="pesquisa_falta" role="form">
-                    <h3 class="box-title">Consulta de faltas</h3><br> 
+                    <h3 class="box-title">Consulta de faltas justificadas</h3><br> 
                     <div class="row">
                         <div id="popup_alunos" class="col-lg-9 col-md-9">
                             <label>Aluno: </label>
@@ -52,7 +52,7 @@ class FaltasJustificadasForm {
 
         <main class="form">
             <form class="form" name="nova_falta" id="nova_falta" action="../faltas/faltas_man.php" method="POST" enctype="multipart/form-data">
-                <h3 class="box-title">Registro de faltas</h3><br>
+                <h3 class="box-title">Registro de faltas justificadas</h3><br>
                 <input type="hidden" name="evento" id="evento" value="nova_falta" />
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
@@ -94,7 +94,7 @@ class FaltasJustificadasForm {
                     <div class="col-lg-12 col-md-12"><br>
                         <center>
                             <button type="submit" class="btn btn-success" onclick="return aviso();"><i class="fa fa-search">Registrar</button>
-                            <a href="/trabalho-uniasselvi/projeto.view/faltas/lista_chamada.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
+                            <a href="/trabalho-uniasselvi/projeto.view/chamada/consulta_chamada.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                         </center>
                     </div> 
                 </div>
@@ -137,7 +137,7 @@ class FaltasJustificadasForm {
 
         <main class="form">
             <form class="form" name="analisa_falta" id="analisa_falta" action="../faltas/faltas_man.php" method="POST" enctype="multipart/form-data">
-                <h3 class="box-title">An&aacute;lise de faltas</h3><br>
+                <h3 class="box-title">An&aacute;lise de faltas justificadas</h3><br>
                 <input type="hidden" name="evento" id="evento" value="analisa_falta" />
                 <div class="row">
 
@@ -171,7 +171,7 @@ class FaltasJustificadasForm {
                         <center>
                             <button type="button" class="btn btn-success" onclick="aceitarFalta('$falta->cd_falta');"><i class="fa fa-search">Aceitar</button>
                             <button type="button" class="btn btn-danger" onclick="recusarFalta('$falta->cd_falta');"><i class="fa fa-search">Recusar</button>
-                             <a href="/trabalho-uniasselvi/projeto.view/faltas/lista_chamada.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>   
+                             <a href="/trabalho-uniasselvi/projeto.view/chamada/consulta_chamada.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>   
                         </center>
                     </div> 
                 </div>

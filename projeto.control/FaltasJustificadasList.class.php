@@ -61,7 +61,7 @@ class FaltasJustificadasList {
                 </div>
                 <div class="col-lg-12 col-md-12"><br>
                         <center>  
-                            <a href="/trabalho-uniasselvi/projeto.view/faltas/lista_chamada.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
+                            <a href="/trabalho-uniasselvi/projeto.view/chamada/consulta_chamada.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                         </center>
                     </div> 
             </form>
