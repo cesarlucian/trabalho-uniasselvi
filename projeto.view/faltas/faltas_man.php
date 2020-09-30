@@ -1,5 +1,6 @@
 <?php
-
+ini_set('display_errors', 'on');
+error_reporting(E_ALL | E_STRICT);
 include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."config.php");
 
 extract($_POST);
@@ -12,10 +13,15 @@ if(isset($evento)){
 
         // metodo local de upload
 
+        $aluno = new Alunos();
+        $aluno->getObject($cd_aluno);
+
+        $faltas = new FaltasJustificadas();
+        $chamada = new Chamada();
+
         $file = $_FILES["nm_arquivo"];
 
         $pasta_destino = "../../projeto.arquivos";
-        $extensoes_permitidas = array('pdf', 'doc', 'docx','jpeg', 'jpg', 'png');
         $arquivo_ext = explode(".",$file["name"]);
         $ext = $arquivo_ext[1];
 
@@ -44,15 +50,17 @@ if(isset($evento)){
 
             if($ext == 'pdf' || $ext == 'doc' || $ext == 'docx' || $ext == 'jpeg' || $ext =='jpg' || $ext == 'png') {
 
-                if(Chamada::verificaFalta($cd_aluno, $dt_falta)) {
+                if($chamada->verificaFalta($cd_aluno, $dt_falta)) {
 
-                    move_uploaded_file($file["tmp_name"], $pasta_destino . DIRECTORY_SEPARATOR . $file["name"]);
+                    $nome_arquivo = $aluno->nr_matricula.".".$ext;
 
-                    FaltasJustificadas::adicionaFaltaJustificada($cd_aluno,$dt_falta,$ds_motivo,$nm_arquivo);
+                    move_uploaded_file($file["name"], $pasta_destino . DIRECTORY_SEPARATOR . $nome_arquivo);
+
+                    $faltas->adicionaFaltaJustificada($cd_aluno,$dt_falta,$ds_motivo,$nome_arquivo);
 
                     $msg_tipo = 1;
                     $msg_texto = "Falta registrada com sucesso!";
-                    header("location: registra_falta.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
+                    header("location: consulta_faltas.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
 
                     $file = fopen("../../projeto.log/log.txt","a+");
                     fwrite($file,"Falta justificada registrada com sucesso - ".date("Y-m-d H:i:s")."\r\n");

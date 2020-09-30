@@ -36,7 +36,7 @@ class FaltasJustificadasList {
                                                 <td><?= Geral::getDataFormatada($falta->dt_falta); ?></td>
 
                                                 <td align='center'>
-                                                    <button alt="Editar" title="Editar" class="btn btn-primary btn-sm" type="button" onclick="window.location = 'analise.php?cd_falta=<?= $falta->cd_falta; ?>'">Analisar   
+                                                    <button alt="Editar" title="Editar" class="btn btn-primary btn-sm" type="button" onclick="window.location = 'analisa_faltas.php?cd_falta=<?= $falta->cd_falta; ?>'">Analisar   
                                                     </button>
                                                 </td> 
                                                 
@@ -59,11 +59,6 @@ class FaltasJustificadasList {
                         </tbody>                            
                     </table>
                 </div>
-                <div class="col-lg-12 col-md-12"><br>
-                        <center>  
-                            <a href="/trabalho-uniasselvi/projeto.view/chamada/consulta_chamada.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
-                        </center>
-                    </div> 
             </form>
             <script>
             </script>

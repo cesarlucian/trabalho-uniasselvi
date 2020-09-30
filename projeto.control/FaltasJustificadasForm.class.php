@@ -32,6 +32,7 @@ class FaltasJustificadasForm {
                         <div class="col-lg-12 col-md-12"><br>
                             <center>
                                 <button type="submit" class="btn btn-primary"><i class="fa fa-search">Pesquisar</button>
+                                 <a href="/trabalho-uniasselvi/projeto.view/chamada/consulta_chamada.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                             </center>
                         </div>
                     </div> 
@@ -171,7 +172,7 @@ class FaltasJustificadasForm {
                         <center>
                             <button type="button" class="btn btn-success" onclick="aceitarFalta('$falta->cd_falta');"><i class="fa fa-search">Aceitar</button>
                             <button type="button" class="btn btn-danger" onclick="recusarFalta('$falta->cd_falta');"><i class="fa fa-search">Recusar</button>
-                             <a href="/trabalho-uniasselvi/projeto.view/chamada/consulta_chamada.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>   
+                             <a href="/trabalho-uniasselvi/projeto.view/faltas/consulta_faltas.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>   
                         </center>
                     </div> 
                 </div>

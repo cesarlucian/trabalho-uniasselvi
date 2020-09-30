@@ -168,7 +168,7 @@ class FaltasJustificadas {
 
             $sql = "INSERT INTO faltas_justificadas (dt_falta,ds_motivo,nm_arquivo,cd_aluno) values ('$dt_falta','$ds_motivo','$nm_arquivo',$cd_aluno)";
 
-            //print($sql);
+            //print($sql);exit;
 
             $conn = TTransaction::get();
             $result = $conn->query($sql);
