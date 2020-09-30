@@ -43,7 +43,7 @@ fwrite($file,"Foi realizada uma consulta dos alunos da turma ".$desc_turma->nr_t
 	                        
 	                        $chamada_list = new ChamadaList();
 	                        if($pesquisado){
-	                            $chamada_list->listaChamada(Alunos::listaAlunosChamada($cd_curso, $cd_turma,$pag), $pag,false);
+	                            $chamada_list->listaChamada(Alunos::listaAlunosChamada($cd_curso, $cd_turma,$pag), $pag);
 	                        }
 	                        else{
 	                            $chamada_list->listaChamada(null, $pag);

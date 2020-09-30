@@ -2,7 +2,7 @@
 
 class ChamadaList {
 
-	public function listaChamada($lista_alunos, $pag,$novo = true){
+	public function listaChamada($lista_alunos, $pag){
         ?>
         <main class="form">
             <form action="chamada_man.php" name="lista_chamada" id="lista_chamada" method="GET" role="form">
