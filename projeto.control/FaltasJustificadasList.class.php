@@ -49,7 +49,7 @@ class FaltasJustificadasList {
                                         <tbody>
                                             <tr>
                                                 <td colspan="7">
-                                                    <center>N&atilde;o foram encontrados alunos !</center>
+                                                    <center>N&atilde;o foram encontradas faltas !</center>
                                                 </td>
                                             </tr>
                                         </tbody>    

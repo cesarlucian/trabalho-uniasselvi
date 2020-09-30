@@ -7,11 +7,11 @@ class FaltasJustificadasForm {
         ?>
 
             <main class="form">
-                <form action="lista_faltas.php" method="GET" name="pesquisa_falta" id="pesquisa_falta" role="form">
+                <form action="consulta_faltas.php" method="GET" name="pesquisa_falta" id="pesquisa_falta" role="form">
                     <h3 class="box-title">Consulta de faltas justificadas</h3><br> 
                     <div class="row">
                         <div id="popup_alunos" class="col-lg-9 col-md-9">
-                            <label>Aluno: </label>
+                            <label>Aluno</label>
                             <div class="input-group">
                                 <input type="text" class="form-control" id="nm_principal" name="nm_principal" readonly="true"/>
                                 <div class="input-group-btn">
@@ -25,7 +25,7 @@ class FaltasJustificadasForm {
                         </div>
 
                         <div class="col-lg-3 col-md-3">
-                            <label>Data falta:</label>
+                            <label>Data falta</label>
                             <input type="date" class="form-control" name="dt_falta" id="dt_falta">
                         </div> 
 

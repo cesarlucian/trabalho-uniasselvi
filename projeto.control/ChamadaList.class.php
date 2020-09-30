@@ -2,7 +2,7 @@
 
 class ChamadaList {
 
-	public function listaChamada($lista_alunos, $pag){
+	public function listaChamada($lista_alunos){
         ?>
         <main class="form">
             <form action="chamada_man.php" name="lista_chamada" id="lista_chamada" method="GET" role="form">
@@ -66,28 +66,16 @@ class ChamadaList {
                     </div>
                     
                     <?php if($lista_alunos){ ?>
-                        
                         <div class="col-lg-12 col-md-12"><br>
                             <center>
-                                <button type="submit" class="btn btn-primary" onclick="return aviso();"><i class="fa fa-search">Finalizar chamada</button>
-                                <button type="button" class="btn btn-primary" onclick="window.location = '../faltas/lista_faltas.php'">Analisar faltas justificadas</button>
-                                <button type="button" class="btn btn-primary" onclick="window.location = '../faltas/registra_falta.php'">Registrar falta justificada</button>
-                            </center>
-                        </div>
-
-                    <?php } else { ?>
-
-                        <div class="col-lg-12 col-md-12"><br>
-                            <center>
-                                <button type="button" class="btn btn-primary" onclick="window.location = '../faltas/lista_faltas.php'">Analisar faltas justificadas</button>
-                                <button type="button" class="btn btn-primary" onclick="window.location = '../faltas/registra_falta.php'">Registrar falta justificada</button>
+                                <button type="submit" class="btn btn-primary" onclick="return avisoChamada();"><i class="fa fa-search">Finalizar chamada</button>
                             </center>
                         </div>
                     <?php } ?>
             </form>
             <script>
 
-                function aviso() {
+                function avisoChamada() {
 
                     var r=confirm("Tem certeza ?");
 

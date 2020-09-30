@@ -7,9 +7,7 @@ class AlunosForm {
         ?>  
             <main class="form">
                 <form action="../popups/popup_alunos.php" method="GET" name="pesquisa" role="form"> 
-                    <h3 class="box-title">Pesquisar aluno</h3><br>
                     <div class="row">
-                        
                         <div class="col-md-12 col-lg-12">
                             <label>Pesquisar aluno</label>
                             <input type="text" name="filtro" id="filtro" class="form-control">

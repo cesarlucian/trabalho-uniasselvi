@@ -10,7 +10,7 @@ class CursosForm {
                     <h3 class="box-title">Cursos</h3><br>
                     <div class="row">
 
-                        <div id="pesquisa_curso" class="col-md-12 col-lg-12">
+                        <div id="pesquisa_curso" class="col-md-4 col-lg-4">
                             <label>Pesquisar curso</label>
                             <input type="text" name="ds_curso" id="ds_curso" class="form-control">
                         </div>

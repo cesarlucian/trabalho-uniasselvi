@@ -7,12 +7,6 @@ extract($_GET);
 $cd_curso             = @$_GET['cd_curso'];
 $cd_turma             = @$_GET['cd_turma'];
 
-$pag        = @$_GET['pag'];
-
-if($pag == ''){
-    $pag = 1;
-}
-
 $pesquisado = false;
 
 $pesquisa['cd_curso'] = $cd_curso;
@@ -43,16 +37,12 @@ fwrite($file,"Foi realizada uma consulta dos alunos da turma ".$desc_turma->nr_t
 	                        
 	                        $chamada_list = new ChamadaList();
 	                        if($pesquisado){
-	                            $chamada_list->listaChamada(Alunos::listaAlunosChamada($cd_curso, $cd_turma,$pag), $pag);
+	                            $chamada_list->listaChamada(Alunos::listaAlunosChamada($cd_curso, $cd_turma));
 	                        }
 	                        else{
 	                            $chamada_list->listaChamada(null, $pag);
 	                        }
 	                    ?>
-
-	                    <div class="paginador">
-	                        <?= PaginadorForm::paginador($pesquisa, $pag); ?>
-	                    </div>
 	                </section>
 
 		<script src="../../js/bootstrap.min.js" type="text/javascript"></script>

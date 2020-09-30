@@ -307,16 +307,14 @@ class Alunos {
     }
 
 
-    static function listaAlunosChamada($cd_curso,$cd_turma, $pag = 1){
+    static function listaAlunosChamada($cd_curso,$cd_turma){
         try{
             TTransaction::open();
-            
-            $offset = (($pag-1)*6);
 
             // desc filtro
 
             $sql = "SELECT * FROM alunos WHERE cd_turma = $cd_turma 
-            and cd_curso = $cd_curso and cd_aluno NOT IN(SELECT cd_aluno FROM chamada WHERE dt_chamada = CURRENT_DATE()) LIMIT 30 OFFSET $offset"; 
+            and cd_curso = $cd_curso and cd_aluno NOT IN(SELECT cd_aluno FROM chamada WHERE dt_chamada = CURRENT_DATE())"; 
 
             //print($sql);
 

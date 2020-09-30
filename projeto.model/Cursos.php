@@ -223,7 +223,7 @@ class Cursos {
                     ."LIMIT 6 "
                     ."OFFSET $offset "; 
 
-            print($sql);
+            //print($sql);
 
             $conn = TTransaction::get();
             $result = $conn->query($sql);

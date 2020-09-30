@@ -10,6 +10,11 @@ class ChamadaForm {
                 <h3 class="box-title">Chamada</h3><br> 
                     <div class="row">
                         <div class="col-lg-12 col-md-12">
+                            <label>(*) Campos Obrigat&oacute;rios</label><br><br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
                             <label>Data chamada: <?= date('d/m/Y'); ?></label><br><br>
                         </div>
                     </div>
@@ -45,12 +50,29 @@ class ChamadaForm {
 
                         <div class="col-lg-12 col-md-12"><br>
                             <center>
-                                <button type="submit" class="btn btn-primary"><i class="fa fa-search">Pesquisar</button>
+                                <button type="submit" class="btn btn-primary" onclick="return aviso();"><i class="fa fa-search">Listar alunos</button>
                             </center>
                         </div>
                     </div> 
                 </form>
                 <script>
+
+                    function aviso() {
+
+                        var cd_curso = document.getElementById('cd_curso').value;
+                        var cd_turma = document.getElementById('cd_turma').value;
+
+                        if(cd_curso == "" || cd_turma == "") {
+
+                            alert("Selecione um curso e turma!");
+                            return false;
+
+                        } else {
+
+                            return true;
+                        }
+                    }
+
                     function popUpCurso(form){
 
                     window.open('../geral/popups/popup_cursos.php?form='+form, 'JANELA', 'width=800, height=600');
