@@ -4,8 +4,8 @@ include_once("../../../config.php");
 
 extract($_GET);
 
-$pesquisa['form']       = $form;
-$pesquisa['ds_curso']   = $ds_curso;
+$ds_curso = @$_GET['ds_curso'];
+$form     = @$_GET['form'];
 
 ?>
 
@@ -21,7 +21,8 @@ $pesquisa['ds_curso']   = $ds_curso;
         <!-- Main content -->
         <section class="content">
             <?php
-                CursosList::listaCursosPopUp($form);
+                $cursos_list = new CursosList();
+                $cursos_list->listaCursosPopUp($form);
             ?>
         </section><!-- /.content -->
 

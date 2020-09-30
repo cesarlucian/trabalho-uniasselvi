@@ -6,7 +6,7 @@ class ChamadaForm {
      
         ?>  
             <main class="form">
-                <form action="../chamada/lista_chamada.php" method="GET" name="pesquisa_chamada" id="pesquisa_chamada" role="form">
+                <form action="../chamada/consulta_chamada.php" method="GET" name="pesquisa_chamada" id="pesquisa_chamada" role="form">
                 <h3 class="box-title">Chamada</h3><br> 
                     <div class="row">
                         <div class="col-lg-12 col-md-12">

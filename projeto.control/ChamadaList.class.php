@@ -22,7 +22,7 @@ class ChamadaList {
                                 <?php
                                     if($lista_alunos){
 
-                                        foreach($lista_alunos as $aluno){   
+                                        foreach($lista_alunos as $aluno){
 
                                             $curso = new Cursos();
                                             $curso->getObject($aluno->cd_curso);
@@ -47,13 +47,13 @@ class ChamadaList {
                                                 </tr>
                                             <?php
                                         }
-                                    }
-                                    else{
+
+                                    } else{
                                         ?>
                                             <tbody>
                                                 <tr>
                                                     <td colspan="7">
-                                                        <center>N&atilde;o foram encontrados alunos para realizar chamada nesta turma hoje !</center>
+                                                        <center>Nenhum aluno encontrado para realizar chamada nesta turma hoje</center>
                                                     </td>
                                                 </tr>
                                             </tbody>

@@ -553,3 +553,106 @@ Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 16:16:18
 Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 16:16:55
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 16:16:58
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 16:17:11
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 16:17:55
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 16:17:56
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 16:17:56
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 16:17:57
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 16:17:57
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:17:58
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 16:17:59
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 16:18:44
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:18:46
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 16:18:47
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:18:48
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:20:03
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:22:11
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:22:11
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:22:11
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:22:26
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:22:27
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:22:27
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:22:27
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:23:04
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:23:04
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:23:05
+Foi realizada uma consulta dos alunos da turma 102 para realizar a chamada do dia: 2020-09-30 16:23:10
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:23:11
+Foi realizada uma consulta dos alunos da turma 701 para realizar a chamada do dia: 2020-09-30 16:23:16
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:23:17
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:23:44
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:23:45
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:23:45
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:23:45
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:23:46
+Foi realizada uma consulta dos alunos da turma 102 para realizar a chamada do dia: 2020-09-30 16:23:50
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:23:51
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:23:51
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:24:38
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:24:38
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:24:39
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:24:39
+Foi realizada uma consulta dos alunos da turma 102 para realizar a chamada do dia: 2020-09-30 16:24:43
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:24:43
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:24:43
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:24:43
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:00
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:01
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:01
+Foi realizada uma consulta das faltas justificadas - 2020-09-30 16:26:02
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:03
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:05
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:06
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:06
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:06
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:06
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:07
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:07
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:08
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:08
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:09
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:09
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:09
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:09
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:10
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:10
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:10
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:10
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:11
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:11
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:11
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:11
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:12
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:12
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:12
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:12
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:26:50
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:27:04
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:27:05
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:27:05
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:27:05
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:27:16
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:27:21
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:30:04
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:30:05
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:30:05
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:30:06
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:30:43
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:30:44
+Foi realizada uma consulta dos alunos da turma 102 para realizar a chamada do dia: 2020-09-30 16:30:49
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 16:34:46
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:35:32
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:35:33
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:35:33
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:35:33
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:35:34
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:36:03
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:36:03
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:36:03
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:36:16
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:36:17
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:36:17
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:36:17
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:37:01
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:37:39
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:37:40
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 16:37:40
