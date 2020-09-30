@@ -1485,3 +1485,82 @@ Foi realizada uma consulta das faltas justificadas - 2020-09-30 20:17:16
 Falta justificada recusada com sucesso - 2020-09-30 20:18:03
 Foi realizada uma consulta das faltas justificadas - 2020-09-30 20:18:03
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:18:08
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:20:57
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:20:57
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:21:00
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:21:12
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:21:39
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:21:40
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:21:41
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:21:42
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:21:43
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:21:44
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:21:45
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:21:47
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:21:48
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:21:49
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:21:50
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:21:51
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:21:51
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:21:58
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:22:00
+Foi realizada uma consulta dos cursos pela descriçao: 'an' - 2020-09-30 20:22:04
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:22:08
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:22:10
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:22:12
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:22:14
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:22:17
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:22:17
+Foi realizada uma consulta das faltas justificadas - 2020-09-30 20:22:21
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:22:27
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:23:15
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:23:16
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:23:17
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:23:17
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:23:19
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:23:19
+Foi realizada uma consulta das faltas justificadas - 2020-09-30 20:23:20
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:23:21
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:23:23
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:23:26
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:23:30
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:23:57
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:24:01
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:24:01
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:24:03
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:24:03
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:24:05
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:24:06
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:24:07
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:24:07
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:24:57
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-09-30 20:25:03
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-09-30 20:25:13
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:25:33
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:25:33
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:25:34
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:25:37
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 20:25:37
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:25:38
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:25:38
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:25:38
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:25:38
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:25:38
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:25:39
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:25:39
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:25:39
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:25:40
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:25:40
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:25:40
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:25:40
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 20:25:40
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:25:46
+Foi realizada uma consulta das faltas justificadas - 2020-09-30 20:25:48
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:25:49
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-09-30 20:26:01
+Chamada realizada com sucesso - 2020-09-30 20:26:14
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 20:26:14
+Falta justificada registrada com sucesso - 2020-09-30 20:26:54
+Foi realizada uma consulta das faltas justificadas - 2020-09-30 20:26:54
+Falta justificada aceita com sucesso - 2020-09-30 20:27:16
+Foi realizada uma consulta das faltas justificadas - 2020-09-30 20:27:16
