@@ -8,8 +8,12 @@ extract($_GET);
 if(isset($evento)){
     switch($evento){
         
-        case '':
-            echo "teste";
+        case 'novo_curso':
+            echo "teste novo curso";
+        break;
+
+        case 'edita_curso':
+        	echo "teste edita curso";
         break;
     }
 }

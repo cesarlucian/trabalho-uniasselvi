@@ -455,3 +455,12 @@ Foi realizada uma consulta das faltas justificadas - 2020-09-30 11:29:00
 Foi realizada uma consulta das faltas justificadas - 2020-09-30 11:48:47
 Foi realizada uma consulta das faltas justificadas - 2020-09-30 11:48:48
 Foi realizada uma consulta das faltas justificadas - 2020-09-30 11:48:48
+Foi realizada uma consulta das faltas justificadas - 2020-09-30 11:49:16
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 11:49:18
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 11:49:19
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 11:49:19
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 11:49:20
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 11:49:21
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 11:49:22
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 11:49:22
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 11:49:23
