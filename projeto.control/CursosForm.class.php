@@ -44,7 +44,8 @@ class CursosForm {
                 <div class="row">
 
                     <div class="col-md-3 col-lg-3">
-                        <input class="form-control" type="text" name="teste" id="teste">
+                        <label>Nome do curso*</label>
+                        <input class="form-control" type="text" name="ds_curso" id="ds_curso">
                     </div>
 
                 </div>
@@ -56,6 +57,9 @@ class CursosForm {
                 </div>
             </form>
         </main>
+        <script type="text/javascript">
+            
+        </script>
 
         <?php
     }
@@ -80,7 +84,8 @@ class CursosForm {
                 <div class="row">
 
                     <div class="col-md-3 col-lg-3">
-                        <input class="form-control" type="text" name="teste" id="teste">
+                        <label>Nome do curso*</label>
+                        <input class="form-control" type="text" name="ds_curso" id="ds_curso" value="<?= $curso->ds_curso; ?>">
                     </div>
 
                 </div>
