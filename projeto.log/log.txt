@@ -1602,3 +1602,22 @@ Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 21:01:34
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 21:01:46
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 21:02:45
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 21:03:12
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 21:03:12
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 21:03:13
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 21:03:14
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 21:03:14
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 21:03:15
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 21:03:16
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 21:03:17
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 21:03:21
+O aluno ID: '40' foi editado na base de dados - 2020-09-30 21:03:24
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 21:03:29
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 21:03:30
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 21:03:31
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 21:03:32
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 21:03:36
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 21:04:04
+Foi inserido um novo aluno na base de dados - 2020-09-30 21:04:35
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 21:05:58
+Foi inserido um novo aluno na base de dados - 2020-09-30 21:06:33
