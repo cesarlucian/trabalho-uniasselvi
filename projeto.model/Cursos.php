@@ -216,7 +216,7 @@ class Cursos {
 
             if($ds_curso) {
 
-                $sql_ds_curso = " AND ds_curso like '%$ds_curso%' ";
+                $sql_ds_curso = " WHERE ds_curso like '%$ds_curso%' ";
             }
 
             $sql = "SELECT * FROM cursos "

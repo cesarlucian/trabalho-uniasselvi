@@ -5,13 +5,8 @@ class CursosForm {
     static function pesquisa(){
      
         ?>  
-            <main class="card-padrao">
                 <form action="../cursos/cursos_man.php" method="GET" id="pesquisar" name="pesquisa" role="form"> 
                     <h3 class="box-title">Cursos</h3><br>
-                    <div class="row">
-
-                        <div id="pesquisa_curso" class="col-md-4 col-lg-4">
-                            <label>Pesquisar curso</label>
                             <input type="text" name="ds_curso" id="ds_curso" class="form-control">
                         </div>
 
@@ -34,7 +29,7 @@ class CursosForm {
         <main class="card-padrao">
             <form action="../cursos/cursos_man.php" method="POST" id="novo_curso" name="novo_curso" role="form">
                 <input type="hidden" name="evento" id="evento" value="novo_curso">
-                <h3 class="box-title">Cadastro de cursos</h3>
+                <h3 class="box-title">Cadastro de curso</h3>
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
                         <label>(*) Campos Obrigat&oacute;rios</label><br><br>

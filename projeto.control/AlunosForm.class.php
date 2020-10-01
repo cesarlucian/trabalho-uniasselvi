@@ -105,7 +105,7 @@ class AlunosForm {
         <div class="nav-tabs-custom">
                 <main class="card-padrao">
                     <form name="novo_aluno" id="novo_aluno" action="../alunos/alunos_man.php" method="POST">
-                        <h3 class="box-title">Cadastro de alunos</h3><br>
+                        <h3 class="box-title">Cadastro de aluno</h3><br>
                         <input type="hidden" name="evento" id="evento" value="novo_aluno" />
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
@@ -376,7 +376,7 @@ class AlunosForm {
                                             }
                                         ?>
 
-                                        <option value="aluno->ds_sexo" selected="selected"><?= $desc_sexo; ?></option>
+                                        <option value="<?= $aluno->ds_sexo; ?>" selected="selected"><?= $desc_sexo; ?></option>
                                         <option value="M">Masculino</option>
                                         <option value="F">Feminino</option>
                                         <option value="O">Outros</option>
@@ -465,7 +465,7 @@ class AlunosForm {
                         <div class="col-lg-12 col-md-12"><br>
                         <center>
                             <button type="submit" class="btn btn-success" onclick="return aviso();"><i class="fa fa-search">Salvar</button>
-                            <button type="submit" class="btn btn-danger" onclick="excluir('<?= $aluno->cd_aluno; ?>');"><i class="fa fa-search">Salvar</button>    
+                            <button type="submit" class="btn btn-danger" onclick="excluir('<?= $aluno->cd_aluno; ?>');"><i class="fa fa-search">Excluir</button>    
                             <a href="/trabalho-uniasselvi/projeto.view/alunos/consulta_alunos.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                         </center>
                     </div> 

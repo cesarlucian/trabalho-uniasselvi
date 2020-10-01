@@ -247,7 +247,7 @@ class Turmas {
         }
     }
 
-    static function getTotal($cd_curso){
+    static function getTotalTurmas($cd_curso){
         try{
             TTransaction::open();
 
