@@ -329,8 +329,7 @@ class AlunosForm {
             $turma->getObject($aluno->cd_turma);
         ?>
         <div class="nav-tabs-custom">
-            <section class="content">
-            <main class="form">
+            <main class="card-padrao">
                 <form class="form" name="edita_aluno" id="edita_aluno" action="../alunos/alunos_man.php" method="POST">
                     <h3 class="box-title">Editar aluno</h3><br>
                     <input type="hidden" name="cd_aluno" id="cd_aluno" value="<?= $aluno->cd_aluno; ?>" />
@@ -473,7 +472,6 @@ class AlunosForm {
                         </div>
                         </form>
                     </main>
-                </section>
             </div>
         <script type="text/javascript">
 

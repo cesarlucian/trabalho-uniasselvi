@@ -1758,3 +1758,12 @@ Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30
 Foi inserido um novo aluno na base de dados - 2020-09-30 21:04:35
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 21:05:58
 Foi inserido um novo aluno na base de dados - 2020-09-30 21:06:33
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 21:14:51
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 21:14:52
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 21:14:54
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 21:14:56
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-09-30 21:14:57
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 21:14:59
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-09-30 21:14:59
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-09-30 21:15:02
+Foi inserido um novo aluno na base de dados - 2020-09-30 21:15:26
