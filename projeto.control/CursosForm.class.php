@@ -5,8 +5,13 @@ class CursosForm {
     static function pesquisa(){
      
         ?>  
-                <form action="../cursos/cursos_man.php" method="GET" id="pesquisar" name="pesquisa" role="form"> 
+            <main class="card-padrao">
+                <form action="../cursos/consulta_cursos.php" method="GET" id="pesquisar" name="pesquisa" role="form"> 
                     <h3 class="box-title">Cursos</h3><br>
+                    <div class="row">
+
+                        <div id="pesquisa_curso" class="col-md-4 col-lg-4">
+                            <label>Pesquisar curso</label>
                             <input type="text" name="ds_curso" id="ds_curso" class="form-control">
                         </div>
 
