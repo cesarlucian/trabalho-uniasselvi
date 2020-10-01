@@ -20,7 +20,7 @@ class ChamadaForm {
                     </div>
                     <div class="row">
 
-                        <div id="popup_curso" class="col-lg-5 col-md-5">
+                        <div id="popup_curso" class="col-lg-9 col-md-9">
                             <label>Curso*</label>
                             <div class="input-group">
                                 <input type="text" class="form-control" id="ds_curso" name="ds_curso" readonly="true"/>
@@ -50,17 +50,19 @@ class ChamadaForm {
 
                         <div class="col-lg-2 col-md-2">
                             <label> &nbsp;</label><br>
-                            <a type="button" href="../faltas/consulta_faltas.php" class="btn btn-primary">Analisar faltas justificadas</a>  
+                            
                         </div>
 
                         <div class="col-lg-2 col-md-2">
                             <label> &nbsp;</label><br>
-                            <a type="button" class="btn btn-primary" href="../faltas/registra_falta.php">Registrar falta justificada</a>  
+                            
                         </div>
 
                         <div class="col-lg-12 col-md-12"><br>
                             <center>
                                 <button type="submit" class="btn btn-primary" onclick="return aviso();"><i class="fa fa-search">Pesquisar</button>
+                                    <a type="button" href="../faltas/consulta_faltas.php" class="btn btn-primary">Analisar faltas justificadas</a>  
+                                    <a type="button" class="btn btn-primary" href="../faltas/registra_falta.php">Registrar falta justificada</a>  
                             </center>
                         </div>
                     </div> 
