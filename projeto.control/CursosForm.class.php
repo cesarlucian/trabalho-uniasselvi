@@ -41,24 +41,55 @@ class CursosForm {
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row" id="adiciona_turma">
 
-                    <div class="col-md-3 col-lg-3">
+                    <div class="col-md-4 col-lg-4">
                         <label>Nome do curso*</label>
                         <input class="form-control" type="text" name="ds_curso" id="ds_curso">
                     </div>
 
+                    <div class="col-md-3 col-lg-3">
+                        <label>&nbsp;</label><br>
+                        <a type="button" class="btn btn-primary" href="#" id="addScnt">adicionar turma</a>
+                    </div>
+
+                    <div class="col-lg-2 col-md-2">
+                        <label for="turma">Turma 1*</label>
+                        <input class="form-control" type="number" id="turma" name="turma" required="true">
+                    </div>
+
                 </div>
+
+                
+
                 <div class="col-md-12 col-lg-12">
                     <center>
-                        <button type="submit" class="btn btn-success"><i class="fa fa-search">Cadastrar</button>
+                        <br><button type="submit" class="btn btn-success"><i class="fa fa-search">Cadastrar</button>
                         <a href="/trabalho-uniasselvi/projeto.view/cursos/consulta_cursos.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                     </center>
                 </div>
             </form>
         </main>
-        <script type="text/javascript">
-            
+        <script>
+
+            $(function() {
+                    var scntDiv = $('#adiciona_turma');
+                    var i = $('#adiciona_turma p').size() + 1;
+                    
+                    $('#addScnt').live('click', function() {
+                            $('<p><div class="col-lg-2 col-md-2"><label for="turma'+i+'">Turma '+i+'*</label><div class="input-group"><input class="form-control" type="number" id="turma'+i+'" name="turma'+i+'" required="true"><div class="input-group-btn"><a class="btn btn-primary" href="#" id="remScnt">Remover</a></div></div></div></p>').appendTo(scntDiv);
+                            i++;
+                            return false;
+                    });
+                    
+                    $('#remScnt').live('click', function() { 
+                            if( i > 2 ) {
+                                    $(this).parents('p').remove();
+                                    i--;
+                            }
+                            return false;
+                    });
+            });
         </script>
 
         <?php
@@ -83,7 +114,7 @@ class CursosForm {
 
                 <div class="row">
 
-                    <div class="col-md-3 col-lg-3">
+                    <div class="col-md-5 col-lg-5">
                         <label>Nome do curso*</label>
                         <input class="form-control" type="text" name="ds_curso" id="ds_curso" value="<?= $curso->ds_curso; ?>">
                     </div>
@@ -97,6 +128,9 @@ class CursosForm {
                 </div>
             </form>
         </main>
+        <script type="text/javascript">
+            
+        </script>
 
 
 

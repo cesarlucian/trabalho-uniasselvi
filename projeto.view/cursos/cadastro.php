@@ -20,6 +20,7 @@ extract($_GET);
 			</section>
 		<script src="../../js/bootstrap.min.js" type="text/javascript"></script>
 		<script src="../../js/plugins/input-mask/jquery.inputmask.js" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
 		</div>
 		<?php
 
