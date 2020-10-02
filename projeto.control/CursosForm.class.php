@@ -48,7 +48,10 @@ class CursosForm {
                         <input class="form-control" type="text" name="ds_curso" id="ds_curso">
                     </div>
 
-                    
+                    <div class="col-md-2 col-lg-2">
+                        <label>Turma*</label>
+                        <input class="form-control" type="number" id="turma'+i+'" name="turma[]" required="true">
+                    </div>
 
                     <div class="col-md-3 col-lg-3">
                         <label>&nbsp;</label><br>
