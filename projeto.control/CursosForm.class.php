@@ -43,7 +43,7 @@ class CursosForm {
 
                 <div class="row">
                 
-                    <div class="col-md-4 col-lg-4">
+                    <div class="col-md-5 col-lg-5">
                         <label>Nome do curso*</label>
                         <input class="form-control" type="text" name="ds_curso" id="ds_curso">
                     </div>
@@ -57,7 +57,7 @@ class CursosForm {
                         </select>
                     </div>
 
-                    <div id="turmas_disponiveis" class="col-md-3 col-lg-3 hidden">
+                    <div id="turmas_disponiveis" class="col-md-4 col-lg-4 hidden">
                         <label>Turmas dispon&iacute;veis</label>
                         <select class="form-control" id="turmas_disponiveis" name="turmas_disponiveis" required="true">
                             <option>Nenhuma turma dispon&iacute;vel</option>
@@ -73,7 +73,7 @@ class CursosForm {
                         <input class="form-control" type="number" id="turma'+i+'" name="turma[]" required="true">
                     </div>
 
-                    <div id="botao_nova_turma" class="col-md-3 col-lg-3 hidden">
+                    <div id="botao_nova_turma" class="col-md-2 col-lg-2 hidden">
                         <label>&nbsp;</label><br>
                         <button type="button" class="btn btn-primary" href="#" id="addScnt">+</button>
                     </div>
