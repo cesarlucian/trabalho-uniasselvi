@@ -130,10 +130,16 @@ h3.box-title {
 .table-responsive {
     border-top: 1px solid #ddd;
 }
+
 textarea {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 
   width: 100%;
+}
+
+.campo-turma {
+    display: flex;
+    flex-direction: row;
 }

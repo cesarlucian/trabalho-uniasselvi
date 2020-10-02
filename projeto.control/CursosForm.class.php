@@ -126,7 +126,7 @@ class CursosForm {
                 var i = $('#adiciona_turma p').size() + 1;
                 
                 $('#addScnt').live('click', function() {
-                    $('<p><label>Nova turma*</label><br><input class="campo1" type="number" id="turma" name="turma[]" style="width:100px;" required="true"><a class="btn btn-primary" href="#" id="remScnt">Remover</a></p>').appendTo(scntDiv);
+                    $('<label>Nova turma*</label><div class="campo-turma"><input class="form-control" type="number" id="turma" name="turma[]" style="width:100px;" required="true"><a class="btn btn-primary" href="#" id="remScnt">Remover</a></div>').appendTo(scntDiv);
                     i++;
 
                     if( i == 6 ) {
