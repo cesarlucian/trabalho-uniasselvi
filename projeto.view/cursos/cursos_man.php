@@ -9,7 +9,8 @@ if(isset($evento)){
     switch($evento){
         
         case 'novo_curso':
-            echo "teste novo curso";
+            print_r($turma);
+            print $ds_curso;
         break;
 
         case 'edita_curso':
