@@ -41,25 +41,28 @@ class CursosForm {
                     </div>
                 </div>
 
-                <div class="row" id="adiciona_turma">
+                <div class="row">
+                
                     <div class="col-md-4 col-lg-4">
                         <label>Nome do curso*</label>
                         <input class="form-control" type="text" name="ds_curso" id="ds_curso">
                     </div>
 
-                    <div class="col-md-2 col-lg-2">
-                        <label>Turma 1*</label>
-                        <input class="form-control" type="number" id="turma" name="turma" required="true">
-                    </div>
-
                 </div>
 
+                <div id="adiciona_turma">
+                     <p>
+                        <label>Turma 1*</label>
+                        <input class="form-control" type="number" id="turma" style="width:100px;"  name="turma" required="true">
+                     </p>
+                </div>
+                    
+                
                 <div class="col-md-3 col-lg-3">
                     <label>&nbsp;</label><br>
-                    <a type="button" class="btn btn-primary" href="#" id="addScnt">adicionar turma</a>
+                    <button type="button" class="btn btn-primary" href="#" id="addScnt">adicionar turma</button>
                 </div>
                 
-
                 <div class="col-md-12 col-lg-12">
                     <center>
                         <br><button type="submit" class="btn btn-success"><i class="fa fa-search">Cadastrar</button>
@@ -76,15 +79,25 @@ class CursosForm {
                     var i = $('#adiciona_turma p').size() + 1;
                     
                     $('#addScnt').live('click', function() {
-                            $('<p><div class="col-lg-2 col-md-2"><label>Turma '+i+'*</label><div class="input-group"><input class="form-control" type="number" id="turma'+i+'" name="turma'+i+'" required="true"><div class="input-group-btn"><a class="btn btn-primary" href="#" id="remScnt">Remover</a></div></div></div></p>').appendTo(scntDiv);
+                            $('<p><label>Turma '+i+'*</label><input class="form-control" type="number" id="turma'+i+'" name="turma'+i+'" style="width:100px;" required="true"><a class="btn btn-primary" href="#" id="remScnt">Remover</a></p>').appendTo(scntDiv);
                             i++;
+
+                            if( i == 6 ) {
+                                document.getElementById("addScnt").disabled = true;
+                            }
+
                             return false;
                     });
                     
                     $('#remScnt').live('click', function() { 
                             if( i > 2 ) {
-                                    $(this).parents('p').remove();
-                                    i--;
+                                $(this).parents('p').remove();
+                                i--;
+                            }
+
+                            if(i < 6) {
+
+                                document.getElementById("addScnt").disabled = false;
                             }
                             return false;
                     });
