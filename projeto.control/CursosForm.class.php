@@ -48,22 +48,19 @@ class CursosForm {
                         <input class="form-control" type="text" name="ds_curso" id="ds_curso">
                     </div>
 
+                    
+
                     <div class="col-md-3 col-lg-3">
                         <label>&nbsp;</label><br>
-                        <button type="button" class="btn btn-primary" href="#" id="addScnt">adicionar turma</button>
+                        <button type="button" class="btn btn-primary" href="#" id="addScnt">Adicionar turma</button>
                     </div>
 
-                </div>
+                </div><br>
 
                 <div class="row">
-
                     <div class="col-md-5 col-lg-5" id="adiciona_turma">
-                         <p>
-                            <label>Turma 1*</label>
-                            <input class="campo1" type="number" id="turma1" style="width:100px;"  name="turma[]" required="true">
-                         </p>
+                        
                     </div>
-
                 </div>
 
                 <div class="col-md-12 col-lg-12">
@@ -82,7 +79,7 @@ class CursosForm {
                     var i = $('#adiciona_turma p').size() + 1;
                     
                     $('#addScnt').live('click', function() {
-                            $('<p><label>Turma '+i+'*</label><input class="campo1" type="number" id="turma'+i+'" name="turma[]" style="width:100px;" required="true"><a class="btn btn-primary" href="#" id="remScnt">Remover</a></p>').appendTo(scntDiv);
+                            $('<p><label>Nova turma*</label><br><input class="campo1" type="number" id="turma'+i+'" name="turma[]" style="width:100px;" required="true"><a class="btn btn-primary" href="#" id="remScnt">Remover</a></p>').appendTo(scntDiv);
                             i++;
 
                             if( i == 6 ) {
@@ -93,7 +90,7 @@ class CursosForm {
                     });
                     
                     $('#remScnt').live('click', function() { 
-                            if( i > 2 ) {
+                            if( i > 1 ) {
                                 $(this).parents('p').remove();
                                 i--;
                             }
