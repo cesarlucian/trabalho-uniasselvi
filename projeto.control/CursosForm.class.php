@@ -60,7 +60,7 @@ class CursosForm {
                     <div class="col-md-5 col-lg-5" id="adiciona_turma">
                          <p>
                             <label>Turma 1*</label>
-                            <input class="form-control" type="number" id="turma1" style="width:100px;"  name="turma[]" required="true">
+                            <input class="campo1" type="number" id="turma1" style="width:100px;"  name="turma[]" required="true">
                          </p>
                     </div>
 
@@ -82,7 +82,7 @@ class CursosForm {
                     var i = $('#adiciona_turma p').size() + 1;
                     
                     $('#addScnt').live('click', function() {
-                            $('<p><label>Turma '+i+'*</label><input class="form-control" type="number" id="turma'+i+'" name="turma[]" style="width:100px;" required="true"><a class="btn btn-primary" href="#" id="remScnt">Remover</a></p>').appendTo(scntDiv);
+                            $('<p><label>Turma '+i+'*</label><input class="campo1" type="number" id="turma'+i+'" name="turma[]" style="width:100px;" required="true"><a class="btn btn-primary" href="#" id="remScnt">Remover</a></p>').appendTo(scntDiv);
                             i++;
 
                             if( i == 6 ) {
