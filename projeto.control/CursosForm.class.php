@@ -75,7 +75,7 @@ class CursosForm {
 
                     <div id="botao_nova_turma" class="col-md-3 col-lg-3 hidden">
                         <label>&nbsp;</label><br>
-                        <button type="button" class="btn btn-primary" href="#" id="addScnt">Adicionar turma</button>
+                        <button type="button" class="btn btn-primary" href="#" id="addScnt">+</button>
                     </div>
 
                 </div><br>
