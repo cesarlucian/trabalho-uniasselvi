@@ -148,6 +148,11 @@ form .title {
     margin-top: 0;
 }
 
-/* button .btn {
-    margin: 10px;
-} */
+div.alert {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 15px;
+    font-size: 18px
+}

@@ -1999,3 +1999,6 @@ Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-03
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-03 10:43:12
 Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-03 10:43:50
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-03 10:44:29
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-03 10:46:27
+O aluno ID: '49' foi editado na base de dados - 2020-10-03 10:46:38
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-03 11:00:19

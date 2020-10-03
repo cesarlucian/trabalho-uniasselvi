@@ -43,12 +43,11 @@ class MensagemForm {
             $titulo = '';
         }
         ?>
-            <div class="alert <?= $class_alert; ?> alert-dismissible fade in" style='font-size:18px'>
-                <i class="fa <?= $class_info; ?>"></i>
+            <div class="mx-5 my-3 alert <?= $class_alert; ?> alert-dismissible fade in">
+                <?= utf8_decode($texto); ?>
                 <?php if($tipo < 3){ ?>
                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">x</button>
                 <?php } ?>
-                <?= utf8_decode($texto); ?>
             </div>
         <?php
     }
