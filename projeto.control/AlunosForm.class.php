@@ -32,9 +32,7 @@ class AlunosForm {
         ?>  
             <main class="card-padrao">
                 <form action="../alunos/consulta_alunos.php" method="GET" name="pesquisa" role="form"> 
-                    <h3 class="box-title">Alunos</h3><br>
                     <div class="row">
-
                         <div id="div_filtro" class="col-md-2 col-lg-2">
                             <label>Filtrar por:</label>
                             <select id="filtro" name="filtro" class="form-control" onchange="buscaFiltro();">
@@ -55,18 +53,16 @@ class AlunosForm {
 
                         <div id="pesquisa_aluno" class="col-md-8 col-lg-8">
                             <label>Pesquisar</label>
-                            <input type="text" name="ds_aluno" id="ds_aluno" class="form-control">
+                            <div class="input-button-inline">
+                                <input type="text" name="ds_aluno" id="ds_aluno" class="form-control">
+                                <button type="submit" class="btn btn-primary mx-3"><i class="fa fa-search">Pesquisar</button>
+                                <button type="button" class="btn btn-success pull-right" onclick="window.location = 'cadastro.php'">Inserir novo</button> 
+                            </div>
                         </div>
 
                         <div id="pesquisa_curso" class="col-md-10 col-lg-10 hidden">
                             <label>Pesquisar</label>
                             <input type="text" name="ds_curso" id="ds_curso" class="form-control">
-                        </div>
-
-                        <div class="col-lg-12 col-md-12"><br>
-                            <center>
-                                <button type="submit" class="btn btn-primary"><i class="fa fa-search">Pesquisar</button>
-                            </center>
                         </div>
                     </div> 
                 </form>
@@ -317,7 +313,7 @@ class AlunosForm {
         <?php
     }
 
-        static function editaAluno($cd_aluno) {
+    static function editaAluno($cd_aluno) {
 
             $aluno = new Alunos();
             $aluno->getObject($cd_aluno);

@@ -7,20 +7,16 @@ class CursosForm {
         ?>  
             <main class="card-padrao">
                 <form action="../cursos/consulta_cursos.php" method="GET" id="pesquisar" name="pesquisa" role="form"> 
-                    <h3 class="box-title">Cursos</h3><br>
                     <div class="row">
-
-                        <div id="pesquisa_curso" class="col-md-4 col-lg-4">
+                        <div id="pesquisa_curso" class="col-md-12 col-lg-12">
                             <label>Pesquisar curso</label>
-                            <input type="text" name="ds_curso" id="ds_curso" class="form-control">
+                            <div class="input-button-inline">
+                                <input type="text" name="ds_curso" id="ds_curso" class="form-control">
+                                <button type="submit" class="btn btn-primary mx-3"><i class="fa fa-search">Pesquisar</button>
+                                <button type="button" class="btn btn-success pull-right" onclick="window.location = 'cadastro.php'">Inserir novo</button>
+                            </div>
                         </div>
-
-                        <div class="col-lg-12 col-md-12"><br>
-                            <center>
-                                <button type="submit" class="btn btn-primary"><i class="fa fa-search">Pesquisar</button>
-                            </center>
-                        </div>
-                    </div> 
+                    </div>
                 </form>
                 <script>
                 </script>
@@ -126,7 +122,7 @@ class CursosForm {
                 var i = $('#adiciona_turma p').size() + 1;
                 
                 $('#addScnt').live('click', function() {
-                    $('<label>Nova turma*</label><div class="campo-turma"><input class="form-control" type="number" id="turma" name="turma[]" style="width:100px;" required="true"><a class="btn btn-primary" href="#" id="remScnt">Remover</a></div>').appendTo(scntDiv);
+                    $('<label>Nova turma*</label><div class="input-button-inline"><input class="form-control" type="number" id="turma" name="turma[]" style="width:100px;" required="true"><a class="btn btn-danger mx-3" href="#" id="remScnt">Remover</a></div>').appendTo(scntDiv);
                     i++;
 
                     if( i == 6 ) {

@@ -7,7 +7,7 @@ class ChamadaForm {
         ?>  
             <main class="card-padrao">
                 <form action="../chamada/consulta_chamada.php" method="GET" name="pesquisa_chamada" id="pesquisa_chamada" role="form">
-                <h3 class="box-title">Chamada</h3><br> 
+                <h3 class="title">Chamada</h3><br> 
                     <div class="row">
                         <div class="col-lg-12 col-md-12">
                             <label>(*) Campos Obrigat&oacute;rios</label><br><br>
@@ -19,7 +19,6 @@ class ChamadaForm {
                         </div>
                     </div>
                     <div class="row">
-
                         <div id="popup_curso" class="col-lg-9 col-md-9">
                             <label>Curso*</label>
                             <div class="input-group">

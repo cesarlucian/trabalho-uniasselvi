@@ -139,7 +139,15 @@ textarea {
   width: 100%;
 }
 
-.campo-turma {
+.input-button-inline {
     display: flex;
     flex-direction: row;
 }
+
+form .title {
+    margin-top: 0;
+}
+
+/* button .btn {
+    margin: 10px;
+} */
