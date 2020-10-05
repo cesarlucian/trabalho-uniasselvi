@@ -2314,3 +2314,153 @@ Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using pa
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:30:32
 Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:30:32
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:30:32
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:34:29
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:34:29
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:34:29
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:34:29
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:34:29
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:34:29
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:34:58
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:34:58
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:35:01
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:35:01
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:35:01
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:35:22
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:35:22
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:35:22
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:36:12
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:36:12
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:36:12
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:36:13
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:36:13
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:36:13
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:36:26
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:36:26
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:36:30
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:36:30
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:36:30
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:36:37
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:36:37
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:36:37
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:36:39
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:36:39
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:36:39
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:36:41
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:36:41
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:36:53
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:36:53
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:36:53
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:37:06
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:37:06
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:37:06
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:37:08
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:37:08
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:37:09
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:37:09
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:37:09
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:37:12
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:37:12
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:37:13
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:37:13
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:37:13
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:38:00
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:38:00
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:38:00
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:38:00
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:38:00
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:38:00
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:38:02
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:38:02
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:38:02
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:38:03
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:38:03
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:38:03
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:38:03
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:38:03
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:38:03
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:38:04
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:38:04
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:38:04
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:38:04
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:38:04
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:38:04
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:38:05
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:38:05
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:38:05
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:38:06
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:38:06
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:38:06
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:38:06
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:38:06
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:38:06
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:38:07
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:38:07
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:38:07
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:39:01
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:39:01
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:40:38
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:40:38
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:40:39
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:40:39
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:40:39
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:40:45
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:40:45
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:42:14
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:42:14
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:42:14
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:42:28
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:42:28
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:42:34
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:42:34
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:42:34
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:43:10
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:43:10
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:43:10
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:43:12
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:43:12
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:43:25
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:43:25
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:43:27
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:43:27
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:43:27
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:43:29
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:43:29
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:49:53
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:49:53
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:57:38
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:57:38
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:57:39
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:57:39
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:57:39
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:57:39
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:57:39
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:57:39
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:57:41
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 10:57:41
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:57:41
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:57:42
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:57:42
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:58:11
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:58:11
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:58:11
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:58:11
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:58:11
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:58:11
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:59:39
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:59:39
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:59:39
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:59:39
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:59:40
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:59:40
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:59:40
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:59:40
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:59:41
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:59:41
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:59:42
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:59:42
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:59:43
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:59:43
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:59:57
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:59:57
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 10:59:58
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 10:59:58

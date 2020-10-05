@@ -309,7 +309,75 @@ class Chamada {
         }
     }
 
+    static function listaFaltasPag($cd_aluno = null,$dt_falta = null,$pag = 1){
+        try{
+            TTransaction::open();
 
+            $sql_aluno = $sql_data = $sql_ambos = null;
+            
+            $offset = (($pag-1)*6);
+
+            if($cd_aluno) {
+
+                $sql_aluno = " AND chamada.cd_aluno = $cd_aluno ";
+            }
+
+            if($dt_falta) {
+
+                $sql_data = " AND chamada.dt_chamada = '$dt_falta' ";
+            }
+
+            if($cd_aluno & $dt_falta) {
+
+                $sql_aluno = "";
+                $sql_data = "";
+                $sql_ambos = " AND chamada.cd_aluno = $cd_aluno AND chamada.dt_chamada = '$dt_falta' ";
+            }
+
+            $sql = "SELECT * FROM chamada "
+                    ."WHERE situacao_chamada = 'F' "
+                    ."$sql_aluno"
+                    ."$sql_data"
+                    ."$sql_ambos"
+                    ."ORDER BY dt_chamada "  
+                    ."LIMIT 6 "
+                    ."OFFSET $offset "; 
+
+            print($sql);
+
+            $conn = TTransaction::get();
+            $result = $conn->query($sql);
+            
+            $lista_alunos = null;
+            if($result){
+                foreach($result as $data){
+
+                    $aluno = new Chamada();                    
+                    
+                    foreach($data as $key=>$campo){
+                        $aluno->$key = $campo;
+                    }
+                    
+                    $lista_alunos[] = $aluno;
+                    
+                    unset($aluno);
+                }
+                
+                if(isset($lista_alunos)){                    
+                    return $lista_alunos;
+                }
+            }  
+            unset($conn);
+            
+            return false;
+            
+        } catch (Exception $ex) { 
+
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+
+        }
+    }
 }
 
 
