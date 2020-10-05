@@ -59,9 +59,7 @@ class ChamadaForm {
 
                         <div class="col-lg-12 col-md-12"><br>
                             <center>
-                                <button type="submit" class="btn btn-primary" onclick="return aviso();"><i class="fa fa-search">Pesquisar</button>
-                                    <a type="button" href="../faltas/consulta_faltas.php" class="btn btn-primary">Analisar faltas justificadas</a>  
-                                    <a type="button" class="btn btn-primary" href="../faltas/registra_falta.php">Registrar falta justificada</a>  
+                                <button type="submit" class="btn btn-primary" onclick="return aviso();"><i class="fa fa-search">Listar alunos</button>     
                             </center>
                         </div>
                     </div> 
