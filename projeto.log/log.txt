@@ -2002,3 +2002,30 @@ Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-03 10:46:27
 O aluno ID: '49' foi editado na base de dados - 2020-10-03 10:46:38
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-03 11:00:19
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-03 11:01:03
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-03 11:01:16
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-03 11:01:20
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 10:22:27
+Erro: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ - 2020-10-05 10:22:31
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 10:22:58
+Erro: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ - 2020-10-05 10:23:02
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 10:24:25
+Erro: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ - 2020-10-05 10:24:29
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 10:25:15
+Erro: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ - 2020-10-05 10:25:19
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 10:26:44
+Erro: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ - 2020-10-05 10:26:48
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 14:17:48
+Erro: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ - 2020-10-05 14:17:52
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 14:18:07
+Erro: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ - 2020-10-05 14:18:11
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 14:19:09
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 14:19:16
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 14:19:17
