@@ -47,16 +47,6 @@ class ChamadaForm {
                             <input type="hidden" class="form-control" id="cd_turma" name="cd_turma">
                         </div>
 
-                        <div class="col-lg-2 col-md-2">
-                            <label> &nbsp;</label><br>
-                            
-                        </div>
-
-                        <div class="col-lg-2 col-md-2">
-                            <label> &nbsp;</label><br>
-                            
-                        </div>
-
                         <div class="col-lg-12 col-md-12"><br>
                             <center>
                                 <button type="submit" class="btn btn-primary" onclick="return aviso();"><i class="fa fa-search">Listar alunos</button>    
