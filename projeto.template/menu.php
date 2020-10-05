@@ -2,9 +2,10 @@
             <aside class="menu-lateral">
                 <ul class="sidebar-menu">         
                     <li><a href="/trabalho-uniasselvi">Início</a></li>
-                    <li><a href="/trabalho-uniasselvi/projeto.view/alunos/consulta_alunos.php">Alunos</a></li>
-                    <li><a href="/trabalho-uniasselvi/projeto.view/chamada/consulta_chamada.php">Chamada</a></li>
-                    <li><a href="/trabalho-uniasselvi/projeto.view/cursos/consulta_cursos.php">Cursos</a></li>
+                    <li><a href="/trabalho-uniasselvi/projeto.view/alunos/index.php">Alunos</a></li>
+                    <li><a href="/trabalho-uniasselvi/projeto.view/chamada/index.php">Chamada</a></li>
+                    <li><a href="/trabalho-uniasselvi/projeto.view/cursos/index.php">Cursos</a></li>
+                    <li><a href="/trabalho-uniasselvi/projeto.view/turmas/index.php">Turmas</a></li>
                 </ul>
             </aside>
         

@@ -6,7 +6,7 @@ class CursosForm {
      
         ?>  
             <main class="card-padrao">
-                <form action="../cursos/consulta_cursos.php" method="GET" id="pesquisar" name="pesquisa" role="form"> 
+                <form action="../cursos/index.php" method="GET" id="pesquisar" name="pesquisa" role="form"> 
                     <h3 class="title">Cursos</h3><br>
                     <div class="row">
                         <div id="pesquisa_curso" class="col-md-12 col-lg-12">
@@ -53,7 +53,7 @@ class CursosForm {
                 <div class="col-md-12 col-lg-12">
                     <center>
                         <br><button type="submit" class="btn btn-success"><i class="fa fa-search">Cadastrar</button>
-                        <a href="/trabalho-uniasselvi/projeto.view/cursos/consulta_cursos.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
+                        <a href="/trabalho-uniasselvi/projeto.view/cursos/index.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                     </center>
                 </div>
 
@@ -94,7 +94,7 @@ class CursosForm {
                     <center>
                         <button type="submit" class="btn btn-success"><i class="fa fa-search">Salvar</button>
                         <button type="submit" class="btn btn-danger" onclick="excluir('<?= $curso->cd_curso; ?>');"><i class="fa fa-search">Excluir</button>  
-                        <a href="/trabalho-uniasselvi/projeto.view/cursos/consulta_cursos.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
+                        <a href="/trabalho-uniasselvi/projeto.view/cursos/index.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                     </center>
                 </div>
             </form>

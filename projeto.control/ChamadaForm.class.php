@@ -6,7 +6,7 @@ class ChamadaForm {
      
         ?>  
             <main class="card-padrao">
-                <form action="../chamada/consulta_chamada.php" method="GET" name="pesquisa_chamada" id="pesquisa_chamada" role="form">
+                <form action="../chamada/index.php" method="GET" name="pesquisa_chamada" id="pesquisa_chamada" role="form">
                 <h3 class="title">Chamada</h3><br> 
                     <div class="row">
                         <div class="col-lg-12 col-md-12">
@@ -50,7 +50,7 @@ class ChamadaForm {
                         <div class="col-lg-12 col-md-12"><br>
                             <center>
                                 <button type="submit" class="btn btn-primary" onclick="return aviso();"><i class="fa fa-search">Listar alunos</button>
-                                 <a type="button" href="../faltas/consulta_faltas.php" class="btn btn-primary">Gerenciar faltas</a>    
+                                 <a type="button" href="../faltas/index.php" class="btn btn-primary">Gerenciar faltas</a>    
                             </center>
                         </div>
                     </div> 
@@ -105,7 +105,7 @@ class ChamadaForm {
         ?>
 
             <main class="card-padrao">
-                <form action="consulta_faltas.php" method="GET" name="pesquisa_falta" id="pesquisa_falta" role="form">
+                <form action="index.php" method="GET" name="pesquisa_falta" id="pesquisa_falta" role="form">
                     <h3 class="box-title">Faltas</h3><br> 
                     <div class="row">
                         <div class="col-md-9 col-lg-9">
@@ -121,7 +121,7 @@ class ChamadaForm {
                         <div class="col-lg-12 col-md-12"><br>
                             <center>
                                 <button type="submit" class="btn btn-primary"><i class="fa fa-search">Pesquisar</button>
-                                 <a href="/trabalho-uniasselvi/projeto.view/chamada/consulta_chamada.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
+                                 <a href="/trabalho-uniasselvi/projeto.view/chamada/index.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                             </center>
                         </div>
                     </div> 
