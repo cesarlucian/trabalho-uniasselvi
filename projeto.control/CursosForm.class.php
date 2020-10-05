@@ -34,7 +34,7 @@ class CursosForm {
         <main class="card-padrao">
             <form action="../cursos/cursos_man.php" method="POST" id="novo_curso" name="novo_curso" role="form">
                 <input type="hidden" name="evento" id="evento" value="novo_curso">
-                <h3 class="box-title">Cadastro de curso</h3>
+                <h3 class="box-title">Cadastro de curso</h3><br>
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
                         <label>(*) Campos Obrigat&oacute;rios</label><br><br>
@@ -48,7 +48,7 @@ class CursosForm {
                         <input class="form-control" type="text" name="ds_curso" id="ds_curso" required="true">
                     </div>
 
-                    <div class="col-md-3 col-lg-3">
+                    <div class="col-md-4 col-lg-4">
                         <label>Tipo de turma</label>
                         <select class="form-control" id="tipo_turma" name="tipo_turma" onchange="buscaFiltro();" required="true">
                             <option value="">Selecione</option>
@@ -57,7 +57,7 @@ class CursosForm {
                         </select>
                     </div>
 
-                    <div id="turmas_disponiveis" class="col-md-4 col-lg-4 hidden">
+                    <div id="turmas_disponiveis" class="col-md-3 col-lg-3 hidden">
                         <label>Turmas dispon&iacute;veis</label>
                         <select class="form-control" id="turma_disponivel" name="turma_disponivel">
                             <option value="">Nenhuma turma dispon&iacute;vel</option>
@@ -68,15 +68,18 @@ class CursosForm {
                         </select>
                     </div>
 
-                    <div id="nova_turma" class="col-md-2 col-lg-2 hidden">
-                        <label>Nova turma*</label>
-                        <input class="form-control" type="number" id="turma" name="turma[]">
+                    <div id="nova_turma" class="col-md-3 col-lg-3 hidden">
+                        <p>
+                            <label>Nova turma*</label>
+                            <input class="form-control" type="number" id="turma" name="turma[]">
+                            <button type="button" class="btn btn-primary" href="#" id="addScnt">+</button>
+                        </p>
                     </div>
 
-                    <div id="botao_nova_turma" class="col-md-2 col-lg-2 hidden">
+                    <!--<div id="botao_nova_turma" class="col-md-2 col-lg-2 hidden">
                         <label>&nbsp;</label><br>
                         <button type="button" class="btn btn-primary" href="#" id="addScnt">+</button>
-                    </div>
+                    </div>-->
 
                 </div><br>
 
@@ -126,10 +129,10 @@ class CursosForm {
                 var i = $('#adiciona_turma p').size() + 1;
                 
                 $('#addScnt').live('click', function() {
-                    $('<label>Nova turma*</label><div class="input-button-inline"><input class="form-control" type="number" id="turma" name="turma[]" style="width:100px;" required="true"><a class="btn btn-danger mx-3" href="#" id="remScnt">Remover</a></div>').appendTo(scntDiv);
+                    $('<p><label>Nova turma*</label><input class="form-control" type="number" id="turma" name="turma[]" style="width:100px;" required="true"><a class="btn btn-danger mx-3" href="#" id="remScnt">Remover</a></p>').appendTo(scntDiv);
                     i++;
 
-                    if( i == 6 ) {
+                    if( i == 4 ) {
                         document.getElementById("addScnt").disabled = true;
                     }
 
@@ -142,7 +145,7 @@ class CursosForm {
                         i--;
                     }
 
-                    if(i < 6) {
+                    if(i < 4) {
 
                         document.getElementById("addScnt").disabled = false;
                     }
