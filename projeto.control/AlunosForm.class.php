@@ -31,7 +31,9 @@ class AlunosForm {
      
         ?>  
             <main class="card-padrao">
+
                 <form action="../alunos/consulta_alunos.php" method="GET" name="pesquisa" role="form"> 
+                    <h3 class="title">Alunos</h3><br>
                     <div class="row">
                         <div id="div_filtro" class="col-md-2 col-lg-2">
                             <label>Filtrar por:</label>
@@ -55,8 +57,6 @@ class AlunosForm {
                             <label>Pesquisar</label>
                             <div class="input-button-inline">
                                 <input type="text" name="ds_aluno" id="ds_aluno" class="form-control">
-                                <button type="submit" class="btn btn-primary mx-3"><i class="fa fa-search">Pesquisar</button>
-                                <button type="button" class="btn btn-success pull-right" onclick="window.location = 'cadastro.php'">Inserir novo</button> 
                             </div>
                         </div>
 
@@ -64,7 +64,13 @@ class AlunosForm {
                             <label>Pesquisar</label>
                             <input type="text" name="ds_curso" id="ds_curso" class="form-control">
                         </div>
+
                     </div> 
+                    <div class="col-md-12 col-lg-12">
+                        <center><br>
+                            <button type="submit" class="btn btn-primary mx-3"><i class="fa fa-search">Pesquisar</button>
+                        </center>
+                    </div>
                 </form>
                 <script>
 

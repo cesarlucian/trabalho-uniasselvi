@@ -25,7 +25,7 @@ if(isset($evento)){
 
                     for($i = 0; $i < count($sit_chamada); $i++) {
 
-                        Chamada::adicionaSituacao($data['cd_aluno'][$i],$data['sit_chamada'][$i]);
+                        Chamada::realizaChamada($data['cd_aluno'][$i],$data['sit_chamada'][$i]);
 
                     }  
                 }

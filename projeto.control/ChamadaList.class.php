@@ -69,6 +69,7 @@ class ChamadaList {
                         <div class="col-lg-12 col-md-12"><br>
                             <center>
                                 <button type="submit" class="btn btn-primary" onclick="return avisoChamada();"><i class="fa fa-search">Finalizar chamada</button>
+                                <a type="button" href="../faltas/consulta_faltas.php" class="btn btn-primary">Gerenciar faltas desta turma</a>
                             </center>
                         </div>
                     <?php } ?>
@@ -89,6 +90,68 @@ class ChamadaList {
                         }
                 }
 
+            </script>
+            </main>
+        <?php
+    }
+
+    public function listaFaltas($lista_faltas, $pag,$novo = true){
+        ?>
+        <main class="card-padrao">
+            <form action="edicao.php" name="lista_faltas" id="lista_faltas" method="GET" role="form">
+                <div class="box-body table-responsive">
+                    <table id="example2" class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                
+                                <th scope="col">Aluno</th>
+                                <th scope="col">Anexo</th>
+                                <th scope="col">Data falta</th>
+                                <th></th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php
+                                if($lista_faltas){
+                                    foreach($lista_faltas as $falta){  
+
+                                        $aluno = new Alunos();
+                                        $aluno->getObject($falta->cd_aluno);
+
+                                        ?>
+                                            <tr>                                              
+                                                <td><?= $aluno->nm_principal; ?></td>
+                                                <td><?= $falta->nm_arquivo; ?>
+                                                </td>
+                                                <td><?= Geral::getDataFormatada($falta->dt_falta); ?></td>
+
+                                                <td align='center'>
+                                                    <button alt="registrar" title="registrar" class="btn btn-primary btn-sm" type="button" onclick="window.location = 'analisa_faltas.php?cd_falta=<?= $falta->cd_falta; ?>'">Registrar falta justificada   
+                                                    </button>
+                                                </td> 
+                                                
+                                            </tr>
+                                        <?php
+                                    }
+                                }
+                                else{
+                                    ?>
+                                        <tbody>
+                                            <tr>
+                                                <td colspan="7">
+                                                    <center>N&atilde;o foram encontradas faltas !</center>
+                                                </td>
+                                            </tr>
+                                        </tbody>    
+                                    <?php
+                                }
+                            ?>
+                        </tbody>                            
+                    </table>
+                </div>
+            </form>
+            <script>
             </script>
             </main>
         <?php
