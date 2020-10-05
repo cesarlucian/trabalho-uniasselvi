@@ -9,6 +9,7 @@ class CursosList {
         ?>
         <main class="card-padrao">
                 <div class="box-body">
+
                         <br>
                     </div>
                     <div class="box-body table-responsive">
@@ -70,8 +71,11 @@ class CursosList {
         <main class="card-padrao">
             <form name="lista_cursos" id="lista_cursos" method="GET" role="form">
                 <div class="box-body"> 
-                <h3 class="title">Cursos</h3>
                 </div>
+                    <div class="box-body">
+                        <button type="button" class="btn btn-success pull-right" onclick="window.location = 'cadastro.php'">Inserir novo</button><br>
+                        <br>
+                    </div>
             
                     <div class="box-body table-responsive">
                         <table id="example2" class="table table-bordered table-hover">

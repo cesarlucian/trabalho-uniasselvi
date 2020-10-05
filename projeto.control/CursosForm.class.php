@@ -7,14 +7,18 @@ class CursosForm {
         ?>  
             <main class="card-padrao">
                 <form action="../cursos/consulta_cursos.php" method="GET" id="pesquisar" name="pesquisa" role="form"> 
+                    <h3 class="title">Cursos</h3><br>
                     <div class="row">
                         <div id="pesquisa_curso" class="col-md-12 col-lg-12">
                             <label>Pesquisar curso</label>
                             <div class="input-button-inline">
-                                <input type="text" name="ds_curso" id="ds_curso" class="form-control">
-                                <button type="submit" class="btn btn-primary mx-3"><i class="fa fa-search">Pesquisar</button>
-                                <button type="button" class="btn btn-success pull-right" onclick="window.location = 'cadastro.php'">Inserir novo</button>
+                                <input type="text" name="ds_curso" id="ds_curso" class="form-control"> 
                             </div>
+                        </div>
+                        <div class="col-md-12 col-lg-12">
+                            <center><br>
+                                <button type="submit" class="btn btn-primary mx-3"><i class="fa fa-search">Pesquisar</button>
+                            </center>
                         </div>
                     </div>
                 </form>
