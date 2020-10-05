@@ -6,9 +6,8 @@ extract($_GET);
 
 $cd_falta = @$_GET['cd_falta'];
 $dt_falta = @$_GET['dt_falta'];
-$cd_aluno = @$_GET['cd_aluno'];
-$cd_turma = @$_GET['cd_turma'];
-$cd_curso = @$_GET['cd_curso'];
+$filtro = @$_GET['filtro'];
+
 
 $pag        = @$_GET['pag'];
 
@@ -18,10 +17,7 @@ if($pag == ''){
 
 $pesquisa['cd_falta'] = $cd_falta;
 $pesquisa['dt_falta'] = $dt_falta;
-$pesquisa['cd_aluno'] = $cd_aluno;
-$pesquisa['cd_turma'] = $cd_turma;
-$pesquisa['cd_curso'] = $cd_curso;
-
+$pesquisa['filtro']   =  $filtro;
 
 $pesquisado = true;
 
@@ -52,7 +48,7 @@ fwrite($file,"Foi realizada uma consulta das faltas justificadas - ".date("Y-m-d
 
 	                        if($pesquisado){
 	                        	
-	                            $falta_list->listaFaltas(Chamada::listaFaltasPag($cd_aluno,$dt_falta,$pag),$pag,false);
+	                            $falta_list->listaFaltas(Chamada::listaFaltasPag($filtro,$dt_falta,$pag),$pag,false);
 	                        }
 	                        else{
 	                            $falta_list->listaFaltas(null, $pag);

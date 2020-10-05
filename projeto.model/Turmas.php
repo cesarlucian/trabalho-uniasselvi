@@ -272,4 +272,42 @@ class Turmas {
             
         }
     }
+
+    static function listaTurmasDisponiveis() {
+
+        try{
+
+            TTransaction::open();
+
+            $sql = "SELECT * FROM turmas WHERE cd_curso is null";
+
+            $lista_turmas = null;
+            if($result){
+                foreach($result as $data){
+
+                    $turma = new Turmas;                    
+                    
+                    foreach($data as $key=>$campo){
+                        $turma->$key = $campo;
+                    }
+                    
+                    $lista_turmas[] = $turma;
+                    
+                    unset($turma);
+                }
+                
+                if(isset($lista_turmas)){                    
+                    return $lista_turmas;
+                }
+            }  
+            unset($conn);
+            
+            return false;
+
+        } catch (Exception $ex) {
+
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+        }
+    }
 }

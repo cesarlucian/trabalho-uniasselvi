@@ -14,7 +14,8 @@ if(isset($evento)){
 
             array_push($aluno_situacao, array(
                 "sit_chamada" =>$sit_chamada,
-                "cd_aluno"    =>$cd_aluno
+                "cd_aluno"    =>$cd_aluno,
+                "cd_turma"    =>$cd_turma
             ));
 
             $i = 0;
@@ -25,7 +26,7 @@ if(isset($evento)){
 
                     for($i = 0; $i < count($sit_chamada); $i++) {
 
-                        Chamada::realizaChamada($data['cd_aluno'][$i],$data['sit_chamada'][$i]);
+                        Chamada::realizaChamada($data['cd_aluno'][$i],$data['sit_chamada'][$i],$data['cd_turma'][$i]);
 
                     }  
                 }

@@ -37,6 +37,7 @@ class ChamadaList {
                                                     <td><?= $turma->nr_turma; ?></td>
                                                     <td><?= $aluno->nr_matricula; ?></td>
                                                     <td> 
+                                                        <input type="hidden" name="cd_turma[]" id="cd_turma" value="<?= $aluno->cd_turma; ?>">
                                                         <input type="hidden" name="cd_aluno[]" id="cd_aluno" value="<?= $aluno->cd_aluno; ?>">
                                                         <select name="sit_chamada[]" id="sit_chamada" class="form-control" required="true">
                                                             <option></option>
@@ -58,6 +59,7 @@ class ChamadaList {
                                                 </tr>
                                             </tbody>
 
+
                                         <?php
                                     }
                                 ?>
@@ -69,10 +71,11 @@ class ChamadaList {
                         <div class="col-lg-12 col-md-12"><br>
                             <center>
                                 <button type="submit" class="btn btn-primary" onclick="return avisoChamada();"><i class="fa fa-search">Finalizar chamada</button>
-                                <a type="button" href="../faltas/consulta_faltas.php" class="btn btn-primary">Gerenciar faltas desta turma</a>
                             </center>
                         </div>
-                    <?php } ?>
+                    <?php }?>
+                        
+                    </div>
             </form>
             <script>
 
@@ -105,7 +108,8 @@ class ChamadaList {
                             <tr>
                                 
                                 <th scope="col">Aluno</th>
-                                <th scope="col">Anexo</th>
+                                <th scope="col">Curso</th>
+                                <th scope="col">Turma</th>
                                 <th scope="col">Data falta</th>
                                 <th></th>
 
@@ -119,15 +123,21 @@ class ChamadaList {
                                         $aluno = new Alunos();
                                         $aluno->getObject($falta->cd_aluno);
 
+                                        $turma = new Turmas();
+                                        $turma->getObject($aluno->cd_turma);
+
+                                        $curso = new Cursos();
+                                        $curso->getObject($aluno->cd_curso);
+
                                         ?>
                                             <tr>                                              
                                                 <td><?= $aluno->nm_principal; ?></td>
-                                                <td><?= $falta->nm_arquivo; ?>
-                                                </td>
-                                                <td><?= Geral::getDataFormatada($falta->dt_falta); ?></td>
+                                                <td><?= $curso->ds_curso; ?></td>
+                                                <td><?= $turma->nr_turma; ?></td>
+                                                <td><?= Geral::getDataFormatada($falta->dt_chamada); ?></td>
 
                                                 <td align='center'>
-                                                    <button alt="registrar" title="registrar" class="btn btn-primary btn-sm" type="button" onclick="window.location = 'analisa_faltas.php?cd_falta=<?= $falta->cd_falta; ?>'">Registrar falta justificada   
+                                                    <button alt="registrar" title="registrar" class="btn btn-success btn-sm" type="button" onclick="popUpFaltas('lista_faltas','<?= $aluno->cd_aluno; ?>','<?= $falta->dt_chamada; ?>');">Registrar falta justificada   
                                                     </button>
                                                 </td> 
                                                 
@@ -140,7 +150,7 @@ class ChamadaList {
                                         <tbody>
                                             <tr>
                                                 <td colspan="7">
-                                                    <center>N&atilde;o foram encontradas faltas !</center>
+                                                    <center>N&atilde;o foram encontradas faltas nesta turma!</center>
                                                 </td>
                                             </tr>
                                         </tbody>    
@@ -152,6 +162,10 @@ class ChamadaList {
                 </div>
             </form>
             <script>
+                function popUpFaltas(form,cd_aluno,dt_falta){
+
+                window.open('../geral/popups/popup_faltas.php?form='+form+'&cd_aluno='+cd_aluno+'&dt_falta='+dt_falta, 'JANELA', 'width=800, height=600');
+            }
             </script>
             </main>
         <?php

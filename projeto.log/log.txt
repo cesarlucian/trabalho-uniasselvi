@@ -2943,3 +2943,625 @@ Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using pa
 Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 14:05:02
 Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 14:05:02
 >>>>>>> 96f2d0b1047d16a44762b77bfff22dcdc900c5c4
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 16:33:00
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 16:33:00
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 16:33:00
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 16:33:00
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 16:33:39
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 16:33:39
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 16:48:09
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 16:48:09
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 16:50:13
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 16:50:13
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 16:50:15
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 16:50:15
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 16:50:15
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 16:50:15
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 16:50:37
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 16:50:46
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 16:51:08
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 16:51:08
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 16:51:23
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 16:56:27
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 16:56:28
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 16:56:30
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 16:56:37
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 16:56:37
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 16:56:43
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 16:56:44
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 16:58:31
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 16:58:31
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 16:58:31
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 16:58:32
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 16:58:51
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 16:58:51
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 16:58:54
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:00:11
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:00:11
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:00:16
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:00:18
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:01:11
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:01:11
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:01:11
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:01:28
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:01:29
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:01:54
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:05:04
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:05:04
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:05:04
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:15:55
+Erro: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nr_turma' in 'where clause' - 2020-10-05 17:15:55
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:15:56
+Erro: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nr_turma' in 'where clause' - 2020-10-05 17:15:56
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:15:56
+Erro: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nr_turma' in 'where clause' - 2020-10-05 17:15:56
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:15:57
+Erro: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nr_turma' in 'where clause' - 2020-10-05 17:15:57
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:15:57
+Erro: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nr_turma' in 'where clause' - 2020-10-05 17:15:57
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:15:57
+Erro: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nr_turma' in 'where clause' - 2020-10-05 17:15:58
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:15:58
+Erro: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nr_turma' in 'where clause' - 2020-10-05 17:15:58
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:15:59
+Erro: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nr_turma' in 'where clause' - 2020-10-05 17:15:59
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:15:59
+Erro: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nr_turma' in 'where clause' - 2020-10-05 17:15:59
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:15:59
+Erro: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nr_turma' in 'where clause' - 2020-10-05 17:15:59
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:16:00
+Foi realizada uma consulta dos alunos da turma 1101 para realizar a chamada do dia: 2020-10-05 17:16:09
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:16:15
+Chamada realizada com sucesso - 2020-10-05 17:16:54
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:16:54
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:17:21
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:18:35
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:18:35
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:18:36
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 17:18:36
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:18:55
+Foi realizada uma consulta dos alunos da turma 301 para realizar a chamada do dia: 2020-10-05 17:19:02
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:19:13
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 17:19:13
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:19:50
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 17:19:50
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:19:50
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 17:19:50
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:19:51
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 17:19:51
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:19:51
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 17:19:51
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:19:51
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 17:19:51
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:19:52
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:19:55
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 17:19:55
+Foi realizada uma consulta dos alunos da turma 301 para realizar a chamada do dia: 2020-10-05 17:20:26
+Foi realizada uma consulta dos alunos da turma 301 para realizar a chamada do dia: 2020-10-05 17:20:27
+Foi realizada uma consulta dos alunos da turma 301 para realizar a chamada do dia: 2020-10-05 17:20:27
+Foi realizada uma consulta dos alunos da turma 301 para realizar a chamada do dia: 2020-10-05 17:20:27
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 17:20:29
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:20:29
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:20:35
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:20:41
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 17:20:41
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:21:36
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:21:37
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:21:37
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:28:03
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:28:13
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:28:46
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:28:54
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:29:09
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:29:42
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:29:48
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:29:58
+Foi realizada uma consulta dos alunos da turma 101 para realizar a chamada do dia: 2020-10-05 17:30:05
+Foi realizada uma consulta dos alunos da turma 101 para realizar a chamada do dia: 2020-10-05 17:30:35
+Foi realizada uma consulta dos alunos da turma 101 para realizar a chamada do dia: 2020-10-05 17:32:00
+Foi realizada uma consulta dos alunos da turma 101 para realizar a chamada do dia: 2020-10-05 17:32:43
+Foi realizada uma consulta dos alunos da turma 101 para realizar a chamada do dia: 2020-10-05 17:32:44
+Foi realizada uma consulta dos alunos da turma 101 para realizar a chamada do dia: 2020-10-05 17:32:46
+Foi realizada uma consulta dos alunos da turma 101 para realizar a chamada do dia: 2020-10-05 17:32:46
+Foi realizada uma consulta dos alunos da turma 101 para realizar a chamada do dia: 2020-10-05 17:32:46
+Foi realizada uma consulta dos alunos da turma 101 para realizar a chamada do dia: 2020-10-05 17:32:46
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:32:50
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:32:50
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:32:57
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:33:01
+Foi realizada uma consulta dos alunos da turma 101 para realizar a chamada do dia: 2020-10-05 17:33:17
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:33:18
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 17:33:18
+Foi realizada uma consulta dos alunos da turma 101 para realizar a chamada do dia: 2020-10-05 17:33:42
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:33:45
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:33:45
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:33:46
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:33:53
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:35:20
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:35:20
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:35:20
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:35:21
+Foi realizada uma consulta dos alunos da turma 101 para realizar a chamada do dia: 2020-10-05 17:35:28
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:35:29
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 17:35:29
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:37:02
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 17:37:02
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:37:02
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 17:37:02
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:37:03
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 17:37:03
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:37:03
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 17:37:03
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:37:03
+Foi realizada uma consulta dos alunos da turma 101 para realizar a chamada do dia: 2020-10-05 17:37:04
+Foi realizada uma consulta dos alunos da turma 101 para realizar a chamada do dia: 2020-10-05 17:37:04
+Foi realizada uma consulta dos alunos da turma 101 para realizar a chamada do dia: 2020-10-05 17:37:05
+Foi realizada uma consulta dos alunos da turma 101 para realizar a chamada do dia: 2020-10-05 17:37:09
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:37:10
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:37:25
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:37:25
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:37:26
+Foi realizada uma consulta dos alunos da turma 101 para realizar a chamada do dia: 2020-10-05 17:37:30
+Foi realizada uma consulta dos alunos da turma 101 para realizar a chamada do dia: 2020-10-05 17:37:30
+Foi realizada uma consulta dos alunos da turma 101 para realizar a chamada do dia: 2020-10-05 17:37:30
+Foi realizada uma consulta dos alunos da turma 101 para realizar a chamada do dia: 2020-10-05 17:37:31
+Foi realizada uma consulta dos alunos da turma 101 para realizar a chamada do dia: 2020-10-05 17:37:31
+Foi realizada uma consulta dos alunos da turma 402 para realizar a chamada do dia: 2020-10-05 17:37:37
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:37:38
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:37:46
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:37:54
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:37:56
+Foi realizada uma consulta dos alunos da turma 402 para realizar a chamada do dia: 2020-10-05 17:39:10
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:39:11
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:39:12
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:39:24
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:39:25
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:39:27
+Foi realizada uma consulta dos alunos da turma 402 para realizar a chamada do dia: 2020-10-05 17:39:43
+Foi realizada uma consulta dos alunos da turma 402 para realizar a chamada do dia: 2020-10-05 17:39:44
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:39:46
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:39:50
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:39:59
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:49:12
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:49:14
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:49:39
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:49:40
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:49:42
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:49:43
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:49:43
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:49:43
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 17:49:49
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:49:50
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 17:49:50
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:49:53
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:50:44
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:50:50
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:50:51
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:50:55
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:51:00
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:51:04
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 17:51:07
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:51:09
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:51:13
+Chamada realizada com sucesso - 2020-10-05 17:51:26
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:51:26
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:51:31
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:53:42
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:53:54
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:55:03
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:55:03
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:55:04
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 17:55:05
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:55:06
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:55:06
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:55:37
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:55:52
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:55:53
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 17:55:53
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:57:20
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:58:03
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:58:03
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:58:03
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:58:04
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:58:05
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:58:06
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:58:34
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:58:53
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:58:54
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:58:54
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:58:54
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:58:55
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:58:55
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:58:55
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 17:58:56
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:58:57
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:59:03
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:59:31
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 17:59:39
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:00:12
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:00:19
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:02:08
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:02:09
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:02:09
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:02:09
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:02:09
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:02:09
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:02:22
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:02:25
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:02:26
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:03:09
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN alunos using (cd_aluno)  AND chamada.dt_chamada = '2020-10-05' ORD...' at line 1 - 2020-10-05 18:03:09
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:03:10
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN alunos using (cd_aluno)  AND chamada.dt_chamada = '2020-10-05' ORD...' at line 1 - 2020-10-05 18:03:10
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:03:10
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN alunos using (cd_aluno)  AND chamada.dt_chamada = '2020-10-05' ORD...' at line 1 - 2020-10-05 18:03:10
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:03:10
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN alunos using (cd_aluno)  AND chamada.dt_chamada = '2020-10-05' ORD...' at line 1 - 2020-10-05 18:03:10
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:03:18
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN alunos using (cd_aluno)  AND chamada.dt_chamada = '2020-10-05' ORD...' at line 1 - 2020-10-05 18:03:18
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:03:19
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN alunos using (cd_aluno)  AND chamada.dt_chamada = '2020-10-05' ORD...' at line 1 - 2020-10-05 18:03:19
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:03:19
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN alunos using (cd_aluno)  AND chamada.dt_chamada = '2020-10-05' ORD...' at line 1 - 2020-10-05 18:03:19
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:03:20
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN alunos using (cd_aluno) ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 18:03:20
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:03:25
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN alunos using (cd_aluno) ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 18:03:25
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:04:00
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN alunos using (cd_aluno) ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 18:04:00
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:04:00
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN alunos using (cd_aluno) ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 18:04:00
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:04:01
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN alunos using (cd_aluno) ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 18:04:01
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:04:01
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN alunos using (cd_aluno) ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 18:04:01
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:04:01
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN alunos using (cd_aluno) ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 18:04:01
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:04:01
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN alunos using (cd_aluno) ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 18:04:01
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:04:01
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN alunos using (cd_aluno) ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 18:04:02
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:04:02
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN alunos using (cd_aluno) ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 18:04:02
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:04:02
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN alunos using (cd_aluno) ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 18:04:02
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:04:02
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN alunos using (cd_aluno) ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 18:04:02
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:04:04
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:04:06
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN alunos using (cd_aluno) ORDER BY dt_chamada LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 18:04:06
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:04:31
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:04:31
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:04:32
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:04:36
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:04:38
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:04:50
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:04:50
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:04:54
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:04:55
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:04:58
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:05:00
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:05:02
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:05:05
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:05:07
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:05:07
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:05:08
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:05:08
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:05:09
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:05:21
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:05:35
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:05:35
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:05:36
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:05:42
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:05:42
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:06:11
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:06:14
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 18:06:14
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 18:06:18
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:06:28
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 18:06:29
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:06:30
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 18:06:30
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:06:31
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:06:32
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:06:54
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:06:55
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:07:02
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:07:02
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:07:03
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:07:04
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:07:05
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:07:07
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:07:09
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:07:10
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:07:11
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:07:11
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:07:12
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:07:13
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:07:14
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:07:29
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:07:29
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:07:30
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:07:30
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:09:02
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:09:17
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:09:26
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:09:27
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:09:28
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:09:30
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:09:43
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:09:43
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:17:25
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:17:26
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:17:26
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:20:40
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:20:40
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:20:41
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:23:05
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:23:07
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:23:08
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:23:47
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:24:48
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:25:12
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:28:10
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:28:10
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:28:10
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:28:11
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:28:48
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:29:02
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:29:03
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:29:03
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:29:03
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:30:22
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:30:23
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:30:23
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:30:23
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:30:23
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:30:27
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:30:28
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:30:30
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:31:42
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:32:34
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:32:34
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:32:34
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:32:36
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:32:40
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:32:47
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:32:51
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:32:55
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:33:13
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:33:15
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:34:32
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND dt_chamada = '8888-08-08'' at line 1 - 2020-10-05 18:34:39
+Erro ao registrar falta justificada, falta nao encontrada - 2020-10-05 18:34:39
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:37:34
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:38:48
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:38:59
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:39:13
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:39:28
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:39:28
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:39:28
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:39:29
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:39:29
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:39:30
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:39:58
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:39:58
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:40:32
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:40:57
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:41:20
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:41:20
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:42:30
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:43:36
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:43:36
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:43:36
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:43:37
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:43:51
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:44:08
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:44:35
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:44:35
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:44:36
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:45:37
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:45:37
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:46:51
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:46:52
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:46:52
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:46:52
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:46:57
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:51:14
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:51:15
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:51:43
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 - 2020-10-05 18:51:56
+Falta justificada registrada com sucesso - 2020-10-05 18:51:56
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:51:57
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:52:53
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:52:53
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:52:53
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:52:54
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:52:54
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:52:54
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:52:55
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:53:09
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:53:10
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:54:28
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:54:37
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:54:38
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:54:38
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:54:38
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:54:38
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:54:39
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:54:39
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:54:39
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:56:03
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:56:03
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:56:07
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:56:11
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:57:16
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:57:17
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:57:17
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:57:17
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:57:17
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:57:17
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:57:18
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:57:20
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:57:21
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:58:09
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:58:10
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 18:58:12
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:58:32
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 - 2020-10-05 18:58:42
+Falta justificada registrada com sucesso - 2020-10-05 18:58:42
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:58:42
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:59:00
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:59:01
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:59:02
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 18:59:10
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 18:59:11
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:01:22
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 19:02:05
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:02:06
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:02:08
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:02:10
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-05 19:02:20
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 - 2020-10-05 19:02:20
+Falta justificada registrada com sucesso - 2020-10-05 19:02:20
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:02:30
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:02:30
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:02:31
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:02:31
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:02:31
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:02:31
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-05 19:02:40
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 - 2020-10-05 19:02:40
+Falta justificada registrada com sucesso - 2020-10-05 19:02:40
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:02:46
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:02:46
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:02:47
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:02:47
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:02:47
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:02:48
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:02:48
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:02:48
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:02:48
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:02:48
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:02:49
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:02:49
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:02:49
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:02:49
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:03:00
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:03:01
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:03:47
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 19:05:14
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 19:05:15
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 19:05:15
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:05:18
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:06:15
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:06:16
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:06:16
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:07:23
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:07:23
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:07:23
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:07:24
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 19:09:03
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 19:09:28
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 19:09:28
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 19:09:28
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:09:29
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:10:38
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 19:12:37
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 19:12:37
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:12:38
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 19:13:46
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 19:13:46
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 19:13:46
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:13:47
+Falta justificada registrada com sucesso - 2020-10-05 19:13:52
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:14:01
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:14:02
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:14:02
+Erro ao registrar falta, arquivo muito grande, máximo 30kb - 2020-10-05 19:14:21
+Erro ao registrar falta, arquivo com extensão não permitida - 2020-10-05 19:14:39
+Falta justificada registrada com sucesso - 2020-10-05 19:14:46
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 19:16:33
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:16:33
+Falta justificada registrada com sucesso - 2020-10-05 19:16:39
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:16:42
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:16:43
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:16:43
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:16:43
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:18:42
+Falta justificada registrada com sucesso - 2020-10-05 19:18:47
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:18:49
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:18:50
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:18:50
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:18:50
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:19:06
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:19:06
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:19:06
+Falta justificada registrada com sucesso - 2020-10-05 19:19:11
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 19:21:28
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:21:29
+Falta justificada registrada com sucesso - 2020-10-05 19:21:34
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 19:22:53
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:22:55
+Falta justificada registrada com sucesso - 2020-10-05 19:23:03
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:23:25
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:23:26
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:23:26
+Falta justificada registrada com sucesso - 2020-10-05 19:23:31
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:23:34
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:23:34
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:23:34
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:23:35
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:23:35
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:23:35
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:23:35
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:23:35
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:23:35
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:23:48
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:23:48
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:23:49
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:23:49
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:24:37
+Foi realizada uma consulta dos alunos da turma 401 para realizar a chamada do dia: 2020-10-05 19:25:48
+Chamada realizada com sucesso - 2020-10-05 19:26:03
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 19:26:03
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:26:05
+Falta justificada registrada com sucesso - 2020-10-05 19:26:19
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:27:34
+Falta justificada registrada com sucesso - 2020-10-05 19:27:47
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:28:29
+Falta justificada registrada com sucesso - 2020-10-05 19:28:35
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:30:02
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:30:03
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:30:03
+Falta justificada registrada com sucesso - 2020-10-05 19:30:08
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 19:30:44
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:30:45
+Falta justificada registrada com sucesso - 2020-10-05 19:30:56
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:30:58
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:30:59
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:30:59
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:30:59
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:31:10
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:31:10
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:31:11
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:31:11
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:31:11
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:31:11
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 19:32:06
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 19:32:06
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 19:32:06
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 19:32:06
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 19:32:07
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:32:07
+Falta justificada registrada com sucesso - 2020-10-05 19:32:13
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:32:13
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:32:19
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:32:19
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:32:19
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:32:19
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:32:20
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:32:26
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:32:26
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:32:26
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 19:32:31
