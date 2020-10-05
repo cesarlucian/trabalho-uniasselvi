@@ -69,18 +69,18 @@ class CursosForm {
                     </div>
 
                     <div id="nova_turma" class="col-md-3 col-lg-3 hidden">
-                        <p>
-                            <label>Nova turma*</label>
+                        <label>
+                            Nova turma*
                             <input class="form-control" type="number" id="turma" name="turma[]">
-                            <button type="button" class="btn btn-primary" href="#" id="addScnt">+</button>
-                        </p>
+                            <a type="button" class="btn btn-primary" href="#" id="addScnt">+</a>
+                        </label>
                     </div>
-                </div>
 
-                <div class="row">
                     <div class="col-md-5 col-lg-5" id="adiciona_turma">
-                        
+                            
                     </div>
+
+
                 </div>
 
                 <div class="col-md-12 col-lg-12">
@@ -118,13 +118,13 @@ class CursosForm {
                      
             $(function() {
                 var scntDiv = $('#adiciona_turma');
-                var i = $('#adiciona_turma p').size() + 1;
+                var i = $('#adiciona_turma label').size() + 1;
                 
                 $('#addScnt').live('click', function() {
-                    $('<p><label>Nova turma*</label><input class="form-control" type="number" id="turma" name="turma[]" style="width:100px;" required="true"><a class="btn btn-danger mx-3" href="#" id="remScnt">Remover</a></p>').appendTo(scntDiv);
+                    $('<label>Nova turma*<input class="form-control" type="number" id="turma" name="turma[]" style="width:100px;" required="true"><a class="btn btn-danger mx-3" href="#" id="remScnt">Remover</a></label>').appendTo(scntDiv);
                     i++;
 
-                    if( i == 4 ) {
+                    if( i == 5 ) {
                         document.getElementById("addScnt").disabled = true;
                     }
 
@@ -133,11 +133,11 @@ class CursosForm {
                 
                 $('#remScnt').live('click', function() { 
                     if( i > 1 ) {
-                        $(this).parents('p').remove();
+                        $(this).parents('label').remove();
                         i--;
                     }
 
-                    if(i < 4) {
+                    if(i < 5) {
 
                         document.getElementById("addScnt").disabled = false;
                     }
