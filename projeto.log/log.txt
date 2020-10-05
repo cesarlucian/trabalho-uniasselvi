@@ -2507,3 +2507,39 @@ Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using pa
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 11:03:01
 Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 11:03:01
 Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 11:03:01
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 11:03:38
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 11:03:38
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 11:03:39
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 11:03:39
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 11:03:39
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 11:03:39
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 11:03:40
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 11:03:40
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 11:03:41
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 11:03:41
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 11:03:42
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 11:03:42
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 11:03:43
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 11:03:43
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 11:03:46
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 11:03:46
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 11:03:46
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 11:03:46
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 11:03:59
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 11:03:59
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 11:04:00
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 11:04:00
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 11:04:01
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 11:04:01
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 11:05:06
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 11:05:06
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 11:05:46
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 11:05:46
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 11:05:47
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 11:05:47
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 11:05:47
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 11:05:47
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 11:05:47
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 11:05:47
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) - 2020-10-05 11:05:47
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 11:05:47

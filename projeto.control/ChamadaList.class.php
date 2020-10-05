@@ -69,6 +69,7 @@ class ChamadaList {
                         <div class="col-lg-12 col-md-12"><br>
                             <center>
                                 <button type="submit" class="btn btn-primary" onclick="return avisoChamada();"><i class="fa fa-search">Finalizar chamada</button>
+                                <a type="button" href="../faltas/consulta_faltas.php" class="btn btn-primary">Gerenciar faltas desta turma</a>
                             </center>
                         </div>
                     <?php } ?>
