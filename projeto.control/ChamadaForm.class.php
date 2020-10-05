@@ -60,7 +60,7 @@ class ChamadaForm {
                         <div class="col-lg-12 col-md-12"><br>
                             <center>
                                 <button type="submit" class="btn btn-primary" onclick="return aviso();"><i class="fa fa-search">Listar alunos</button>
-                                <a type="button" href="../faltas/consulta_faltas.php" class="btn btn-primary">Gerenciar faltas</a>       
+                                <a type="button" href="../faltas/consulta_faltas.php" class="btn btn-primary">Gerenciar faltas desta turma</a>       
                             </center>
                         </div>
                     </div> 
