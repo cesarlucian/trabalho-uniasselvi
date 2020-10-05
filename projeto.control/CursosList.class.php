@@ -73,8 +73,7 @@ class CursosList {
                 <div class="box-body"> 
                 </div>
                     <div class="box-body">
-                        <button type="button" class="btn btn-success pull-right" onclick="window.location = 'cadastro.php'">Inserir novo</button><br>
-                        <br>
+                        <button type="button" class="btn btn-success pull-right" onclick="window.location = 'cadastro.php'">Inserir novo</button><br><br><br>
                     </div>
             
                     <div class="box-body table-responsive">

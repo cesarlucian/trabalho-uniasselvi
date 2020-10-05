@@ -7,8 +7,8 @@ class AlunosList {
         <main class="card-padrao">
             <form action="edicao.php" name="lista_alunos" id="lista_alunos" method="GET" role="form">
                     <div class="box-body">
-                        <button type="button" class="btn btn-success pull-right" onclick="window.location = 'cadastro.php'">Inserir novo</button><br>
-                        <br>
+                        <button type="button" class="btn btn-success pull-right" onclick="window.location = 'cadastro.php'">Inserir novo</button><br><br><br>
+                        
                     </div>
                     <div class="box-body table-responsive">
                         <table id="example2" class="table table-bordered table-hover">
