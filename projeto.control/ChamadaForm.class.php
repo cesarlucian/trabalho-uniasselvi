@@ -50,7 +50,7 @@ class ChamadaForm {
                         <div class="col-lg-12 col-md-12"><br>
                             <center>
                                 <button type="submit" class="btn btn-primary" onclick="return aviso();"><i class="fa fa-search">Listar alunos</button>
-                                 <a type="button" target="_blank" href="../faltas/consulta_faltas.php" class="btn btn-primary">Gerenciar faltas</a>    
+                                 <a type="button" href="../faltas/consulta_faltas.php" class="btn btn-primary">Gerenciar faltas</a>    
                             </center>
                         </div>
                     </div> 
@@ -121,7 +121,7 @@ class ChamadaForm {
                         <div class="col-lg-12 col-md-12"><br>
                             <center>
                                 <button type="submit" class="btn btn-primary"><i class="fa fa-search">Pesquisar</button>
-                                 <a onclick="window.close();" href="/trabalho-uniasselvi/projeto.view/chamada/consulta_chamada.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
+                                 <a href="/trabalho-uniasselvi/projeto.view/chamada/consulta_chamada.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                             </center>
                         </div>
                     </div> 
