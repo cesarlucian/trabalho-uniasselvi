@@ -116,6 +116,14 @@ class CursosForm {
 
                     document.getElementById("turma").required = false;
                     document.getElementById("turma_disponivel").required = true;
+
+                } else {
+
+                    $("#nova_turma").addClass('hidden');
+                    $("#turmas_disponiveis").addClass('hidden');
+
+                    document.getElementById("turma").required = true;
+                    document.getElementById("turma_disponivel").required = true;
                 }
             }
                      
