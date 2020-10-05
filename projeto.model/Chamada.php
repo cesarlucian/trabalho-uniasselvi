@@ -260,7 +260,7 @@ class Chamada {
         }
     }
 
-    public function adicionaSituacao($cd_aluno,$situacao) {
+    public function realizaChamada($cd_aluno,$situacao) {
         $linhas = null;
         
         try{
