@@ -188,13 +188,18 @@ class CursosForm {
                 <div class="col-md-12 col-lg-12">
                     <center>
                         <button type="submit" class="btn btn-success"><i class="fa fa-search">Salvar</button>
+                        <button type="submit" class="btn btn-danger" onclick="excluir('<?= $curso->cd_curso; ?>');"><i class="fa fa-search">Excluir</button>  
                         <a href="/trabalho-uniasselvi/projeto.view/cursos/consulta_cursos.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                     </center>
                 </div>
             </form>
         </main>
         <script type="text/javascript">
-            
+            function excluir(cd_curso){
+                if(confirm("Deseja realmente excluir este curso?")){
+                    window.location = 'cursos_man.php?cd_curso='+cd_curso+'&evento=excluir';
+                }
+            }
         </script>
 
 
