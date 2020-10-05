@@ -75,13 +75,7 @@ class CursosForm {
                             <button type="button" class="btn btn-primary" href="#" id="addScnt">+</button>
                         </p>
                     </div>
-
-                    <!--<div id="botao_nova_turma" class="col-md-2 col-lg-2 hidden">
-                        <label>&nbsp;</label><br>
-                        <button type="button" class="btn btn-primary" href="#" id="addScnt">+</button>
-                    </div>-->
-
-                </div><br>
+                </div>
 
                 <div class="row">
                     <div class="col-md-5 col-lg-5" id="adiciona_turma">
@@ -107,7 +101,6 @@ class CursosForm {
 
                 if(tipo_turma == 1 ){
                     $("#nova_turma").removeClass('hidden');
-                    $("#botao_nova_turma").removeClass('hidden');
                     $("#turmas_disponiveis").addClass('hidden');
 
                     document.getElementById("turma").required = true;
@@ -116,7 +109,6 @@ class CursosForm {
                 } else if(tipo_turma == 2) {
 
                     $("#nova_turma").addClass('hidden');
-                    $("#botao_nova_turma").addClass('hidden');
                     $("#turmas_disponiveis").removeClass('hidden');
 
                     document.getElementById("turma").required = false;
