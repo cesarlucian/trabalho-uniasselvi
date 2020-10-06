@@ -203,7 +203,6 @@ class Usuarios {
                         
             $sql = "SELECT * "
                     . "FROM usuarios "
-                    . "INNER JOIN departamentos using(cd_departamento) "
                     . "WHERE fg_ativo = 1 "
                     . "$sql_usuario $sql_login "
                     . "ORDER BY nm_usuario "
