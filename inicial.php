@@ -11,8 +11,6 @@ new TSession;
 extract($_GET);
 extract($_POST);
 
-print_r($_SESSION);
-
 ?>
 
 
