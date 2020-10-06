@@ -39,7 +39,7 @@ class FaltasJustificadasForm {
 
                     <div class="col-lg-12 col-md-12">
                         <label>Motivo*</label>
-                        <textarea class="form-control" name="ds_motivo" id="ds_motivo" required></textarea>
+                        <textarea class="form-control" name="ds_motivo" id="ds_motivo" maxlength="600" required="true"></textarea>
                     </div>
                     
                     <div class="col-lg-12 col-md-12"><br>

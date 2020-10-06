@@ -8,7 +8,7 @@ include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."projeto.temp
         <h3 class="title">Login</h3><br> 
         <div class="row">
             <div class="col-lg-12 col-md-12">
-                <label>E-mail</label>
+                <label>Usuário</label>
                 <div class="input-group">
                     <input type="text" class="form-control" id="email" name="email" />                                    
                 </div>

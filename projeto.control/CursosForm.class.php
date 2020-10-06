@@ -48,7 +48,7 @@ class CursosForm {
                 
                     <div class="col-md-5 col-lg-5">
                         <label>Nome do curso*</label>
-                        <input class="form-control" type="text" name="ds_curso" id="ds_curso" maxlenght="50" required="true">
+                        <input class="form-control" type="text" name="ds_curso" id="ds_curso" maxlength="50" required="true">
                     </div>
 
                     <div  class="col-md-6 col-lg-6">
@@ -92,7 +92,7 @@ class CursosForm {
 
                     <div class="col-md-5 col-lg-5">
                         <label>Nome do curso*</label>
-                        <input class="form-control" type="text" name="ds_curso" id="ds_curso" value="<?= $curso->ds_curso; ?>">
+                        <input class="form-control" type="text" name="ds_curso" id="ds_curso" maxlength="50" required="true" value="<?= $curso->ds_curso; ?>">
                     </div>
 
                 </div>
