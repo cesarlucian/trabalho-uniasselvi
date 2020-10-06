@@ -5237,3 +5237,12 @@ Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06
 Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 13:48:41
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 13:48:41
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 13:48:42
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 13:51:50
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 13:51:54
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 13:51:57
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 13:52:00
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 13:52:01
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 13:52:02
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 13:52:28
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 13:52:29
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 13:52:31
