@@ -12,7 +12,6 @@ if(isset($evento)){
 
         	$curso = new Cursos();
         	$curso->ds_curso = $ds_curso;
-            $curso->fg_status = "A";
         
            if($curso->insert()) {
 
@@ -45,7 +44,6 @@ if(isset($evento)){
         	$curso->getObject($cd_curso);
 
             $curso->ds_curso = $ds_curso;
-            $curso->fg_status = "A";
 
         	if($curso->update()) {
 

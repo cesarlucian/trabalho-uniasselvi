@@ -5120,3 +5120,22 @@ Foi realizada uma consulta das faltas justificadas,  - 2020-10-06 11:18:51
 Foi realizada uma consulta das faltas justificadas,  - 2020-10-06 11:18:51
 Foi realizada uma consulta das faltas justificadas,  - 2020-10-06 11:18:52
 Foi realizada uma consulta das faltas justificadas,  - 2020-10-06 11:18:52
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 11:23:44
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 11:23:57
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 11:23:57
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 11:23:58
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 11:24:13
+O curso id '38' foi vinculado a turma id '9' na base de dados - 2020-10-06 11:24:18
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 11:24:18
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 11:24:21
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 11:26:13
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 11:26:14
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 11:26:14
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 11:26:15
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 11:26:16
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 11:26:16
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 11:26:17
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 11:26:17
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 11:26:17
+Erro: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fg_status' in 'field list' - 2020-10-06 11:27:52
+Erro ao cadastrar curso na base de dados - 2020-10-06 11:27:52
