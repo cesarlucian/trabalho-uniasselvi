@@ -5246,3 +5246,70 @@ Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 13:52:28
 Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 13:52:29
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 13:52:31
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 17:15:51
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 17:15:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 17:15:53
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 17:15:53
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 17:15:54
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 17:15:56
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 17:15:58
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 17:16:02
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 17:16:05
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 17:34:19
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 17:34:20
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 17:34:20
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 17:34:22
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 17:34:23
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 17:36:26
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 17:36:26
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 17:36:27
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 17:36:28
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 17:38:40
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 17:38:41
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 17:38:42
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 17:38:54
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 17:39:14
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 17:43:30
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 17:43:30
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 17:43:31
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 17:43:32
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 17:43:33
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 17:43:33
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 17:43:34
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 17:43:48
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 17:43:49
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 17:43:49
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 17:43:50
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 17:43:53
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 17:43:55
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 17:43:58
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 17:44:46
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 17:44:47
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 17:47:27
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 17:47:30
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 17:47:31
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 17:47:37
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 17:54:20
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 17:54:20
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 17:54:20
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 18:03:01
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 18:03:02
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 18:03:02
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 18:03:02
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 18:03:03
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 18:07:48
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 18:07:49
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 18:07:50
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 18:07:56
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 18:07:56
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 18:09:32
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 18:09:32
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 18:19:43
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 18:19:44
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 18:20:23
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 18:20:23
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 18:20:24
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 18:20:25
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-06 18:20:27
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 18:20:29
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 18:20:37

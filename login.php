@@ -33,22 +33,21 @@ try{
 
         	if(password_verify($ds_senha, $data['ds_senha'])) {
 
-        		$login->getObject($data['cd_usuario']);
+                new TSession;
 
-        		new TSession;
+        		$login->getObject($data['cd_usuario']);
 
         		TSession::setValue('cd_usuario', $login->cd_usuario);
         		TSession::setValue('tipo_usuario', $login->tipo_usuario);
 	            TSession::setValue('usuario', $usuario);
-	            header("location: inicial.php");         
+
+                header("location: inicial.php");
 
         	} else {
         		echo "Senha incorreta!";
 	        	echo "<script>alert('Senha incorreta!');history.back();</script>";
         	}
         
-            
-
         } else{
 
 	        echo "Usuário não encontrado!";
@@ -56,10 +55,11 @@ try{
 	        //header("location: index.php");
     	} 
 
-} catch (Exception $ex) {
-    print_r($ex);
-    exit;
-} 
+    } catch (Exception $ex) {
+        print_r($ex);
+        exit;
+    }
+
 
 
 
