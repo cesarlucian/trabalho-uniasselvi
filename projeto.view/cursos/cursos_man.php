@@ -49,26 +49,26 @@ if(isset($evento)){
 
         	if($curso->update()) {
 
-	        		$msg_tipo = 1;
-	                $msg_texto = "Curso atualizado com sucesso!";
-	                header("location: edicao.php?cd_curso=".$cd_curso."&msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
+        		$msg_tipo = 1;
+                $msg_texto = "Curso atualizado com sucesso!";
+                header("location: edicao.php?cd_curso=".$cd_curso."&msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
 
-	        		$file = fopen("../../projeto.log/log.txt","a+");
-	        		fwrite($file,"O curso id '$cd_curso' foi atualizado na base de dados - ".date("Y-m-d H:i:s")."\r\n");
+        		$file = fopen("../../projeto.log/log.txt","a+");
+        		fwrite($file,"O curso id '$cd_curso' foi atualizado na base de dados - ".date("Y-m-d H:i:s")."\r\n");
 
-	        	} else {
+        	} else {
 
-	        		?>
-                        <script>
-                            alert("Erro ao atualizar curso!");
-                            history.back();
-                        </script>
-                    <?php
+        		?>
+                    <script>
+                        alert("Erro ao atualizar curso!");
+                        history.back();
+                    </script>
+                <?php
 
-	        		$file = fopen("../../projeto.log/log.txt","a+");
-	        		fwrite($file,"Erro ao editar curso na base de dados - ".date("Y-m-d H:i:s")."\r\n");
+        		$file = fopen("../../projeto.log/log.txt","a+");
+        		fwrite($file,"Erro ao editar curso na base de dados - ".date("Y-m-d H:i:s")."\r\n");
 
-	        	}
+        	}
 
         break;
 
@@ -76,26 +76,26 @@ if(isset($evento)){
 
             if(Cursos::delete($cd_curso)) {
 
-                    $msg_tipo = 1;
-                    $msg_texto = "Curso removido com sucesso!";
-                    header("location: index.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
+                $msg_tipo = 1;
+                $msg_texto = "Curso removido com sucesso!";
+                header("location: index.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
 
-                    $file = fopen("../../projeto.log/log.txt","a+");
-                    fwrite($file,"O curso id '$cd_curso' foi removido da base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                $file = fopen("../../projeto.log/log.txt","a+");
+                fwrite($file,"O curso id '$cd_curso' foi removido da base de dados - ".date("Y-m-d H:i:s")."\r\n");
 
-                } else {
+            } else {
 
-                    ?>
-                        <script>
-                            alert("Erro ao remover curso!");
-                            history.back();
-                        </script>
-                    <?php
+                ?>
+                    <script>
+                        alert("Erro ao remover curso!");
+                        history.back();
+                    </script>
+                <?php
 
-                    $file = fopen("../../projeto.log/log.txt","a+");
-                    fwrite($file,"Erro ao remover curso da base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                $file = fopen("../../projeto.log/log.txt","a+");
+                fwrite($file,"Erro ao remover curso da base de dados - ".date("Y-m-d H:i:s")."\r\n");
 
-                }
+            }
         break;
     }
 }

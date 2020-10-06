@@ -38,8 +38,9 @@ class Cursos {
         }
         catch (Exception $ex) {   
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
-            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");      
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");   
         }
     }
     
@@ -93,10 +94,10 @@ class Cursos {
             
         } catch (Exception $ex) {   
             
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             TTransaction::rollback();      
-            
             return false;
         }
     }
@@ -121,7 +122,6 @@ class Cursos {
             }
             
             $sql .= $linhas." WHERE cd_curso = ".$this->cd_curso;
-            print($sql);exit;
             $conn = TTransaction::get();
             $result = $conn->query($sql);
             
@@ -130,9 +130,9 @@ class Cursos {
             return true;
             
         } catch (Exception $ex) {   
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
-            echo $ex->getMessage();
             TTransaction::rollback();      
             return false;
         }
@@ -155,6 +155,7 @@ class Cursos {
             
         } catch (Exception $ex) {   
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             TTransaction::rollback();      
@@ -201,6 +202,7 @@ class Cursos {
             
         } catch (Exception $ex) { 
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
         }
@@ -255,6 +257,7 @@ class Cursos {
             
         } catch (Exception $ex) { 
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
 
@@ -299,6 +302,7 @@ class Cursos {
             
         } catch (Exception $ex) { 
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
 

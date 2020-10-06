@@ -39,8 +39,9 @@ class Turmas {
         }
         catch (Exception $ex) {   
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
-            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");        
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");       
         }
     }
     
@@ -97,9 +98,9 @@ class Turmas {
             
         } catch (Exception $ex) {   
             
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
-            echo $ex->getMessage();
             TTransaction::rollback();      
             return false;
         }
@@ -136,6 +137,8 @@ class Turmas {
         } catch (Exception $ex) {   
             
             echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             TTransaction::rollback();      
             return false;
         }
@@ -157,6 +160,8 @@ class Turmas {
         } catch (Exception $ex) {   
 
             echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             TTransaction::rollback();      
             
             return false;
@@ -178,6 +183,33 @@ class Turmas {
         } catch (Exception $ex) {   
 
             echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            TTransaction::rollback();      
+            
+            return false;
+        }
+    }
+
+    static function vincularCurso($cd_turma,$cd_curso) {
+        try{
+            TTransaction::open();
+
+            $sql = "UPDATE turmas SET cd_curso = $cd_curso WHERE cd_turma = ".$cd_turma;
+
+            print($sql);
+            $conn = TTransaction::get();
+            $result = $conn->query($sql);
+            
+            TTransaction::close();
+            
+            return true;
+            
+        } catch (Exception $ex) {   
+
+            echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             TTransaction::rollback();      
             
             return false;
@@ -230,6 +262,7 @@ class Turmas {
             
         } catch (Exception $ex) { 
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
 
@@ -267,6 +300,7 @@ class Turmas {
             
         } catch (Exception $ex) {
             
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
         }
@@ -292,6 +326,7 @@ class Turmas {
             
         } catch (Exception $ex) {
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             
@@ -331,6 +366,7 @@ class Turmas {
 
         } catch (Exception $ex) {
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
         }
@@ -395,6 +431,7 @@ class Turmas {
             
         } catch (Exception $ex) { 
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
 

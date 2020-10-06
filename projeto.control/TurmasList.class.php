@@ -108,7 +108,7 @@ class TurmasList {
                                                             <?php if(!$turma->cd_curso) { ?>
                                                                 <button alt="Vincular curso" title="Vincular curso" class="btn btn-primary btn-sm"
                                                                             type="button"
-                                                                            onclick="popUpCurso('lista_turmas');" >Vincular curso<i class="fa fa-times"></i>
+                                                                            onclick="vinculaCursoPopUp('<?= $turma->cd_turma; ?>');" >Vincular curso<i class="fa fa-times"></i>
                                                                 </button>
                                                             <?php } else { ?>
 
@@ -171,9 +171,9 @@ class TurmasList {
                     }
                 }
 
-                function popUpCurso(form){
+                function vinculaCursoPopUp(cd_turma){
 
-                    window.open('../geral/popups/popup_cursos.php?form='+form, 'JANELA', 'width=800, height=600');
+                    window.open('../geral/popups/popup_vincula_curso.php?cd_turma='+cd_turma, 'JANELA', 'width=800, height=600');
                 }
             </script>
             </main>

@@ -65,6 +65,81 @@ class CursosList {
         <?php
     }
 
+    public function vinculaCursoPopUp($cd_turma){
+
+        $lista_cursos = Cursos::listaCursos();
+
+        ?>
+        <main class="card-padrao">
+            <div class="box-body">
+                    <br>
+                </div>
+                <div class="box-body table-responsive">
+                    <body onunload="window.opener.location.reload()">
+                    <table id="example2" class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th scope="col">Curso</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php
+                                if($lista_cursos){
+                                    foreach($lista_cursos as $curso){                                           
+                                        ?>
+                                            <tr>                                             
+                                                 <td align='center'>
+
+                                                <button type="submit" class="btn btn-default btn-sm" onclick="vincular('<?= $cd_turma; ?>','<?= $curso->cd_curso; ?>','<?= $form; ?>')">
+                                                  <i class="fa fa-reply">Selecionar</i>
+                                                </button>
+                                            </td>
+                                                <td><?= $curso->ds_curso; ?></td>
+                                            </tr>
+                                        <?php
+                                    }
+                                }
+                                else{
+                                    ?>
+                                        <tbody>
+                                            <tr>
+                                                <td colspan="7">
+                                                    <center>N&atilde;o foram encontrados cursos !</center>
+                                                </td>
+                                            </tr>
+                                        </tbody>    
+                                    <?php
+                                }
+                            ?>
+                        </tbody>                            
+                    </table>
+                </div>
+            </form>
+            <script>
+                function selecionaCurso(cd_curso,ds_curso,form){ 
+                    window.close();  
+                    opener.parent.document.getElementById(form).cd_curso.value = cd_curso;
+                    opener.parent.document.getElementById(form).ds_curso.value = ds_curso;
+                    
+                }
+
+                function fechaJanela() {
+                    opener.location.reload();
+                    window.close();
+                }
+
+                function vincular(cd_turma,cd_curso) {
+
+                    if(confirm("Deseja realmente vincular este curso a esta turma?")){
+                        window.location = '../../turmas/turmas_man.php?evento=vincular_curso&cd_turma='+cd_turma+'&cd_curso='+cd_curso;
+                    }
+                }
+            </script>
+            </main>
+        <?php
+    }
+
     public function lista($lista_cursos, $pag){
 
         ?>

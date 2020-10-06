@@ -4993,3 +4993,130 @@ Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 10:17:28
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 10:17:35
 Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 10:17:35
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:17:36
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 10:18:39
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 10:18:40
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:18:41
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 10:18:42
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 10:18:44
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:18:45
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:18:53
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:18:55
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:18:57
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:19:06
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:19:12
+A turma id '83' se tornou inativo na base de dados - 2020-10-06 10:19:15
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:19:15
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:19:19
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:19:21
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:19:27
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:19:32
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:19:41
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:19:48
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:33:41
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:34:29
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:34:30
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:34:30
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:35:00
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:35:48
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:35:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:36:26
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:36:50
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:36:54
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:37:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:37:11
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:37:26
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:37:29
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:39:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:39:56
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:40:37
+Foi realizada uma consulta das turmas, pelo numero: 444 - 2020-10-06 10:40:39
+Foi realizada uma consulta das turmas, pelo numero: 444 - 2020-10-06 10:47:02
+Foi realizada uma consulta das turmas, pelo numero: 444 - 2020-10-06 10:47:02
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:47:06
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:47:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:47:12
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:52:23
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:52:27
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:53:44
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:53:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:54:00
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:54:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:54:28
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:54:28
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:54:28
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:54:31
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:54:32
+Foi realizada uma consulta das turmas, pelo numero: 401 - 2020-10-06 10:54:36
+Foi realizada uma consulta das turmas, pelo numero: 401 - 2020-10-06 10:54:39
+Foi realizada uma consulta das turmas, pelo numero: 401 - 2020-10-06 10:55:30
+Foi realizada uma consulta das turmas, pelo numero: 401 - 2020-10-06 10:55:31
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:55:31
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:55:42
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:56:23
+O curso id '38' foi vinculado a turma id '9' na base de dados - 2020-10-06 10:56:27
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:56:27
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:56:38
+O curso id '43' foi vinculado a turma id '10' na base de dados - 2020-10-06 10:56:42
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:56:42
+O curso id '65' foi vinculado a turma id '14' na base de dados - 2020-10-06 10:56:53
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:56:53
+O curso id '44' foi vinculado a turma id '13' na base de dados - 2020-10-06 10:56:58
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:56:58
+O curso id '40' foi vinculado a turma id '12' na base de dados - 2020-10-06 10:57:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:57:04
+O curso id '39' foi vinculado a turma id '11' na base de dados - 2020-10-06 10:57:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:57:09
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-06 10:57:16
+A turma id '9' teve curso desvinculado na base de dados - 2020-10-06 10:57:16
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:57:16
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-06 10:57:24
+A turma id '11' teve curso desvinculado na base de dados - 2020-10-06 10:57:24
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:57:24
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-06 10:57:27
+A turma id '12' teve curso desvinculado na base de dados - 2020-10-06 10:57:27
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:57:27
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-06 10:57:29
+A turma id '10' teve curso desvinculado na base de dados - 2020-10-06 10:57:29
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:57:29
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-06 10:57:31
+A turma id '13' teve curso desvinculado na base de dados - 2020-10-06 10:57:31
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:57:31
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-06 10:57:33
+A turma id '15' teve curso desvinculado na base de dados - 2020-10-06 10:57:33
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:57:33
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:57:34
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-06 10:57:36
+A turma id '16' teve curso desvinculado na base de dados - 2020-10-06 10:57:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:57:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:57:38
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:57:41
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:57:44
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-06 10:57:46
+A turma id '17' teve curso desvinculado na base de dados - 2020-10-06 10:57:46
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:57:46
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:57:48
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-06 10:57:50
+A turma id '18' teve curso desvinculado na base de dados - 2020-10-06 10:57:50
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:57:50
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:57:51
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-06 10:57:53
+A turma id '19' teve curso desvinculado na base de dados - 2020-10-06 10:57:53
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:57:53
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:57:54
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 11:00:42
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 11:00:50
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 11:01:02
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-06 11:01:04
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-06 11:01:05
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-06 11:01:05
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-06 11:01:05
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-06 11:01:17
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-06 11:18:48
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 11:18:49
+Foi realizada uma consulta das faltas justificadas,  - 2020-10-06 11:18:49
+Foi realizada uma consulta das faltas justificadas,  - 2020-10-06 11:18:50
+Foi realizada uma consulta das faltas justificadas,  - 2020-10-06 11:18:51
+Foi realizada uma consulta das faltas justificadas,  - 2020-10-06 11:18:51
+Foi realizada uma consulta das faltas justificadas,  - 2020-10-06 11:18:51
+Foi realizada uma consulta das faltas justificadas,  - 2020-10-06 11:18:52
+Foi realizada uma consulta das faltas justificadas,  - 2020-10-06 11:18:52

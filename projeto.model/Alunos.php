@@ -52,7 +52,8 @@ class Alunos {
         }
         catch (Exception $ex) { 
             $file = fopen("../../projeto.log/log.txt","a+");
-            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");  
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            echo $ex->getMessage();
                     
         }
     }
@@ -131,9 +132,9 @@ class Alunos {
             
         } catch (Exception $ex) {   
             
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
-            echo $ex->getMessage();
             TTransaction::rollback();      
             return false;
         }
@@ -168,9 +169,9 @@ class Alunos {
             return true;
             
         } catch (Exception $ex) {   
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
-            echo $ex->getMessage();
             TTransaction::rollback();      
             return false;
         }
@@ -191,11 +192,10 @@ class Alunos {
             
         } catch (Exception $ex) {   
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
-            echo $ex->getMessage();
             TTransaction::rollback();      
-            
             return false;
         }
     }
@@ -267,9 +267,9 @@ class Alunos {
             
         } catch (Exception $ex) { 
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
-            echo $ex->getMessage();
 
         }
     }
@@ -327,9 +327,9 @@ class Alunos {
             
         } catch (Exception $ex) { 
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
-            echo $ex->getMessage();
 
         }
     }
@@ -374,9 +374,9 @@ class Alunos {
             
         } catch (Exception $ex) { 
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
-            echo $ex->getMessage();
 
         }
     }
@@ -412,9 +412,9 @@ class Alunos {
             
         } catch (Exception $ex) {
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
-            echo $ex->getMessage();
         }
     }
 
@@ -438,6 +438,7 @@ class Alunos {
             
         } catch (Exception $ex) {
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             

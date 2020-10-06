@@ -4,7 +4,6 @@ include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."config.php")
 
 extract($_GET);
 
-$cd_falta = @$_GET['cd_falta'];
 $dt_falta = @$_GET['dt_falta'];
 $filtro = @$_GET['filtro'];
 
@@ -15,7 +14,6 @@ if($pag == ''){
     $pag = 1;
 }
 
-$pesquisa['cd_falta'] = $cd_falta;
 $pesquisa['dt_falta'] = $dt_falta;
 $pesquisa['filtro']   =  $filtro;
 
@@ -30,7 +28,7 @@ $desc_turma = new Turmas();
 $desc_turma->getObject($cd_turma);
 
 $file = fopen("../../projeto.log/log.txt","a+");
-fwrite($file,"Foi realizada uma consulta das faltas justificadas - ".date("Y-m-d H:i:s")."\r\n");
+fwrite($file,"Foi realizada uma consulta das faltas justificadas, pela descricao: '$filtro', data: '$dt_falta' - ".date("Y-m-d H:i:s")."\r\n");
 
 ?>
 		<?php include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."projeto.template". DIRECTORY_SEPARATOR ."header.php"); ?>
