@@ -80,7 +80,6 @@ class TurmasList {
                             <thead>
                                 <tr>
                                     <th scope="col"></th>
-                                    <th scope="col"></th>
                                     <th scope="col">Turma</th>
                                     <th scope="col">Situa&ccedil;&atilde;o</th>
                                     
@@ -105,13 +104,7 @@ class TurmasList {
                                                                         type="button"
                                                                         onclick="excluir('<?= $turma->cd_turma; ?>');">Remover<i class="fa fa-times"></i>
                                                             </button>
-                                                        </center>
-
-                                                        </td>
-
-                                                        <td>
-                                                        <center>
-
+                                                        
                                                             <?php if(!$turma->cd_curso) { ?>
                                                                 <button alt="Vincular curso" title="Vincular curso" class="btn btn-primary btn-sm"
                                                                             type="button"

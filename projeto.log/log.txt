@@ -4798,3 +4798,47 @@ Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 00:01:47
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 00:01:47
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 00:03:46
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 09:48:28
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 09:48:29
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 09:48:30
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 09:48:31
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:48:33
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:48:37
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:48:42
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 09:49:02
+Foi realizada uma consulta das faltas justificadas - 2020-10-06 09:49:03
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 09:49:08
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:49:16
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:49:41
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:49:51
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 09:49:58
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 09:50:01
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 09:50:03
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:50:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:50:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:50:28
+Foi inserida uma nova turma na base de dados - 2020-10-06 09:51:24
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:51:24
+Foi realizada uma consulta das turmas, pelo numero: 0 - 2020-10-06 09:51:30
+Foi realizada uma consulta das turmas, pelo numero: 000 - 2020-10-06 09:51:33
+Foi realizada uma consulta das turmas, pelo numero: 0 - 2020-10-06 09:51:34
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:51:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:51:37
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:51:43
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:51:49
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:51:57
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:51:58
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:51:59
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:51:59
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:52:00
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:52:01
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:52:02
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:52:03
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:52:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:52:06
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:52:07
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:52:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:52:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:53:03
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:53:11
+Foi realizada uma consulta das turmas, pelo numero: 0 - 2020-10-06 09:53:15

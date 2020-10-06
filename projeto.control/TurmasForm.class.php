@@ -51,7 +51,7 @@ class TurmasForm {
                 
                     <div class="col-md-3 col-lg-3">
                         <label>N&uacute;mero da turma*</label>
-                        <input type="number" id="nr_turma" name="nr_turma" class="form-control" min="100" max="9999" required="true" />
+                        <input type="number" id="nr_turma" name="nr_turma" class="form-control" min="100" max="1000" required="true" />
                     </div>
 
                     <div class="col-md-6 col-lg-6">
