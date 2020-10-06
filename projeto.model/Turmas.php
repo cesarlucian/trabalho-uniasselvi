@@ -336,21 +336,31 @@ class Turmas {
         }
     }
 
-    static function listaTurmasPag($nr_turma = null, $pag = 1){
+    static function listaTurmasPag($nr_turma = null,$filtro_pesquisa = null, $pag = 1){
         try{
             TTransaction::open();
 
-            $sql_turma = null;
+            $sql_turma = $sql_filtro_pesquisa = null;
             
             $offset = (($pag-1)*6);
 
-            if($nr_turma) {
+            $sql_turma = " WHERE nr_turma LIKE '%$nr_turma%' ";
 
-                $sql_turma = " WHERE nr_turma like '%$nr_turma%' ";
-            }
+            if($filtro_pesquisa) {
+
+                if($filtro_pesquisa == 1) {
+
+                    $sql_filtro_pesquisa = " AND cd_curso  IS NULL ";
+
+                } else if($filtro_pesquisa == 2) {
+
+                    $sql_filtro_pesquisa = " AND cd_curso IS NOT NULL ";
+                }
+            } 
 
             $sql = "SELECT * FROM turmas "
                     ."$sql_turma"
+                    ."$sql_filtro_pesquisa"
                     ."ORDER BY cd_curso ASC "  
                     ."LIMIT 6 "
                     ."OFFSET $offset "; 

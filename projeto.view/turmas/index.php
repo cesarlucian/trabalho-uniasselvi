@@ -4,7 +4,8 @@ include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."config.php")
 
 extract($_GET);
 
-$nr_turma   = @$_GET['nr_turma'];
+$nr_turma        = @$_GET['nr_turma'];
+$filtro_pesquisa = @$_GET['filtro_pesquisa']; 
 
 $pag        = @$_GET['pag'];
 $pesquisado = true;
@@ -17,7 +18,9 @@ if($pag == ''){
     $pag = 1;
 }
 
-$pesquisa['nr_turma']   = $filtro;
+$pesquisa['nr_turma']        = $nr_turma;
+$pesquisa['filtro_pesquisa'] = $filtro_pesquisa;
+
 
 
 ?>
@@ -34,7 +37,7 @@ $pesquisa['nr_turma']   = $filtro;
 	                        
 	                        $turmas_list = new TurmasList();
 	                        if($pesquisado){
-	                            $turmas_list->lista(Turmas::listaTurmasPag($nr_turma, $pag), $pag,false);
+	                            $turmas_list->lista(Turmas::listaTurmasPag($nr_turma,$filtro_pesquisa, $pag), $pag,false);
 	                        }
 	                        else{
 	                            $alunos_list->lista(null, $pag);

@@ -36,7 +36,7 @@ class AlunosForm {
                     <h3 class="title">Alunos</h3><br>
                     <div class="row">
                         <div id="div_filtro" class="col-md-2 col-lg-2">
-                            <label>Filtrar por:</label>
+                            <label>Filtro:</label>
                             <select id="filtro" name="filtro" class="form-control" onchange="buscaFiltro();">
                                 <option value="1" selected="selected">Nome</option>
                                 <option value="2">Curso</option>
@@ -44,7 +44,7 @@ class AlunosForm {
                         </div>
 
                         <div id="div_filtro2" class="col-md-2 col-lg-2">
-                            <label>Filtrar por:</label>
+                            <label>Filtro:</label>
                             <select id="ds_sexo" name="ds_sexo" class="form-control">
                                 <option value="" selected="selected">Todos</option>
                                 <option value="M">Masculino</option>

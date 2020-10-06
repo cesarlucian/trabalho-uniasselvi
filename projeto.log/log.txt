@@ -4842,3 +4842,150 @@ Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:52:36
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:53:03
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:53:11
 Foi realizada uma consulta das turmas, pelo numero: 0 - 2020-10-06 09:53:15
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:56:11
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:56:13
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:57:56
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:58:00
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:58:01
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:58:02
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:58:20
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 09:58:43
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:01:08
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:01:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:01:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:01:24
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:01:29
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:01:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:01:49
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 10:02:26
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:02:28
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 10:02:30
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 10:02:30
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 10:02:32
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:03:09
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 10:03:11
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 10:03:12
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:03:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:03:23
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 10:03:23
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 10:03:24
+Foi realizada uma consulta dos alunos pelos filtros: Curso, , pesquisa: 2 - 2020-10-06 10:03:31
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 10:03:34
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:03:37
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 10:03:41
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 10:03:50
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:03:51
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 10:04:04
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 10:04:28
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:04:29
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 10:04:36
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 10:04:46
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 10:05:03
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 10:05:03
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 10:05:26
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:05:43
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:11:14
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:11:14
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:11:15
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:11:23
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:11:24
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:11:24
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:11:25
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:11:25
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:11:26
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:11:26
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:12:02
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso  IS NULL ORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:12:02
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:12:08
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso  IS NULL ORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:12:08
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:12:09
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso  IS NULL ORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:12:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:12:09
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso  IS NULL ORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:12:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:12:09
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso  IS NULL ORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:12:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:12:10
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso  IS NULL ORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:12:10
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:12:10
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso  IS NULL ORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:12:10
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:12:10
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso  IS NULL ORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:12:10
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:12:22
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso  IS NULL ORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:12:22
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:12:22
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso  IS NULL ORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:12:23
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:12:29
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso  IS NULL ORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:12:29
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:12:35
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso  IS NULL ORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:12:35
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:12:36
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso  IS NULL ORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:12:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:12:36
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso  IS NULL ORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:12:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:12:37
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso  IS NULL ORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:12:37
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:12:48
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso  IS NULL ORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:12:48
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:12:49
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso  IS NULL ORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:12:49
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:12:49
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso  IS NULL ORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:12:49
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:12:49
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso  IS NULL ORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:12:49
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:12:50
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso  IS NULL ORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:12:50
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:12:50
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso  IS NULL ORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:12:50
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:12:50
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso  IS NULL ORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:12:50
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:12:50
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso  IS NULL ORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:12:50
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:13:07
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:13:08
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:13:10
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:13:11
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:13:14
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso IS NOT NULLORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:13:14
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:13:17
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso IS NOT NULLORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:13:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:13:18
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:13:20
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND cd_curso IS NOT NULLORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:13:20
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:14:16
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULLORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:14:16
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:14:16
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULLORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:14:16
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:14:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:14:19
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULLORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:14:19
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:14:28
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULLORDER BY cd_curso ASC LIMIT 6 OFFSET 0' at line 1 - 2020-10-06 10:14:28
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:14:45
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:14:47
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:14:51
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:14:57
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:14:58
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:14:59
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:15:00
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:15:01
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:15:01
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:15:02
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:15:03
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:15:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:15:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:15:06
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:15:07
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:15:08
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:15:12
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:15:20
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:15:21
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:15:23
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 10:15:24
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:15:35
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 10:15:38
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 10:15:38
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 10:15:39
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 10:15:45
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 10:15:47
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 10:15:52
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 10:15:52

@@ -11,7 +11,16 @@ class TurmasForm {
                     <h3 class="title">Turmas</h3><br>
                     <div class="row">
 
-                        <div id="pesquisa_aluno" class="col-md-3 col-lg-3">
+                        <div id="filtro_pesquisa" class="col-md-2 col-lg-2">
+                            <label>Filtro:</label>
+                            <select id="filtro_pesquisa" name="filtro_pesquisa" class="form-control">
+                                <option value="" selected="selected">Selecione</option>
+                                <option value="1">Dispon&iacute;veis</option>
+                                <option value="2">Ocupadas</option>
+                            </select>
+                        </div>
+
+                        <div id="pesquisa_turma" class="col-md-3 col-lg-3">
                             <label>Pesquisar turma</label>
                             <div class="input-button-inline">
                                 <input type="number" name="nr_turma" id="nr_turma" class="form-control">
