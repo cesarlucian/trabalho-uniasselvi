@@ -1,12 +1,10 @@
 <?php
 
-ini_set('memory_limit', '-1');
-set_time_limit(0);
-
 class TSession {
 
     public function __construct(){
 
+        session_set_cookie_params(1200);
         session_start();
 
         if($this->getValue("usuario") == ""){

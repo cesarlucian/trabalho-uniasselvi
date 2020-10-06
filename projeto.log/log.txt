@@ -5313,3 +5313,9 @@ Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 
 Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-06 18:20:27
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 18:20:29
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 18:20:37
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 18:36:52
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 18:36:53
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 18:36:54
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 18:36:54
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 18:37:05
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 18:42:11

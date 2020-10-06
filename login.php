@@ -43,6 +43,7 @@ try{
 
                 header("location: inicial.php");
 
+
         	} else {
         		echo "Senha incorreta!";
 	        	echo "<script>alert('Senha incorreta!');history.back();</script>";
