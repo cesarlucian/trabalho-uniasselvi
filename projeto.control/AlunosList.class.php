@@ -20,6 +20,7 @@ class AlunosList {
                                     <th scope="col">Matr&iacute;cula</th>
                                     <th scope="col">Curso</th>
                                     <th scope="col">Turma</th>
+                                    <th scope="col">Situa&ccedil;&atilde;o</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -50,7 +51,21 @@ class AlunosList {
                                                         ?>
                                                     </td>
                                                     <td><?= $turma->nr_turma; ?></td>
-                                                    
+                                                    <td><?php 
+
+                                                        if($aluno->fg_status == "A") {
+
+                                                            $situacao = '<span class="label label-success">Ativo</span>';
+
+                                                        } else {
+
+                                                            $situacao = '<span class="label label-danger">Inativo</span>';
+                                                        }
+
+                                                        echo $situacao;
+
+                                                    ?>
+                                                    </td>
                                                 </tr>
                                             <?php
                                         }
@@ -91,6 +106,7 @@ class AlunosList {
                                 <th></th>
                                 <th>Nome</th>
                                 <th>Matr&iacute;cula</th>
+                                <th scope="col">Situa&ccedil;&atilde;o</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -106,6 +122,21 @@ class AlunosList {
                                                 </td>
                                                 <td><?= $aluno->nm_principal; ?></td>
                                                 <td><?= $aluno->nr_matricula; ?></td>
+                                                <td><?php 
+
+                                                        if($aluno->fg_status == "A") {
+
+                                                            $situacao = '<span class="label label-success">Ativo</span>';
+
+                                                        } else {
+
+                                                            $situacao = '<span class="label label-danger">Inativo</span>';
+                                                        }
+
+                                                        echo $situacao;
+
+                                                    ?>
+                                                    </td>
                                             </tr>
                                         <?php
                                     }

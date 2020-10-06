@@ -467,7 +467,7 @@ class AlunosForm {
                             <div class="col-lg-12 col-md-12"><br>
                             <center>
                                 <button type="submit" class="btn btn-success" onclick="return aviso();"><i class="fa fa-search">Salvar</button>
-                                <button type="submit" class="btn btn-danger" onclick="excluir('<?= $aluno->cd_aluno; ?>');"><i class="fa fa-search">Excluir</button>    
+                                <button type="button" class="btn btn-danger" onclick="excluir('<?= $aluno->cd_aluno; ?>');"><i class="fa fa-search">Excluir</button>    
                                 <a href="/trabalho-uniasselvi/projeto.view/alunos/index.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                             </center>
                         </div> 
@@ -525,7 +525,7 @@ class AlunosForm {
 
             function excluir(cd_aluno){
                 if(confirm("Deseja realmente excluir este aluno?")){
-                    window.location = 'alunos_man.php?cd_aluno='+cd_aluno+'&evento=excluir';
+                    window.location = 'alunos_man.php?evento=excluir&cd_aluno='+cd_aluno;
                 }
             }
 

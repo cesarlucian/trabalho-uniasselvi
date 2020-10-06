@@ -9,17 +9,20 @@ class CursosForm {
                 <form action="../cursos/index.php" method="GET" id="pesquisar" name="pesquisa" role="form"> 
                     <h3 class="title">Cursos</h3><br>
                     <div class="row">
-                        <div id="pesquisa_curso" class="col-md-12 col-lg-12">
+                        <div id="pesquisa_curso" class="col-md-6 col-lg-6">
                             <label>Pesquisar curso</label>
                             <div class="input-button-inline">
                                 <input type="text" name="ds_curso" id="ds_curso" class="form-control"> 
                             </div>
                         </div>
-                        <div class="col-md-12 col-lg-12">
-                            <center><br>
+                        <div id="pesquisa_curso" class="col-md-6 col-lg-6">
+                            <label>&nbsp;</label>
+                            <div class="input-button-inline">
                                 <button type="submit" class="btn btn-primary mx-3"><i class="fa fa-search">Pesquisar</button>
-                            </center>
+                            </div>
                         </div>
+                        
+
                     </div>
                 </form>
                 <script>
@@ -48,14 +51,17 @@ class CursosForm {
                         <input class="form-control" type="text" name="ds_curso" id="ds_curso" required="true">
                     </div>
 
+                    <div  class="col-md-6 col-lg-6">
+                        <label>&nbsp;</label>
+                        <div class="input-button-inline">
+                            <button type="submit" class="btn btn-success mx-3"><i class="fa fa-search">Cadastrar</button>
+                                <a href="/trabalho-uniasselvi/projeto.view/cursos/index.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="col-md-12 col-lg-12">
-                    <center>
-                        <br><button type="submit" class="btn btn-success"><i class="fa fa-search">Cadastrar</button>
-                        <a href="/trabalho-uniasselvi/projeto.view/cursos/index.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
-                    </center>
-                </div>
+                
 
             </form>
         </main>
@@ -93,7 +99,7 @@ class CursosForm {
                 <div class="col-md-12 col-lg-12">
                     <center>
                         <button type="submit" class="btn btn-success"><i class="fa fa-search">Salvar</button>
-                        <button type="submit" class="btn btn-danger" onclick="excluir('<?= $curso->cd_curso; ?>');"><i class="fa fa-search">Excluir</button>  
+                        <button type="button" class="btn btn-danger" onclick="excluir('<?= $curso->cd_curso; ?>');"><i class="fa fa-search">Excluir</button>  
                         <a href="/trabalho-uniasselvi/projeto.view/cursos/index.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                     </center>
                 </div>
@@ -102,7 +108,7 @@ class CursosForm {
         <script type="text/javascript">
             function excluir(cd_curso){
                 if(confirm("Deseja realmente excluir este curso?")){
-                    window.location = 'cursos_man.php?cd_curso='+cd_curso+'&evento=excluir';
+                    window.location = 'cursos_man.php?evento=excluir&cd_curso='+cd_curso;
                 }
             }
         </script>

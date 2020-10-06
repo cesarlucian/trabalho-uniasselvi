@@ -131,6 +131,7 @@ class CursosList {
                                                         ?>
                                                 
                                                      </td>
+                                                     
                                                 </tr>
                                             <?php
                                         }

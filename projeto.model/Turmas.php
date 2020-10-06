@@ -54,7 +54,7 @@ class Turmas {
             $sql = "INSERT INTO turmas";
             
             foreach($this as $key=>$campo){
-                if($key != 'cd_turma'){
+                if($key != 'cd_curso' & $key != 'cd_turma'){
                     if($colunas == ''){
                         $colunas = $key;
                     }
@@ -72,12 +72,15 @@ class Turmas {
             }
             
             $sql .= " (".$colunas.") VALUES (".$valores.") ";
+
+            //print($sql);exit;
+            
             $conn = TTransaction::get();
             $result = $conn->query($sql);
             
             $sql = "select cd_turma "
                     . "from turmas "
-                    . "where nr_turma = '".$this->nr_turma."' ";
+                    . "where cd_turma = '".$this->cd_turma."' ";
 
             $conn = TTransaction::get();
             $result = $conn->query($sql);
@@ -96,6 +99,7 @@ class Turmas {
             
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            echo $ex->getMessage();
             TTransaction::rollback();      
             return false;
         }
@@ -143,6 +147,27 @@ class Turmas {
             TTransaction::open();
 
             $sql = "DELETE FROM turmas WHERE cd_turma = ".$id;
+            $conn = TTransaction::get();
+            $result = $conn->query($sql);
+            
+            TTransaction::close();
+            
+            return true;
+            
+        } catch (Exception $ex) {   
+
+            echo $ex->getMessage();
+            TTransaction::rollback();      
+            
+            return false;
+        }
+    }
+
+     static function tornarDisponivel($id) {
+        try{
+            TTransaction::open();
+
+            $sql = "UPDATE turmas SET cd_curso = NULL WHERE cd_turma = ".$id;
             $conn = TTransaction::get();
             $result = $conn->query($sql);
             
@@ -308,6 +333,61 @@ class Turmas {
 
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+        }
+    }
+
+    static function listaTurmasPag($nr_turma = null, $pag = 1){
+        try{
+            TTransaction::open();
+
+            $sql_turma = null;
+            
+            $offset = (($pag-1)*6);
+
+            if($nr_turma) {
+
+                $sql_turma = " WHERE nr_turma like '%$nr_turma%' ";
+            }
+
+            $sql = "SELECT * FROM turmas "
+                    ."$sql_turma"
+                    ."ORDER BY cd_curso ASC "  
+                    ."LIMIT 6 "
+                    ."OFFSET $offset "; 
+
+            //print($sql);
+
+            $conn = TTransaction::get();
+            $result = $conn->query($sql);
+            
+            $lista_cursos = null;
+            if($result){
+                foreach($result as $data){
+
+                    $curso = new Cursos;                    
+                    
+                    foreach($data as $key=>$campo){
+                        $curso->$key = $campo;
+                    }
+                    
+                    $lista_cursos[] = $curso;
+                    
+                    unset($curso);
+                }
+                
+                if(isset($lista_cursos)){                    
+                    return $lista_cursos;
+                }
+            }  
+            unset($conn);
+            
+            return false;
+            
+        } catch (Exception $ex) { 
+
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+
         }
     }
 }

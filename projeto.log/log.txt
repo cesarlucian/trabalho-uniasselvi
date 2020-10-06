@@ -3614,3 +3614,1175 @@ Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:42:59
 Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:43:03
 Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:43:05
 Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:43:06
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:44:53
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:44:53
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:46:55
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:46:55
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:46:56
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:46:56
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:46:56
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:46:57
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:46:57
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:47:27
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 19:47:28
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:47:29
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:47:29
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:48:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:48:37
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:48:37
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:48:37
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:48:59
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:49:08
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:49:09
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:49:10
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:49:20
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:49:20
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:49:21
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:49:21
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 19:49:22
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:49:23
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 19:49:26
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:49:26
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 19:49:27
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:49:27
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:49:28
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:49:46
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:49:47
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:49:47
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:49:47
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 19:49:48
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:49:49
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:49:50
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:49:57
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:49:58
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:49:58
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:50:14
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:50:19
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:50:32
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:50:32
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:50:33
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:50:33
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:50:34
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:50:34
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:51:02
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:51:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:51:07
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:51:07
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 19:51:08
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 19:51:11
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:51:11
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 19:51:12
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:51:13
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:51:39
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:51:40
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:51:40
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:51:48
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:51:48
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:51:48
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:52:07
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:52:08
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:52:08
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:52:13
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:52:13
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:52:14
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:52:21
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:52:27
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:52:27
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:52:27
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:52:32
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:52:32
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:52:55
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:52:55
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:52:56
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:53:01
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:53:03
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:53:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:53:05
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:53:10
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 19:53:18
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:53:18
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:53:30
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:53:31
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:53:31
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:53:36
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:53:37
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 19:53:38
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:53:39
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:53:39
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:53:40
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 19:53:41
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:53:44
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:53:46
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:55:45
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:55:45
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:55:47
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:55:48
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:55:48
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:55:49
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:56:07
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:56:14
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:57:57
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:57:58
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:58:15
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 19:58:16
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:58:17
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:59:49
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:59:49
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 19:59:49
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:59:49
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:59:50
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 19:59:50
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:00:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:00:43
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:00:44
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:00:44
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:00:59
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:00:59
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:00:59
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:01:05
+Foi realizada uma consulta das turmas, pelo numero: 100 - 2020-10-05 20:01:16
+Foi realizada uma consulta das turmas, pelo numero: 400 - 2020-10-05 20:01:19
+Foi realizada uma consulta das turmas, pelo numero: 450 - 2020-10-05 20:01:22
+Foi realizada uma consulta das turmas, pelo numero: -3 - 2020-10-05 20:01:28
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:01:28
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:01:29
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:01:29
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:01:30
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:01:30
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:01:31
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:01:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:01:38
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:01:39
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:01:40
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:01:41
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:01:43
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:01:44
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:01:45
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:01:46
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:01:47
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:01:48
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:03:27
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:03:28
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:03:29
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:05:40
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:05:40
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:05:40
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:05:41
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:05:41
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:05:41
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:05:51
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:05:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:05:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:05:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:03
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:06
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:06
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:06
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:06
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:06
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:08
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:10
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:11
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:11
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:11
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:11
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:12
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:13
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:13
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:41
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:42
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:42
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:42
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:42
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:06:43
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:10:07
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:10:07
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:10:08
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:10:08
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:10:58
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:10:58
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:10:58
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:10:58
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:10:59
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:10:59
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:10:59
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:10:59
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:12:53
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:12:53
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:12:54
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:13:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:13:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:13:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:13:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:13:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:13:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:13:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:13:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:13:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:13:28
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:13:29
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:13:29
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:13:40
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:13:40
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:13:40
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:14:03
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:14:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:14:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:14:28
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:14:28
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:14:29
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:14:29
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:14:33
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:14:33
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:14:34
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:14:34
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:15:50
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:15:50
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:15:51
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:16:02
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:16:02
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:16:03
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:17:31
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:17:31
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:17:31
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:17:51
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:17:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:17:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:17:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:17:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:17:53
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:17:54
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:17:55
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:17:56
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:17:57
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:17:59
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:18:00
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:18:01
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:18:02
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:18:03
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:18:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:18:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:18:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:18:06
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:18:06
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:18:06
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:18:06
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:18:07
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:18:07
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:18:07
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:18:07
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:18:08
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:18:08
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:18:08
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:18:59
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:18:59
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:18:59
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:18:59
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:19:00
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:19:00
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:19:10
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:19:10
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:19:10
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:19:10
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:20:03
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:20:03
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:20:03
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:20:03
+Foi realizada uma consulta das turmas, pelo numero: 666 - 2020-10-05 20:20:06
+Foi realizada uma consulta das turmas, pelo numero: 666 - 2020-10-05 20:20:21
+Foi realizada uma consulta das turmas, pelo numero: 666 - 2020-10-05 20:20:21
+Foi realizada uma consulta das turmas, pelo numero: 666 - 2020-10-05 20:20:22
+Foi realizada uma consulta das turmas, pelo numero: 666 - 2020-10-05 20:20:39
+Foi realizada uma consulta das turmas, pelo numero: 666 - 2020-10-05 20:20:39
+Foi realizada uma consulta das turmas, pelo numero: 666 - 2020-10-05 20:20:40
+Foi realizada uma consulta das turmas, pelo numero: 666 - 2020-10-05 20:20:40
+Foi realizada uma consulta das turmas, pelo numero: 666 - 2020-10-05 20:20:40
+Foi realizada uma consulta das turmas, pelo numero: 666 - 2020-10-05 20:21:35
+Foi realizada uma consulta das turmas, pelo numero: 666 - 2020-10-05 20:21:35
+Foi realizada uma consulta das turmas, pelo numero: 666 - 2020-10-05 20:22:23
+Foi realizada uma consulta das turmas, pelo numero: 666 - 2020-10-05 20:22:24
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:22:24
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:22:35
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:22:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:22:38
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:22:39
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:22:40
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:22:41
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:22:41
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:22:42
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:22:43
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:22:44
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:22:45
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:22:46
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:22:48
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:22:49
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:22:50
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:22:51
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:22:51
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:22:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:22:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:22:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:22:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:22:53
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:23:07
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:23:08
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:23:08
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:23:08
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:23:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:23:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:23:10
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:23:16
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:23:16
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:23:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:23:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:23:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:23:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:23:17
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 20:24:34
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:24:34
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 20:24:35
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 20:24:51
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 20:24:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:24:53
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:25:14
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:25:22
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:28:10
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:28:27
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:28:28
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:28:28
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:28:28
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:28:35
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 20:28:36
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 20:28:37
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 20:28:38
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 20:28:56
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 20:28:56
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 20:28:56
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:28:57
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:29:27
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:29:28
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:29:28
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:29:28
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:29:28
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:29:28
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:29:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:29:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:29:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:29:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:29:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:29:37
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:29:37
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:29:37
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:29:37
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:29:37
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:29:38
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:29:58
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:30:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:30:12
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 20:30:12
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:30:13
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 20:30:14
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 20:30:15
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 20:30:16
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 20:30:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:30:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:30:29
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:30:56
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:30:57
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:30:57
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:31:13
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:31:16
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:31:16
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:31:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:31:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:31:18
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:31:18
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:32:22
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:32:23
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:32:23
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:32:24
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:32:25
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:32:30
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 20:32:31
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 20:32:32
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 20:32:33
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 20:33:04
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 20:33:30
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:33:33
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:34:14
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:35:25
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:35:26
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:35:26
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:35:26
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:35:41
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:35:41
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:35:42
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:35:42
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:35:42
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:35:51
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:35:51
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:35:51
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:36:14
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:36:14
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:36:14
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:36:14
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:43:37
+Erro: SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ - 2020-10-05 20:43:41
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:44:14
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:44:14
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:44:15
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:44:15
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:44:30
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:44:43
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:44:44
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:44:44
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:45:21
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:45:49
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:45:50
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:46:45
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:49:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:49:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:49:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:49:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:49:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:49:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:50:37
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:50:48
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:50:48
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:51:20
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:51:56
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:52:11
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:52:25
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:52:34
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:53:14
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:53:37
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:53:54
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:54:22
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:56:00
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:56:19
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:56:24
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:56:25
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:56:25
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:57:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:57:18
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:57:18
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:57:51
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:58:10
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:58:10
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:58:32
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:58:32
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:58:32
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:59:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:59:18
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:59:18
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:59:18
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:59:18
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:59:18
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 20:59:44
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 21:00:16
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 21:00:45
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 21:00:57
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 21:00:57
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 21:01:01
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 21:03:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 21:03:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 21:03:05
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:05:08
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:05:49
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 21:05:51
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 21:06:27
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 21:09:32
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 21:16:53
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:17:00
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:17:05
+Foi inserido um novo curso na base de dados - 2020-10-05 21:24:43
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:25:14
+Foi realizada uma consulta dos cursos pela descriçao: 'limpeza' - 2020-10-05 21:25:19
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:25:23
+Foi realizada uma consulta dos cursos pela descriçao: 'limpeza' - 2020-10-05 21:25:27
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-05 21:25:30
+Erro ao editar curso na base de dados - 2020-10-05 21:25:30
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-05 21:26:06
+Erro ao editar curso na base de dados - 2020-10-05 21:26:06
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:26:09
+Foi realizada uma consulta dos cursos pela descriçao: 'limpeza' - 2020-10-05 21:26:13
+Foi realizada uma consulta dos cursos pela descriçao: 'limpeza' - 2020-10-05 21:26:57
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-05 21:27:03
+Erro ao editar curso na base de dados - 2020-10-05 21:27:03
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-05 21:27:41
+Erro ao editar curso na base de dados - 2020-10-05 21:27:41
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-05 21:27:45
+Erro ao editar curso na base de dados - 2020-10-05 21:27:45
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:29:21
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 21:32:44
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 21:32:45
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:32:47
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 21:32:47
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 21:32:57
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 21:32:57
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:32:57
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 21:32:58
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:32:59
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 21:32:59
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 21:32:59
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 21:33:03
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 21:33:04
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:33:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 21:33:05
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 21:33:09
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 21:33:10
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:33:10
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 21:33:10
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 21:33:11
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:33:12
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 21:33:13
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:33:14
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 21:33:14
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 21:33:15
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 21:33:16
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 21:33:17
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:33:18
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 21:33:19
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:33:20
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 21:33:20
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 21:33:21
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 21:33:22
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 21:33:22
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:33:23
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 21:33:24
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:33:24
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 21:33:25
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 21:33:25
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 21:33:26
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 21:33:26
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 21:33:27
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:33:28
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 21:33:28
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 21:33:44
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 21:33:44
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 21:34:03
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 21:34:04
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:34:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 21:34:05
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:34:07
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:34:09
+O curso id '' foi atualizado na base de dados - 2020-10-05 21:35:27
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:35:55
+O curso id '' foi atualizado na base de dados - 2020-10-05 21:35:59
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:36:13
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:36:14
+O curso id '38' foi excluido da base de dados - 2020-10-05 21:43:00
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:43:03
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:43:03
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:43:04
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:43:04
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:43:04
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:43:04
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:43:04
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:43:35
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:43:35
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:43:36
+O curso id '38' foi excluido da base de dados - 2020-10-05 21:43:38
+O curso id '38' foi excluido da base de dados - 2020-10-05 21:44:03
+O curso id '38' foi excluido da base de dados - 2020-10-05 21:44:06
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:49:03
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`projeto01`.`turmas`, CONSTRAINT `fk_TurmaCurso` FOREIGN KEY (`cd_curso`) REFERENCES `cursos` (`cd_curso`)) - 2020-10-05 21:49:06
+Erro ao excluir curso da base de dados - 2020-10-05 21:49:06
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:53:58
+Foi inserido um novo curso na base de dados - 2020-10-05 21:54:01
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:54:09
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:54:52
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 21:55:41
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 21:58:13
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`projeto01`.`chamada`, CONSTRAINT `fk_chamadaAluno` FOREIGN KEY (`cd_aluno`) REFERENCES `alunos` (`cd_aluno`)) - 2020-10-05 21:58:16
+O aluno ID: '40' foi editado na base de dados - 2020-10-05 21:58:16
+Erro ao excluir aluno da base de dados - 2020-10-05 21:58:16
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`projeto01`.`chamada`, CONSTRAINT `fk_chamadaAluno` FOREIGN KEY (`cd_aluno`) REFERENCES `alunos` (`cd_aluno`)) - 2020-10-05 21:58:24
+Erro ao excluir aluno da base de dados - 2020-10-05 21:58:24
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`projeto01`.`chamada`, CONSTRAINT `fk_chamadaAluno` FOREIGN KEY (`cd_aluno`) REFERENCES `alunos` (`cd_aluno`)) - 2020-10-05 21:58:52
+Erro ao excluir aluno da base de dados - 2020-10-05 21:58:52
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`projeto01`.`chamada`, CONSTRAINT `fk_chamadaAluno` FOREIGN KEY (`cd_aluno`) REFERENCES `alunos` (`cd_aluno`)) - 2020-10-05 21:58:55
+Erro ao excluir aluno da base de dados - 2020-10-05 21:58:55
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`projeto01`.`chamada`, CONSTRAINT `fk_chamadaAluno` FOREIGN KEY (`cd_aluno`) REFERENCES `alunos` (`cd_aluno`)) - 2020-10-05 21:59:04
+Erro ao excluir aluno da base de dados - 2020-10-05 21:59:04
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:02:07
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:02:08
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:06:18
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 22:06:20
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 22:06:22
+Foi realizada uma consulta dos alunos pelos filtros: Nome, sexo Masculino, pesquisa: 1 - 2020-10-05 22:06:24
+Foi realizada uma consulta dos alunos pelos filtros: Nome, sexo Feminino, pesquisa: 1 - 2020-10-05 22:06:25
+Foi realizada uma consulta dos alunos pelos filtros: Nome, sexo Feminino, pesquisa: 1 - 2020-10-05 22:06:28
+Foi realizada uma consulta dos alunos pelos filtros: Nome, sexo Feminino, pesquisa: 1 - 2020-10-05 22:06:31
+Foi realizada uma consulta dos alunos pelos filtros: Nome, sexo Feminino, pesquisa: 1 - 2020-10-05 22:06:33
+Foi realizada uma consulta dos alunos pelos filtros: Nome, sexo Feminino, pesquisa: 1 - 2020-10-05 22:06:34
+Foi realizada uma consulta dos alunos pelos filtros: Nome, sexo Feminino, pesquisa: 1 - 2020-10-05 22:06:35
+Foi realizada uma consulta dos alunos pelos filtros: Curso, , pesquisa: 2 - 2020-10-05 22:06:38
+Foi realizada uma consulta dos alunos pelos filtros: Curso, , pesquisa: 2 - 2020-10-05 22:06:42
+Foi realizada uma consulta dos alunos pelos filtros: Curso, , pesquisa: 2 - 2020-10-05 22:06:48
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 22:06:53
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 22:06:58
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:07:00
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:07:12
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:07:13
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:07:15
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:07:16
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:07:56
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:07:57
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:07:57
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:08:07
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:08:07
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:08:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:08:12
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:08:14
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:09:21
+Foi inserido um novo curso na base de dados - 2020-10-05 22:09:26
+O curso id '68' foi excluido da base de dados - 2020-10-05 22:09:29
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:10:08
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:10:09
+Foi inserido um novo curso na base de dados - 2020-10-05 22:10:14
+O curso id '69' foi excluido da base de dados - 2020-10-05 22:10:15
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:10:15
+Foi realizada uma consulta dos cursos pela descriçao: 'testando' - 2020-10-05 22:10:24
+Foi realizada uma consulta dos cursos pela descriçao: 'testando' - 2020-10-05 22:11:23
+Foi realizada uma consulta dos cursos pela descriçao: 'testando' - 2020-10-05 22:11:43
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ds_curso like '%testando%' ORDER BY ds_curso LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 22:11:43
+Foi realizada uma consulta dos cursos pela descriçao: 'testando' - 2020-10-05 22:11:43
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ds_curso like '%testando%' ORDER BY ds_curso LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 22:11:43
+Foi realizada uma consulta dos cursos pela descriçao: 'testando' - 2020-10-05 22:11:46
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ds_curso like '%testando%' ORDER BY ds_curso LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 22:11:46
+Foi realizada uma consulta dos cursos pela descriçao: 'testando' - 2020-10-05 22:11:47
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ds_curso like '%testando%' ORDER BY ds_curso LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 22:11:47
+Foi realizada uma consulta dos cursos pela descriçao: 'testando' - 2020-10-05 22:11:47
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ds_curso like '%testando%' ORDER BY ds_curso LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 22:11:47
+Foi realizada uma consulta dos cursos pela descriçao: 'testando' - 2020-10-05 22:11:47
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ds_curso like '%testando%' ORDER BY ds_curso LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 22:11:47
+Foi realizada uma consulta dos cursos pela descriçao: 'testando' - 2020-10-05 22:11:48
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ds_curso like '%testando%' ORDER BY ds_curso LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 22:11:48
+Foi realizada uma consulta dos cursos pela descriçao: 'testando' - 2020-10-05 22:11:48
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ds_curso like '%testando%' ORDER BY ds_curso LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 22:11:48
+Foi realizada uma consulta dos cursos pela descriçao: 'testando' - 2020-10-05 22:11:49
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ds_curso like '%testando%' ORDER BY ds_curso LIMIT 6 OFFSET 0' at line 1 - 2020-10-05 22:11:49
+Foi realizada uma consulta dos cursos pela descriçao: 'testando' - 2020-10-05 22:11:56
+Foi realizada uma consulta dos cursos pela descriçao: 'testando' - 2020-10-05 22:11:58
+Foi realizada uma consulta dos cursos pela descriçao: 'testando' - 2020-10-05 22:11:58
+Foi realizada uma consulta dos cursos pela descriçao: 'testando' - 2020-10-05 22:11:59
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:12:04
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:14:22
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:14:23
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:14:33
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:14:48
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:16:13
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:16:14
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:16:14
+Foi realizada uma consulta dos cursos pela descriçao: 'testa' - 2020-10-05 22:16:19
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 22:16:35
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 22:16:41
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 22:16:45
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 22:16:47
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 22:16:57
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:16:58
+O aluno ID: '40' foi excluido da base de dados - 2020-10-05 22:17:02
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:17:46
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:17:47
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:18:08
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:18:11
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:18:12
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:18:13
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:18:14
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:18:17
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:18:20
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 22:18:20
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:18:21
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:18:23
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:18:26
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:18:27
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:18:28
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:18:28
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:18:34
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:18:35
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:18:36
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:18:37
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:18:38
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 22:19:00
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:19:01
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:19:15
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:19:16
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 22:19:16
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:19:17
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:19:18
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 22:19:18
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:19:19
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:19:19
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:19:45
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:19:46
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:19:49
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:19:50
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:19:50
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:19:50
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:19:51
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:19:51
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:20:46
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:20:47
+Foi inserido um novo curso na base de dados - 2020-10-05 22:21:04
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:21:14
+Foi realizada uma consulta dos cursos pela descriçao: 'novo curso' - 2020-10-05 22:21:22
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:21:30
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:21:38
+O curso id '38' foi excluido da base de dados - 2020-10-05 22:21:42
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:21:42
+O curso id '65' foi excluido da base de dados - 2020-10-05 22:21:46
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:21:46
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:22:37
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:22:38
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:22:38
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:22:38
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:22:39
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:22:39
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:22:39
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:24:06
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:24:06
+O curso id '39' se tornou inativo na base de dados - 2020-10-05 22:24:11
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:24:11
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:24:18
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:24:21
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:24:30
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:24:32
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:24:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:24:39
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:24:39
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 22:24:40
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:24:41
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:24:42
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:24:43
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:25:21
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:25:22
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:25:22
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:25:31
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:26:10
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:26:26
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:26:27
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:26:27
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:26:27
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:26:30
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:26:33
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:26:45
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:26:46
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:26:46
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:26:46
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:26:46
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:26:46
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:26:48
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:26:49
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:27:27
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:27:31
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:27:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:28:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:28:06
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:28:06
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:28:08
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:28:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:28:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:28:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:28:18
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:28:18
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:28:24
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:28:25
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:28:25
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:28:32
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:28:32
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:28:33
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:28:33
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:29:19
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:29:37
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:29:38
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:29:38
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:29:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:29:53
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:29:53
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:29:54
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:29:54
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:29:54
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:30:08
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:30:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:30:22
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:30:35
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:30:55
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:30:55
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:31:37
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:31:38
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:31:41
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 22:31:42
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 22:31:43
+Foi realizada uma consulta das faltas justificadas - 2020-10-05 22:31:46
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 22:31:48
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:31:49
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:31:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:33:10
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:34:01
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:36:48
+A turma id '57' se tornou inativo na base de dados - 2020-10-05 22:36:50
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:36:50
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:37:16
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:37:16
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:37:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:37:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:37:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:37:17
+A turma id '3' se tornou inativo na base de dados - 2020-10-05 22:37:19
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:37:19
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:37:25
+A turma id '4' se tornou inativo na base de dados - 2020-10-05 22:37:27
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:37:27
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:37:34
+A turma id '5' se tornou inativo na base de dados - 2020-10-05 22:37:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:37:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:37:46
+Foi inserido um novo curso na base de dados - 2020-10-05 22:39:20
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:39:54
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:39:55
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:39:55
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:39:56
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:39:56
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:39:59
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:41:12
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:42:08
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:42:09
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`projeto01`.`turmas`, CONSTRAINT `fk_TurmaCurso` FOREIGN KEY (`cd_curso`) REFERENCES `cursos` (`cd_curso`)) - 2020-10-05 22:42:28
+Erro ao cadastrar turma na base de dados - 2020-10-05 22:42:28
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`projeto01`.`turmas`, CONSTRAINT `fk_TurmaCurso` FOREIGN KEY (`cd_curso`) REFERENCES `cursos` (`cd_curso`)) - 2020-10-05 22:42:54
+Erro ao cadastrar turma na base de dados - 2020-10-05 22:42:54
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`projeto01`.`turmas`, CONSTRAINT `fk_TurmaCurso` FOREIGN KEY (`cd_curso`) REFERENCES `cursos` (`cd_curso`)) - 2020-10-05 22:43:28
+Erro ao cadastrar turma na base de dados - 2020-10-05 22:43:28
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`projeto01`.`turmas`, CONSTRAINT `fk_TurmaCurso` FOREIGN KEY (`cd_curso`) REFERENCES `cursos` (`cd_curso`)) - 2020-10-05 22:44:35
+Erro ao cadastrar turma na base de dados - 2020-10-05 22:44:35
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:44:49
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`projeto01`.`turmas`, CONSTRAINT `fk_TurmaCurso` FOREIGN KEY (`cd_curso`) REFERENCES `cursos` (`cd_curso`)) - 2020-10-05 22:44:52
+Erro ao cadastrar turma na base de dados - 2020-10-05 22:44:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:45:15
+A turma id '6' se tornou inativo na base de dados - 2020-10-05 22:45:20
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:45:20
+A turma id '7' se tornou inativo na base de dados - 2020-10-05 22:45:30
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:45:30
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:45:40
+Erro ao excluir turma da base de dados - 2020-10-05 22:45:42
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:45:49
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:45:50
+Erro ao excluir turma da base de dados - 2020-10-05 22:45:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:46:25
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 22:46:28
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 22:46:29
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 22:46:29
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:46:40
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:48:45
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:48:45
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:49:18
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`projeto01`.`turmas`, CONSTRAINT `fk_TurmaCurso` FOREIGN KEY (`cd_curso`) REFERENCES `cursos` (`cd_curso`)) - 2020-10-05 22:51:08
+Erro ao cadastrar turma na base de dados - 2020-10-05 22:51:08
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`projeto01`.`turmas`, CONSTRAINT `fk_TurmaCurso` FOREIGN KEY (`cd_curso`) REFERENCES `cursos` (`cd_curso`)) - 2020-10-05 22:51:11
+Erro ao cadastrar turma na base de dados - 2020-10-05 22:51:11
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`projeto01`.`turmas`, CONSTRAINT `fk_TurmaCurso` FOREIGN KEY (`cd_curso`) REFERENCES `cursos` (`cd_curso`)) - 2020-10-05 22:51:19
+Erro ao cadastrar turma na base de dados - 2020-10-05 22:51:19
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`projeto01`.`turmas`, CONSTRAINT `fk_TurmaCurso` FOREIGN KEY (`cd_curso`) REFERENCES `cursos` (`cd_curso`)) - 2020-10-05 22:52:07
+Erro ao cadastrar turma na base de dados - 2020-10-05 22:52:07
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:53:14
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:53:15
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:53:15
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:53:15
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:53:16
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:53:16
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 22:53:21
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`projeto01`.`turmas`, CONSTRAINT `fk_TurmaCurso` FOREIGN KEY (`cd_curso`) REFERENCES `cursos` (`cd_curso`)) - 2020-10-05 22:53:26
+Erro ao cadastrar turma na base de dados - 2020-10-05 22:53:26
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`projeto01`.`turmas`, CONSTRAINT `fk_TurmaCurso` FOREIGN KEY (`cd_curso`) REFERENCES `cursos` (`cd_curso`)) - 2020-10-05 22:54:09
+Erro ao cadastrar turma na base de dados - 2020-10-05 22:54:09
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`projeto01`.`turmas`, CONSTRAINT `fk_TurmaCurso` FOREIGN KEY (`cd_curso`) REFERENCES `cursos` (`cd_curso`)) - 2020-10-05 22:56:20
+Erro ao cadastrar turma na base de dados - 2020-10-05 22:56:20
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`projeto01`.`turmas`, CONSTRAINT `fk_TurmaCurso` FOREIGN KEY (`cd_curso`) REFERENCES `cursos` (`cd_curso`)) - 2020-10-05 22:56:22
+Erro ao cadastrar turma na base de dados - 2020-10-05 22:56:22
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`projeto01`.`turmas`, CONSTRAINT `fk_TurmaCurso` FOREIGN KEY (`cd_curso`) REFERENCES `cursos` (`cd_curso`)) - 2020-10-05 22:56:24
+Erro ao cadastrar turma na base de dados - 2020-10-05 22:56:24
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`projeto01`.`turmas`, CONSTRAINT `fk_TurmaCurso` FOREIGN KEY (`cd_curso`) REFERENCES `cursos` (`cd_curso`)) - 2020-10-05 22:57:48
+Erro ao cadastrar turma na base de dados - 2020-10-05 22:57:48
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`projeto01`.`turmas`, CONSTRAINT `fk_TurmaCurso` FOREIGN KEY (`cd_curso`) REFERENCES `cursos` (`cd_curso`)) - 2020-10-05 22:58:03
+Erro ao cadastrar turma na base de dados - 2020-10-05 22:58:03
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`projeto01`.`turmas`, CONSTRAINT `fk_TurmaCurso` FOREIGN KEY (`cd_curso`) REFERENCES `cursos` (`cd_curso`)) - 2020-10-05 22:58:05
+Erro ao cadastrar turma na base de dados - 2020-10-05 22:58:05
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`projeto01`.`turmas`, CONSTRAINT `fk_TurmaCurso` FOREIGN KEY (`cd_curso`) REFERENCES `cursos` (`cd_curso`)) - 2020-10-05 22:58:09
+Erro ao cadastrar turma na base de dados - 2020-10-05 22:58:09
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`projeto01`.`turmas`, CONSTRAINT `fk_TurmaCurso` FOREIGN KEY (`cd_curso`) REFERENCES `cursos` (`cd_curso`) ON DELETE SET NULL ON UPDATE NO ACTION) - 2020-10-05 23:10:47
+Erro ao cadastrar turma na base de dados - 2020-10-05 23:10:47
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`projeto01`.`turmas`, CONSTRAINT `fk_TurmaCurso` FOREIGN KEY (`cd_curso`) REFERENCES `cursos` (`cd_curso`) ON DELETE SET NULL ON UPDATE NO ACTION) - 2020-10-05 23:11:32
+Erro ao cadastrar turma na base de dados - 2020-10-05 23:11:32
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`projeto01`.`turmas`, CONSTRAINT `fk_TurmaCurso` FOREIGN KEY (`cd_curso`) REFERENCES `cursos` (`cd_curso`) ON DELETE SET NULL ON UPDATE SET NULL) - 2020-10-05 23:12:01
+Erro ao cadastrar turma na base de dados - 2020-10-05 23:12:01
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`projeto01`.`turmas`, CONSTRAINT `fk_TurmaCurso` FOREIGN KEY (`cd_curso`) REFERENCES `cursos` (`cd_curso`) ON DELETE CASCADE ON UPDATE CASCADE) - 2020-10-05 23:14:15
+Erro ao cadastrar turma na base de dados - 2020-10-05 23:14:16
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:14:36
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:15:01
+Foi inserido um novo curso na base de dados - 2020-10-05 23:15:05
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:15:07
+Foi realizada uma consulta dos cursos pela descriçao: 'teste' - 2020-10-05 23:15:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:15:12
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:15:30
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:15:31
+Foi inserida uma nova turma na base de dados - 2020-10-05 23:17:47
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:17:47
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:17:54
+A turma id '82' se tornou inativo na base de dados - 2020-10-05 23:17:59
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:17:59
+A turma id '67' se tornou inativo na base de dados - 2020-10-05 23:18:02
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:18:02
+A turma id '73' se tornou inativo na base de dados - 2020-10-05 23:18:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:18:09
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:18:15
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:18:18
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:20:38
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:20:38
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:20:39
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:20:39
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:20:39
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:20:39
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:20:40
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:20:44
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:20:47
+O curso id '71' se tornou inativo na base de dados - 2020-10-05 23:20:50
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:20:50
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:21:24
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:21:25
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:21:28
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:23:00
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 23:23:02
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:23:02
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:23:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:26:34
+A turma id '8' se tornou inativo na base de dados - 2020-10-05 23:26:41
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:26:41
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:26:46
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:26:53
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:26:56
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:26:59
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:27:00
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:27:02
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:27:04
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:27:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:27:10
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:27:14
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:27:19
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:27:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:28:01
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:28:09
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:29:08
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:29:10
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:29:11
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:29:12
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:29:14
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:29:17
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:29:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:29:22
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:29:23
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:29:40
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:29:41
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:29:42
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:29:43
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:29:43
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:29:45
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:29:46
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:29:47
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:29:49
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:29:50
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:29:50
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:29:50
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:29:50
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:29:50
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:29:50
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:30:40
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:30:41
+A turma id '9' se tornou inativo na base de dados - 2020-10-05 23:30:46
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:30:46
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:30:49
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:30:50
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 23:30:50
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:30:50
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:30:54
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:30:56
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:30:57
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:30:59
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:31:00
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:31:01
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:31:02
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:31:02
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:31:02
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:31:03
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:31:03
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:31:03
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:31:06
+Erro ao editar aluno na base de dados, Erro: CPF ja existe na base de dados - 2020-10-05 23:32:48
+Erro ao inserir aluno na base de dados, Erro: Email invalido - 2020-10-05 23:33:20
+Erro ao inserir aluno na base de dados, Erro: Email invalido - 2020-10-05 23:33:37
+Foi inserido um novo aluno na base de dados - 2020-10-05 23:34:00
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:34:03
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:34:05
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:34:07
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:34:10
+Foi realizada uma consulta das turmas, pelo numero: 2801 - 2020-10-05 23:34:14
+Foi realizada uma consulta das turmas, pelo numero: 2801 - 2020-10-05 23:35:25
+Foi realizada uma consulta das turmas, pelo numero: 2801 - 2020-10-05 23:35:26
+A turma id '55' se tornou inativo na base de dados - 2020-10-05 23:35:41
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:35:41
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:35:44
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:35:45
+Erro ao inserir aluno na base de dados, Erro: Turma não pertence ao curso - 2020-10-05 23:35:52
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:35:57
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:36:01
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:36:21
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:36:22
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:36:23
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:38:13
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:38:15
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:38:15
+A turma id '8' se tornou inativo na base de dados - 2020-10-05 23:38:20
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:38:20
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:38:22
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:38:24
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:38:25
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:38:26
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:38:26
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:38:26
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:38:28
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:38:29
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:38:29
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:38:29
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:38:29
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:38:30
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:38:30
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:38:33
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:38:34
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:38:37
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:38:38
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:38:40
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:38:41
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:40:54
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:40:54
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:40:54
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:40:54
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:40:55
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:40:56
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:40:56
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:40:56
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:40:57
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:40:57
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:40:57
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:41:00
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:41:02
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:41:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:41:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:41:06
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:41:07
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:41:07
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:41:08
+Erro ao excluir turma da base de dados - 2020-10-05 23:41:11
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:41:48
+A turma id '55' se tornou inativo na base de dados - 2020-10-05 23:41:51
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:41:51
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:41:53
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:41:55
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:42:04
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:42:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:42:38
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-05 23:42:51
+A turma id '10' se tornou inativo na base de dados - 2020-10-05 23:42:51
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:42:51
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-05 23:42:53
+A turma id '11' se tornou inativo na base de dados - 2020-10-05 23:42:53
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:42:53
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-05 23:42:55
+A turma id '12' se tornou inativo na base de dados - 2020-10-05 23:42:55
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:42:55
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-05 23:43:04
+A turma id '13' se tornou inativo na base de dados - 2020-10-05 23:43:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:43:04
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-05 23:43:06
+A turma id '14' se tornou inativo na base de dados - 2020-10-05 23:43:06
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:43:06
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:43:07
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:43:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:43:10
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:43:12
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:43:13
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:43:15
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:43:16
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:43:21
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:43:26
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:43:29
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:43:30
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:43:32
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:43:33
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:43:34
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:43:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:43:37
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:43:38
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:43:40
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 23:43:40
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:43:41
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:43:57
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-05 23:43:59
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:44:00
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-05 23:44:02
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:44:19
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-05 23:44:19
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:44:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:44:53
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:44:54
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:44:57
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:44:59
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:45:06
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:45:07
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:45:12
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:45:16
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:45:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:45:20
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:45:26
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:45:30
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:45:33
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:45:54
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:45:54
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:45:56
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:45:59
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:46:02
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:46:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:46:06
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:46:07
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:46:26
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:46:37
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:46:49
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:46:49
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:46:50
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:47:12
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:47:20
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:47:21
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:47:45
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:47:50
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-05 23:47:55
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:48:01
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:49:24
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:49:24
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:50:16
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:50:43
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:55:42
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:55:43
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:55:43
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:55:43
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:56:03
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:56:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:56:34
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:59:16
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 00:00:25
