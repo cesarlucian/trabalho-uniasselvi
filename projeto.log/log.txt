@@ -4786,3 +4786,15 @@ Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:56:04
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:56:34
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-05 23:59:16
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 00:00:25
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 00:01:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 00:01:38
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 00:01:39
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 00:01:41
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 00:01:42
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 00:01:46
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 00:01:46
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 00:01:46
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 00:01:47
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 00:01:47
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 00:01:47
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 00:03:46

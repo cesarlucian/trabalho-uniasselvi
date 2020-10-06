@@ -28,8 +28,20 @@ class AlunosList {
                                     if($lista_alunos){
                                         foreach($lista_alunos as $aluno){ 
 
-                                            $turma = new Turmas();
-                                            $turma->getObject($aluno->cd_turma);
+                                            $desc_turma = null;
+
+                                            if(!$aluno->cd_turma) {
+
+                                                $desc_turma = "N&atilde;o possui";
+
+                                            } else {
+
+                                                $turma = new Turmas();
+                                                $turma->getObject($aluno->cd_turma);
+
+                                                $desc_turma = $turma->nr_turma;
+                                            }
+                                            
 
                                             ?>
                                                 <tr>
@@ -50,7 +62,7 @@ class AlunosList {
                                                             echo $curso->ds_curso;
                                                         ?>
                                                     </td>
-                                                    <td><?= $turma->nr_turma; ?></td>
+                                                    <td><?= $desc_turma; ?></td>
                                                     <td><?php 
 
                                                         if($aluno->fg_status == "A") {
