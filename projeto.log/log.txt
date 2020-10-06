@@ -4989,3 +4989,7 @@ Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 10:15:47
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 10:15:52
 Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 10:15:52
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 10:17:28
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 10:17:35
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 10:17:35
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 10:17:36
