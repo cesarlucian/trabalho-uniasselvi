@@ -7,9 +7,9 @@
     <title>Projeto</title>
     <link rel="stylesheet" type="text/css" href="/trabalho-uniasselvi/assets/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 
     <body>
@@ -19,4 +19,7 @@
                     Projeto
                 </a>  
             </div>
+            <a href="http://localhost/trabalho-uniasselvi/projeto.view/login/login.php" class="mr-5">
+                <img class="icon" src="/trabalho-uniasselvi/assets/account-logout.svg" alt="icon name">
+            </a>
         </header>
