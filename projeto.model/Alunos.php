@@ -51,9 +51,10 @@ class Alunos {
             
         }
         catch (Exception $ex) { 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
-            echo $ex->getMessage();
+            
                     
         }
     }
@@ -70,13 +71,12 @@ class Alunos {
             
             return true;
             
-        } catch (Exception $ex) {   
+        } catch (Exception $ex) {  
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
-            echo $ex->getMessage();
             TTransaction::rollback();      
-            
             return false;
         }
     }
