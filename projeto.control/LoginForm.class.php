@@ -6,7 +6,7 @@ class LoginForm {
 
 		?>
 
-		<main class="card-padrao">
+		<br><main class="card-padrao">
 		    <form action="login.php" class="login d-flex align-items-center flex-column justify-content-center">
 		        <h3 class="title">Bem vindo(a)!</h3><br> 
 		        <div class="row">
@@ -14,14 +14,14 @@ class LoginForm {
 		            <div class="col-lg-12 col-md-12">
 		                <label for="ds_login">Usuário</label>
 		                <div class="input-group">
-		                    <input type="text" class="form-control" id="ds_login" name="ds_login" required="true" />                                    
+		                    <input type="text" class="form-control" id="ds_login" name="ds_login" placeholder="Usuário" required="true" />                                    
 		                </div>
 		            </div>
 
 		           <div class="col-lg-12 col-md-12 mt-3">
 		                <label for="password">Senha</label>
 		                 <div class="input-button-inline">
-		                    <input type="password" class="form-control" id="ds_senha" name="ds_senha" required="true"/>
+		                    <input type="password" class="form-control" id="ds_senha" name="ds_senha" placeholder="Senha" autocomplete="on" required="true"/>
 		                    <input class="btn btn-primary" type="button" id="showPassword" value="Mostrar" class="button" />                             
 		                </div>
 		            </div>
