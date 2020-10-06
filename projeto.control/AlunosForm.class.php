@@ -32,11 +32,11 @@ class AlunosForm {
         ?>  
             <main class="card-padrao">
 
-                <form action="../alunos/consulta_alunos.php" method="GET" name="pesquisa" role="form"> 
+                <form action="../alunos/index.php" method="GET" name="pesquisa" role="form"> 
                     <h3 class="title">Alunos</h3><br>
                     <div class="row">
                         <div id="div_filtro" class="col-md-2 col-lg-2">
-                            <label>Filtrar por:</label>
+                            <label>Filtro:</label>
                             <select id="filtro" name="filtro" class="form-control" onchange="buscaFiltro();">
                                 <option value="1" selected="selected">Nome</option>
                                 <option value="2">Curso</option>
@@ -44,7 +44,7 @@ class AlunosForm {
                         </div>
 
                         <div id="div_filtro2" class="col-md-2 col-lg-2">
-                            <label>Filtrar por:</label>
+                            <label>Filtro:</label>
                             <select id="ds_sexo" name="ds_sexo" class="form-control">
                                 <option value="" selected="selected">Todos</option>
                                 <option value="M">Masculino</option>
@@ -223,7 +223,7 @@ class AlunosForm {
                             <div class="col-lg-12 col-md-12"><br>
                             <center>
                                 <button type="submit" class="btn btn-success" onclick="return aviso();"><i class="fa fa-search">Cadastrar</button>
-                                <a href="/trabalho-uniasselvi/projeto.view/alunos/consulta_alunos.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
+                                <a href="/trabalho-uniasselvi/projeto.view/alunos/index.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                             </center>
                         </div> 
                         </div>
@@ -467,8 +467,8 @@ class AlunosForm {
                             <div class="col-lg-12 col-md-12"><br>
                             <center>
                                 <button type="submit" class="btn btn-success" onclick="return aviso();"><i class="fa fa-search">Salvar</button>
-                                <button type="submit" class="btn btn-danger" onclick="excluir('<?= $aluno->cd_aluno; ?>');"><i class="fa fa-search">Excluir</button>    
-                                <a href="/trabalho-uniasselvi/projeto.view/alunos/consulta_alunos.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
+                                <button type="button" class="btn btn-danger" onclick="excluir('<?= $aluno->cd_aluno; ?>');"><i class="fa fa-search">Excluir</button>    
+                                <a href="/trabalho-uniasselvi/projeto.view/alunos/index.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                             </center>
                         </div> 
                         </div>
@@ -525,7 +525,7 @@ class AlunosForm {
 
             function excluir(cd_aluno){
                 if(confirm("Deseja realmente excluir este aluno?")){
-                    window.location = 'alunos_man.php?cd_aluno='+cd_aluno+'&evento=excluir';
+                    window.location = 'alunos_man.php?evento=excluir&cd_aluno='+cd_aluno;
                 }
             }
 

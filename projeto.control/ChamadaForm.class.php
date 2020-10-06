@@ -6,7 +6,7 @@ class ChamadaForm {
      
         ?>  
             <main class="card-padrao">
-                <form action="../chamada/consulta_chamada.php" method="GET" name="pesquisa_chamada" id="pesquisa_chamada" role="form">
+                <form action="../chamada/index.php" method="GET" name="pesquisa_chamada" id="pesquisa_chamada" role="form">
                 <h3 class="title">Chamada</h3><br> 
                     <div class="row">
                         <div class="col-lg-12 col-md-12">
@@ -49,7 +49,8 @@ class ChamadaForm {
 
                         <div class="col-lg-12 col-md-12"><br>
                             <center>
-                                <button type="submit" class="btn btn-primary" onclick="return aviso();"><i class="fa fa-search">Listar alunos</button>    
+                                <button type="submit" class="btn btn-primary" onclick="return aviso();"><i class="fa fa-search">Listar alunos</button>
+                                 <a type="button" href="../faltas/index.php" class="btn btn-primary">Gerenciar faltas</a>    
                             </center>
                         </div>
                     </div> 
@@ -104,21 +105,12 @@ class ChamadaForm {
         ?>
 
             <main class="card-padrao">
-                <form action="consulta_faltas.php" method="GET" name="pesquisa_falta" id="pesquisa_falta" role="form">
-                    <h3 class="box-title">Gerenciar faltas - Turma 222</h3><br> 
+                <form action="index.php" method="GET" name="pesquisa_falta" id="pesquisa_falta" role="form">
+                    <h3 class="box-title">Faltas</h3><br> 
                     <div class="row">
-                        <div id="popup_alunos" class="col-lg-9 col-md-9">
-                            <label>Aluno</label>
-                            <div class="input-group">
-                                <input type="text" class="form-control" id="nm_principal" name="nm_principal" readonly="true"/>
-                                <div class="input-group-btn">
-                                    <button type="button" class="btn btn-primary" onclick="popUpAluno('pesquisa_falta');">
-                                        <i class="fa fa-search"></i>
-                                        Buscar
-                                    </button>
-                                </div>                                        
-                            </div>
-                            <input type="hidden" class="form-control" id="cd_aluno" name="cd_aluno">
+                        <div class="col-md-9 col-lg-9">
+                            <label>Pesquisar aluno</label>
+                            <input type="text" name="filtro" id="filtro" class="form-control">
                         </div>
 
                         <div class="col-lg-3 col-md-3">
@@ -129,15 +121,12 @@ class ChamadaForm {
                         <div class="col-lg-12 col-md-12"><br>
                             <center>
                                 <button type="submit" class="btn btn-primary"><i class="fa fa-search">Pesquisar</button>
-                                 <a href="/trabalho-uniasselvi/projeto.view/chamada/consulta_chamada.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
+                                 <a href="/trabalho-uniasselvi/projeto.view/chamada/index.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                             </center>
                         </div>
                     </div> 
                 </form>
                 <script>
-                function popUpAluno(form){
-                    window.open('../geral/popups/popup_alunos.php?form='+form, 'JANELA', 'width=800, height=600');
-                }
                 </script>
             </main>
 

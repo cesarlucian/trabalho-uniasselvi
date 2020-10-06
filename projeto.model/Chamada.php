@@ -8,6 +8,7 @@ class Chamada {
 	public $arquivo_nome;
     public $dt_chamada;
     public $cd_aluno; //fk
+    public $cd_turma;
 
 	public function getObject($id) {
 
@@ -34,6 +35,7 @@ class Chamada {
 
 		} catch(Exception $ex) {
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
 			
@@ -94,10 +96,10 @@ class Chamada {
             
         } catch (Exception $ex) {   
             
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             TTransaction::rollback();      
-            
             return false;
         }
     }
@@ -132,6 +134,7 @@ class Chamada {
             
         } catch (Exception $ex) {   
             
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             TTransaction::rollback();      
@@ -153,10 +156,10 @@ class Chamada {
             
         } catch (Exception $ex) {   
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             TTransaction::rollback();      
-            
             return false;
         }
     }
@@ -192,8 +195,10 @@ class Chamada {
             
         } catch (Exception $ex) {
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            
             
         }
     }
@@ -223,6 +228,7 @@ class Chamada {
             
         } catch (Exception $ex) {
             
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             
@@ -254,21 +260,23 @@ class Chamada {
             
         } catch (Exception $ex) {
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             
         }
     }
 
-    public function realizaChamada($cd_aluno,$situacao) {
+    public function realizaChamada($cd_aluno,$situacao,$cd_turma) {
         $linhas = null;
         
         try{
             TTransaction::open();
 
-            $sql = "INSERT INTO chamada (situacao_chamada,dt_chamada,cd_aluno) values ('$situacao','".date('Y-m-d')."',$cd_aluno)";
+            $sql = "INSERT INTO chamada (situacao_chamada,dt_chamada,cd_aluno,cd_turma) values ('$situacao','".date('Y-m-d')."',$cd_aluno,$cd_turma)";
 
             //print($sql);exit;
+
             $conn = TTransaction::get();
             $result = $conn->query($sql);
             
@@ -278,8 +286,10 @@ class Chamada {
             
         } catch (Exception $ex) {   
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            TTransaction::rollback();      
             return false;
         }
     }
@@ -292,7 +302,7 @@ class Chamada {
 
             $sql = "UPDATE chamada SET situacao_chamada = 'P' WHERE dt_chamada = '$dt_chamada' AND cd_aluno = $cd_aluno";
 
-            print($sql);
+            //print($sql);exit;
 
             $conn = TTransaction::get();
             $result = $conn->query($sql);
@@ -303,13 +313,18 @@ class Chamada {
             
         } catch (Exception $ex) {
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            TTransaction::rollback();      
             return false;
         }
     }
 
-    static function listaFaltasPag($cd_aluno = null,$dt_falta = null,$pag = 1){
+    static function listaFaltasPag($filtro = null,$dt_falta = null,$pag = 1){
+
+        $aluno = new Alunos();
+
         try{
             TTransaction::open();
 
@@ -317,9 +332,9 @@ class Chamada {
             
             $offset = (($pag-1)*6);
 
-            if($cd_aluno) {
+            if($filtro) {
 
-                $sql_aluno = " AND chamada.cd_aluno = $cd_aluno ";
+                $sql_aluno = " AND alunos.nm_principal like '%$filtro%' ";
             }
 
             if($dt_falta) {
@@ -327,23 +342,24 @@ class Chamada {
                 $sql_data = " AND chamada.dt_chamada = '$dt_falta' ";
             }
 
-            if($cd_aluno & $dt_falta) {
+            if($filtro & $dt_falta) {
 
                 $sql_aluno = "";
                 $sql_data = "";
-                $sql_ambos = " AND chamada.cd_aluno = $cd_aluno AND chamada.dt_chamada = '$dt_falta' ";
+                $sql_ambos = " AND alunos.nm_principal like '%$filtro%' AND chamada.dt_chamada = '$dt_falta' ";
             }
 
             $sql = "SELECT * FROM chamada "
+                    ."INNER JOIN alunos using (cd_aluno) "
                     ."WHERE situacao_chamada = 'F' "
                     ."$sql_aluno"
                     ."$sql_data"
                     ."$sql_ambos"
-                    ."ORDER BY dt_chamada "  
+                    ."ORDER BY alunos.nm_principal "  
                     ."LIMIT 6 "
                     ."OFFSET $offset "; 
 
-            print($sql);
+            //print($sql);
 
             $conn = TTransaction::get();
             $result = $conn->query($sql);
@@ -373,6 +389,7 @@ class Chamada {
             
         } catch (Exception $ex) { 
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
 

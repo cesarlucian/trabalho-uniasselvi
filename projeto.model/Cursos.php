@@ -8,7 +8,6 @@
 class Cursos {
 
     public $cd_curso;
-    public $fg_status;
     public $ds_curso;
 
     const TABLE                 = "cursos";
@@ -39,8 +38,9 @@ class Cursos {
         }
         catch (Exception $ex) {   
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
-            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");      
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");   
         }
     }
     
@@ -94,10 +94,10 @@ class Cursos {
             
         } catch (Exception $ex) {   
             
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             TTransaction::rollback();      
-            
             return false;
         }
     }
@@ -122,7 +122,6 @@ class Cursos {
             }
             
             $sql .= $linhas." WHERE cd_curso = ".$this->cd_curso;
-
             $conn = TTransaction::get();
             $result = $conn->query($sql);
             
@@ -131,7 +130,7 @@ class Cursos {
             return true;
             
         } catch (Exception $ex) {   
-            
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             TTransaction::rollback();      
@@ -144,7 +143,9 @@ class Cursos {
         try{
             TTransaction::open();
 
-            $sql = "UPDATE cursos SET fg_status = 'I' WHERE cd_curso = ".$id;
+            $sql = "DELETE FROM cursos WHERE cd_curso = ".$id;
+
+            print($sql);
             $conn = TTransaction::get();
             $result = $conn->query($sql);
             
@@ -154,6 +155,7 @@ class Cursos {
             
         } catch (Exception $ex) {   
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             TTransaction::rollback();      
@@ -166,8 +168,7 @@ class Cursos {
             TTransaction::open();
 
             $sql = "SELECT cd_curso,ds_curso FROM "
-                  ."cursos WHERE "
-                  ."cursos.fg_status = 'A' "
+                  ."cursos "
                   ."ORDER BY cursos.ds_curso ";
 
                 // print($sql);
@@ -201,6 +202,7 @@ class Cursos {
             
         } catch (Exception $ex) { 
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
         }
@@ -255,6 +257,7 @@ class Cursos {
             
         } catch (Exception $ex) { 
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
 
@@ -265,9 +268,7 @@ class Cursos {
         try{
             TTransaction::open();
 
-            $sql = "SELECT * FROM "
-                  ."cursos WHERE "
-                  ."cursos.fg_status = 'A' "
+            $sql = "SELECT * FROM cursos "
                   ."ORDER BY cursos.ds_curso ";
 
                 // print($sql);
@@ -301,6 +302,7 @@ class Cursos {
             
         } catch (Exception $ex) { 
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
 

@@ -2,39 +2,28 @@
 
 include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."config.php");
 
+new TSession;
+
 extract($_GET);
 
-$cd_falta = @$_GET['cd_falta'];
-$dt_falta = @$_GET['dt_falta'];
-$cd_aluno = @$_GET['cd_aluno'];
-$cd_turma = @$_GET['cd_turma'];
-$cd_curso = @$_GET['cd_curso'];
+$nr_turma        = @$_GET['nr_turma'];
+$filtro_pesquisa = @$_GET['filtro_pesquisa']; 
 
 $pag        = @$_GET['pag'];
+$pesquisado = true;
+
+
+$file = fopen("../../projeto.log/log.txt","a+");
+fwrite($file,"Foi realizada uma consulta das turmas, pelo numero: $nr_turma - ".date("Y-m-d H:i:s")."\r\n");
 
 if($pag == ''){
     $pag = 1;
 }
 
-$pesquisa['cd_falta'] = $cd_falta;
-$pesquisa['dt_falta'] = $dt_falta;
-$pesquisa['cd_aluno'] = $cd_aluno;
-$pesquisa['cd_turma'] = $cd_turma;
-$pesquisa['cd_curso'] = $cd_curso;
+$pesquisa['nr_turma']        = $nr_turma;
+$pesquisa['filtro_pesquisa'] = $filtro_pesquisa;
 
 
-$pesquisado = true;
-
-/*if($cd_aluno != "" || $dt_falta != "") {
-
-	$pesquisado = true;
-}*/
-
-$desc_turma = new Turmas();
-$desc_turma->getObject($cd_turma);
-
-$file = fopen("../../projeto.log/log.txt","a+");
-fwrite($file,"Foi realizada uma consulta das faltas justificadas - ".date("Y-m-d H:i:s")."\r\n");
 
 ?>
 		<?php include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."projeto.template". DIRECTORY_SEPARATOR ."header.php"); ?>
@@ -45,17 +34,15 @@ fwrite($file,"Foi realizada uma consulta das faltas justificadas - ".date("Y-m-d
 					    		MensagemForm::exibir($msg_tipo, $msg_texto);
 							}
 
-							$falta_form = new ChamadaForm();
-							$falta_form->pesquisaFaltas();
-							
-							$falta_list = new ChamadaList;
-
+	                        $turmas_form = new TurmasForm(); 
+	                        $turmas_form->pesquisa();
+	                        
+	                        $turmas_list = new TurmasList();
 	                        if($pesquisado){
-	                        	
-	                            $falta_list->listaFaltas(Chamada::listaFaltasPag($cd_aluno,$dt_falta,$pag),$pag,false);
+	                            $turmas_list->lista(Turmas::listaTurmasPag($nr_turma,$filtro_pesquisa, $pag), $pag,false);
 	                        }
 	                        else{
-	                            $falta_list->listaFaltas(null, $pag);
+	                            $alunos_list->lista(null, $pag);
 	                        }
 	                    ?>
 
@@ -63,6 +50,7 @@ fwrite($file,"Foi realizada uma consulta das faltas justificadas - ".date("Y-m-d
 	                        <?= PaginadorForm::paginador($pesquisa, $pag); ?>
 	                    </div>
 	                </section>
+        	
 
 		<script src="../../js/bootstrap.min.js" type="text/javascript"></script>
 		<script src="../../js/plugins/input-mask/jquery.inputmask.js" type="text/javascript"></script>

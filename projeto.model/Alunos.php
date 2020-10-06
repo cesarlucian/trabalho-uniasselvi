@@ -20,6 +20,7 @@ class Alunos {
     public $ds_uf;
     public $ds_cidade;
     public $ds_bairro;
+    public $fg_status;
     public $cd_turma; // foreing key
     public $cd_curso; // foreing key
 
@@ -50,9 +51,33 @@ class Alunos {
             
         }
         catch (Exception $ex) { 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
-            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");  
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            
                     
+        }
+    }
+
+     static function removerTurma($cd_turma) {
+        try{
+            TTransaction::open();
+
+            $sql = "UPDATE alunos SET cd_turma = null WHERE cd_turma = ".$id;
+            $conn = TTransaction::get();
+            $result = $conn->query($sql);
+            
+            TTransaction::close();
+            
+            return true;
+            
+        } catch (Exception $ex) {  
+
+            echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            TTransaction::rollback();      
+            return false;
         }
     }
     
@@ -107,9 +132,9 @@ class Alunos {
             
         } catch (Exception $ex) {   
             
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
-            echo $ex->getMessage();
             TTransaction::rollback();      
             return false;
         }
@@ -144,9 +169,9 @@ class Alunos {
             return true;
             
         } catch (Exception $ex) {   
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
-            echo $ex->getMessage();
             TTransaction::rollback();      
             return false;
         }
@@ -157,7 +182,7 @@ class Alunos {
         try{
             TTransaction::open();
 
-            $sql = "DELETE FROM alunos WHERE cd_aluno = ".$id;
+            $sql = "UPDATE alunos SET fg_status = 'I' WHERE cd_aluno = ".$id;
             $conn = TTransaction::get();
             $result = $conn->query($sql);
             
@@ -167,11 +192,10 @@ class Alunos {
             
         } catch (Exception $ex) {   
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
-            echo $ex->getMessage();
             TTransaction::rollback();      
-            
             return false;
         }
     }
@@ -191,7 +215,7 @@ class Alunos {
                 if($ds_aluno) {
 
                     $sql_ds_aluno  = "WHERE alunos.nm_principal LIKE '%$ds_aluno%' ";
-                    $sql_ds_sexo = "AND alunos.ds_sexo LIKE '%$ds_sexo%'";
+                    $sql_ds_sexo = "AND alunos.ds_sexo LIKE '%$ds_sexo%' ";
                     $sql_ds_curso = "";
                 }
 
@@ -243,9 +267,9 @@ class Alunos {
             
         } catch (Exception $ex) { 
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
-            echo $ex->getMessage();
 
         }
     }
@@ -303,9 +327,9 @@ class Alunos {
             
         } catch (Exception $ex) { 
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
-            echo $ex->getMessage();
 
         }
     }
@@ -350,9 +374,9 @@ class Alunos {
             
         } catch (Exception $ex) { 
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
-            echo $ex->getMessage();
 
         }
     }
@@ -388,9 +412,9 @@ class Alunos {
             
         } catch (Exception $ex) {
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
-            echo $ex->getMessage();
         }
     }
 
@@ -414,6 +438,7 @@ class Alunos {
             
         } catch (Exception $ex) {
 
+            echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
             

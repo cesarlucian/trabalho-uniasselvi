@@ -2,22 +2,35 @@
 
 include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."config.php");
 
+new TSession;
+
 extract($_GET);
 
-$ds_curso   = @$_GET['ds_curso'];
+$dt_falta = @$_GET['dt_falta'];
+$filtro = @$_GET['filtro'];
+
 
 $pag        = @$_GET['pag'];
-$pesquisado = true;
-
-
-$file = fopen("../../projeto.log/log.txt","a+");
-fwrite($file,"Foi realizada uma consulta dos cursos pela descriçao: '$ds_curso' - ".date("Y-m-d H:i:s")."\r\n");
 
 if($pag == ''){
     $pag = 1;
 }
 
-$pesquisa['ds_curso']   = $ds_curso;
+$pesquisa['dt_falta'] = $dt_falta;
+$pesquisa['filtro']   =  $filtro;
+
+$pesquisado = true;
+
+/*if($cd_aluno != "" || $dt_falta != "") {
+
+	$pesquisado = true;
+}*/
+
+$desc_turma = new Turmas();
+$desc_turma->getObject($cd_turma);
+
+$file = fopen("../../projeto.log/log.txt","a+");
+fwrite($file,"Foi realizada uma consulta das faltas justificadas, pela descricao: '$filtro', data: '$dt_falta' - ".date("Y-m-d H:i:s")."\r\n");
 
 ?>
 		<?php include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."projeto.template". DIRECTORY_SEPARATOR ."header.php"); ?>
@@ -28,15 +41,17 @@ $pesquisa['ds_curso']   = $ds_curso;
 					    		MensagemForm::exibir($msg_tipo, $msg_texto);
 							}
 
-	                        $cursos_form = new CursosForm; 
-	                        $cursos_form->pesquisa();
-	                        
-	                        $cursos_list = new CursosList();
+							$falta_form = new ChamadaForm();
+							$falta_form->pesquisaFaltas();
+							
+							$falta_list = new ChamadaList;
+
 	                        if($pesquisado){
-	                            $cursos_list->lista(Cursos::listaCursosPag($ds_curso,$pag), $pag);
+	                        	
+	                            $falta_list->listaFaltas(Chamada::listaFaltasPag($filtro,$dt_falta,$pag),$pag,false);
 	                        }
 	                        else{
-	                            $cursos_list->lista(null, $pag);
+	                            $falta_list->listaFaltas(null, $pag);
 	                        }
 	                    ?>
 
@@ -44,7 +59,6 @@ $pesquisa['ds_curso']   = $ds_curso;
 	                        <?= PaginadorForm::paginador($pesquisa, $pag); ?>
 	                    </div>
 	                </section>
-        	
 
 		<script src="../../js/bootstrap.min.js" type="text/javascript"></script>
 		<script src="../../js/plugins/input-mask/jquery.inputmask.js" type="text/javascript"></script>
