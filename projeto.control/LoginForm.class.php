@@ -14,14 +14,14 @@ class LoginForm {
 		            <div class="col-lg-12 col-md-12">
 		                <label for="ds_login">Usuário</label>
 		                <div class="input-group">
-		                    <input type="text" class="form-control" id="ds_login" name="ds_login" />                                    
+		                    <input type="text" class="form-control" id="ds_login" name="ds_login" required="true" />                                    
 		                </div>
 		            </div>
 
 		           <div class="col-lg-12 col-md-12 mt-3">
 		                <label for="password">Senha</label>
 		                 <div class="input-button-inline">
-		                    <input type="password" class="form-control" id="password" name="password" />
+		                    <input type="password" class="form-control" id="ds_senha" name="ds_senha" required="true"/>
 		                    <input class="btn btn-primary" type="button" id="showPassword" value="Mostrar" class="button" />                             
 		                </div>
 		            </div>
@@ -47,7 +47,7 @@ class LoginForm {
 		 
 		          $('#showPassword').on('click', function() {
 		             
-		            var passwordField = $('#password');
+		            var passwordField = $('#ds_senha');
 		            var passwordFieldType = passwordField.attr('type');
 		         
 		            if(passwordFieldType == 'password') {
