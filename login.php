@@ -38,6 +38,7 @@ try{
         		new TSession;
 
         		TSession::setValue('cd_usuario', $login->cd_usuario);
+        		TSession::setValue('tipo_usuario', $login->tipo_usuario);
 	            TSession::setValue('usuario', $usuario);
 	            header("location: inicial.php");         
 

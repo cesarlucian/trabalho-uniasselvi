@@ -5233,3 +5233,7 @@ Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06
 Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 11:53:59
 Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 11:55:40
 Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 11:55:40
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-06 13:48:40
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-06 13:48:41
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-06 13:48:41
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-06 13:48:42

@@ -8,6 +8,9 @@ include_once("projeto.template". DIRECTORY_SEPARATOR ."footer.php");
 
 new TSession;
 
+extract($_GET);
+extract($_POST);
+
 print_r($_SESSION);
 
 ?>
