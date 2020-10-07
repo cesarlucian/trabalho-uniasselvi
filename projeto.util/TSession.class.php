@@ -4,7 +4,6 @@ class TSession {
 
     public function __construct(){
 
-        session_set_cookie_params(900);
         session_start();
 
         if($this->getValue("usuario") == ""){

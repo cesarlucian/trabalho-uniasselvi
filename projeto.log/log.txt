@@ -5353,3 +5353,17 @@ Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-07
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-07 10:44:14
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-07 13:04:49
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-07 13:05:28
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-07 13:18:23
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-07 13:18:25
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-07 13:18:28
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-07 13:18:29
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-07 13:19:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-07 13:19:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-07 13:19:12
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-07 13:19:13
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-07 13:19:14
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-07 13:19:15
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-07 13:19:16
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-07 13:19:19
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-07 13:19:36
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-07 13:19:48
