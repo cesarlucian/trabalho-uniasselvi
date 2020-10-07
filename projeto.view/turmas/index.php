@@ -2,8 +2,6 @@
 
 include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."config.php");
 
-new TSession;
-
 extract($_GET);
 
 $nr_turma        = @$_GET['nr_turma'];
