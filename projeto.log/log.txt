@@ -5388,3 +5388,11 @@ Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-07
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-07 13:37:35
 Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-07 13:37:35
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-07 13:37:40
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-07 13:39:42
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-07 13:39:43
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-07 13:39:43
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-07 13:39:44
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-07 13:39:45
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-07 13:39:46
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-07 13:39:47
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-07 13:39:47
