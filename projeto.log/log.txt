@@ -5351,3 +5351,5 @@ Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-07
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-07 10:44:05
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-07 10:44:06
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-07 10:44:14
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-07 13:04:49
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-07 13:05:28

@@ -11,6 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
 
     <body>
@@ -21,6 +22,6 @@
                 </a>  
             </div>
                 <a alt="Sair" title="Sair" href="http://localhost/trabalho-uniasselvi/logout.php" class="mr-5">
-                    <img class="icon" src="/trabalho-uniasselvi/assets/account-logout.svg" alt="icon name">
+                    <img class="icon" src="/trabalho-uniasselvi/assets/logout_icon_151219.svg" alt="icon name">
                 </a>
         </header>
