@@ -20,7 +20,7 @@
                     Projeto
                 </a>  
             </div>
-            <a href="http://localhost/trabalho-uniasselvi/projeto.view/login/login.php" class="mr-5">
-                <img class="icon" src="/trabalho-uniasselvi/assets/account-logout.svg" alt="icon name">
-            </a>
+                <a alt="Sair" title="Sair" href="http://localhost/trabalho-uniasselvi/logout.php" class="mr-5">
+                    <img class="icon" src="/trabalho-uniasselvi/assets/account-logout.svg" alt="icon name">
+                </a>
         </header>
