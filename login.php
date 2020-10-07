@@ -32,6 +32,7 @@ try{
 
         	if(password_verify($ds_senha, $data['ds_senha'])) {
 
+                session_set_cookie_params(900);
                 new TSession;
 
         		$login->getObject($data['cd_usuario']);
