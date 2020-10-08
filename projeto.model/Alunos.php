@@ -220,7 +220,7 @@ class Alunos {
                     break;
 
                 case '3':
-                    $sql_filtro = "WHERE alunos.nr_matricula = '$pesquisa_filtro' ";
+                    $sql_filtro = "WHERE alunos.nr_matricula LIKE '%$pesquisa_filtro%' ";
                     break;
                 
                 default:
