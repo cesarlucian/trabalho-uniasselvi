@@ -5633,3 +5633,8 @@ Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-
 Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-08 13:52:37
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa: 3 - 2020-10-08 13:52:38
 Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-08 13:52:43
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-08 13:53:57
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-08 13:54:05
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 13:54:05
+Foi realizada uma consulta dos alunos pelos filtros: Curso, , pesquisa: 2 - 2020-10-08 13:54:08
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa: 3 - 2020-10-08 13:54:11

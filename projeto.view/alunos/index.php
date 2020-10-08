@@ -29,7 +29,7 @@ switch ($filtro) {
 
 
 $file = fopen("../../projeto.log/log.txt","a+");
-fwrite($file,"Foi realizada uma consulta dos alunos pelos filtros: $desc_filtro, $desc_ds_sexo, pesquisa: $filtro - ".date("Y-m-d H:i:s")."\r\n");
+fwrite($file,"Foi realizada uma consulta dos alunos pelos filtros: $desc_filtro, pesquisa: $filtro - ".date("Y-m-d H:i:s")."\r\n");
 
 if($pag == ''){
     $pag = 1;
