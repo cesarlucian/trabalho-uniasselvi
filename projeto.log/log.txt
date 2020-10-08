@@ -5599,3 +5599,22 @@ Foi realizada uma consulta dos alunos pelos filtros: Nome, sexo Masculino, pesqu
 Foi realizada uma consulta dos alunos pelos filtros: Nome, sexo Feminino, pesquisa: 1 - 2020-10-08 13:48:10
 Foi realizada uma consulta dos alunos pelos filtros: Nome, sexo Feminino, pesquisa: 1 - 2020-10-08 13:48:14
 Foi realizada uma consulta dos alunos pelos filtros: Curso, , pesquisa: 2 - 2020-10-08 13:48:19
+Foi realizada uma consulta dos alunos pelos filtros: Curso, , pesquisa: 2 - 2020-10-08 13:51:05
+Foi realizada uma consulta dos alunos pelos filtros: Curso, , pesquisa: 2 - 2020-10-08 13:51:05
+Foi realizada uma consulta dos alunos pelos filtros: Curso, , pesquisa: 2 - 2020-10-08 13:51:05
+Foi realizada uma consulta dos alunos pelos filtros: Curso, , pesquisa: 2 - 2020-10-08 13:51:06
+Foi realizada uma consulta dos alunos pelos filtros: Curso, , pesquisa: 2 - 2020-10-08 13:51:09
+Foi realizada uma consulta dos alunos pelos filtros: Curso, , pesquisa: 2 - 2020-10-08 13:51:15
+Foi realizada uma consulta dos alunos pelos filtros: Curso, , pesquisa: 2 - 2020-10-08 13:51:15
+Foi realizada uma consulta dos alunos pelos filtros: Curso, , pesquisa: 2 - 2020-10-08 13:51:16
+Foi realizada uma consulta dos alunos pelos filtros: Curso, , pesquisa: 2 - 2020-10-08 13:51:16
+Foi realizada uma consulta dos alunos pelos filtros: Curso, , pesquisa: 2 - 2020-10-08 13:51:16
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-08 13:51:19
+Foi realizada uma consulta dos alunos pelos filtros: Curso, , pesquisa: 2 - 2020-10-08 13:51:23
+Foi realizada uma consulta dos alunos pelos filtros: Curso, , pesquisa: 2 - 2020-10-08 13:51:24
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 13:51:27
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-08 13:51:29
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-08 13:51:30
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-08 13:51:30
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-08 13:51:31
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-08 13:51:31

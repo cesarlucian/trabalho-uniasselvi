@@ -39,8 +39,8 @@ class AlunosForm {
                             <label>Filtro:</label>
                             <select id="filtro" name="filtro" class="form-control" onchange="buscaFiltro();">
                                 <option value="1" selected="selected">Nome</option>
-                                <option value="2">Curso</option>
                                 <option value="3">Matr&iacute;cula</option>
+                                <option value="2">Curso</option>
                             </select>
                         </div>
 
