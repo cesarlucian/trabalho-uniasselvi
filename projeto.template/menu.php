@@ -12,7 +12,7 @@
                 		<li><a href="/trabalho-uniasselvi/projeto.view/chamada/index.php">Chamada</a></li>
 	                    <li><a href="/trabalho-uniasselvi/projeto.view/cursos/index.php">Cursos</a></li>
 	                    <li><a href="/trabalho-uniasselvi/projeto.view/turmas/index.php">Turmas</a></li>
-                        <li><a href="/trabalho-uniasselvi/projeto.view/usuarios/index.php">Usu&aacute;arios</a></li>
+                        <li><a href="/trabalho-uniasselvi/projeto.view/usuarios/index.php">Usu&aacute;rios</a></li>
 	                    
                 	<?php
 

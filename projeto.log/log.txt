@@ -5396,3 +5396,33 @@ Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-07 13:39:45
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-07 13:39:46
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-07 13:39:47
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-07 13:39:47
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 10:43:10
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 10:43:21
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 10:45:18
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 10:45:20
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:10:39
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:11:22
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-08 11:11:24
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-08 11:11:25
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'cd_curso = 38' at line 1 - 2020-10-08 11:11:25
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'cd_curso = 65' at line 1 - 2020-10-08 11:11:25
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'cd_curso = 39' at line 1 - 2020-10-08 11:11:25
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'cd_curso = 40' at line 1 - 2020-10-08 11:11:25
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'cd_curso = 41' at line 1 - 2020-10-08 11:11:25
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'cd_curso = 42' at line 1 - 2020-10-08 11:11:25
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-08 11:11:50
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-08 11:14:52
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:14:53
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:20:36
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:20:40
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:21:06
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:24:19
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:24:24
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:24:38
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:24:43
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:28:11
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:28:15
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:28:18
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:28:38
+O aluno ID: '47' foi editado na base de dados - 2020-10-08 11:28:43
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:28:47

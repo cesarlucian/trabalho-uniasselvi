@@ -424,7 +424,7 @@ class Alunos {
 
             $sql = "SELECT COUNT(cd_aluno) as total "
                     . "FROM alunos "
-                    . "WHERE cd_curso = $cd_curso";
+                    . "WHERE alunos.fg_status = 'A' and cd_curso = $cd_curso";
 
             $conn = TTransaction::get();
             $result = $conn->query($sql);

@@ -289,31 +289,27 @@ class AlunosForm {
                 var ds_uf       = document.getElementById('ds_uf').value;
                 var nr_endereco = document.getElementById('nr_endereco').value;
 
-                if(ds_curso == "" || nr_turma == "") {
-                    alert("Selecione o curso e turma!")
+                var ds_nome       = document.getElementById('ds_nome').value;
+                var dt_nascimento = document.getElementById('dt_nascimento').value;
+                var ds_sexo       = document.getElementById('ds_sexo').value;
+                var nr_cpf        = document.getElementById('nr_cpf').value;
+                var ds_curso      = document.getElementById('ds_curso').value;
+                var nr_turma      = document.getElementById('nr_turma').value;
+
+                if(!ds_nome || !dt_nascimento || !ds_sexo || !nr_cpf || !ds_curso || !nr_turma) {
+
+                    alert("Preencha todos campos obrigat\u00f3rios dos dados cadastrais!");
                     return false;
-                } else if(nr_cep == "") {
-                    alert("Informe um CEP!");
+
+                } else if(!ds_curso || !nr_turma || !nr_cep || !ds_endereco || !ds_bairro || !ds_cidade || !ds_uf || !nr_endereco) {
+
+                    alert("Preencha todos campos obrigat\u00f3rios do endere\u00e7o!");
                     return false;
-                } else if(ds_endereco == "") {
-                    alert('Preencha o campo rua!');
-                    return false;
-                } else if(ds_bairro == "") {
-                    alert('Preencha o campo bairro!');
-                    return false;
-                } else if(ds_cidade == "") {
-                    alert('Preencha o campo cidade!');
-                    return false;
-                } else if(ds_uf == "") {
-                    alert('Preencha o campo UF!');
-                    return false;
-                } else if(nr_endereco == "") {
-                    alert('Preencha o campo n\u00famero!');
-                    return false;
-                } else {
-                    return true;
                 }
-            }   
+
+            }
+
+                
         </script>
                 
         <?php
@@ -329,6 +325,23 @@ class AlunosForm {
 
             $turma = new Turmas();
             $turma->getObject($aluno->cd_turma);
+
+            $desc_status = null;
+            $desc_sexo = null;
+
+            if($aluno->fg_status == "A") {
+                $desc_status = "Ativo";
+            } else {
+                $desc_status = "Inativo";
+            }
+
+            if($aluno->ds_sexo == "M") {
+                $desc_sexo = "Masculino";
+            } else if($aluno->ds_sexo == "F") {
+                $desc_sexo = "Feminino";
+            } else if($aluno->ds_sexo == "O") {
+                $desc_sexo = "Outros";
+            }
         ?>
         <div class="nav-tabs-custom">
             <main class="card-padrao">
@@ -348,12 +361,26 @@ class AlunosForm {
                         <div class="tab-content">
 
                             <div class="tab-pane active" id="div_dados_cadastrais">
+
                                 <br><div class="row">
+
+                                    <div id="situacao" class="col-md-2 col-lg-2">
+                                        <label for="fg_status">Situa&ccedil;&atilde;o</label>
+                                        <select class="form-control" id="fg_status" name="fg_status">
+                                            <option value="<?= $aluno->fg_status; ?>" selected="selected"><?= $desc_status; ?></option>
+                                            <?php if($aluno->fg_status == "A") { ?>
+                                                <option value="I">Inativo</option>
+                                            <?php } else { ?> 
+                                                <option value="A">Ativo</option>
+                                            <?php } ?>
+                                        </select>
+                                    </div>
+
                                     <div class="col-lg-6 col-md-6">
                                         <label for="">Nome*</label>
                                         <input type="text" class="form-control" name="ds_nome" id="ds_nome" required="true" value="<?= $aluno->nm_principal; ?>">
                                     </div>
-                                    <div class="col-lg-6 col-md-6">
+                                    <div class="col-lg-4 col-md-4">
                                         <label for="">Email*</label>
                                         <input type="text" class="form-control" name="ds_email" id="ds_email" required="true" value="<?= $aluno->ds_email; ?>">
                                     </div>
@@ -365,25 +392,20 @@ class AlunosForm {
                                         <label for="">Sexo*</label>
                                         <select id="ds_sexo" name="ds_sexo" class="form-control" required="true">
 
-                                            <?php 
-
-                                                $desc_sexo = null;
-
-                                                if($aluno->ds_sexo == "M") {
-                                                    $desc_sexo = "Masculino";
-                                                } else if($aluno->ds_sexo == "F") {
-                                                    $desc_sexo = "Feminino";
-                                                } else if($aluno->ds_sexo == "O") {
-                                                    $desc_sexo = "Outros";
-                                                }
-                                            ?>
-
                                             <option value="<?= $aluno->ds_sexo; ?>" selected="selected"><?= $desc_sexo; ?></option>
-                                            <option value="M">Masculino</option>
-                                            <option value="F">Feminino</option>
-                                            <option value="O">Outros</option>
 
-                                            ?>
+                                            <?php if($aluno->ds_sexo == "M") { ?>
+                                                <option value="F">Feminino</option>
+                                                <option value="O">Outros</option>
+
+                                            <?php } else if($aluno->ds_sexo == "F") { ?>
+                                                <option value="M">Masculino</option>
+                                                <option value="O">Outros</option>
+                                            <?php } else { ?>
+                                                <option value="M">Masculino</option>
+                                                <option value="F">Feminino</option>
+                                            <?php } ?>
+
                                         </select>
                                     </div>
                                     <div class="col-lg-2 col-md-2">
@@ -416,6 +438,7 @@ class AlunosForm {
                                             </div>
                                         <input type="hidden" class="form-control" id="cd_turma" name="cd_turma" value="<?= $turma->cd_turma; ?>">
                                     </div>
+
                                 </div>
                             </div>
 
@@ -460,14 +483,12 @@ class AlunosForm {
                                         <label for="">Complemento</label>
                                         <input type="text" class="form-control" name="ds_complemento" id="ds_complemento" value="<?= $aluno->ds_complemento; ?>">
                                     </div>
-
                                 </div>
                             </div>
 
                             <div class="col-lg-12 col-md-12"><br>
                             <center>
                                 <button type="submit" class="btn btn-success" onclick="return aviso();"><i class="fa fa-search">Salvar</button>
-                                <button type="button" class="btn btn-danger" onclick="excluir('<?= $aluno->cd_aluno; ?>');"><i class="fa fa-search">Excluir</button>    
                                 <a href="/trabalho-uniasselvi/projeto.view/alunos/index.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                             </center>
                         </div> 
@@ -523,48 +544,34 @@ class AlunosForm {
                 
             }
 
-            function excluir(cd_aluno){
-                if(confirm("Deseja realmente excluir este aluno?")){
-                    window.location = 'alunos_man.php?evento=excluir&cd_aluno='+cd_aluno;
-                }
-            }
-
             function aviso() {
 
-            var ds_curso    = document.getElementById('ds_curso').value;
-            var nr_turma    = document.getElementById('nr_turma').value;
-            var nr_cep      = document.getElementById('nr_cep').value;
-            var ds_endereco = document.getElementById('ds_endereco').value;
-            var ds_bairro   = document.getElementById('ds_bairro').value;
-            var ds_cidade   = document.getElementById('ds_cidade').value;
-            var ds_uf       = document.getElementById('ds_uf').value;
-            var nr_endereco = document.getElementById('nr_endereco').value;
+                var ds_curso    = document.getElementById('ds_curso').value;
+                var nr_turma    = document.getElementById('nr_turma').value;
+                var nr_cep      = document.getElementById('nr_cep').value;
+                var ds_endereco = document.getElementById('ds_endereco').value;
+                var ds_bairro   = document.getElementById('ds_bairro').value;
+                var ds_cidade   = document.getElementById('ds_cidade').value;
+                var ds_uf       = document.getElementById('ds_uf').value;
+                var nr_endereco = document.getElementById('nr_endereco').value;
 
-            if(ds_curso == "" || nr_turma == "") {
-                alert("Selecione o curso e turma!")
-                return false;
-            } else if(nr_cep == "") {
-                alert("Informe um CEP!");
-                return false;
-            } else if(ds_endereco == "") {
-                alert('Preencha o campo rua!');
-                return false;
-            } else if(ds_bairro == "") {
-                alert('Preencha o campo bairro!');
-                return false;
-            } else if(ds_cidade == "") {
-                alert('Preencha o campo cidade!');
-                return false;
-            } else if(ds_uf == "") {
-                alert('Preencha o campo UF!');
-                return false;
-            } else if(nr_endereco == "") {
-                alert('Preencha o campo n\u00famero!');
-                return false;
-            } else {
-                return true;
-            }
-        }   
+                var ds_nome       = document.getElementById('ds_nome').value;
+                var dt_nascimento = document.getElementById('dt_nascimento').value;
+                var ds_sexo       = document.getElementById('ds_sexo').value;
+                var nr_cpf        = document.getElementById('nr_cpf').value;
+                var ds_curso      = document.getElementById('ds_curso').value;
+                var nr_turma      = document.getElementById('nr_turma').value;
+
+                if(!ds_nome || !dt_nascimento || !ds_sexo || !nr_cpf || !ds_curso || !nr_turma) {
+
+                    alert("Preencha todos campos obrigat\u00f3rios dos dados cadastrais!");
+                    return false;
+
+                } else if(!ds_curso || !nr_turma || !nr_cep || !ds_endereco || !ds_bairro || !ds_cidade || !ds_uf || !nr_endereco) {
+
+                    alert("Preencha todos campos obrigat\u00f3rios do endere\u00e7o!");
+                    return false;
+                }
         </script>
         
         <?php

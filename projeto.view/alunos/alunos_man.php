@@ -180,7 +180,7 @@ if(isset($evento)){
 	        	$aluno->ds_sexo        = $ds_sexo;
 	        	$aluno->cd_turma       = $cd_turma;
 	        	$aluno->cd_curso       = $cd_curso;
-                $aluno->fg_status      = "A";
+                $aluno->fg_status      = $fg_status;
 
 	        	// endereco
 
@@ -215,31 +215,6 @@ if(isset($evento)){
 	        		fwrite($file,"Erro ao editar aluno na base de dados - ".date("Y-m-d H:i:s")."\r\n");
 	        	}
 	        }
-        break;
-
-        case 'excluir':
-        	
-        	if(Alunos::delete($cd_aluno)){
-
-                $msg_tipo = 1;
-                $msg_texto = "Aluno alterado com sucesso!";
-                header("location: index.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
-
-        		$file = fopen("../../projeto.log/log.txt","a+");
-        		fwrite($file,"O aluno ID: '$cd_aluno' se tornou inativo na base de dados - ".date("Y-m-d H:i:s")."\r\n");
-            }
-            else{
-                ?>
-                        <script>
-                            alert("Erro ao alterar aluno!");
-                            history.back();
-                        </script>
-                    <?php
-
-        		$file = fopen("../../projeto.log/log.txt","a+");
-        		fwrite($file,"Erro ao alterar aluno na base de dados - ".date("Y-m-d H:i:s")."\r\n");
-            }
-
         break;
     }
 }
