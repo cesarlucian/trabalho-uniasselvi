@@ -224,7 +224,7 @@ class Alunos {
                     break;
                 
                 default:
-                    # code...
+                    $sql_filtro = "";
                     break;
             }
 

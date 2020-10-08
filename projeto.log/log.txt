@@ -5502,3 +5502,23 @@ Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-08 13:19:52
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 13:19:52
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 13:19:54
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 13:38:11
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-08 13:38:50
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 13:38:51
+Foi realizada uma consulta dos alunos pelos filtros: Nome, , pesquisa: 1 - 2020-10-08 13:38:54
+Foi realizada uma consulta dos alunos pelos filtros: Nome, sexo Masculino, pesquisa: 1 - 2020-10-08 13:39:00
+Foi realizada uma consulta dos alunos pelos filtros: Nome, sexo outros, pesquisa: 1 - 2020-10-08 13:39:04
+Foi realizada uma consulta dos alunos pelos filtros: Nome, sexo outros, pesquisa: 1 - 2020-10-08 13:42:37
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-6' at line 1 - 2020-10-08 13:42:37
+Foi realizada uma consulta dos alunos pelos filtros: Nome, sexo outros, pesquisa: 1 - 2020-10-08 13:42:37
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-6' at line 1 - 2020-10-08 13:42:37
+Foi realizada uma consulta dos alunos pelos filtros: Nome, sexo outros, pesquisa: 1 - 2020-10-08 13:42:37
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-6' at line 1 - 2020-10-08 13:42:37
+Foi realizada uma consulta dos alunos pelos filtros: Nome, sexo outros, pesquisa: 1 - 2020-10-08 13:42:37
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-6' at line 1 - 2020-10-08 13:42:37
+Foi realizada uma consulta dos alunos pelos filtros: Nome, sexo outros, pesquisa: 1 - 2020-10-08 13:42:38
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-6' at line 1 - 2020-10-08 13:42:38
+Foi realizada uma consulta dos alunos pelos filtros: Nome, sexo outros, pesquisa: 1 - 2020-10-08 13:42:38
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-6' at line 1 - 2020-10-08 13:42:38
+Foi realizada uma consulta dos alunos pelos filtros: Nome, sexo outros, pesquisa: 1 - 2020-10-08 13:42:38
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-6' at line 1 - 2020-10-08 13:42:38

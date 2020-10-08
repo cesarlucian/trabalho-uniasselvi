@@ -69,7 +69,7 @@ $pesquisa['ds_sexo']  = $ds_sexo;
 	                        
 	                        $alunos_list = new AlunosList();
 	                        if($pesquisado){
-	                            $alunos_list->lista(Alunos::listaAlunosPag($filtro,$ds_sexo, $pag), $pag,false);
+	                            $alunos_list->lista(Alunos::listaAlunosPag($filtro,$desc_pesquisa,$ds_sexo, $pag), $pag,false);
 	                        }
 	                        else{
 	                            $alunos_list->lista(null, $pag);
