@@ -5426,3 +5426,11 @@ Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:28:38
 O aluno ID: '47' foi editado na base de dados - 2020-10-08 11:28:43
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:28:47
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:29:35
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:29:48
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:30:13
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:30:15
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:34:36
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:34:40
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:34:44
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:39:24
