@@ -30,15 +30,24 @@ class LoginForm {
 		        	<center><br>
 		            	<button class="btn btn-success" type="submit" >Entrar</button>
 		        	</center>
-		        </div>
-		        
-		        <div class="col-lg-12 col-md-12" align="right">
-		        	<a href="/trabalho-uniasselvi/nova_senha.php">Esqueceu sua senha?</a>
-		    	</div>
+		        </div><br>
 
-		    	<div class="col-lg-12 col-md-12" align="left">
-		        	<a href="/trabalho-uniasselvi/novo_usuario.php">Esqueceu seu usu&aacute;rio?</a>
-		    	</div>
+		        <div class="d-flex justify-content-between">
+				      <div>
+				        <div class="col-lg-12 col-md-12" align="right">
+		        			<a href="/trabalho-uniasselvi/nova_senha.php">Esqueci minha senha</a>
+		    			</div>
+				      </div>
+				      <div>
+				        <div class="col-lg-12 col-md-12" align="left">
+		        			<a href="/trabalho-uniasselvi/novo_usuario.php">Esqueci meu usu&aacute;rio</a>
+		    			</div>
+				      </div>
+				 </div>
+		        
+		        
+
+		    	
 
 		    </form>
 		    <script>

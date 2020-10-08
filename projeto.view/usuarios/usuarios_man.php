@@ -12,6 +12,10 @@ if(isset($evento)){
             echo "<br>";
             echo 'ds_login-'.$ds_login;
         break;
+
+        case 'nova_senha':
+            echo "novo_usuario";
+        break;
     }
 }
 
