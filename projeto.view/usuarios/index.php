@@ -6,6 +6,7 @@ new TSession();
 extract($_GET);
 
 $filtro     = @$_GET['filtro'];
+$pesquisa_filtro = @$_GET['pesquisa_filtro'];
 $fg_ativo   = @$_GET['fg_ativo']; 
 
 $pag        = @$_GET['pag'];
@@ -21,6 +22,7 @@ if($pag == ''){
 
 $pesquisa['filtro']   = $filtro;
 $pesquisa['fg_ativo'] = $fg_ativo;
+$pesquisa['pesquisa_filtro'] = $pesquisa_filtro;
 
 ?>
 		<?php include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."projeto.template". DIRECTORY_SEPARATOR ."header.php"); ?>
@@ -36,7 +38,7 @@ $pesquisa['fg_ativo'] = $fg_ativo;
 	                        
 	                        $usuarios_list = new UsuariosList();
 	                        if($pesquisado){
-	                            $usuarios_list->lista(Usuarios::listaUsuariosPag($filtro, $fg_ativo, $pag), $pag,false);
+	                            $usuarios_list->lista(Usuarios::listaUsuariosPag($filtro,$pesquisa_filtro, $fg_ativo, $pag), $pag,false);
 	                        }
 	                        else{
 	                            $usuarios_list->lista(null, $pag);

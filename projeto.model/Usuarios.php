@@ -187,7 +187,7 @@ class Usuarios {
         }
     }
     
-    static function listaUsuariosPag($filtro = null,$fg_ativo = null, $pag = 1){
+    static function listaUsuariosPag($filtro = null,$pesquisa_filtro = null,$fg_ativo = null, $pag = 1){
         try{
             TTransaction::open();
             $sql_filtro = null;
@@ -196,10 +196,10 @@ class Usuarios {
             
             switch ($filtro) {
                 case '1':
-                    $sql_filtro = "WHERE fg_ativo = $fg_ativo AND nm_usuario like '%$filtro%' ";
+                    $sql_filtro = "WHERE fg_ativo = $fg_ativo AND nm_usuario like '%$pesquisa_filtro%' ";
                     break;
                 case '2':
-                    $sql_filtro = "WHERE fg_ativo = $fg_ativo AND ds_login like '%$filtro%' ";
+                    $sql_filtro = "WHERE fg_ativo = $fg_ativo AND ds_login like '%$pesquisa_filtro%' ";
                     break;
                 
                 default:
