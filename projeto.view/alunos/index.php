@@ -6,7 +6,7 @@ new TSession();
 extract($_GET);
 
 $filtro   = @$_GET['filtro'];
-$ds_sexo  = @$_GET['ds_sexo'];
+$pesquisa_filtro   = @$_GET['pesquisa_filtro'];
 
 $pag        = @$_GET['pag'];
 $pesquisado = true;
@@ -26,23 +26,6 @@ switch ($filtro) {
 	break;
 }
 
-switch ($ds_sexo) {
-	case 'M':
-		$desc_ds_sexo = "sexo Masculino";
-	break;
-	
-	case 'F':
-		$desc_ds_sexo = "sexo Feminino";	
-	break;
-
-	case 'O':
-		$desc_ds_sexo = "sexo outros";	
-	break;
-
-	default:
-		$desc_ds_sexo = "";
-	break;
-}
 
 
 $file = fopen("../../projeto.log/log.txt","a+");
@@ -53,7 +36,7 @@ if($pag == ''){
 }
 
 $pesquisa['filtro']   = $filtro;
-$pesquisa['ds_sexo']  = $ds_sexo;
+$pesquisa['pesquisa_filtro']  = $pesquisa_filtro;
 
 ?>
 		<?php include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."projeto.template". DIRECTORY_SEPARATOR ."header.php"); ?>
@@ -69,7 +52,7 @@ $pesquisa['ds_sexo']  = $ds_sexo;
 	                        
 	                        $alunos_list = new AlunosList();
 	                        if($pesquisado){
-	                            $alunos_list->lista(Alunos::listaAlunosPag($filtro,$desc_pesquisa,$ds_sexo, $pag), $pag,false);
+	                            $alunos_list->lista(Alunos::listaAlunosPag($filtro,$pesquisa_filtro, $pag), $pag,false);
 	                        }
 	                        else{
 	                            $alunos_list->lista(null, $pag);

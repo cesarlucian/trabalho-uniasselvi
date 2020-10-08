@@ -200,7 +200,7 @@ class Alunos {
         }
     }
 
-    static function listaAlunosPag($filtro = null,$ds_sexo = null, $pag = 1){
+    static function listaAlunosPag($filtro = null,$pesquisa_filtro = null, $pag = 1){
         try{
             TTransaction::open();
 
@@ -212,15 +212,15 @@ class Alunos {
 
             switch ($filtro) {
                 case '1':
-                    $sql_filtro = "WHERE alunos.nm_principal LIKE '%$ds_aluno%' AND alunos.ds_sexo LIKE '%$ds_sexo%' ";
+                    $sql_filtro = "WHERE alunos.nm_principal LIKE '%$pesquisa_filtro%' AND alunos.ds_sexo LIKE '%$ds_sexo%' ";
                     break;
 
                 case '2':
-                    $sql_filtro = "INNER JOIN cursos USING(cd_curso) WHERE cursos.ds_curso LIKE '%$ds_curso%' ";
+                    $sql_filtro = "INNER JOIN cursos USING(cd_curso) WHERE cursos.ds_curso LIKE '%$pesquisa_filtro%' ";
                     break;
 
                 case '3':
-                    $sql_filtro = "WHERE alunos.nr_matricula = '$nr_matricula' ";
+                    $sql_filtro = "WHERE alunos.nr_matricula = '$pesquisa_filtro' ";
                     break;
                 
                 default:

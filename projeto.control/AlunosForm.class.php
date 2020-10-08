@@ -44,31 +44,11 @@ class AlunosForm {
                             </select>
                         </div>
 
-                        <div id="div_filtro2" class="col-md-2 col-lg-2">
-                            <label>Filtro:</label>
-                            <select id="ds_sexo" name="ds_sexo" class="form-control">
-                                <option value="" selected="selected">Todos</option>
-                                <option value="M">Masculino</option>
-                                <option value="F">Feminino</option>
-                                <option value="O">Outros</option>
-                            </select>
-                        </div>
-
-                        <div id="pesquisa_aluno" class="col-md-8 col-lg-8">
+                        <div id="pesquisa_filtro" class="col-md-10 col-lg-10">
                             <label>Pesquisar</label>
                             <div class="input-button-inline">
-                                <input type="text" name="ds_aluno" id="ds_aluno" class="form-control">
+                                <input type="text" name="pesquisa_filtro" id="pesquisa_filtro" class="form-control">
                             </div>
-                        </div>
-
-                        <div id="pesquisa_matricula" class="col-md-10 col-lg-10 hidden">
-                            <label>Pesquisar</label>
-                            <input type="text" name="nr_matricula" id="nr_matricula" class="form-control">
-                        </div>
-
-                        <div id="pesquisa_curso" class="col-md-10 col-lg-10 hidden">
-                            <label>Pesquisar</label>
-                            <input type="text" name="ds_curso" id="ds_curso" class="form-control">
                         </div>
 
                     </div> 
@@ -79,35 +59,6 @@ class AlunosForm {
                     </div>
                 </form>
                 <script>
-
-                    function buscaFiltro() {
-
-                        var filtro = document.getElementById("filtro").value;
-                        var filtro2 = document.getElementById("ds_sexo").value;
-
-                        if(filtro == 1 ){
-                            filtro2 = "";
-                            $("#pesquisa_matricula").addClass('hidden');
-                            $("#div_filtro2").removeClass('hidden');
-                            $("#pesquisa_aluno").removeClass('hidden');
-                            $("#pesquisa_curso").addClass('hidden');
-
-                        } else if(filtro == 2) {
-                            filtro = "";
-                            $("#pesquisa_matricula").addClass('hidden');
-                            $("#div_filtro2").addClass('hidden');
-                            $("#pesquisa_aluno").addClass('hidden');
-                            $("#pesquisa_curso").removeClass('hidden');
-
-                        } else if(filtro = 3) {
-
-                            $("#pesquisa_matricula").removeClass('hidden');
-                            $("#div_filtro2").addClass('hidden');
-                            $("#pesquisa_aluno").addClass('hidden');
-                            $("#pesquisa_curso").addClass('hidden');
-                        }
-                    }
-                    
                 </script>
             </main>
         <?php
