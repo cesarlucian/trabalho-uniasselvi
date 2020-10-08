@@ -16,7 +16,9 @@ class AlunosList {
                         <table id="example2" class="table table-bordered table-hover">
                             <thead>
                                 <tr>
+                                    <?php if($_SESSION['tipo_usuario'] == 1) { ?>
                                     <th></th>
+                                    <?php } ?>
                                     <th scope="col">Matr&iacute;cula</th>
 					                <th scope="col">Nome</th>
                                     <th scope="col">Curso</th>
@@ -46,11 +48,13 @@ class AlunosList {
 
                                             ?>
                                                 <tr>
+                                                    <?php if($_SESSION['tipo_usuario'] == 1) { ?>
                                                     <td align='center'>
                                                         <button alt="Editar" title="Editar" class="btn btn-default btn-sm" type="button" onclick="window.location = 'edicao.php?cd_aluno=<?= $aluno->cd_aluno; ?>'">
                                                             <i class="glyphicon glyphicon-new-window"></i>
                                                         </button>
-                                                    </td>     
+                                                    </td>   
+                                                    <?php } ?>  
                                                     <td><?= $aluno->nr_matricula; ?></td>                                         
                                                     <td><?= $aluno->nm_principal; ?></td>
                                                     <td>                                                        

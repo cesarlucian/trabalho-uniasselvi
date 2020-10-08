@@ -187,23 +187,29 @@ class Usuarios {
         }
     }
     
-    static function listaUsuariosPag($nm_usuario = null, $ds_login = null, $pag = 1){
+    static function listaUsuariosPag($filtro = null,$fg_ativo = null, $pag = 1){
         try{
             TTransaction::open();
-            $sql_usuario = $sql_login = null;
+            $sql_filtro = null;
             
             $offset = (($pag-1)*6);
             
-            if($nm_usuario){
-                $sql_usuario = " and nm_usuario like '%$nm_usuario%' ";
-            }
-            if($ds_login){
-                $sql_login = " and ds_login like '%$ds_login%' ";
+            switch ($filtro) {
+                case '1':
+                    $sql_filtro = "WHERE fg_ativo = $fg_ativo AND nm_usuario like '%$filtro%' "
+                    break;
+                case '2':
+                    $sql_filtro = "WHERE fg_ativo = $fg_ativo AND ds_login like '%$filtro%' "
+                    break;
+                
+                default:
+                    $sql_filtro = "";
+                    break;
             }
                         
             $sql = "SELECT * "
                     . "FROM usuarios "
-                    . "WHERE fg_ativo = 1 "
+                    . "$sql_filtro "
                     . "$sql_usuario $sql_login "
                     . "ORDER BY nm_usuario "
                     . "LIMIT 6 "

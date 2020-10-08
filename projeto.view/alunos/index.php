@@ -7,9 +7,6 @@ extract($_GET);
 
 $filtro   = @$_GET['filtro'];
 $ds_sexo  = @$_GET['ds_sexo'];
-$ds_aluno = @$_GET['ds_aluno'];
-$ds_curso = @$_GET['ds_curso'];
-$nr_matricula = @$_GET['nr_matricula'];
 
 $pag        = @$_GET['pag'];
 $pesquisado = true;
@@ -56,10 +53,7 @@ if($pag == ''){
 }
 
 $pesquisa['filtro']   = $filtro;
-$pesquisa['ds_aluno'] = $ds_aluno;
-$pesquisa['ds_curso'] = $ds_curso;
 $pesquisa['ds_sexo']  = $ds_sexo;
-$pesquisa['nr_matricula'] = $nr_matricula;
 
 ?>
 		<?php include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."projeto.template". DIRECTORY_SEPARATOR ."header.php"); ?>
@@ -75,7 +69,7 @@ $pesquisa['nr_matricula'] = $nr_matricula;
 	                        
 	                        $alunos_list = new AlunosList();
 	                        if($pesquisado){
-	                            $alunos_list->lista(Alunos::listaAlunosPag($nr_matricula,$filtro,$ds_sexo,$ds_aluno,$ds_curso, $pag), $pag,false);
+	                            $alunos_list->lista(Alunos::listaAlunosPag($filtro,$ds_sexo, $pag), $pag,false);
 	                        }
 	                        else{
 	                            $alunos_list->lista(null, $pag);

@@ -200,47 +200,36 @@ class Alunos {
         }
     }
 
-    static function listaAlunosPag($nr_matricula = null, $filtro = null,$ds_sexo = null,$ds_aluno = null,$ds_curso = null, $pag = 1){
+    static function listaAlunosPag($filtro = null,$ds_sexo = null, $pag = 1){
         try{
             TTransaction::open();
 
-            $sql_ds_aluno = $sql_ds_sexo = $sql_ds_curso = $sql_matricula = null;
+            $sql_filtro = null;
             
             $offset = (($pag-1)*6);
 
             // desc filtro
 
-            if($filtro == "1") {
+            switch ($filtro) {
+                case '1':
+                    $sql_filtro = "WHERE alunos.nm_principal LIKE '%$ds_aluno%' AND alunos.ds_sexo LIKE '%$ds_sexo%' ";
+                    break;
 
-                if($ds_aluno) {
+                case '2':
+                    $sql_filtro = "INNER JOIN cursos USING(cd_curso) WHERE cursos.ds_curso LIKE '%$ds_curso%' ";
+                    break;
 
-                    $sql_ds_aluno  = "WHERE alunos.nm_principal LIKE '%$ds_aluno%' ";
-                    $sql_ds_sexo = "AND alunos.ds_sexo LIKE '%$ds_sexo%' ";
-                    $sql_ds_curso = "";
-                }
-
-            } else if($filtro == "2") {
-
-                if($ds_curso) {
-
-                    $sql_ds_curso =  "INNER JOIN cursos USING(cd_curso) WHERE cursos.ds_curso LIKE '%$ds_curso%' ";
-                    $sql_ds_aluno  = "";
-                    $sql_ds_sexo = "";
-                }
-
-            } else if($filtro == "3") {
-
-                $sql_ds_curso =  "";
-                $sql_ds_aluno  = "";
-                $sql_ds_sexo = "";
-                $sql_matricula = "WHERE alunos.nr_matricula = '$nr_matricula' ";
+                case '3':
+                    $sql_filtro = "WHERE alunos.nr_matricula = '$nr_matricula' ";
+                    break;
+                
+                default:
+                    # code...
+                    break;
             }
 
             $sql = "SELECT * FROM alunos "
-                    ."$sql_ds_curso"
-                    ."$sql_ds_aluno"
-                    ."$sql_ds_sexo"
-                    ."$sql_matricula"
+                    ."$sql_filtro"
                     ."ORDER BY alunos.nm_principal "  
                     ."LIMIT 6 "
                     ."OFFSET $offset "; 
