@@ -5434,3 +5434,17 @@ Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:34:40
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:34:44
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:39:24
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:40:04
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-08 11:40:04
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-08 11:40:05
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-08 11:40:07
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-08 11:40:08
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-08 11:40:10
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-08 11:40:12
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-08 11:40:13
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-08 11:40:13
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:40:14
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:40:22
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-08 11:40:50
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:40:54
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:43:38

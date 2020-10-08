@@ -17,7 +17,7 @@
 
 include_once("config.php");
 
-LoginForm::novaSenha();
+LoginForm::novoNomeUsuario();
 
 ?>
 

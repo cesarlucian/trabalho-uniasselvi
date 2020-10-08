@@ -52,7 +52,7 @@ try{
         } else{
 
 	        echo "Usuário não encontrado!";
-	        echo "<script>alert('Usuario nao encontrado!');history.back();</script>";
+	        echo "<script>alert('Usu\u00e1rio n\u00e3o encontrado!');history.back();</script>";
 	        //header("location: index.php");
     	} 
 
