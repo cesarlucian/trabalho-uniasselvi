@@ -7,7 +7,9 @@ class AlunosList {
         <main class="card-padrao">
             <form action="edicao.php" name="lista_alunos" id="lista_alunos" method="GET" role="form">
                     <div class="box-body">
-                        <button type="button" class="btn btn-success pull-right" onclick="window.location = 'cadastro.php'">Inserir novo</button><br><br><br>
+                        <?php if($_SESSION['tipo_usuario'] == 1) { ?>
+                            <button type="button" class="btn btn-success pull-right" onclick="window.location = 'cadastro.php'">Inserir novo</button><br><br><br>
+                        <?php } ?>
                         
                     </div>
                     <div class="box-body table-responsive">
@@ -15,9 +17,8 @@ class AlunosList {
                             <thead>
                                 <tr>
                                     <th></th>
-					                <th scope="col">Nome</th>
-                                    <th scope="col">CPF</th>
                                     <th scope="col">Matr&iacute;cula</th>
+					                <th scope="col">Nome</th>
                                     <th scope="col">Curso</th>
                                     <th scope="col">Turma</th>
                                     <th scope="col">Situa&ccedil;&atilde;o</th>
@@ -49,10 +50,9 @@ class AlunosList {
                                                         <button alt="Editar" title="Editar" class="btn btn-default btn-sm" type="button" onclick="window.location = 'edicao.php?cd_aluno=<?= $aluno->cd_aluno; ?>'">
                                                             <i class="glyphicon glyphicon-new-window"></i>
                                                         </button>
-                                                    </td>                                               
+                                                    </td>     
+                                                    <td><?= $aluno->nr_matricula; ?></td>                                         
                                                     <td><?= $aluno->nm_principal; ?></td>
-                                                    <td><?= Geral::getCpfFormatado($aluno->nr_cpf); ?></td>
-                                                    <td><?= $aluno->nr_matricula; ?></td>
                                                     <td>                                                        
                                                         <?php
 

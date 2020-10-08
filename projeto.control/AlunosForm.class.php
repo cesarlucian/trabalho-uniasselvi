@@ -40,6 +40,7 @@ class AlunosForm {
                             <select id="filtro" name="filtro" class="form-control" onchange="buscaFiltro();">
                                 <option value="1" selected="selected">Nome</option>
                                 <option value="2">Curso</option>
+                                <option value="3">Matr&iacute;cula</option>
                             </select>
                         </div>
 
@@ -58,6 +59,11 @@ class AlunosForm {
                             <div class="input-button-inline">
                                 <input type="text" name="ds_aluno" id="ds_aluno" class="form-control">
                             </div>
+                        </div>
+
+                        <div id="pesquisa_matricula" class="col-md-10 col-lg-10 hidden">
+                            <label>Pesquisar</label>
+                            <input type="text" name="nr_matricula" id="nr_matricula" class="form-control">
                         </div>
 
                         <div id="pesquisa_curso" class="col-md-10 col-lg-10 hidden">
@@ -81,16 +87,24 @@ class AlunosForm {
 
                         if(filtro == 1 ){
                             filtro2 = "";
+                            $("#pesquisa_matricula").addClass('hidden');
                             $("#div_filtro2").removeClass('hidden');
                             $("#pesquisa_aluno").removeClass('hidden');
                             $("#pesquisa_curso").addClass('hidden');
 
                         } else if(filtro == 2) {
                             filtro = "";
+                            $("#pesquisa_matricula").addClass('hidden');
                             $("#div_filtro2").addClass('hidden');
                             $("#pesquisa_aluno").addClass('hidden');
                             $("#pesquisa_curso").removeClass('hidden');
-                            
+
+                        } else if(filtro = 3) {
+
+                            $("#pesquisa_matricula").removeClass('hidden');
+                            $("#div_filtro2").addClass('hidden');
+                            $("#pesquisa_aluno").addClass('hidden');
+                            $("#pesquisa_curso").addClass('hidden');
                         }
                     }
                     

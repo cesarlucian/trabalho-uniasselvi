@@ -5448,3 +5448,28 @@ Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-08 11:40:50
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:40:54
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 11:43:38
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 13:01:21
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 13:01:50
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 13:01:51
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 13:01:51
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 13:02:06
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 13:03:42
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 13:04:58
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 13:05:41
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 13:05:51
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 13:07:04
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 13:07:22
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 13:07:26
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 13:07:58
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 13:08:11
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 13:08:25
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 13:14:56
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa: 3 - 2020-10-08 13:15:09
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa: 3 - 2020-10-08 13:15:14
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa: 3 - 2020-10-08 13:15:38
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa: 3 - 2020-10-08 13:15:38
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa: 3 - 2020-10-08 13:15:38
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa: 3 - 2020-10-08 13:15:45
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa: 3 - 2020-10-08 13:15:54
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa: 3 - 2020-10-08 13:15:54
+Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa: 3 - 2020-10-08 13:15:54

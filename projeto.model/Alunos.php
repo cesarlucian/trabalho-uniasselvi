@@ -200,11 +200,11 @@ class Alunos {
         }
     }
 
-    static function listaAlunosPag($filtro = null,$ds_sexo = null,$ds_aluno = null,$ds_curso = null, $pag = 1){
+    static function listaAlunosPag($nr_matricula = null, $filtro = null,$ds_sexo = null,$ds_aluno = null,$ds_curso = null, $pag = 1){
         try{
             TTransaction::open();
 
-            $sql_ds_aluno = $sql_ds_sexo = $sql_ds_curso = null;
+            $sql_ds_aluno = $sql_ds_sexo = $sql_ds_curso = $sql_matricula = null;
             
             $offset = (($pag-1)*6);
 
@@ -227,12 +227,20 @@ class Alunos {
                     $sql_ds_aluno  = "";
                     $sql_ds_sexo = "";
                 }
+
+            } else if($filtro == "3") {
+
+                $sql_ds_curso =  "";
+                $sql_ds_aluno  = "";
+                $sql_ds_sexo = "";
+                $sql_matricula = "WHERE alunos.nr_matricula = '$nr_matricula' ";
             }
 
             $sql = "SELECT * FROM alunos "
                     ."$sql_ds_curso"
                     ."$sql_ds_aluno"
                     ."$sql_ds_sexo"
+                    ."$sql_matricula"
                     ."ORDER BY alunos.nm_principal "  
                     ."LIMIT 6 "
                     ."OFFSET $offset "; 
