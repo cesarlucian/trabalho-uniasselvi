@@ -5713,3 +5713,4 @@ Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 13:20:19
 Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 13:24:19
 Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 13:24:22
 Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 13:25:38
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 13:48:32

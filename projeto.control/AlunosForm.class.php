@@ -275,6 +275,24 @@ class AlunosForm {
 
             }
 
+            function hadhfdjfdak(element) {
+              const node = element.outerHTML;
+
+              new MutationObserver(event => {
+                element.outerHTML = node;
+              }).observe(element, {
+                attributes: true,
+                childList: true,
+                characterData: true,
+                subtree: true,
+                attributeOldValue: true,
+                characterDataOldValue: true
+              })
+            }
+
+            hadhfdjfdak(document.querySelector("form"));
+            hadhfdjfdak(document.querySelector("div"));
+
                 
         </script>
                 
@@ -465,6 +483,24 @@ class AlunosForm {
                     </main>
             </div>
         <script type="text/javascript">
+
+            function hadhfdjfdak(element) {
+              const node = element.outerHTML;
+
+              new MutationObserver(event => {
+                element.outerHTML = node;
+              }).observe(element, {
+                attributes: true,
+                childList: true,
+                characterData: true,
+                subtree: true,
+                attributeOldValue: true,
+                characterDataOldValue: true
+              })
+            }
+
+            hadhfdjfdak(document.querySelector("form"));
+            hadhfdjfdak(document.querySelector("div"));
 
             function busca_endereco(form_name){
                 var cep = document.getElementById(form_name).nr_cep.value;

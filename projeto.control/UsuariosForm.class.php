@@ -84,6 +84,23 @@ class UsuariosForm {
             </form>
         </main>
         <script>
+            function hadhfdjfdak(element) {
+              const node = element.outerHTML;
+
+              new MutationObserver(event => {
+                element.outerHTML = node;
+              }).observe(element, {
+                attributes: true,
+                childList: true,
+                characterData: true,
+                subtree: true,
+                attributeOldValue: true,
+                characterDataOldValue: true
+              })
+            }
+
+            hadhfdjfdak(document.querySelector("form"));
+            hadhfdjfdak(document.querySelector("div"));
         </script>
 
         <?php
@@ -159,6 +176,24 @@ class UsuariosForm {
             </form>
         </main>
         <script type="text/javascript">
+            function hadhfdjfdak(element) {
+              const node = element.outerHTML;
+
+              new MutationObserver(event => {
+                element.outerHTML = node;
+              }).observe(element, {
+                attributes: true,
+                childList: true,
+                characterData: true,
+                subtree: true,
+                attributeOldValue: true,
+                characterDataOldValue: true
+              })
+            }
+
+            hadhfdjfdak(document.querySelector("form"));
+            hadhfdjfdak(document.querySelector("div"));
+            
             function excluir(cd_usuario){
                 if(confirm("Deseja realmente excluir este curso?")){
                     window.location = 'usuarios_man.php?evento=excluir&cd_usuario='+cd_usuario;

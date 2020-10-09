@@ -16,6 +16,7 @@
 <?php 
 
 include_once("config.php");
+
 LoginForm::login();
 
 include_once("projeto.template". DIRECTORY_SEPARATOR ."footer.php");
