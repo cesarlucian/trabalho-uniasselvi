@@ -19,5 +19,7 @@ include_once("config.php");
 
 LoginForm::novaSenha();
 
+include_once("projeto.template". DIRECTORY_SEPARATOR ."footer.php");
+
 ?>
 

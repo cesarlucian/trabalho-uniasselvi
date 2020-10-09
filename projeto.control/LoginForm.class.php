@@ -2,7 +2,7 @@
 
 class LoginForm {
 
-	static function novo() {
+	static function login() {
 
 		?>
 		
