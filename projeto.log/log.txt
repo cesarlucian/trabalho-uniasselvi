@@ -5714,3 +5714,88 @@ Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 13:24:19
 Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 13:24:22
 Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 13:25:38
 Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 13:48:32
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:02:47
+Foi realizada uma consulta dos alunos pelos filtros: Nome, pesquisa: 1 - 2020-10-09 20:02:50
+Foi realizada uma consulta dos alunos pelos filtros: Nome, pesquisa: 1 - 2020-10-09 20:02:53
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-09 20:04:33
+Foi realizada uma consulta dos alunos da turma 402 para realizar a chamada do dia: 2020-10-09 20:04:40
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:04:42
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-09 20:04:44
+Foi realizada uma consulta dos alunos da turma 702 para realizar a chamada do dia: 2020-10-09 20:04:50
+Chamada realizada com sucesso - 2020-10-09 20:05:01
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-09 20:05:01
+Foi realizada uma consulta dos alunos da turma 702 para realizar a chamada do dia: 2020-10-09 20:05:09
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-09 20:05:13
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-09 20:05:20
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-09 20:05:22
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 20:05:23
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 20:05:24
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 20:05:35
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-09 20:05:45
+A turma id '9' teve seu curso desvinculado na base de dados - 2020-10-09 20:05:45
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 20:05:45
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 20:05:47
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 20:05:50
+O curso id '43' foi vinculado a turma id '9' na base de dados - 2020-10-09 20:05:58
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 20:05:58
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 20:06:06
+Foi inserida uma nova turma na base de dados - 2020-10-09 20:06:15
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 20:06:15
+O curso id '39' foi vinculado a turma id '84' na base de dados - 2020-10-09 20:06:20
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 20:06:20
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 20:06:23
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:06:26
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 20:06:39
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:09:16
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:13:56
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:14:17
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:14:17
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:14:17
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:14:18
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:14:18
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:15:43
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:16:23
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:16:28
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:16:44
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:16:44
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:16:45
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:16:45
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:16:45
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:16:46
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:16:46
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:16:50
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:16:51
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:16:51
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:16:51
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:17:25
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:17:33
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:20:03
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:20:07
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:20:56
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:20:56
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:20:57
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:23:01
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:23:03
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:23:06
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:23:12
+O aluno ID: '47' foi editado na base de dados - 2020-10-09 20:23:35
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:23:37
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:23:41
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:23:54
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:24:04
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:24:04
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:24:40
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-09 20:24:45
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-09 20:24:55
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:24:56
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-09 20:24:57
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 20:24:57
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-09 20:24:59
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-09 20:25:05
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-09 20:25:10
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 20:25:11
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 20:25:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 20:25:18
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 20:25:19
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 20:25:25
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 20:25:31

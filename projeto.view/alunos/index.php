@@ -67,6 +67,14 @@ $pesquisa['pesquisa_filtro']  = $pesquisa_filtro;
 
 		<script src="../../js/bootstrap.min.js" type="text/javascript"></script>
 		<script src="../../js/plugins/input-mask/jquery.inputmask.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(function() {                
+		      	//$("#inputNascimento").inputmask("99/99/9999");
+		      	$("#nr_cpf").inputmask("999.999.999-99");
+		      	$("#nr_cep").inputmask("99999-999");
+		    });
+		</script>
+
 		<?php
 
 include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."projeto.template". DIRECTORY_SEPARATOR ."footer.php");
