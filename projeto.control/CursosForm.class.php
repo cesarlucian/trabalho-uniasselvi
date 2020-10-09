@@ -6,11 +6,11 @@ class CursosForm {
      
         ?>  
             <main class="card-padrao">
-                <form action="../cursos/index.php" method="GET" id="pesquisar" name="pesquisa" role="form"> 
+                <form action="../cursos/index.php" method="GET" id="pesquisa" name="pesquisa" role="form"> 
                     <h3 class="title">Cursos</h3><br>
                     <div class="row">
                         <div id="pesquisa_curso" class="col-md-6 col-lg-6">
-                            <label>Pesquisar curso</label>
+                            <label>Pesquisar</label>
                             <div class="input-button-inline">
                                 <input type="text" name="ds_curso" id="ds_curso" class="form-control"> 
                             </div>

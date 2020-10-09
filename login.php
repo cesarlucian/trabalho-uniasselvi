@@ -14,7 +14,7 @@ try{
 
     TTransaction::open("projeto01");
 
-    $sql = "SELECT cd_usuario, tipo_usuario, ds_senha "
+    $sql = "SELECT cd_usuario, cd_cargo, ds_senha "
             . "FROM usuarios "
             . "WHERE ds_login = :ds_login and fg_status = 'A'";
 
@@ -38,7 +38,7 @@ try{
         		$login->getObject($data['cd_usuario']);
 
         		TSession::setValue('cd_usuario', $login->cd_usuario);
-        		TSession::setValue('tipo_usuario', $data['tipo_usuario']);
+        		TSession::setValue('cd_cargo', $data['cd_cargo']);
 	            TSession::setValue('usuario', $usuario);
 
                 header("location: inicial.php");

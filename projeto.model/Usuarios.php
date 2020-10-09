@@ -7,7 +7,7 @@ class Usuarios {
     public $ds_email;
     public $ds_login;
     public $ds_senha;
-    public $tipo_usuario;
+    public $cd_cargo; //fk
     public $fg_ativo;
 
     const TABLE                 = "usuarios";
@@ -187,7 +187,7 @@ class Usuarios {
         }
     }
     
-    static function listaUsuariosPag($filtro = null,$pesquisa_filtro = null,$fg_ativo = null, $pag = 1){
+    static function listaUsuariosPag($filtro = null,$pesquisa_filtro = null, $pag = 1){
         try{
             TTransaction::open();
             $sql_filtro = null;
@@ -196,10 +196,10 @@ class Usuarios {
             
             switch ($filtro) {
                 case '1':
-                    $sql_filtro = "WHERE fg_ativo = $fg_ativo AND nm_usuario like '%$pesquisa_filtro%' ";
+                    $sql_filtro = "WHERE nm_usuario like '%$pesquisa_filtro%' ";
                     break;
                 case '2':
-                    $sql_filtro = "WHERE fg_ativo = $fg_ativo AND ds_login like '%$pesquisa_filtro%' ";
+                    $sql_filtro = "WHERE ds_login like '%$pesquisa_filtro%' ";
                     break;
                 
                 default:
@@ -210,7 +210,6 @@ class Usuarios {
             $sql = "SELECT * "
                     . "FROM usuarios "
                     . "$sql_filtro "
-                    . "$sql_usuario $sql_login "
                     . "ORDER BY nm_usuario "
                     . "LIMIT 6 "
                     . "OFFSET $offset";

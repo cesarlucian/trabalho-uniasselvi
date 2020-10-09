@@ -7,7 +7,6 @@ extract($_GET);
 
 $filtro     = @$_GET['filtro'];
 $pesquisa_filtro = @$_GET['pesquisa_filtro'];
-$fg_ativo   = @$_GET['fg_ativo']; 
 
 $pag        = @$_GET['pag'];
 $pesquisado = true;
@@ -21,7 +20,6 @@ if($pag == ''){
 }
 
 $pesquisa['filtro']   = $filtro;
-$pesquisa['fg_ativo'] = $fg_ativo;
 $pesquisa['pesquisa_filtro'] = $pesquisa_filtro;
 
 ?>
@@ -38,7 +36,7 @@ $pesquisa['pesquisa_filtro'] = $pesquisa_filtro;
 	                        
 	                        $usuarios_list = new UsuariosList();
 	                        if($pesquisado){
-	                            $usuarios_list->lista(Usuarios::listaUsuariosPag($filtro,$pesquisa_filtro, $fg_ativo, $pag), $pag,false);
+	                            $usuarios_list->lista(Usuarios::listaUsuariosPag($filtro,$pesquisa_filtro, $pag), $pag,false);
 	                        }
 	                        else{
 	                            $usuarios_list->lista(null, $pag);

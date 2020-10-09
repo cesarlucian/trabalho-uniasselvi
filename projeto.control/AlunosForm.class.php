@@ -93,7 +93,7 @@ class AlunosForm {
                                         </div>
                                         <div class="col-lg-6 col-md-6">
                                             <label for="">Email*</label>
-                                            <input type="text" class="form-control" name="ds_email" id="ds_email" required="true">
+                                            <input type="email" class="form-control" name="ds_email" id="ds_email" required="true">
                                         </div>
                                         </div>
                                     <br><div class="row">
@@ -347,7 +347,7 @@ class AlunosForm {
                                         </div>
                                         <div class="col-lg-4 col-md-4">
                                             <label for="">Email*</label>
-                                            <input type="text" class="form-control" name="ds_email" id="ds_email" required="true" value="<?= $aluno->ds_email; ?>">
+                                            <input type="email" class="form-control" name="ds_email" id="ds_email" required="true" value="<?= $aluno->ds_email; ?>">
                                         </div>
                                         </div>
                                     <br><div class="row">

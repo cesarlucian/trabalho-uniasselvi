@@ -21,7 +21,7 @@ class TurmasForm {
                         </div>
 
                         <div id="pesquisa_turma" class="col-md-3 col-lg-3">
-                            <label>Pesquisar turma</label>
+                            <label>Pesquisar</label>
                             <div class="input-button-inline">
                                 <input type="number" name="nr_turma" id="nr_turma" class="form-control">
                             </div>

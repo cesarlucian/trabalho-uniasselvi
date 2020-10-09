@@ -5638,3 +5638,74 @@ Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa:  - 2020-10-08 13:54:05
 Foi realizada uma consulta dos alunos pelos filtros: Curso, , pesquisa: 2 - 2020-10-08 13:54:08
 Foi realizada uma consulta dos alunos pelos filtros: , , pesquisa: 3 - 2020-10-08 13:54:11
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:17:24
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:17:33
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:17:55
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:17:56
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:17:56
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:18:04
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:18:12
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:18:13
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:18:13
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:18:17
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:18:17
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:18:18
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:18:18
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:18:18
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:18:20
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:18:20
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:18:20
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:18:24
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:18:24
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:18:24
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:18:24
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:18:25
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:18:34
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 11:18:35
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-09 11:18:37
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:18:40
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 11:18:44
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 11:19:26
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 11:19:27
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:19:28
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:19:32
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:19:33
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:19:33
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 11:19:33
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-09 11:19:35
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-09 11:19:35
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 11:19:37
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:19:37
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:19:40
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 11:20:46
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:21:40
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:28:35
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:29:14
+Foi realizada uma consulta dos usuarios, pesquisa: 1 - 2020-10-09 11:29:36
+Foi realizada uma consulta dos usuarios, pesquisa: 1 - 2020-10-09 11:29:40
+Foi realizada uma consulta dos usuarios, pesquisa: 1 - 2020-10-09 11:29:43
+Foi realizada uma consulta dos usuarios, pesquisa: 1 - 2020-10-09 11:29:45
+Foi realizada uma consulta dos usuarios, pesquisa: 2 - 2020-10-09 11:29:53
+Foi realizada uma consulta dos usuarios, pesquisa: 2 - 2020-10-09 11:29:58
+Foi realizada uma consulta dos usuarios, pesquisa: 2 - 2020-10-09 11:39:26
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 11:39:35
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 12:04:57
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 12:05:26
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 12:05:26
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 12:05:42
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 12:05:42
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 12:05:54
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 12:06:23
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 12:06:33
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 12:06:37
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 12:06:41
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 12:07:06
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 12:07:08
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 12:07:12
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 12:07:16
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 12:08:24
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 12:08:29
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 12:16:20
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 12:16:28
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 12:17:26
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 12:17:31

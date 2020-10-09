@@ -36,18 +36,6 @@ if(isset($evento)){
                 $file = fopen("../../projeto.log/log.txt","a+");
 	        	fwrite($file,"Erro ao editar aluno na base de dados, Erro: CPF ja existe na base de dados - ".date("Y-m-d H:i:s")."\r\n");
 
-        	} else if(!Geral::validaEmail($ds_email)) {
-
-        		?>
-                <script>
-                    alert("Email inv\u00e1lido!");
-                    history.back();
-                </script>
-                <?php
-
-                $file = fopen("../../projeto.log/log.txt","a+");
-	        	fwrite($file,"Erro ao inserir aluno na base de dados, Erro: Email invalido - ".date("Y-m-d H:i:s")."\r\n");
-
         	} else if (!$verifica->verificaTurma($cd_curso,$cd_turma)) {
 
         		?>

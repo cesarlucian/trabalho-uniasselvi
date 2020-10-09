@@ -42,7 +42,7 @@ if(isset($evento)){
 
                 ?>
                     <script>
-                        alert("Erro ao realizar chamada, nenhum aluno selecionado!");
+                        alert("Erro ao realizar chamada!");
                         history.back();
                     </script>
                 <?php

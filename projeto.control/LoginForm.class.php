@@ -139,7 +139,7 @@ class LoginForm {
 		
 		<br><main class="card-padrao">
 		    <form action="projeto.view/usuarios/usuarios_man.php" class="login d-flex align-items-center flex-column justify-content-center" method="POST">
-		    	<input type="hidden" name="evento" id="evento" value="novo_user">
+		    	<input type="hidden" name="evento" id="evento" value="novo_nome_usuario">
 		        <h3 class="title">Novo nome de usu&aacute;rio por E-mail</h3><br> 
 		        <div class="row">
 
