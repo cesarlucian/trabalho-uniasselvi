@@ -12,11 +12,11 @@ class LoginForm {
 		        <div class="row">
 		            <div class="col-lg-12 col-md-12">
 		                <label for="ds_login">Usu&aacute;rio</label>
-		                <div class="input-group">
+		                <div class="input-button-inline">
 		                    <input alt="Insira seu usu&aacute;rio" title="Insira seu usu&aacute;rio" type="text" class="form-control" id="ds_login" name="ds_login" placeholder="Usu&aacute;rio" required="true"/>                                    
 		                </div>
 		            </div>
-		           <div class="col-lg-12 col-md-12 mt-3">
+		           <div class="col-lg-12 col-md-12">
 		           	<div id="divMayus" style="visibility:hidden"><span style="color: #f00;">CAPS LOCK est&aacute; ligado!</span></div> 
 		                <label for="password">Senha</label>
 		                 <div class="input-button-inline">
