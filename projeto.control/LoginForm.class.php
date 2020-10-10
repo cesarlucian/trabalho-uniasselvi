@@ -20,8 +20,7 @@ class LoginForm {
 		           	<div id="divMayus" style="visibility:hidden"><span style="color: #f00;">CAPS LOCK est&aacute; ligado!</span></div> 
 		                <label for="password">Senha</label>
 		                 <div class="input-button-inline">
-		                    <input alt="Insira sua senha" title="Insira sua senha" type="password" class="form-control" id="ds_senha" name="ds_senha" placeholder="Senha" autocomplete="on" onkeypress="capLock(event)"  required="true"/>
-		                    <input class="btn btn-primary" type="button" id="showPassword" value="Mostrar" class="button" />                             
+		                    <input alt="Insira sua senha" title="Insira sua senha" type="password" class="form-control" id="ds_senha" name="ds_senha" placeholder="Senha" autocomplete="on" onkeypress="capLock(event)"  required="true"/>                           
 		                </div>
 		            </div>
 		        </div> 
@@ -48,24 +47,6 @@ class LoginForm {
 		    <script>
 		        $(document).ready(function(){
 		 
-		          $('#showPassword').on('click', function() {
-		             
-		            var passwordField = $('#ds_senha');
-		            var passwordFieldType = passwordField.attr('type');
-		         
-		            if(passwordFieldType == 'password') {
-
-		                passwordField.attr('type', 'text');
-		                $(this).val('Ocultar');
-
-		            } else {
-
-		                passwordField.attr('type', 'password');
-		                $(this).val('Mostrar');
-		            }
-		          });
-		        });
-
 				function capLock(e){
 					kc = e.keyCode?e.keyCode:e.which;
 					sk = e.shiftKey?e.shiftKey:((kc == 16)?true:false);
