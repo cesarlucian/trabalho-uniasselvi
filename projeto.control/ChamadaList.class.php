@@ -11,10 +11,10 @@ class ChamadaList {
                         <table id="example2" class="table table-bordered table-hover">
                             <thead>
                                 <tr>
+                                    <th scope="col">Matr&iacute;cula</th>
                                     <th scope="col">Nome</th>
                                     <th scope="col">Curso</th>
                                     <th scope="col">Turma</th>
-                                    <th scope="col">Matr&iacute;cula</th>
                                     <th scope="col">Esteve presente?</th>
                                 </tr>
                             </thead>
@@ -32,10 +32,10 @@ class ChamadaList {
 
                                             ?>
                                                 <tr>
+                                                    <td><?= $aluno->nr_matricula; ?></td>
                                                     <td><?= $aluno->nm_principal; ?></td>                                               
                                                     <td><?= $curso->ds_curso; ?></td>
                                                     <td><?= $turma->nr_turma; ?></td>
-                                                    <td><?= $aluno->nr_matricula; ?></td>
                                                     <td> 
                                                         <input type="hidden" name="cd_turma[]" id="cd_turma" value="<?= $aluno->cd_turma; ?>">
                                                         <input type="hidden" name="cd_aluno[]" id="cd_aluno" value="<?= $aluno->cd_aluno; ?>">
