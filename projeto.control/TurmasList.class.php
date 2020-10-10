@@ -79,10 +79,9 @@ class TurmasList {
                         <table id="example2" class="table table-bordered table-hover">
                             <thead>
                                 <tr>
-                                    <th scope="col"></th>
-                                    <th scope="col"></th>
-                                    <th scope="col">Turma</th>
-                                    <th scope="col">Situa&ccedil;&atilde;o</th>
+                                    <th scope="col"><center>Gerenciar turma</center></th>
+                                    <th scope="col"><center>Turma</center></th>
+                                    <th scope="col"><center>Situa&ccedil;&atilde;o</center></th>
                                     
                                 </tr>
                             </thead>
@@ -98,17 +97,14 @@ class TurmasList {
 
                                             ?>
                                                 <tr>   
+                                     
                                                     <td>
                                                         <center>
+
                                                             <button alt="Excluir turma" title="Excluir turma" class="btn btn-danger btn-sm"
                                                                         type="button"
                                                                         onclick="excluir('<?= $turma->cd_turma; ?>');">Excluir<i class="fa fa-times"></i>
-                                                            </button>    
-                                                        </center>
-                                                    </td>                                      
-                                                    
-                                                    <td>
-                                                        <center>
+                                                            </button>
 
                                                             <?php if(!$turma->cd_curso) { ?>
                                                                 <button alt="Vincular curso" title="Vincular curso" class="btn btn-primary btn-sm"
@@ -125,8 +121,8 @@ class TurmasList {
                                                             <?php } ?>
                                                         </center>
                                                     </td>
-                                                    <td><?= $turma->nr_turma; ?></td>
-                                                    <td>
+                                                    <td><center><?= $turma->nr_turma; ?></center></td>
+                                                    <td><center>
                                                         <?php 
 
                                                             if(!$turma->cd_curso) {
@@ -140,6 +136,7 @@ class TurmasList {
 
                                                             echo $situacao;
                                                         ?>
+                                                        </center>
                                                     </td>
                                                     
                                                     

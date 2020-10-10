@@ -5867,3 +5867,54 @@ Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-09 22:29:16
 Foi realizada uma consulta dos alunos da turma 702 para realizar a chamada do dia: 2020-10-09 22:29:22
 Foi realizada uma consulta dos alunos da turma 702 para realizar a chamada do dia: 2020-10-09 22:29:52
+Foi realizada uma consulta dos alunos da turma 702 para realizar a chamada do dia: 2020-10-09 22:30:19
+Foi realizada uma consulta dos alunos da turma 702 para realizar a chamada do dia: 2020-10-09 22:30:19
+Foi realizada uma consulta dos alunos da turma 702 para realizar a chamada do dia: 2020-10-09 22:30:19
+Foi realizada uma consulta dos alunos da turma 702 para realizar a chamada do dia: 2020-10-09 22:30:29
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 22:30:30
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 22:30:39
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 22:30:42
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 22:30:45
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 22:30:48
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 22:30:49
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 22:30:51
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:30:53
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:30:57
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:30:58
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:31:20
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:31:29
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:31:30
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:31:34
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:31:34
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:31:44
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:31:45
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:33:51
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:33:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:33:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:34:03
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:34:08
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:34:12
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:34:14
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:34:30
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:34:31
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:34:46
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:34:47
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:34:50
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:35:02
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:35:03
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:35:04
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:35:14
+Foi realizada uma consulta das turmas, pelo numero: 555 - 2020-10-09 22:35:30
+Foi realizada uma consulta das turmas, pelo numero: 555 - 2020-10-09 22:35:44
+Foi realizada uma consulta das turmas, pelo numero: 555 - 2020-10-09 22:35:55
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:35:59
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:36:24
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:36:33
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:36:49
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 22:37:11
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-09 22:37:23
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-09 22:37:24
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-09 22:37:25
+Foi realizada uma consulta dos alunos da turma 702 para realizar a chamada do dia: 2020-10-09 22:37:30
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:37:42
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 22:37:43
