@@ -21,6 +21,7 @@ class AlunosList {
                                     <?php } ?>
                                     <th scope="col">Matr&iacute;cula</th>
 					                <th scope="col">Nome</th>
+                                    <th scope="col">E-mail</th>
                                     <th scope="col">Curso</th>
                                     <th scope="col">Turma</th>
                                     <th scope="col">Situa&ccedil;&atilde;o</th>
@@ -57,6 +58,7 @@ class AlunosList {
                                                     <?php } ?>  
                                                     <td><?= $aluno->nr_matricula; ?></td>                                         
                                                     <td><?= $aluno->nm_principal; ?></td>
+                                                    <td><?= $aluno->ds_email; ?></td>
                                                     <td>                                                        
                                                         <?php
 
