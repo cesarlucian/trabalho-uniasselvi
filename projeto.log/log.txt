@@ -5825,3 +5825,37 @@ Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 20:38:57
 Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 20:38:58
 Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 22:22:49
 Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 22:23:21
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 22:23:55
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 22:23:55
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 22:23:55
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 22:23:56
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 22:23:58
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-09 22:23:59
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-09 22:23:59
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:24:00
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 22:24:01
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-09 22:24:03
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-09 22:24:03
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-09 22:24:05
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-09 22:24:08
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-09 22:24:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:24:25
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-09 22:24:38
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:24:39
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-09 22:24:40
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:24:42
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:25:21
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:25:35
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:26:00
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:26:33
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:26:42
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:27:03
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:27:06
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:27:08
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:27:10
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:27:10
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:27:11
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:27:30
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:28:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:28:10
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-09 22:28:12
