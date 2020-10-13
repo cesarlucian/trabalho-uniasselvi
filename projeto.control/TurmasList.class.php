@@ -79,9 +79,10 @@ class TurmasList {
                         <table id="example2" class="table table-bordered table-hover">
                             <thead>
                                 <tr>
-                                    <th scope="col"><center>Gerenciar turma</center></th>
+                                    
                                     <th scope="col"><center>Turma</center></th>
-                                    <th scope="col"><center>Situa&ccedil;&atilde;o</center></th>
+                                    <th scope="col">Situa&ccedil;&atilde;o</th>
+                                    <th scope="col"><center>Gerenciar turma</center></th>
                                     
                                 </tr>
                             </thead>
@@ -98,6 +99,25 @@ class TurmasList {
                                             ?>
                                                 <tr>   
                                      
+                                                    
+                                                    <td><center><?= $turma->nr_turma; ?></center></td>
+                                                    <td>
+                                                        <?php 
+
+                                                            if(!$turma->cd_curso) {
+
+                                                                $situacao = '<span class="label label-success">Dispon&iacute;vel</span>';
+
+                                                            } else {
+
+                                                                $situacao = '<span class="label label-danger">Ocupada</span>' . " - " . $curso->ds_curso;
+                                                            }
+
+                                                            echo $situacao;
+                                                        ?>
+                                                        
+                                                    </td>
+
                                                     <td>
                                                         <center>
 
@@ -120,23 +140,7 @@ class TurmasList {
 
                                                             <?php } ?>
                                                         </center>
-                                                    </td>
-                                                    <td><center><?= $turma->nr_turma; ?></center></td>
-                                                    <td><center>
-                                                        <?php 
-
-                                                            if(!$turma->cd_curso) {
-
-                                                                $situacao = '<span class="label label-success">Dispon&iacute;vel</span>';
-
-                                                            } else {
-
-                                                                $situacao = '<span class="label label-danger">Ocupada</span>' . " - " . $curso->ds_curso;
-                                                            }
-
-                                                            echo $situacao;
-                                                        ?>
-                                                        </center>
+                                                        
                                                     </td>
                                                     
                                                     

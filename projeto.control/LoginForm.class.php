@@ -7,20 +7,20 @@ class LoginForm {
 		?>
 		
 		<br><main class="card-padrao">
-		    <form action="login.php" class="login d-flex align-items-center flex-column justify-content-center" method="POST">
+		    <form action="login.php" name="login" id="login" class="login d-flex align-items-center flex-column justify-content-center" method="POST">
 		        <h3 class="title">Bem vindo(a)!</h3><br> 
 		        <div class="row">
 		            <div class="col-lg-12 col-md-12">
 		                <label for="ds_login">Usu&aacute;rio</label>
 		                <div class="input-button-inline">
-		                    <input alt="Insira seu usu&aacute;rio" title="Insira seu usu&aacute;rio" type="text" class="form-control" id="ds_login" name="ds_login" placeholder="Usu&aacute;rio" required="true"/>                                    
+		                    <input alt="Insira seu usu&aacute;rio" title="Insira seu usu&aacute;rio" type="text" class="form-control" id="ds_login" name="ds_login" placeholder="Usu&aacute;rio" required="true"/>
 		                </div>
 		            </div>
 		           <div class="col-lg-12 col-md-12">
 		           	<div id="divMayus" style="visibility:hidden"><span style="color: #f00;">CAPS LOCK est&aacute; ligado!</span></div> 
 		                <label for="password">Senha</label>
 		                 <div class="input-button-inline">
-		                    <input alt="Insira sua senha" title="Insira sua senha" type="password" class="form-control" id="ds_senha" name="ds_senha" placeholder="Senha" autocomplete="on" onkeypress="capLock(event)"  required="true"/>                           
+		                    <input alt="Insira sua senha" title="Insira sua senha" type="password" class="form-control" id="ds_senha" name="ds_senha" placeholder="Senha" autocomplete="on" onkeypress="capLock(event)" required="true" />                           
 		                </div>
 		            </div>
 		        </div> 
@@ -45,7 +45,6 @@ class LoginForm {
 				 </div>
 		    </form>
 		    <script>
-		        $(document).ready(function(){
 		 
 				function capLock(e){
 					kc = e.keyCode?e.keyCode:e.which;
@@ -55,7 +54,7 @@ class LoginForm {
 					else
 					document.getElementById('divMayus').style.visibility = 'hidden';
 				}
-
+			
 		    </script>
 		</main>
 
@@ -80,14 +79,14 @@ class LoginForm {
 
 		        	 <div class="col-lg-12 col-md-12">
 		                <label for="ds_login">Usu&aacute;rio</label>
-		                <div class="input-group">
+		                <div class="input-button-inline">
 		                    <input alt="Insira seu usu&aacute;rio" title="Insira seu usu&aacute;rio" type="text" class="form-control" id="ds_login" name="ds_login" placeholder="Usu&aacute;rio" required="true"/>                                 
 		                </div>
 		            </div>
 
 		            <div class="col-lg-12 col-md-12">
 		                <br><label for="ds_email">Email cadastrado</label>
-		                <div class="input-group">
+		                <div class="input-button-inline">
 		                    <input alt="Insira seu e-mail" title="Insira seu E-mail" type="text" class="form-control" id="ds_email" name="ds_email" placeholder="E-mail" required="true"/>                                    
 		                </div>
 		            </div>
@@ -130,13 +129,12 @@ class LoginForm {
 		                <label for="password">Senha</label>
 		                 <div class="input-button-inline">
 		                    <input alt="Insira sua senha" title="Insira sua senha" type="password" class="form-control" id="ds_senha" name="ds_senha" placeholder="Senha" autocomplete="on" onkeypress="capLock(event)"  required="true"/>
-		                    <input class="btn btn-primary" type="button" id="showPassword" value="Mostrar" class="button" />                             
 		                </div>
 		            </div>
 
 		            <div class="col-lg-12 col-md-12">
 		                <br><label for="ds_email">Email cadastrado</label>
-		                <div class="input-group">
+		                <div class="input-button-inline">
 		                    <input alt="Insira seu e-mail" title="Insira seu E-mail" type="text" class="form-control" id="ds_email" name="ds_email" placeholder="E-mail" required="true"/>                                    
 		                </div>
 		            </div>
@@ -151,26 +149,7 @@ class LoginForm {
 		        </div>
 		    </form>
 		    <script>
-		    	$(document).ready(function(){
-		 
-		          $('#showPassword').on('click', function() {
-		             
-		            var passwordField = $('#ds_senha');
-		            var passwordFieldType = passwordField.attr('type');
-		         
-		            if(passwordFieldType == 'password') {
-
-		                passwordField.attr('type', 'text');
-		                $(this).val('Ocultar');
-
-		            } else {
-
-		                passwordField.attr('type', 'password');
-		                $(this).val('Mostrar');
-		            }
-		          });
-		        });
-
+		    	
 				function capLock(e){
 					kc = e.keyCode?e.keyCode:e.which;
 					sk = e.shiftKey?e.shiftKey:((kc == 16)?true:false);
