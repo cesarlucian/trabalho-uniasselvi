@@ -106,6 +106,37 @@ class UsuariosForm {
         <?php
     }
 
+     static function alteraSenha() {
+        ?>
+
+            <main class="card-padrao">
+                <form action="../usuarios/usuarios_man.php" method="POST" id="troca_senha" name="troca_senha" role="form">
+                    <input type="hidden" name="evento" id="evento" value="troca_senha">
+                    <h3 class="box-title">Teste troca senha</h3><br>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <label>(*) Campos Obrigat&oacute;rios</label><br><br>
+                        </div>
+                    </div>
+                        <div class="row">
+                            <div id="nm_usuario" class="col-md-6 col-lg-6">
+                                <label for="nm_usuario">Teste</label>
+                                <input type="text" name="nm_usuario" id="nm_usuario" class="form-control" required="true">
+                            </div>
+                        </div>
+                    
+                    <div class="col-lg-12 col-md-12"><br>
+                        <center>
+                            <button type="submit" class="btn btn-success"><i class="fa fa-search">Alterar</button>
+                            <a href="trabalho-uniasselvi/inicial.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
+                        </center>
+                    </div> 
+                </form>
+            </main>
+
+        <?php
+    }
+
     static function edita($cd_usuario) {
 
         $usuario = new Usuarios();

@@ -6032,3 +6032,23 @@ Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-13 10:58:15
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-13 10:58:19
 Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-13 10:58:20
 Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-13 10:58:23
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-13 11:00:16
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-13 11:00:17
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-13 11:00:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-13 11:00:18
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-13 11:00:18
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-13 11:09:13
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-13 11:28:33
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-13 11:28:49
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-13 11:28:50
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-13 11:28:50
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-13 11:28:50
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-13 11:28:50
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-13 11:40:00
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-13 11:40:12
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-13 11:40:45
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-13 11:40:46
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-13 11:41:14
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-13 11:41:14
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-13 11:41:59
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-13 11:42:00
