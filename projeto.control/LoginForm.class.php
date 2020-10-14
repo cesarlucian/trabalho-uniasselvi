@@ -87,7 +87,7 @@ class LoginForm {
 		            <div class="col-lg-12 col-md-12">
 		                <br><label for="ds_email">Email cadastrado</label>
 		                <div class="input-button-inline">
-		                    <input alt="Insira seu e-mail" title="Insira seu E-mail" type="text" class="form-control" id="ds_email" name="ds_email" placeholder="E-mail" required="true"/>                                    
+		                    <input alt="Insira seu e-mail" title="Insira seu E-mail" type="email" class="form-control" id="ds_email" name="ds_email" placeholder="E-mail" required="true"/>                                    
 		                </div>
 		            </div>
 		        </div> 
@@ -135,7 +135,7 @@ class LoginForm {
 		            <div class="col-lg-12 col-md-12">
 		                <br><label for="ds_email">Email cadastrado</label>
 		                <div class="input-button-inline">
-		                    <input alt="Insira seu e-mail" title="Insira seu E-mail" type="text" class="form-control" id="ds_email" name="ds_email" placeholder="E-mail" required="true"/>                                    
+		                    <input alt="Insira seu e-mail" title="Insira seu E-mail" type="email" class="form-control" id="ds_email" name="ds_email" placeholder="E-mail" required="true"/>                                    
 		                </div>
 		            </div>
 		        </div> 
