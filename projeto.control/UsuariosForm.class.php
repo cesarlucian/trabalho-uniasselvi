@@ -128,7 +128,7 @@ class UsuariosForm {
                     <div class="col-lg-12 col-md-12"><br>
                         <center>
                             <button type="submit" class="btn btn-success"><i class="fa fa-search">Alterar</button>
-                            <a href="trabalho-uniasselvi/inicial.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
+                            <a href="../../inicial.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                         </center>
                     </div> 
                 </form>

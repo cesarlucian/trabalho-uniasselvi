@@ -6088,3 +6088,4 @@ Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-14 10:03:38
 Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-14 10:03:40
 Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-14 10:03:44
 Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-14 10:03:45
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-14 10:06:45
