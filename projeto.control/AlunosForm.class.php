@@ -68,7 +68,7 @@ class AlunosForm {
         ?>
 
         
-            <section class="content">
+    
         <div class="nav-tabs-custom">
                 <main class="card-padrao">
                     <form name="novo_aluno" id="novo_aluno" action="../alunos/alunos_man.php" method="POST">
@@ -195,8 +195,9 @@ class AlunosForm {
                         </div>
                     </form>
                 </main>
+
         </div>
-            </section>
+            
         <script type="text/javascript">
 
             function busca_endereco(form_name){
