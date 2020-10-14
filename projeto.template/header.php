@@ -53,7 +53,7 @@
 
                                     <li class="user-footer" style="padding:5px 5px 5px 0px;">
                                         <div class="pull-left">
-                                            <a href="projeto.view/usuarios/altera_senha.php" class="btn btn-default btn-flat">Trocar senha</a>
+                                            <a href="/trabalho-uniasselvi/projeto.view/usuarios/altera_senha.php" class="btn btn-default btn-flat">Trocar senha</a>
                                             <a href="logout.php" class="btn btn-default btn-flat">Sair</a>
                                         </div>
                                     </li>

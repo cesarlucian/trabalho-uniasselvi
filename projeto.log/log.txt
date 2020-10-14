@@ -6109,3 +6109,46 @@ Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-14 10:14:52
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-14 10:15:05
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-14 10:15:43
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-14 10:15:55
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-14 10:32:10
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-14 10:32:11
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-14 10:32:14
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-14 10:32:22
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-14 10:32:25
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-14 10:32:29
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-14 10:32:31
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-14 10:32:33
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-14 10:32:34
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-14 10:32:37
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-14 10:32:38
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-14 10:32:39
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-14 10:32:39
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-14 10:32:42
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-14 10:32:45
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-14 10:32:53
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-14 10:32:55
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-14 10:33:00
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-14 10:33:31
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-14 10:33:53
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-14 10:33:53
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-14 10:33:54
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-14 10:33:57
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-14 10:34:03
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-14 10:34:03
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-14 10:34:05
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-14 10:34:05
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-14 10:34:06
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-14 10:34:06
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-14 10:34:11
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-14 10:34:12
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-14 10:34:15
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-14 10:34:16
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-14 10:34:18
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-14 10:34:19
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-14 10:34:21
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-14 10:34:22
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-14 10:34:49
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-14 10:34:54
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-14 10:35:40
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-14 10:35:43
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-14 10:36:36
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-14 10:36:37
