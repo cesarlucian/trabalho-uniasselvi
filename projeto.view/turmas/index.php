@@ -27,7 +27,7 @@ $pesquisa['filtro_pesquisa'] = $filtro_pesquisa;
 ?>
 		<?php include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."projeto.template". DIRECTORY_SEPARATOR ."header.php"); ?>
 		<?php include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."projeto.template". DIRECTORY_SEPARATOR ."menu.php"); ?>
-	                <section>
+	                <section class="content">
 						<?php 	
 							if(isset($msg_tipo)){
 					    		MensagemForm::exibir($msg_tipo, $msg_texto);

@@ -10,7 +10,7 @@ $cd_aluno = @$_GET['cd_aluno'];
 ?>
 		<?php include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."projeto.template". DIRECTORY_SEPARATOR ."header.php"); ?>
 		<?php include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."projeto.template". DIRECTORY_SEPARATOR ."menu.php"); ?>
-             <section>
+             <section class="content">
 				<?php
 
 					if(isset($msg_tipo)){
