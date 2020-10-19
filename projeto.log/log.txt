@@ -6185,3 +6185,42 @@ Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 
 Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-19 20:49:20
 Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-19 20:49:21
 Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-19 20:49:30
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-19 20:51:31
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) - 2020-10-19 20:51:31
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) - 2020-10-19 20:51:31
+Erro: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) - 2020-10-19 20:51:31
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-19 20:51:52
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-19 20:51:58
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-19 20:52:00
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-19 20:52:05
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-19 20:52:07
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-19 20:52:08
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-19 20:52:09
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-19 20:52:10
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-19 20:52:21
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-19 20:52:31
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-19 20:52:32
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-19 20:52:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-19 20:53:37
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-19 20:53:45
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-19 20:53:51
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-19 20:54:29
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-19 20:54:32
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-19 20:54:34
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-19 20:54:35
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-19 20:54:37
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-19 20:54:38
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-19 20:54:38
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-19 20:54:39
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-19 20:54:39
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-19 20:54:40
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-19 20:54:41
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-19 20:54:42
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-19 20:54:43
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-19 20:54:44
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-19 20:54:58
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-19 20:54:59
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-19 20:55:00
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-19 20:55:00
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-19 20:55:01
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-19 20:55:01
