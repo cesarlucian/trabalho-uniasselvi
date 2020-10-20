@@ -6185,6 +6185,7 @@ Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 
 Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-19 20:49:20
 Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-19 20:49:21
 Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-19 20:49:30
+<<<<<<< HEAD
 Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-19 20:50:30
 Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-19 20:53:00
 Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-19 20:56:13
