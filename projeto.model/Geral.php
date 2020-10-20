@@ -1,11 +1,21 @@
 <?php
 
-// Classe responsavel em manipular metodos uteis para uso no decorrer do desenvolvimento da aplicação
+// Classe responsavel em manipular metodos uteis de validação para uso no decorrer do desenvolvimento da aplicação
 
 class Geral {
 
     static function validaEmail($email) {
         return filter_var($email, FILTER_VALIDATE_EMAIL);
+    }
+
+    static function removeAcentos($string){
+        $acentos        =  'ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûýýþÿŔŕ';
+        $sem_acentos    =  'AAAAAAACEEEEIIIIDNOOOOOOUUUUYBSaaaaaaaceeeeiiiidnoooooouuuyybyRr';
+        $string = strtr($string, utf8_decode($acentos), $sem_acentos);
+        
+        return utf8_decode($string);
+            
+        //return preg_replace( '/[`^~\'"]/', null, iconv( 'UTF-8', 'ASCII//TRANSLIT', $str));
     }
 
     static function getDataFormatada($data){

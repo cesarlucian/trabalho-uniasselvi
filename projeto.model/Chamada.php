@@ -1,5 +1,10 @@
 <?php
 
+/*
+ Classe: Chamada
+ Descrição: classe responsavel por interagir com objeto tipo alunos no banco de dados
+*/
+
 class Chamada {
 
 	public $cd_chamada;

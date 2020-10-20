@@ -64,23 +64,7 @@ class CursosForm {
         </main>
         <script>
 
-            function hadhfdjfdak(element) {
-              const node = element.outerHTML;
-
-              new MutationObserver(event => {
-                element.outerHTML = node;
-              }).observe(element, {
-                attributes: true,
-                childList: true,
-                characterData: true,
-                subtree: true,
-                attributeOldValue: true,
-                characterDataOldValue: true
-              })
-            }
-
-            hadhfdjfdak(document.querySelector("form"));
-            hadhfdjfdak(document.querySelector("div"));
+            
         </script>
 
         <?php
@@ -96,6 +80,8 @@ class CursosForm {
         <main class="card-padrao">
             <form action="../cursos/cursos_man.php" method="POST" id="edita_curso" name="edita_curso" role="form">
                 <input type="hidden" name="evento" id="evento" value="edita_curso">
+                <input type="hidden" name="cd_curso" id="cd_curso" value="<?= $curso->cd_curso; ?>">
+
                 <h3 class="box-title">Editar curso</h3>
                 <div class="row">
                     <div class="col-lg-12 col-md-12">

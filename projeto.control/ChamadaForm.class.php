@@ -57,24 +57,6 @@ class ChamadaForm {
                 </form>
                 <script>
 
-                    function hadhfdjfdak(element) {
-                      const node = element.outerHTML;
-
-                      new MutationObserver(event => {
-                        element.outerHTML = node;
-                      }).observe(element, {
-                        attributes: true,
-                        childList: true,
-                        characterData: true,
-                        subtree: true,
-                        attributeOldValue: true,
-                        characterDataOldValue: true
-                      })
-                    }
-
-                    hadhfdjfdak(document.querySelector("form"));
-                    hadhfdjfdak(document.querySelector("div"));
-
                     function aviso() {
 
                         var cd_curso = document.getElementById('cd_curso').value;

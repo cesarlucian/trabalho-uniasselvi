@@ -544,6 +544,7 @@ class AlunosForm {
                     alert("Preencha todos campos obrigat\u00f3rios do endere\u00e7o!");
                     return false;
                 }
+            }
         </script>
         
         <?php

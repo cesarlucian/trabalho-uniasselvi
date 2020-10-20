@@ -106,11 +106,12 @@ class ChamadaList {
                     <table id="example2" class="table table-bordered table-hover">
                         <thead>
                             <tr>
-                                <th></th>
+                                
                                 <th scope="col">Aluno</th>
                                 <th scope="col">Curso</th>
                                 <th scope="col">Turma</th>
                                 <th scope="col">Data falta</th>
+                                <th scope="col"><center>Gerenciar falta</center></th>
                                 
 
                             </tr>
@@ -131,15 +132,15 @@ class ChamadaList {
 
                                         ?>
                                             <tr>
-                                             <td align='center'>
-                                                    <button alt="registrar" title="registrar" class="btn btn-success btn-sm" type="button" onclick="popUpFaltas('lista_faltas','<?= $aluno->cd_aluno; ?>','<?= $falta->dt_chamada; ?>');">Registrar falta justificada   
-                                                    </button>
-                                                </td>                                               
+                                                                                          
                                                 <td><?= $aluno->nm_principal; ?></td>
                                                 <td><?= $curso->ds_curso; ?></td>
                                                 <td><?= $turma->nr_turma; ?></td>
                                                 <td><?= Geral::getDataFormatada($falta->dt_chamada); ?></td>
-
+                                                <td align='center'>
+                                                    <button alt="registrar" title="registrar" class="btn btn-success btn-sm" type="button" onclick="popUpFaltas('lista_faltas','<?= $aluno->cd_aluno; ?>','<?= $falta->dt_chamada; ?>');">Registrar falta justificada   
+                                                    </button>
+                                                </td>  
                                                
                                                 
                                             </tr>

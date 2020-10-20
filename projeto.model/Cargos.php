@@ -1,5 +1,10 @@
 <?php
 
+/*
+ Classe: Cargos
+ Descrição: classe responsavel por interagir com objeto tipo cargos no banco de dados
+*/
+
 class Cargos {
 
     public $cd_cargo;

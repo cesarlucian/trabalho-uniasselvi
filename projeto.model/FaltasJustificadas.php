@@ -1,5 +1,10 @@
 <?php
 
+/*
+ Classe: FaltasJustificadas
+ Descrição: classe responsavel por interagir com objeto tipo FaltasJustificadas no banco de dados
+*/
+
 class FaltasJustificadas {
 
 	public $cd_falta;

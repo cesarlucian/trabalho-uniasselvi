@@ -121,12 +121,14 @@ class TurmasList {
                                                     <td>
                                                         <center>
 
-                                                            <button alt="Excluir turma" title="Excluir turma" class="btn btn-danger btn-sm"
-                                                                        type="button"
-                                                                        onclick="excluir('<?= $turma->cd_turma; ?>');">Excluir<i class="fa fa-times"></i>
-                                                            </button>
+                                                            
 
                                                             <?php if(!$turma->cd_curso) { ?>
+                                                                <button alt="Excluir turma" title="Excluir turma" class="btn btn-danger btn-sm"
+                                                                        type="button"
+                                                                        onclick="excluir('<?= $turma->cd_turma; ?>');">Excluir<i class="fa fa-times"></i>
+                                                                </button>
+
                                                                 <button alt="Vincular curso" title="Vincular curso" class="btn btn-primary btn-sm"
                                                                             type="button"
                                                                             onclick="vinculaCursoPopUp('<?= $turma->cd_turma; ?>');" >Vincular curso<i class="fa fa-times"></i>

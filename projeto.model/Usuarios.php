@@ -8,11 +8,48 @@ class Usuarios {
     public $ds_login;
     public $ds_senha;
     public $cd_cargo; //fk
-    public $fg_ativo;
+    public $fg_status;
 
     const TABLE                 = "usuarios";
     const ID                    = "cd_usuario";
     const DIRETORIO             = "projeto.view";
+
+    public function verificaUsuarioEmail($login,$email){
+        try{
+            TTransaction::open();
+
+            $sql = "SELECT * FROM usuarios WHERE ds_login = $login AND ds_email = $email";
+
+            $conn = TTransaction::get();
+            $result = $conn->query($sql);
+            //print($sql);exit;
+            $data = $result->fetch(PDO::FETCH_ASSOC);
+
+            if(empty($data)) {
+
+                return false;
+
+            } else if(!empty($data)){
+
+                return true;
+            }
+
+            if(is_array($data)){
+                foreach($data as $key=>$campo){
+                    $this->$key = $campo;
+                }            
+            }
+            
+            //fecha a transação aplicando todas as transações
+            TTransaction::close();
+            
+        } catch (Exception $ex) {
+            
+            echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+        }
+    }
 
     public function getObject($id){
         try{
@@ -170,7 +207,7 @@ class Usuarios {
         try{
             TTransaction::open();
 
-            $sql = "UPDATE usuarios SET fg_ativo = 0 WHERE cd_usuario = ".$id;
+            $sql = "UPDATE usuarios SET fg_status = 0 WHERE cd_usuario = ".$id;
             $conn = TTransaction::get();
             $result = $conn->query($sql);
             

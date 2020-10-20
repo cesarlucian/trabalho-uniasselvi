@@ -25,9 +25,6 @@ $pesquisado = true;
 	$pesquisado = true;
 }*/
 
-$desc_turma = new Turmas();
-$desc_turma->getObject($cd_turma);
-
 $file = fopen("../../projeto.log/log.txt","a+");
 fwrite($file,"Foi realizada uma consulta das faltas justificadas, pela descricao: '$filtro', data: '$dt_falta' - ".date("Y-m-d H:i:s")."\r\n");
 

@@ -14,7 +14,7 @@ try{
 
     TTransaction::open("projeto01");
 
-    $sql = "SELECT cd_usuario, cd_cargo, ds_senha "
+    $sql = "SELECT cd_usuario, ds_senha "
             . "FROM usuarios "
             . "WHERE ds_login = :ds_login and fg_status = 'A'";
 
@@ -30,31 +30,32 @@ try{
     
         if($data['cd_usuario']){
 
-        	if(password_verify($ds_senha, $data['ds_senha'])) {
+            if(password_verify($ds_senha, $data['ds_senha'])) {
 
                 session_set_cookie_params(900);
+                
                 new TSession;
 
-        		$login->getObject($data['cd_usuario']);
+                $login->getObject($data['cd_usuario']);
 
-        		TSession::setValue('cd_usuario', $login->cd_usuario);
-        		TSession::setValue('cd_cargo', $data['cd_cargo']);
-	            TSession::setValue('usuario', $usuario);
+                TSession::setValue('cd_usuario', $login->cd_usuario);
+                TSession::setValue('cd_cargo', $login->cd_cargo);
+                TSession::setValue('usuario', $usuario);
 
                 header("location: inicial.php");
 
 
-        	} else {
-        		echo "Senha incorreta!";
-	        	echo "<script>alert('Senha incorreta!');history.back();</script>";
-        	}
+            } else {
+                echo "Senha incorreta!";
+                echo "<script>alert('Senha incorreta!');history.back();</script>";
+            }
         
         } else{
 
-	        echo "Usuário não encontrado!";
-	        echo "<script>alert('Usu\u00e1rio n\u00e3o encontrado!');history.back();</script>";
-	        //header("location: index.php");
-    	} 
+            echo "Usuário não encontrado!";
+            echo "<script>alert('Usu\u00e1rio n\u00e3o encontrado!');history.back();</script>";
+            //header("location: index.php");
+        } 
 
     } catch (Exception $ex) {
         $ex->getMessage();

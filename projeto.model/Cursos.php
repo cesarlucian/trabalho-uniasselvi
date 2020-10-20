@@ -122,6 +122,7 @@ class Cursos {
             }
             
             $sql .= $linhas." WHERE cd_curso = ".$this->cd_curso;
+
             $conn = TTransaction::get();
             $result = $conn->query($sql);
             

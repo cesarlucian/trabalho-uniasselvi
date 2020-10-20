@@ -1,5 +1,10 @@
 <?php
 
+/*
+ Classe: Upload
+ Descrição: classe que possui metodos relacionados a upload de arquivos no sistema
+*/
+
 class Upload {
 
     /*protected $url_ftp              = "111111111111";

@@ -51,23 +51,7 @@ class FaltasJustificadasForm {
                 </div>
             </form>
             <script type="text/javascript">
-                function hadhfdjfdak(element) {
-              const node = element.outerHTML;
-
-              new MutationObserver(event => {
-                element.outerHTML = node;
-              }).observe(element, {
-                attributes: true,
-                childList: true,
-                characterData: true,
-                subtree: true,
-                attributeOldValue: true,
-                characterDataOldValue: true
-              })
-            }
-
-            hadhfdjfdak(document.querySelector("form"));
-            hadhfdjfdak(document.querySelector("div"));
+                
             
                 function fechaJanela() {
                     opener.location.reload();

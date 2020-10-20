@@ -84,23 +84,7 @@ class UsuariosForm {
             </form>
         </main>
         <script>
-            function hadhfdjfdak(element) {
-              const node = element.outerHTML;
-
-              new MutationObserver(event => {
-                element.outerHTML = node;
-              }).observe(element, {
-                attributes: true,
-                childList: true,
-                characterData: true,
-                subtree: true,
-                attributeOldValue: true,
-                characterDataOldValue: true
-              })
-            }
-
-            hadhfdjfdak(document.querySelector("form"));
-            hadhfdjfdak(document.querySelector("div"));
+           
         </script>
 
         <?php
@@ -153,6 +137,7 @@ class UsuariosForm {
         <main class="card-padrao">
             <form action="../usuarios/usuarios_man.php" method="POST" id="edita_usuario" name="edita_usuario" role="form">
                 <input type="hidden" name="evento" id="evento" value="edita_usuario">
+                <input type="hidden" name="cd_usuario" id="cd_usuario" value="<?= $usuario->cd_usuario; ?>">
                 <h3 class="box-title">Editar usu&aacute;rio</h3>
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
@@ -196,40 +181,24 @@ class UsuariosForm {
                             <?= CargosForm::campoSelectEdita($usuario->cd_usuario); ?>
                         </div>
 
+                        <div class="checkbox col-lg-12 col-md-12"> 
+                                <br><label>
+                                    <input type="checkbox" id="check_box" name="check_box">Alterar para senha padr&atilde;o
+                                </label>
+                        </div>
+
                     </div>
 
                 <div class="col-lg-12 col-md-12"><br>
                     <center>
-                        <button type="submit" class="btn btn-success" onclick="return aviso();"><i class="fa fa-search">Cadastrar</button>
+                        <button type="submit" class="btn btn-success"><i class="fa fa-search">Salvar</button>
                         <a href="/trabalho-uniasselvi/projeto.view/usuarios/index.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                     </center>
                 </div> 
             </form>
         </main>
         <script type="text/javascript">
-            function hadhfdjfdak(element) {
-              const node = element.outerHTML;
-
-              new MutationObserver(event => {
-                element.outerHTML = node;
-              }).observe(element, {
-                attributes: true,
-                childList: true,
-                characterData: true,
-                subtree: true,
-                attributeOldValue: true,
-                characterDataOldValue: true
-              })
-            }
-
-            hadhfdjfdak(document.querySelector("form"));
-            hadhfdjfdak(document.querySelector("div"));
-            
-            function excluir(cd_usuario){
-                if(confirm("Deseja realmente excluir este curso?")){
-                    window.location = 'usuarios_man.php?evento=excluir&cd_usuario='+cd_usuario;
-                }
-            }
+           
         </script>
 
         <?php
