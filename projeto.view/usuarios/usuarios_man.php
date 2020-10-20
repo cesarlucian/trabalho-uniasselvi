@@ -94,6 +94,10 @@ if(isset($evento)){
                 fwrite($file,"Erro ao atualizar usuario na base de dados - ".date("Y-m-d H:i:s")."\r\n");
             }
         break;
+
+        case 'troca_senha':
+            echo "teste";
+        break;
     }
 }
 
