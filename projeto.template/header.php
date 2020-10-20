@@ -29,27 +29,7 @@
                         $usuario = new Usuarios();
                         $usuario->getObject($_SESSION['cd_usuario']);
 
-<<<<<<< HEAD
-                                    <li class="user-header bg-light-blue">
-                                        <p>
-                                            <small>
-                                                <?php 
-                                                    $cargo = new Cargos();
-                                                    $cargo->getObject($_SESSION['cd_cargo']);
-                                                    echo $cargo->ds_cargo;
-                                                ?>
-                                            </small>
-                                        </p>
-                                    </li>
 
-                                    <li class="user-footer" style="padding:5px 5px 5px 0px;">
-                                        <div class="pull-left">
-                                            <a href="/trabalho-uniasselvi/projeto.view/usuarios/altera_senha.php" class="btn btn-default btn-flat">Trocar senha</a>
-                                            <a href="/trabalho-uniasselvi/logout.php" class="btn btn-default btn-flat">Sair</a>
-                                        </div>
-                                    </li>
-                                </ul>
-=======
                         echo $usuario->nm_usuario
                     ?>
                 <div class="my-dropdown-items">
@@ -58,8 +38,8 @@
                             <a href="/trabalho-uniasselvi/projeto.view/usuarios/altera_senha.php">Trocar senha</a>
                         </li>
                         <li>
-                            <a href="logout.php" >Sair</a>
->>>>>>> 1ee63e08899abc81866c3e5d94a0d987f70765d4
+                            <a href="/trabalho-uniasselvi/logout.php" >Sair</a>
+
                         </li>
                     </ul>
                 </div>
