@@ -6423,3 +6423,31 @@ O usuario id '2' foi atualizado na base de dados - 2020-10-19 23:08:29
 Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-19 23:24:09
 Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-19 23:24:13
 Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-19 23:24:13
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-19 23:24:45
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-19 23:24:45
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-19 23:24:46
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-19 23:24:47
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-19 23:24:47
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-19 23:24:48
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-19 23:24:48
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-19 23:24:59
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-19 23:25:00
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-19 23:25:00
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-19 23:25:01
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-19 23:25:01
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-19 23:25:02
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-19 23:26:01
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-19 23:26:04
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-19 23:26:05
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-19 23:26:07
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-19 23:26:08
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-19 23:26:09
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-19 23:26:09
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-19 23:26:10
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-19 23:26:10
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-19 23:26:11
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-19 23:26:12
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-19 23:26:43
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-19 23:26:47
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-19 23:26:48
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-19 23:26:49
