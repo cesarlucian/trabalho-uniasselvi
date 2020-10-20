@@ -6224,3 +6224,18 @@ Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: ''
 Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-19 20:55:00
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-19 20:55:01
 Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-19 20:55:01
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-19 20:55:42
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-19 20:58:32
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-19 20:58:50
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-19 20:59:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-19 21:02:36
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-19 21:03:24
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-19 21:03:56
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-19 21:03:58
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-19 21:04:12
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-19 21:15:29
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-19 21:15:30
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-19 21:15:41
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-19 21:15:57
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-19 21:15:59
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-19 21:15:59

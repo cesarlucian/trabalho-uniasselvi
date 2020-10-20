@@ -21,45 +21,26 @@
                     Projeto
                 </a>  
             </div>
-            <nav>
-                <div class="navbar-custom-menu">
-                    <ul class="nav navbar-nav">
-                        <li class="dropdown user user-menu">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="glyphicon glyphicon-user"></i>
-                                        <span><?php 
 
-                                            $usuario = new Usuarios();
-                                            $usuario->getObject($_SESSION['cd_usuario']);
 
-                                            echo $usuario->nm_usuario
-                                        ?>
-                                        </i>
-                                    </span>
-                                </a>
-                                <ul class="dropdown-menu" style="width: 290px;">
+                <nav class="my-dropdown-menu">
+                    <i class="glyphicon glyphicon-user"></i>
+                    <?php 
+                        $usuario = new Usuarios();
+                        $usuario->getObject($_SESSION['cd_usuario']);
 
-                                    <li class="user-header bg-light-blue">
-                                        <p>
-                                            <small>
-                                                <?php 
-                                                    $cargo = new Cargos();
-                                                    $cargo->getObject($_SESSION['cd_cargo']);
-                                                    echo $cargo->ds_cargo;
-                                                ?>
-                                            </small>
-                                        </p>
-                                    </li>
-
-                                    <li class="user-footer" style="padding:5px 5px 5px 0px;">
-                                        <div class="pull-left">
-                                            <a href="/trabalho-uniasselvi/projeto.view/usuarios/altera_senha.php" class="btn btn-default btn-flat">Trocar senha</a>
-                                            <a href="logout.php" class="btn btn-default btn-flat">Sair</a>
-                                        </div>
-                                    </li>
-                                </ul>
+                        echo $usuario->nm_usuario
+                    ?>
+                <div class="my-dropdown-items">
+                    <ul>
+                        <li>
+                            <a href="/trabalho-uniasselvi/projeto.view/usuarios/altera_senha.php">Trocar senha</a>
+                        </li>
+                        <li>
+                            <a href="logout.php" >Sair</a>
                         </li>
                     </ul>
                 </div>
-            </nav>
+                </nav>
+            
         </header>
