@@ -182,7 +182,7 @@ class Alunos {
         try{
             TTransaction::open();
 
-            $sql = "UPDATE alunos SET fg_status = 'I' WHERE cd_aluno = ".$id;
+            $sql = "DELETE FROM alunos WHERE cd_aluno = ".$id;
             $conn = TTransaction::get();
             $result = $conn->query($sql);
             

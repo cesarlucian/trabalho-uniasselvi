@@ -75,7 +75,7 @@ if(isset($evento)){
            if($usuario->update()) {
 
                 $msg_tipo = 1;
-                $msg_texto = utf8_encode("Usuário atualizado com sucesso!");
+                $msg_texto = "Usuário atualizado com sucesso!";
                 header("location: edicao.php?cd_usuario=".$usuario->cd_usuario."&msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
 
                 $file = fopen("../../projeto.log/log.txt","a+");
@@ -97,6 +97,32 @@ if(isset($evento)){
 
         case 'troca_senha':
             echo "teste";
+        break;
+
+        case 'excluir':
+
+            if(Usuarios::delete($cd_usuario)) {
+
+                $msg_tipo = 1;
+                $msg_texto = "Usuário excluído com sucesso!";
+                header("location: index.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
+
+                $file = fopen("../../projeto.log/log.txt","a+");
+                fwrite($file,"O Usuário id '$cd_usuario' foi removido da base de dados - ".date("Y-m-d H:i:s")."\r\n");
+
+            } else {
+
+                ?>
+                    <script>
+                        alert("Erro ao excluir usuário!");
+                        history.back();
+                    </script>
+                <?php
+
+                $file = fopen("../../projeto.log/log.txt","a+");
+                fwrite($file,"Erro ao excluir Usuário da base de dados - ".date("Y-m-d H:i:s")."\r\n");
+
+            }
         break;
     }
 }

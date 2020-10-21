@@ -461,6 +461,7 @@ class AlunosForm {
                             <div class="col-lg-12 col-md-12"><br>
                             <center>
                                 <button type="submit" class="btn btn-success" onclick="return aviso();"><i class="fa fa-search">Salvar</button>
+                                <button type="button" class="btn btn-danger" onclick="excluir('<?= $aluno->cd_aluno; ?>');"><i class="fa fa-search">Excluir</button>      
                                 <a href="/trabalho-uniasselvi/projeto.view/alunos/index.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                             </center>
                         </div> 
@@ -469,6 +470,12 @@ class AlunosForm {
                     </main>
             </div>
         <script type="text/javascript">
+
+            function excluir(cd_aluno){
+                if(confirm("Deseja realmente excluir este curso?")){
+                    window.location = 'alunos_man.php?evento=excluir&cd_aluno='+cd_aluno;
+                }
+            }
 
             function busca_endereco(form_name){
                 var cep = document.getElementById(form_name).nr_cep.value;

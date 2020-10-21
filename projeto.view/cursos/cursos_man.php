@@ -75,7 +75,7 @@ if(isset($evento)){
             if(Cursos::delete($cd_curso)) {
 
                 $msg_tipo = 1;
-                $msg_texto = "Curso removido com sucesso!";
+                $msg_texto = "Curso excluído com sucesso!";
                 header("location: index.php?msg_tipo=".$msg_tipo."&msg_texto=".$msg_texto);
 
                 $file = fopen("../../projeto.log/log.txt","a+");
@@ -85,13 +85,13 @@ if(isset($evento)){
 
                 ?>
                     <script>
-                        alert("Erro ao remover curso!");
+                        alert("Erro ao excluir curso!");
                         history.back();
                     </script>
                 <?php
 
                 $file = fopen("../../projeto.log/log.txt","a+");
-                fwrite($file,"Erro ao remover curso da base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fwrite($file,"Erro ao excluir curso da base de dados - ".date("Y-m-d H:i:s")."\r\n");
 
             }
         break;

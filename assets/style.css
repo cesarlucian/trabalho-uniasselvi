@@ -192,13 +192,14 @@ div.my-dropdown-items ul {
     padding: 0;
 }
 
-div.my-dropdown-items ul li {
-    background-color: #ddd;
+div.my-dropdown-items ul {
+    background-color: rgb(51, 85, 160);
     padding: 10px 10px;
     list-style: none;
     min-width: 100%;
+    border-radius: 0px 0px 10px 10px;
 }
-div.my-dropdown-items ul li a {
-    color: #555;
+div.my-dropdown-items ul  a {
+    color: #fff;
     text-decoration: none;
 }

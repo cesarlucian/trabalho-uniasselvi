@@ -207,7 +207,7 @@ class Usuarios {
         try{
             TTransaction::open();
 
-            $sql = "UPDATE usuarios SET fg_status = 0 WHERE cd_usuario = ".$id;
+            $sql = "DELETE FROM usuarios WHERE cd_usuario = ".$id;
             $conn = TTransaction::get();
             $result = $conn->query($sql);
             

@@ -107,24 +107,7 @@ class CursosForm {
             </form>
         </main>
         <script type="text/javascript">
-            function hadhfdjfdak(element) {
-              const node = element.outerHTML;
-
-              new MutationObserver(event => {
-                element.outerHTML = node;
-              }).observe(element, {
-                attributes: true,
-                childList: true,
-                characterData: true,
-                subtree: true,
-                attributeOldValue: true,
-                characterDataOldValue: true
-              })
-            }
-
-            hadhfdjfdak(document.querySelector("form"));
-            hadhfdjfdak(document.querySelector("div"));
-            
+    
             function excluir(cd_curso){
                 if(confirm("Deseja realmente excluir este curso?")){
                     window.location = 'cursos_man.php?evento=excluir&cd_curso='+cd_curso;

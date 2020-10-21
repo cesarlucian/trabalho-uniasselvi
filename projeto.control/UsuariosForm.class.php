@@ -192,13 +192,18 @@ class UsuariosForm {
                 <div class="col-lg-12 col-md-12"><br>
                     <center>
                         <button type="submit" class="btn btn-success"><i class="fa fa-search">Salvar</button>
+                            <button type="button" class="btn btn-danger" onclick="excluir('<?= $usuario->cd_usuario; ?>');"><i class="fa fa-search">Excluir</button>
                         <a href="/trabalho-uniasselvi/projeto.view/usuarios/index.php" class="btn btn-primary"><i class="fa fa-search">Voltar</a>
                     </center>
                 </div> 
             </form>
         </main>
         <script type="text/javascript">
-           
+           function excluir(cd_usuario){
+                if(confirm("Deseja realmente excluir este usu\u00e1rio?")){
+                    window.location = 'usuarios_man.php?evento=excluir&cd_usuario='+cd_usuario;
+                }
+            }
         </script>
 
         <?php
