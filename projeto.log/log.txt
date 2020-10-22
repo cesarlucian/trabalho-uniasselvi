@@ -6541,3 +6541,7 @@ Foi realizada uma consulta das turmas, pelo numero: 1601 - 2020-10-22 13:25:25
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-22 13:25:29
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-22 13:25:31
 Foi realizada uma consulta das turmas, pelo numero: 444 - 2020-10-22 13:25:35
+Foi realizada uma consulta das turmas, pelo numero: 444 - 2020-10-22 13:26:39
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-22 13:26:42
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-22 13:26:46
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-22 13:27:13

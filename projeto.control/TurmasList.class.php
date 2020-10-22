@@ -135,7 +135,7 @@ class TurmasList {
                                                                 </button>
                                                             <?php } else { ?>
 
-                                                                <button alt="Tornar turma dispon&iacute;vel" title="Tornar turma dispon&iacute;vel" class="btn btn-success btn-sm"
+                                                                <button alt="Tornar turma dispon&iacute;vel" title="Tornar turma dispon&iacute;vel" class="btn btn-primary btn-sm"
                                                                             type="button"
                                                                             onclick="tornarDisponivel('<?= $turma->cd_turma; ?>');">Tornar dispon&iacute;vel<i class="fa fa-times"></i>
                                                                 </button>
