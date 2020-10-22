@@ -6546,3 +6546,6 @@ Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-22 13:26:42
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-22 13:26:46
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-22 13:27:13
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-22 13:27:54
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-22 13:28:13
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-22 13:29:10
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-22 13:29:20
