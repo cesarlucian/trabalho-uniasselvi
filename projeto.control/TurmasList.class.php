@@ -155,7 +155,7 @@ class TurmasList {
                                             <tbody>
                                                 <tr>
                                                     <td colspan="7">
-                                                        <center>N&atilde;o foram encontradas turmas dispon&iacute;veis !</center>
+                                                        <center>N&atilde;o foram encontradas turmas !</center>
                                                     </td>
                                                 </tr>
                                             </tbody>    

@@ -6521,3 +6521,23 @@ Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-21 19:26:10
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-21 19:26:11
 Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-21 19:26:12
 Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-21 20:07:58
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-22 13:24:42
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-22 13:24:43
+Foi realizada uma consulta dos alunos pelos filtros: , pesquisa:  - 2020-10-22 13:24:44
+Foi realizada uma consulta dos alunos da turma  para realizar a chamada do dia: 2020-10-22 13:24:45
+Foi realizada uma consulta das faltas justificadas, pela descricao: '', data: '' - 2020-10-22 13:24:45
+Foi realizada uma consulta dos cursos pela descriçao: '' - 2020-10-22 13:24:46
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-22 13:24:46
+Foi realizada uma consulta dos usuarios, pesquisa:  - 2020-10-22 13:24:47
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-22 13:24:49
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-22 13:24:50
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-22 13:25:00
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-22 13:25:01
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-22 13:25:02
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-22 13:25:03
+Foi realizada uma consulta das turmas, pelo numero: 555 - 2020-10-22 13:25:10
+Foi realizada uma consulta das turmas, pelo numero: 601 - 2020-10-22 13:25:17
+Foi realizada uma consulta das turmas, pelo numero: 1601 - 2020-10-22 13:25:25
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-22 13:25:29
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-22 13:25:31
+Foi realizada uma consulta das turmas, pelo numero: 444 - 2020-10-22 13:25:35
