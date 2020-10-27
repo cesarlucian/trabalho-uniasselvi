@@ -20,9 +20,9 @@ class ChamadaForm {
                     </div>
                     <div class="row">
                         <div id="popup_curso" class="col-lg-9 col-md-9">
-                            <label>Curso*</label>
+                            <label for="ds_curso">Curso*</label>
                             <div class="input-group">
-                                <input type="text" class="form-control" id="ds_curso" name="ds_curso" readonly="true"/>
+                                <input type="text" class="form-control" id="ds_curso" placeholder="Selecione um curso" name="ds_curso" readonly="true"/>
                                 <div class="input-group-btn">
                                     <button type="button" class="btn btn-primary" onclick="popUpCurso('pesquisa_chamada');">
                                         <i class="fa fa-search"></i>
@@ -34,9 +34,9 @@ class ChamadaForm {
                         </div>
 
                        <div id="popup_turma" class="col-lg-3 col-md-3">
-                            <label>Turma*</label>
+                            <label for="nr_turma">Turma*</label>
                             <div class="input-group">
-                                    <input type="text" class="form-control" id="nr_turma" name="nr_turma" readonly="true"/>
+                                    <input type="text" class="form-control" id="nr_turma" placeholder="Selecione uma turma" name="nr_turma" readonly="true"/>
                                     <div class="input-group-btn">
                                         <button type="button" class="btn btn-primary" onclick="popUpTurma('pesquisa_chamada');">
                                                 <i class="fa fa-search"></i>
@@ -109,12 +109,12 @@ class ChamadaForm {
                     <h3 class="box-title">Faltas</h3><br> 
                     <div class="row">
                         <div class="col-md-9 col-lg-9">
-                            <label>Pesquisar aluno</label>
-                            <input type="text" name="filtro" id="filtro" class="form-control">
+                            <label for="filtro">Pesquisar aluno</label>
+                            <input type="text" name="filtro" id="filtro" placeholder="Pesquisar..." class="form-control">
                         </div>
 
                         <div class="col-lg-3 col-md-3">
-                            <label>Data falta</label>
+                            <label for="dt_falta">Data falta</label>
                             <input type="date" class="form-control" name="dt_falta" id="dt_falta">
                         </div> 
 

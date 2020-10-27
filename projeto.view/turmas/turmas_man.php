@@ -21,6 +21,7 @@ if(isset($evento)){
 
         		$file = fopen("../../projeto.log/log.txt","a+");
         		fwrite($file,"Foi inserida uma nova turma na base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
         	} else {
 
@@ -33,6 +34,7 @@ if(isset($evento)){
 
         		$file = fopen("../../projeto.log/log.txt","a+");
         		fwrite($file,"Erro ao cadastrar turma na base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
         	}
 
@@ -48,6 +50,7 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
                 fwrite($file,"A turma id '$cd_turma' foi removida da base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
             } else {
 
@@ -60,6 +63,7 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
                 fwrite($file,"Erro ao excluir turma da base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
             }
 
@@ -77,6 +81,7 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
                 fwrite($file,"A turma id '$cd_turma' teve seu curso desvinculado na base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
             } else {
 
@@ -89,6 +94,7 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
                 fwrite($file,"Erro ao alterar turma na base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
             }
 
@@ -107,6 +113,7 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
                 fwrite($file,"O curso id '$cd_curso' foi vinculado a turma id '$cd_turma' na base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
             } else {
 
@@ -119,6 +126,7 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
                 fwrite($file,"Erro ao vincular curso id '$cd_curso' a turma id '$cd_turma' na base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
             }
         break;

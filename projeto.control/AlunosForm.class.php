@@ -9,8 +9,8 @@ class AlunosForm {
                 <form action="../popups/popup_alunos.php" method="GET" name="pesquisa" role="form"> 
                     <div class="row">
                         <div class="col-md-12 col-lg-12">
-                            <label>Pesquisar aluno</label>
-                            <input type="text" name="filtro" id="filtro" class="form-control">
+                            <label for="filtro">Pesquisar aluno</label>
+                            <input type="text" name="filtro" id="filtro" class="form-control" placeholder="Pesquisar...">
                         </div>
 
                         <div class="col-lg-12 col-md-12"><br>
@@ -36,7 +36,7 @@ class AlunosForm {
                     <h3 class="title">Alunos</h3><br>
                     <div class="row">
                         <div id="div_filtro" class="col-md-2 col-lg-2">
-                            <label>Filtro:</label>
+                            <label for="filtro">Filtro:</label>
                             <select id="filtro" name="filtro" class="form-control" onchange="buscaFiltro();">
                                 <option value="1" selected="selected">Nome</option>
                                 <option value="3">Matr&iacute;cula</option>
@@ -45,9 +45,9 @@ class AlunosForm {
                         </div>
 
                         <div id="pesquisa_filtro" class="col-md-10 col-lg-10">
-                            <label>Pesquisar</label>
+                            <label for="pesquisa_filtro">Pesquisar</label>
                             <div class="input-button-inline">
-                                <input type="text" name="pesquisa_filtro" id="pesquisa_filtro" class="form-control">
+                                <input type="text" name="pesquisa_filtro" id="pesquisa_filtro" class="form-control" placeholder="Pesquisar...">
                             </div>
                         </div>
 
@@ -88,36 +88,36 @@ class AlunosForm {
                             <div class="tab-pane active" id="div_dados_cadastrais">
                                 <br><div class="row">
                                         <div class="col-lg-6 col-md-6">
-                                            <label for="">Nome*</label>
-                                            <input type="text" class="form-control" name="ds_nome" id="ds_nome" required="true">
+                                            <label for="ds_nome">Nome*</label>
+                                            <input type="text" class="form-control" name="ds_nome" id="ds_nome" required="true" placeholder="Nome">
                                         </div>
                                         <div class="col-lg-6 col-md-6">
-                                            <label for="">Email*</label>
-                                            <input type="email" class="form-control" name="ds_email" id="ds_email" required="true">
+                                            <label for="ds_email">E-mail*</label>
+                                            <input type="email" class="form-control" name="ds_email" id="ds_email" required="true" placeholder="E-mail">
                                         </div>
                                         </div>
                                     <br><div class="row">
                                         <div class="col-lg-2 col-md-2">
-                                            <label for="">Data de nascimento*</label>
+                                            <label for="dt_nascimento">Data de nascimento*</label>
                                             <input class="form-control" type="date" name="dt_nascimento" id="dt_nascimento" required="true">
                                         </div>
                                         <div class="col-lg-2 col-md-2">
-                                            <label for="">Sexo*</label>
+                                            <label for="ds_sexo">Sexo*</label>
                                             <select id="ds_sexo" name="ds_sexo" class="form-control" required="true">
-                                                <option value=""></option>
+                                                <option value="">Selecione</option>
                                                 <option value="M">Masculino</option>
                                                 <option value="F">Feminino</option>
                                                 <option value="O">Outros</option>
                                             </select>
                                         </div>
                                         <div class="col-lg-2 col-md-2">
-                                            <label for="">CPF*</label>
-                                            <input type="text" class="form-control" name="nr_cpf" id="nr_cpf" required="true">
+                                            <label for="nr_cpf">CPF*</label>
+                                            <input type="text" class="form-control" name="nr_cpf" id="nr_cpf" required="true" placeholder="CPF">
                                         </div>
                                         <div id="popup_curso" class="col-lg-3 col-md-3">
                                             <label>Curso*</label>
                                             <div class="input-group">
-                                                <input type="text" class="form-control" id="ds_curso" name="ds_curso" readonly="true"/>
+                                                <input type="text" class="form-control" id="ds_curso" name="ds_curso" placeholder="Selecione um curso" readonly="true"/>
                                                 <div class="input-group-btn">
                                                     <button type="button" class="btn btn-primary" onclick="popUpCurso('novo_aluno');">
                                                         <i class="fa fa-search"></i>
@@ -128,9 +128,9 @@ class AlunosForm {
                                             <input type="hidden" class="form-control" id="cd_curso" name="cd_curso">
                                         </div>
                                         <div id="popup_turma" class="col-lg-3 col-md-3">
-                                            <label>Turma*</label>
+                                            <label for="nr_turma">Turma*</label>
                                             <div class="input-group">
-                                                    <input type="text" class="form-control" id="nr_turma" name="nr_turma" readonly="true"/>
+                                                    <input type="text" class="form-control" id="nr_turma" name="nr_turma" placeholder="Selecione uma turma" readonly="true"/>
                                                     <div class="input-group-btn">
                                                         <button type="button" class="btn btn-primary" onclick="popUpTurma('novo_aluno');">
                                                                 <i class="fa fa-search"></i>
@@ -146,9 +146,9 @@ class AlunosForm {
 
                                 <br><div class="row">
                                        <div class="col-lg-3 col-md-3">
-                                            <label for="">CEP*</label>
+                                            <label for="nr_cep">CEP*</label>
                                             <div class="input-group">
-                                                <input type="text" class="form-control" id="nr_cep" name="nr_cep" required="true">
+                                                <input type="text" class="form-control" id="nr_cep" name="nr_cep" placeholder="CEP" required="true">
                                                 <div class="input-group-btn">
                                                     <button type="button" class="btn btn-primary" onclick="busca_endereco('novo_aluno');">
                                                         <i class="fa fa-search">Buscar</i>                                            
@@ -157,31 +157,31 @@ class AlunosForm {
                                             </div>
                                         </div>
                                         <div class="col-lg-9 col-md-9">
-                                            <label for="">Rua*</label>
-                                            <input type="text" class="form-control" name="ds_endereco" id="ds_endereco" required="true">
+                                            <label for="ds_endereco">Rua*</label>
+                                            <input type="text" class="form-control" name="ds_endereco" id="ds_endereco" placeholder="Rua" required="true">
                                         </div>
                                     </div>
 
                                     <br><div class="row">
                                         <div class="col-lg-3 col-md-3">
-                                            <label for="">Bairro*</label>
-                                            <input type="text" class="form-control" name="ds_bairro" id="ds_bairro" required="true">
+                                            <label for="ds_bairro">Bairro*</label>
+                                            <input type="text" class="form-control" name="ds_bairro" id="ds_bairro" placeholder="Bairro" required="true">
                                         </div>
                                         <div class="col-lg-3 col-md-3">
-                                            <label for="">Cidade*</label>
-                                            <input type="text" class="form-control" name="ds_cidade" id="ds_cidade" required="true">
+                                            <label for="ds_cidade">Cidade*</label>
+                                            <input type="text" class="form-control" name="ds_cidade" id="ds_cidade" placeholder="Cidade" required="true">
                                         </div>
                                         <div class="col-lg-2 col-md-2">
-                                            <label for="">UF*</label>
-                                            <input type="text" class="form-control" name="ds_uf" id="ds_uf" required="true">
+                                            <label for="ds_uf">UF*</label>
+                                            <input type="text" class="form-control" name="ds_uf" id="ds_uf" placeholder="UF" required="true">
                                         </div>
                                         <div class="col-lg-2 col-md-2">
-                                            <label for="">N&uacute;mero*</label>
-                                            <input type="number" class="form-control" name="nr_endereco" id="nr_endereco" required="true">
+                                            <label for="nr_endereco">N&uacute;mero*</label>
+                                            <input type="number" class="form-control" name="nr_endereco" id="nr_endereco" placeholder="N&uacute;mero" required="true">
                                         </div>
                                         <div class="col-lg-2 col-md-2">
-                                            <label for="">Complemento</label>
-                                            <input type="text" class="form-control" name="ds_complemento" id="ds_complemento">
+                                            <label for="ds_complemento">Complemento</label>
+                                            <input type="text" class="form-control" name="ds_complemento" id="ds_complemento" placeholder="Complemento">
                                         </div>
 
                                     </div>
@@ -225,25 +225,18 @@ class AlunosForm {
             }
 
             function popUpCurso(form){
-
                 window.open('../geral/popups/popup_cursos.php?form='+form, 'JANELA', 'width=800, height=600');
             }
 
             function popUpTurma(form){
-
                 var cd_curso = document.novo_aluno.cd_curso.value;
 
                 if(cd_curso == "") {
-
                     alert("Selecione um curso!");
                     return false;
-
                 } else {
-
                     window.open('../geral/popups/popup_turmas.php?form='+form+'&cd_curso='+cd_curso,'JANELA', 'width=800, height=600');
-
                 }
-                
             }
 
             function aviso() {
@@ -265,16 +258,12 @@ class AlunosForm {
                 var nr_turma      = document.getElementById('nr_turma').value;
 
                 if(!ds_nome || !dt_nascimento || !ds_sexo || !nr_cpf || !ds_curso || !nr_turma) {
-
                     alert("Preencha todos campos obrigat\u00f3rios dos dados cadastrais!");
                     return false;
-
                 } else if(!ds_curso || !nr_turma || !nr_cep || !ds_endereco || !ds_bairro || !ds_cidade || !ds_uf || !nr_endereco) {
-
                     alert("Preencha todos campos obrigat\u00f3rios do endere\u00e7o!");
                     return false;
                 }
-
             }
 
             
@@ -346,23 +335,23 @@ class AlunosForm {
                                         </div>
 
                                         <div class="col-lg-6 col-md-6">
-                                            <label for="">Nome*</label>
-                                            <input type="text" class="form-control" name="ds_nome" id="ds_nome" required="true" value="<?= $aluno->nm_principal; ?>">
+                                            <label for="ds_nome">Nome*</label>
+                                            <input type="text" class="form-control" name="ds_nome" id="ds_nome" required="true" placeholder="Nome" value="<?= $aluno->nm_principal; ?>">
                                         </div>
                                         <div class="col-lg-4 col-md-4">
-                                            <label for="">Email*</label>
-                                            <input type="email" class="form-control" name="ds_email" id="ds_email" required="true" value="<?= $aluno->ds_email; ?>">
+                                            <label for="ds_email">E-mail*</label>
+                                            <input type="email" class="form-control" name="ds_email" id="ds_email" placeholder="E-mail" required="true" value="<?= $aluno->ds_email; ?>">
                                         </div>
                                         </div>
                                     <br><div class="row">
                                         <div class="col-lg-2 col-md-2">
-                                            <label for="">Data de nascimento*</label>
+                                            <label for="dt_nascimento">Data de nascimento*</label>
                                             <input class="form-control" type="date" name="dt_nascimento" id="dt_nascimento" required="true" value="<?= $aluno->dt_nascimento; ?>">
                                         </div>
                                     
                                     
                                         <div class="col-lg-2 col-md-2">
-                                            <label for="">Sexo*</label>
+                                            <label for="ds_sexo">Sexo*</label>
                                             <select id="ds_sexo" name="ds_sexo" class="form-control" required="true">
 
                                                 <option value="<?= $aluno->ds_sexo; ?>" selected="selected"><?= $desc_sexo; ?></option>
@@ -382,13 +371,13 @@ class AlunosForm {
                                             </select>
                                         </div>
                                         <div class="col-lg-2 col-md-2">
-                                            <label for="">CPF*</label>
-                                            <input type="text" class="form-control" name="nr_cpf" id="nr_cpf" required="true" value="<?= Geral::getCpfFormatado($aluno->nr_cpf); ?>">
+                                            <label for="nr_cpf">CPF*</label>
+                                            <input type="text" class="form-control" name="nr_cpf" id="nr_cpf" placeholder="CPF" required="true" value="<?= Geral::getCpfFormatado($aluno->nr_cpf); ?>">
                                         </div>
                                         <div id="popup_curso" class="col-lg-3 col-md-3">
-                                            <label>Curso*</label>
+                                            <label for="ds_curso">Curso*</label>
                                             <div class="input-group">
-                                                <input type="text" class="form-control" id="ds_curso" name="ds_curso" readonly="true" value="<?= $curso->ds_curso; ?>"/>
+                                                <input type="text" class="form-control" id="ds_curso" name="ds_curso" readonly="true" placeholder="Selecione um curso" value="<?= $curso->ds_curso; ?>"/>
                                                 <div class="input-group-btn">
                                                     <button type="button" class="btn btn-primary" onclick="popUpCurso('edita_aluno');">
                                                         <i class="fa fa-search"></i>
@@ -399,9 +388,9 @@ class AlunosForm {
                                             <input type="hidden" class="form-control" id="cd_curso" name="cd_curso" value="<?= $curso->cd_curso; ?>">
                                         </div>
                                         <div id="popup_turma" class="col-lg-3 col-md-3">
-                                            <label>Turma*</label>
+                                            <label for="nr_turma">Turma*</label>
                                             <div class="input-group">
-                                                    <input type="text" class="form-control" id="nr_turma" name="nr_turma" readonly="true" value="<?= $turma->nr_turma; ?>"/>
+                                                    <input type="text" class="form-control" id="nr_turma" name="nr_turma" readonly="true" placeholder="Selecione uma turma" value="<?= $turma->nr_turma; ?>"/>
                                                     <div class="input-group-btn">
                                                         <button type="button" class="btn btn-primary" onclick="popUpTurma('edita_aluno');">
                                                                 <i class="fa fa-search"></i>
@@ -418,9 +407,9 @@ class AlunosForm {
                                 <br><div class="row">
 
                                        <div class="col-lg-3 col-md-3">
-                                            <label for="">CEP*</label>
+                                            <label for="CEP">CEP*</label>
                                             <div class="input-group">
-                                                <input type="text" class="form-control" id="nr_cep" name="nr_cep" required="true" value="<?= $aluno->nr_cep; ?>">
+                                                <input type="text" class="form-control" id="nr_cep" name="nr_cep" required="true" placeholder="CEP" value="<?= $aluno->nr_cep; ?>">
                                                 <div class="input-group-btn">
                                                     <button type="button" class="btn btn-primary" onclick="busca_endereco('novo_aluno');">
                                                         <i class="fa fa-search">Buscar</i>                                            
@@ -430,30 +419,30 @@ class AlunosForm {
                                         </div>
 
                                         <div class="col-lg-9 col-md-9">
-                                            <label for="">Rua*</label>
-                                            <input type="text" class="form-control" name="ds_endereco" id="ds_endereco" required="true" value="<?= $aluno->ds_endereco; ?>">
+                                            <label for="ds_endereco">Rua*</label>
+                                            <input type="text" class="form-control" name="ds_endereco" id="ds_endereco" required="true" placeholder="Rua" value="<?= $aluno->ds_endereco; ?>">
                                         </div>
                                     </div>
                                     <br><div class="row">
                                         <div class="col-lg-3 col-md-3">
-                                            <label for="">Bairro*</label>
-                                            <input type="text" class="form-control" name="ds_bairro" id="ds_bairro" required="true" value="<?= $aluno->ds_bairro; ?>">
+                                            <label for="ds_bairro">Bairro*</label>
+                                            <input type="text" class="form-control" name="ds_bairro" id="ds_bairro" required="true" placeholder="Bairro" value="<?= $aluno->ds_bairro; ?>">
                                         </div>
                                         <div class="col-lg-3 col-md-3">
-                                            <label for="">Cidade*</label>
-                                            <input type="text" class="form-control" name="ds_cidade" id="ds_cidade" required="true" value="<?= $aluno->ds_cidade; ?>">
+                                            <label for="ds_cidade">Cidade*</label>
+                                            <input type="text" class="form-control" name="ds_cidade" id="ds_cidade" required="true" placeholder="Cidade" value="<?= $aluno->ds_cidade; ?>">
                                         </div>
                                         <div class="col-lg-2 col-md-2">
-                                            <label for="">UF*</label>
-                                            <input type="text" class="form-control" name="ds_uf" id="ds_uf" required="true" value="<?= $aluno->ds_uf; ?>">
+                                            <label for="UF">UF*</label>
+                                            <input type="text" class="form-control" name="ds_uf" id="ds_uf" required="true" placeholder="UF" value="<?= $aluno->ds_uf; ?>">
                                         </div>
                                         <div class="col-lg-2 col-md-2">
-                                            <label for="">N&uacute;mero*</label>
-                                            <input type="number" class="form-control" name="nr_endereco" id="nr_endereco" required="true" value="<?= $aluno->nr_endereco; ?>">
+                                            <label for="nr_endereco">N&uacute;mero*</label>
+                                            <input type="number" class="form-control" name="nr_endereco" id="nr_endereco" placeholder="N&uacute;mero" required="true" value="<?= $aluno->nr_endereco; ?>">
                                         </div>
                                         <div class="col-lg-2 col-md-2">
-                                            <label for="">Complemento</label>
-                                            <input type="text" class="form-control" name="ds_complemento" id="ds_complemento" value="<?= $aluno->ds_complemento; ?>">
+                                            <label for="ds_complemento">Complemento</label>
+                                            <input type="text" class="form-control" name="ds_complemento" id="ds_complemento" placeholder="Complemento" value="<?= $aluno->ds_complemento; ?>">
                                         </div>
                                 </div>
                             </div>

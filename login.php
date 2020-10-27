@@ -5,10 +5,8 @@ include_once("config.php");
 extract($_POST);
 extract($_GET);
 
-$login = new Usuarios();
-
-$usuario    = $ds_login;
-$senha      = $ds_senha;
+$usuario  = $ds_login;
+$senha    = $ds_senha;
 
 try{
 
@@ -30,31 +28,36 @@ try{
     
         if($data['cd_usuario']){
 
-            if(password_verify($ds_senha, $data['ds_senha'])) {
+
+            $usuario = new Usuarios();
+            $usuario->getObject($data['cd_usuario']);
+
+            $nome_usuario = Geral::removeAcentos($usuario->nm_usuario);
+            $quebra_nome = explode(" ",strtolower($nome_usuario));
+            $primeiro_nome = $quebra_nome[0];
+
+            $senha_padrao = "@".$primeiro_nome."123";
+
+            if(password_verify($senha_padrao, $data['ds_senha'])) {
+
+                header("location: nova_senha.php?cd_usuario=".$data['cd_usuario']);
+
+            } else if(password_verify($ds_senha, $data['ds_senha'])) {
 
                 session_set_cookie_params(900);
                 
                 new TSession;
 
-                $login->getObject($data['cd_usuario']);
-
-                TSession::setValue('cd_usuario', $login->cd_usuario);
-                TSession::setValue('cd_cargo', $login->cd_cargo);
                 TSession::setValue('usuario', $usuario);
 
                 header("location: inicial.php");
 
-
             } else {
-                echo "Senha incorreta!";
-                echo "<script>alert('Senha incorreta!');history.back();</script>";
+                echo "<script>alert('Senha informada incorreta!');history.back();</script>";
             }
         
         } else{
-
-            echo "Usuário não encontrado!";
             echo "<script>alert('Usu\u00e1rio n\u00e3o encontrado!');history.back();</script>";
-            //header("location: index.php");
         } 
 
     } catch (Exception $ex) {

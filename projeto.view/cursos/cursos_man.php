@@ -21,6 +21,7 @@ if(isset($evento)){
 
         		$file = fopen("../../projeto.log/log.txt","a+");
         		fwrite($file,"Foi inserido um novo curso na base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
         	} else {
 
@@ -33,6 +34,7 @@ if(isset($evento)){
 
         		$file = fopen("../../projeto.log/log.txt","a+");
         		fwrite($file,"Erro ao cadastrar curso na base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
         	}
 
@@ -53,6 +55,7 @@ if(isset($evento)){
 
         		$file = fopen("../../projeto.log/log.txt","a+");
         		fwrite($file,"O curso id '$cd_curso' foi atualizado na base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
         	} else {
 
@@ -65,6 +68,7 @@ if(isset($evento)){
 
         		$file = fopen("../../projeto.log/log.txt","a+");
         		fwrite($file,"Erro ao editar curso na base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
         	}
 
@@ -80,6 +84,7 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
                 fwrite($file,"O curso id '$cd_curso' foi removido da base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
             } else {
 
@@ -92,6 +97,7 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
                 fwrite($file,"Erro ao excluir curso da base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
             }
         break;

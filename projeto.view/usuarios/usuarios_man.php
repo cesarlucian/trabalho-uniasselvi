@@ -33,6 +33,7 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
                 fwrite($file,"Foi inserido um novo usuario na base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
             } else {
 
@@ -45,6 +46,7 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
                 fwrite($file,"Erro ao cadastrar usuario na base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
             }
         break;
 
@@ -80,6 +82,7 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
                 fwrite($file,"O usuario id '$cd_usuario' foi atualizado na base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
             } else {
 
@@ -92,11 +95,8 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
                 fwrite($file,"Erro ao atualizar usuario na base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
             }
-        break;
-
-        case 'troca_senha':
-            echo "teste";
         break;
 
         case 'excluir':
@@ -109,6 +109,7 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
                 fwrite($file,"O Usuário id '$cd_usuario' foi removido da base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
             } else {
 
@@ -121,7 +122,58 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
                 fwrite($file,"Erro ao excluir Usuário da base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
+            }
+        break;
+
+        case 'altera_senha':
+
+            $usuario = new Usuarios();
+            $usuario->getObject($cd_usuario);
+
+            $usuario->ds_senha = password_hash($confirma_nova_senha, PASSWORD_DEFAULT);
+
+            if($usuario->update()) {
+
+                echo "<script> alert('Sua senha foi alterada! Faça o login novamente.'); window.location='../../../trabalho-uniasselvi/logout.php'; </script>";
+
+                $file = fopen("../../projeto.log/log.txt","a+");
+                fwrite($file,"O Usuário id '$cd_usuario' alterou sua senha com sucesso - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
+
+            } else {
+                ?>
+                <script>
+                    alert("Erro ao alterar senha!");
+                    history.back();
+                </script>
+                <?php
+            }
+
+        break;
+
+        case 'nova_senha':
+            $usuario = new Usuarios();
+            $usuario->getObject($cd_usuario);
+
+            $usuario->ds_senha = password_hash($confirma_nova_senha, PASSWORD_DEFAULT);
+
+            if($usuario->update()) {
+
+                echo "<script> alert('Sua senha foi alterada!'); window.location='../../../trabalho-uniasselvi/logout.php'; </script>";
+
+                $file = fopen("../../projeto.log/log.txt","a+");
+                fwrite($file,"O Usuário id '$cd_usuario' alterou sua senha com sucesso - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
+
+            } else {
+                ?>
+                <script>
+                    alert("Erro ao alterar senha!");
+                    history.back();
+                </script>
+                <?php
             }
         break;
     }

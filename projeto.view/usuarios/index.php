@@ -5,15 +5,23 @@ include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."config.php")
 new TSession();
 extract($_GET);
 
+$desc_pesquisa = null;
+
 $filtro     = @$_GET['filtro'];
 $pesquisa_filtro = @$_GET['pesquisa_filtro'];
+
+if($filtro != "") {
+
+	$desc_pesquisa = ", pesquisa realizada: '".$filtro."'";
+}
 
 $pag        = @$_GET['pag'];
 $pesquisado = true;
 
 
 $file = fopen("../../projeto.log/log.txt","a+");
-fwrite($file,"Foi realizada uma consulta dos usuarios, pesquisa: $filtro - ".date("Y-m-d H:i:s")."\r\n");
+fwrite($file,"Foi realizada uma consulta dos usuarios $desc_pesquisa - ".date("Y-m-d H:i:s")."\r\n");
+fclose($file);
 
 if($pag == ''){
     $pag = 1;

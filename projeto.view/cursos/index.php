@@ -5,14 +5,23 @@ include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."config.php")
 new TSession();
 extract($_GET);
 
+$desc_pesquisa = null;
+
 $ds_curso   = @$_GET['ds_curso'];
+
+if($ds_curso != "") {
+
+	$desc_pesquisa = ", pesquisa realizada: '".$ds_curso."'";
+}
+
 
 $pag        = @$_GET['pag'];
 $pesquisado = true;
 
 
 $file = fopen("../../projeto.log/log.txt","a+");
-fwrite($file,"Foi realizada uma consulta dos cursos pela descriçao: '$ds_curso' - ".date("Y-m-d H:i:s")."\r\n");
+fwrite($file,"Foi realizada uma consulta dos cursos '$desc_pesquisa' - ".date("Y-m-d H:i:s")."\r\n");
+fclose($file);
 
 if($pag == ''){
     $pag = 1;

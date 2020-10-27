@@ -5,8 +5,15 @@ include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."config.php")
 new TSession();
 extract($_GET);
 
+$desc_filtro = null;
+$desc_pesquisa = null;
+
 $filtro   = @$_GET['filtro'];
 $pesquisa_filtro   = @$_GET['pesquisa_filtro'];
+
+if($pesquisa_filtro != "") {
+	$desc_pesquisa = ", pesquisa realizada: '".$pesquisa_filtro."'";
+}
 
 $pag        = @$_GET['pag'];
 $pesquisado = true;
@@ -14,22 +21,23 @@ $pesquisado = true;
 switch ($filtro) {
 
 	case '1':
-		$desc_filtro = "Nome";
+		$desc_filtro = " 'Nome' ";
 	break;
 
 	case '2':
-		$desc_filtro = "Curso";
+		$desc_filtro = " 'Curso' ";
 	break;
 
 	default:
-		$desc_filtro = "";
+		$desc_filtro = " 'Nenhum' ";
 	break;
 }
 
 
 
 $file = fopen("../../projeto.log/log.txt","a+");
-fwrite($file,"Foi realizada uma consulta dos alunos pelos filtros: $desc_filtro, pesquisa: $filtro - ".date("Y-m-d H:i:s")."\r\n");
+fwrite($file,"Foi realizada uma consulta dos alunos pelo filtro: $desc_filtro $desc_pesquisa - ".date("Y-m-d H:i:s")."\r\n");
+fclose($file);
 
 if($pag == ''){
     $pag = 1;

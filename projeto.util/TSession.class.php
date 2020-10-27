@@ -4,7 +4,7 @@ class TSession {
 
     public function __construct(){
 
-        session_start();
+        @session_start();
 
         if($this->getValue("usuario") == ""){
             header("location: http://localhost/trabalho-uniasselvi/");

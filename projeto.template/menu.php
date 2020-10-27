@@ -4,7 +4,7 @@
             <aside class="menu-lateral">
                 <ul class="sidebar-menu">   
 
-                    <?php switch($_SESSION['cd_cargo']) { 
+                    <?php switch($_SESSION['usuario']->cd_cargo) { 
                     	case 1:
                     ?>
 	                    <li><a href="/trabalho-uniasselvi/inicial.php">Início</a></li>

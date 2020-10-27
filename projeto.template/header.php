@@ -26,11 +26,7 @@
                 <nav class="my-dropdown-menu">
                     <i class="glyphicon glyphicon-user"></i>
                     <?php 
-                        $usuario = new Usuarios();
-                        $usuario->getObject($_SESSION['cd_usuario']);
-
-
-                        echo $usuario->nm_usuario
+                        echo $_SESSION['usuario']->nm_usuario;
                     ?>
                 <div class="my-dropdown-items">
                     <ul>

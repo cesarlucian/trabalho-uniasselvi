@@ -12,7 +12,7 @@ class TurmasForm {
                     <div class="row">
 
                         <div id="filtro_pesquisa" class="col-md-2 col-lg-2">
-                            <label>Filtro:</label>
+                            <label for="filtro_pesquisa">Filtro:</label>
                             <select id="filtro_pesquisa" name="filtro_pesquisa" class="form-control">
                                 <option value="" selected="selected">Selecione</option>
                                 <option value="1">Dispon&iacute;veis</option>
@@ -21,9 +21,9 @@ class TurmasForm {
                         </div>
 
                         <div id="pesquisa_turma" class="col-md-3 col-lg-3">
-                            <label>Pesquisar</label>
+                            <label for="nr_turma">Pesquisar</label>
                             <div class="input-button-inline">
-                                <input type="number" name="nr_turma" id="nr_turma" class="form-control">
+                                <input type="number" name="nr_turma" id="nr_turma" placeholder="Pesquisar..." class="form-control">
                             </div>
                         </div>
 
@@ -59,8 +59,8 @@ class TurmasForm {
                 <div class="row">
                 
                     <div class="col-md-3 col-lg-3">
-                        <label>N&uacute;mero da turma*</label>
-                        <input type="number" id="nr_turma" name="nr_turma" class="form-control" min="100" max="1000" required="true" />
+                        <label for="nr_turma">N&uacute;mero da turma*</label>
+                        <input type="number" id="nr_turma" name="nr_turma" class="form-control" placeholder="N&uacute;mero da turma" min="100" max="10000" required="true" />
                     </div>
 
                     <div class="col-md-6 col-lg-6">

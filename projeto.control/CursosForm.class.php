@@ -10,9 +10,9 @@ class CursosForm {
                     <h3 class="title">Cursos</h3><br>
                     <div class="row">
                         <div id="pesquisa_curso" class="col-md-6 col-lg-6">
-                            <label>Pesquisar</label>
+                            <label for="ds_curso">Pesquisar</label>
                             <div class="input-button-inline">
-                                <input type="text" name="ds_curso" id="ds_curso" class="form-control"> 
+                                <input type="text" name="ds_curso" id="ds_curso" placeholder="Pesquisar..." class="form-control"> 
                             </div>
                         </div>
                         <div id="pesquisa_curso" class="col-md-6 col-lg-6">
@@ -47,8 +47,8 @@ class CursosForm {
                 <div class="row">
                 
                     <div class="col-md-5 col-lg-5">
-                        <label>Nome do curso*</label>
-                        <input class="form-control" type="text" name="ds_curso" id="ds_curso" maxlength="50" required="true">
+                        <label for="ds_curso">Nome do curso*</label>
+                        <input class="form-control" type="text" name="ds_curso" id="ds_curso" placeholder="Nome do curso" maxlength="50" required="true">
                     </div>
 
                     <div  class="col-md-6 col-lg-6">
@@ -92,8 +92,8 @@ class CursosForm {
                 <div class="row">
 
                     <div class="col-md-5 col-lg-5">
-                        <label>Nome do curso*</label>
-                        <input class="form-control" type="text" name="ds_curso" id="ds_curso" maxlength="50" required="true" value="<?= $curso->ds_curso; ?>">
+                        <label for="ds_curso">Nome do curso*</label>
+                        <input class="form-control" type="text" name="ds_curso" id="ds_curso" maxlength="50" placeholder="Nome do curso" required="true" value="<?= $curso->ds_curso; ?>">
                     </div>
 
                 </div>

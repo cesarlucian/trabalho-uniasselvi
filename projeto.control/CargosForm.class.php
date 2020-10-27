@@ -9,7 +9,7 @@ class CargosForm {
     	?>
 
     	<select name="cd_cargo" id="cd_cargo" class="form-control" required="true">
-    		<option value="" selected="selected"></option>
+    		<option value="" selected="selected">Selecione</option>
 
     	<?php
 

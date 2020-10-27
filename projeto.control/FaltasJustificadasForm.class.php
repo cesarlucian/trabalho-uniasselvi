@@ -19,27 +19,32 @@ class FaltasJustificadasForm {
                         <label>(*) Campos Obrigat&oacute;rios</label><br><br>
                     </div>
                 </div>
-                <div class="row">
+                    <div class="row">
 
-                    <div class="col-lg-5 col-md-6">
-                        <label>Aluno</label>
-                        <input type="hidden" class="form-control" name="cd_aluno" id="cd_aluno" value="<?= $cd_aluno; ?>" readonly="true">
-                        <input type="text" class="form-control" name="dt_falta" id="dt_falta" value="<?= $aluno->nm_principal; ?>" readonly="true">
+                        <div class="col-lg-12 col-md-12">
+                            <label>Aluno</label>
+                            <input type="hidden" class="form-control" name="cd_aluno" id="cd_aluno" value="<?= $cd_aluno; ?>" readonly="true">
+                            <input type="text" class="form-control" name="dt_falta" id="dt_falta" value="<?= $aluno->nm_principal; ?>" readonly="true">
+                        </div>
+                    </div> 
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <br><label>Anexo*</label>
+                            <input type="file" class="form-control" name="nm_arquivo" id="nm_arquivo" required="true">
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <br><label>Data falta</label>
+                            <input type="date" class="form-control" name="dt_falta" id="dt_falta" value="<?= $dt_falta; ?>" readonly="true">
+                        </div> 
+
                     </div>
 
-                    <div class="col-lg-3 col-md-3">
-                        <label>Data falta</label>
-                        <input type="date" class="form-control" name="dt_falta" id="dt_falta" value="<?= $dt_falta; ?>" readonly="true">
-                    </div>    
-
-                    <div class="col-lg-3 col-md-3">
-                        <label>Anexo*</label>
-                        <input type="file" class="form-control" name="nm_arquivo" id="nm_arquivo" required="true">
-                    </div>
-
-                    <div class="col-lg-12 col-md-12">
-                        <label>Motivo*</label>
-                        <textarea class="form-control" name="ds_motivo" id="ds_motivo" maxlength="600" required="true"></textarea>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <br><label>Motivo*</label>
+                            <textarea class="form-control" name="ds_motivo" id="ds_motivo" maxlength="600" required="true"></textarea>
+                        </div>
                     </div>
                     
                     <div class="col-lg-12 col-md-12"><br>

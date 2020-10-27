@@ -7,7 +7,7 @@ class AlunosList {
         <main class="card-padrao">
             <form action="edicao.php" name="lista_alunos" id="lista_alunos" method="GET" role="form">
                     <div class="box-body">
-                        <?php if($_SESSION['cd_cargo'] == 1) { ?>
+                        <?php if($_SESSION['usuario']->cd_cargo == 1) { ?>
                             <button type="button" class="btn btn-success pull-right" onclick="window.location = 'cadastro.php'">Inserir novo</button><br><br><br>
                         <?php } ?>
                         
@@ -16,7 +16,7 @@ class AlunosList {
                         <table id="example2" class="table table-bordered table-hover">
                             <thead>
                                 <tr>
-                                    <?php if($_SESSION['cd_cargo'] == 1) { ?>
+                                    <?php if($_SESSION['usuario']->cd_cargo == 1) { ?>
                                     <th></th>
                                     <?php } ?>
                                     <th scope="col">Matr&iacute;cula</th>
@@ -33,6 +33,7 @@ class AlunosList {
                                         foreach($lista_alunos as $aluno){ 
 
                                             $desc_turma = null;
+                                            $situacao = null;
 
                                             if(!$aluno->cd_turma) {
 
@@ -49,7 +50,7 @@ class AlunosList {
 
                                             ?>
                                                 <tr>
-                                                    <?php if($_SESSION['cd_cargo'] == 1) { ?>
+                                                    <?php if($_SESSION['usuario']->cd_cargo == 1) { ?>
                                                     <td align='center'>
                                                         <button alt="Editar" title="Editar" class="btn btn-default btn-sm" type="button" onclick="window.location = 'edicao.php?cd_aluno=<?= $aluno->cd_aluno; ?>'">
                                                             <i class="glyphicon glyphicon-new-window"></i>
@@ -164,7 +165,7 @@ class AlunosList {
                                         <tbody>
                                             <tr>
                                                 <td colspan="4">
-                                                    <center>N&atilde;o foram encontrados dados no sistema!</center>
+                                                    <center>N&atilde;o foram encontrados alunos!</center>
                                                 </td>
                                             </tr>
                                         </tbody>    

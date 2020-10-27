@@ -13,6 +13,7 @@ class ChamadaList {
                                 <tr>
                                     <th scope="col">Matr&iacute;cula</th>
                                     <th scope="col">Nome</th>
+                                    <th scope="col">E-mail</th>
                                     <th scope="col">Curso</th>
                                     <th scope="col">Turma</th>
                                     <th scope="col">Esteve presente?</th>
@@ -33,7 +34,8 @@ class ChamadaList {
                                             ?>
                                                 <tr>
                                                     <td><?= $aluno->nr_matricula; ?></td>
-                                                    <td><?= $aluno->nm_principal; ?></td>                                               
+                                                    <td><?= $aluno->nm_principal; ?></td>  
+                                                    <td><?= $aluno->ds_email; ?></td>                                             
                                                     <td><?= $curso->ds_curso; ?></td>
                                                     <td><?= $turma->nr_turma; ?></td>
                                                     <td> 
@@ -106,20 +108,20 @@ class ChamadaList {
                     <table id="example2" class="table table-bordered table-hover">
                         <thead>
                             <tr>
-                                
-                                <th scope="col">Aluno</th>
+                                <th scope="col">Matr&iacute;cula</th>
+                                <th scope="col">Nome</th>
                                 <th scope="col">Curso</th>
                                 <th scope="col">Turma</th>
                                 <th scope="col">Data falta</th>
                                 <th scope="col"><center>Gerenciar falta</center></th>
-                                
-
                             </tr>
                         </thead>
                         <tbody>
                             <?php
                                 if($lista_faltas){
                                     foreach($lista_faltas as $falta){  
+
+                                        $situacao = null;
 
                                         $aluno = new Alunos();
                                         $aluno->getObject($falta->cd_aluno);
@@ -132,8 +134,8 @@ class ChamadaList {
 
                                         ?>
                                             <tr>
-                                                                                          
-                                                <td><?= $aluno->nm_principal; ?></td>
+                                                <td><?= $aluno->nr_matricula; ?></td>
+                                                <td><?= $aluno->nm_principal; ?></td>                                             
                                                 <td><?= $curso->ds_curso; ?></td>
                                                 <td><?= $turma->nr_turma; ?></td>
                                                 <td><?= Geral::getDataFormatada($falta->dt_chamada); ?></td>

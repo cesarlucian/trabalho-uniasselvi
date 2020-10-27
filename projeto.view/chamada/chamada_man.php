@@ -21,13 +21,9 @@ if(isset($evento)){
             $i = 0;
 
             if(!empty($cd_aluno)) {
-
                 foreach($aluno_situacao as $data) {
-
                     for($i = 0; $i < count($sit_chamada); $i++) {
-
                         Chamada::realizaChamada($data['cd_aluno'][$i],$data['sit_chamada'][$i],$data['cd_turma'][$i]);
-
                     }  
                 }
 
@@ -37,6 +33,7 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
                 fwrite($file,"Chamada realizada com sucesso - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
             } else {
 
@@ -49,6 +46,7 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
                 fwrite($file,"Erro ao realizar chamada - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
             } 
 

@@ -23,6 +23,7 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
 	        	fwrite($file,"Erro ao inserir aluno na base de dados, Erro: CPF Invalido - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
         	} else if($aluno->verificaCpfAluno(str_replace(array(".","-"), "", $nr_cpf))) {
 
@@ -35,6 +36,7 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
 	        	fwrite($file,"Erro ao editar aluno na base de dados, Erro: CPF ja existe na base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
         	} else if (!$verifica->verificaTurma($cd_curso,$cd_turma)) {
 
@@ -47,6 +49,7 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
 	        	fwrite($file,"Erro ao inserir aluno na base de dados, Erro: Turma não pertence ao curso - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
         	} else {
 
@@ -83,6 +86,7 @@ if(isset($evento)){
 
 	        		$file = fopen("../../projeto.log/log.txt","a+");
 	        		fwrite($file,"Foi inserido um novo aluno na base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                    fclose($file);
 
 	        	} else {
 
@@ -118,6 +122,7 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
 	        	fwrite($file,"Erro ao editar aluno na base de dados, Erro: CPF Invalido - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
         	} else if(str_replace(array(".","-"), "", $nr_cpf) != $aluno->nr_cpf & $aluno->verificaCpfAluno(str_replace(array(".","-"), "", $nr_cpf))) {
 
@@ -130,6 +135,7 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
 	        	fwrite($file,"Erro ao editar aluno na base de dados, Erro: CPF ja existe na base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
 
 
@@ -144,6 +150,7 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
 	        	fwrite($file,"Erro ao editar aluno na base de dados, Erro: Email invalido - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
         	} else if (!$verifica->verificaTurma($cd_curso,$cd_turma)) {
 
@@ -156,6 +163,7 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
 	        	fwrite($file,"Erro ao inserir aluno na base de dados, Erro: Turma não pertence ao curso - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
         	} else {
 
@@ -189,6 +197,7 @@ if(isset($evento)){
 
 	        		$file = fopen("../../projeto.log/log.txt","a+");
 	        		fwrite($file,"O aluno ID: '$cd_aluno' foi editado na base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                    fclose($file);
 
 	        	} else {
 	        		
@@ -201,6 +210,7 @@ if(isset($evento)){
 
 	        		$file = fopen("../../projeto.log/log.txt","a+");
 	        		fwrite($file,"Erro ao editar aluno na base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                    fclose($file);
 	        	}
 	        }
         break;
@@ -215,6 +225,7 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
                 fwrite($file,"O aluno id '$cd_aluno' foi removido da base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
             } else {
 
@@ -227,6 +238,7 @@ if(isset($evento)){
 
                 $file = fopen("../../projeto.log/log.txt","a+");
                 fwrite($file,"Erro ao excluir aluno da base de dados - ".date("Y-m-d H:i:s")."\r\n");
+                fclose($file);
 
             }
         break;

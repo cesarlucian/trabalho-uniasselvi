@@ -44,6 +44,7 @@ if(isset($evento)){
 
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro ao registrar falta, arquivo muito grande, máximo 30kb - ".date("Y-m-d H:i:s")."\r\n");
+            fclose($file);
 
         } else if(!in_array($ext, $extensoes_permitidas)) {
 
@@ -56,6 +57,7 @@ if(isset($evento)){
 
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro ao registrar falta, arquivo com extensão não permitida - ".date("Y-m-d H:i:s")."\r\n");
+            fclose($file);
 
 
         } else {
@@ -77,6 +79,7 @@ if(isset($evento)){
 
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Falta justificada registrada com sucesso - ".date("Y-m-d H:i:s")."\r\n");
+            fclose($file);
             
         }
 

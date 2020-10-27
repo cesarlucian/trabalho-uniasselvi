@@ -5,6 +5,9 @@ include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."config.php")
 new TSession();
 extract($_GET);
 
+$desc_turma = null;
+$desc_curso = null;
+
 $cd_curso             = @$_GET['cd_curso'];
 $cd_turma             = @$_GET['cd_turma'];
 
@@ -18,11 +21,15 @@ if($cd_turma != "" & $cd_curso != "") {
 	$pesquisado = true;
 }
 
+$desc_curso = new Cursos;
+$desc_curso->getObject($cd_curso);
+
 $desc_turma = new Turmas();
 $desc_turma->getObject($cd_turma);
 
 $file = fopen("../../projeto.log/log.txt","a+");
-fwrite($file,"Foi realizada uma consulta dos alunos da turma ".$desc_turma->nr_turma." para realizar a chamada do dia: ".date("Y-m-d H:i:s")."\r\n");
+fwrite($file,"Foi realizada uma consulta dos alunos da turma '".$desc_turma->nr_turma."' do curso '".$desc_curso->ds_curso."' para realizar a chamada do dia: ".date("Y-m-d H:i:s")."\r\n");
+fclose($file);
 
 ?>
 		<?php include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."projeto.template". DIRECTORY_SEPARATOR ."header.php"); ?>

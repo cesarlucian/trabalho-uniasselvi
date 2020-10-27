@@ -5,9 +5,21 @@ include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."config.php")
 new TSession();
 extract($_GET);
 
+$desc_pesquisa = null;
+$desc_falta = null;
+
 $dt_falta = @$_GET['dt_falta'];
 $filtro = @$_GET['filtro'];
 
+if($filtro !="") {
+
+	$desc_pesquisa = ", pesquisa realizada: '".$filtro."'";
+}
+
+if($dt_falta !="") {
+
+	$desc_falta = ", data da falta pesquisada: '".$dt_falta."'";
+}
 
 $pag        = @$_GET['pag'];
 
@@ -26,7 +38,8 @@ $pesquisado = true;
 }*/
 
 $file = fopen("../../projeto.log/log.txt","a+");
-fwrite($file,"Foi realizada uma consulta das faltas justificadas, pela descricao: '$filtro', data: '$dt_falta' - ".date("Y-m-d H:i:s")."\r\n");
+fwrite($file,"Foi realizada uma consulta das faltas justificadas $desc_pesquisa $desc_falta - ".date("Y-m-d H:i:s")."\r\n");
+fclose($file);
 
 ?>
 		<?php include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."projeto.template". DIRECTORY_SEPARATOR ."header.php"); ?>

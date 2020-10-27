@@ -14,6 +14,7 @@ $pesquisado = true;
 
 $file = fopen("../../projeto.log/log.txt","a+");
 fwrite($file,"Foi realizada uma consulta das turmas, pelo numero: $nr_turma - ".date("Y-m-d H:i:s")."\r\n");
+fclose($file);
 
 if($pag == ''){
     $pag = 1;
