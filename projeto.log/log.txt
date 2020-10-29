@@ -6910,3 +6910,47 @@ Foi realizada uma consulta dos cursos '' - 2020-10-26 23:16:55
 Foi realizada uma consulta das faltas justificadas   - 2020-10-26 23:16:56
 Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-26 23:16:56
 Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-10-26 23:16:57
+Foi realizada uma consulta das faltas justificadas   - 2020-10-29 10:08:32
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-29 10:08:34
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-29 10:08:41
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-29 10:08:53
+Foi realizada uma consulta dos usuarios  - 2020-10-29 10:08:53
+Foi realizada uma consulta dos cursos '' - 2020-10-29 10:08:55
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-10-29 10:09:00
+O aluno ID: '47' foi editado na base de dados - 2020-10-29 10:09:08
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-29 10:09:11
+Foi realizada uma consulta dos alunos da turma '402' do curso 'Administração' para realizar a chamada do dia: 2020-10-29 10:09:15
+Chamada realizada com sucesso - 2020-10-29 10:09:19
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-29 10:09:19
+Foi realizada uma consulta das faltas justificadas   - 2020-10-29 10:09:22
+Foi realizada uma consulta das faltas justificadas   - 2020-10-29 10:29:09
+Falta justificada registrada com sucesso - 2020-10-29 10:32:55
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-29 10:33:06
+Foi realizada uma consulta das faltas justificadas   - 2020-10-29 10:33:06
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-29 10:33:08
+Foi realizada uma consulta dos alunos da turma '402' do curso 'Administração' para realizar a chamada do dia: 2020-10-29 10:34:36
+Chamada realizada com sucesso - 2020-10-29 10:34:40
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-29 10:34:40
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-29 10:34:53
+Foi realizada uma consulta das faltas justificadas   - 2020-10-29 10:34:55
+Falta justificada registrada com sucesso - 2020-10-29 10:35:02
+Foi realizada uma consulta das faltas justificadas   - 2020-10-29 10:35:02
+Foi realizada uma consulta das faltas justificadas   - 2020-10-29 10:37:21
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-29 10:37:23
+Foi realizada uma consulta dos alunos da turma '402' do curso 'Administração' para realizar a chamada do dia: 2020-10-29 10:37:27
+Chamada realizada com sucesso - 2020-10-29 10:37:32
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-29 10:37:32
+Foi realizada uma consulta das faltas justificadas   - 2020-10-29 10:37:34
+Foi realizada uma consulta das faltas justificadas   - 2020-10-29 10:38:30
+Falta justificada registrada com sucesso - 2020-10-29 10:38:37
+Foi realizada uma consulta das faltas justificadas   - 2020-10-29 10:38:37
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-29 10:38:45
+Foi realizada uma consulta dos alunos da turma '402' do curso 'Administração' para realizar a chamada do dia: 2020-10-29 10:38:50
+Chamada realizada com sucesso - 2020-10-29 10:38:55
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-29 10:38:55
+Foi realizada uma consulta das faltas justificadas   - 2020-10-29 10:38:56
+Foi realizada uma consulta das faltas justificadas   - 2020-10-29 10:40:12
+Foi realizada uma consulta das faltas justificadas   - 2020-10-29 10:40:41
+Foi realizada uma consulta das faltas justificadas   - 2020-10-29 10:41:34
+Foi realizada uma consulta das faltas justificadas   - 2020-10-29 10:41:56
+Foi realizada uma consulta das faltas justificadas   - 2020-10-29 10:42:02
