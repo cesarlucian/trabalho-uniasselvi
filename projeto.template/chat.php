@@ -27,7 +27,7 @@
 				</div>
 				<div class="col-md-2 col-sm-3">
 					<input type="hidden" id="is_active_group_chat_window" value="no" />
-					<button type="button" name="group_chat" id="group_chat" class="btn btn-warning btn-xs">Chat em grupo</button>
+					<button type="button" name="group_chat" id="group_chat" class="btn btn-warning btn-xs">Iniciar chat em grupo</button>
 				</div>
 				<div class="col-md-2 col-sm-3">
 					<p align="right">Ol&aacute; <?php echo Usuarios::getPrimeiroNome($_SESSION["usuario"]->cd_usuario); ?>

@@ -342,7 +342,7 @@ class Usuarios {
                 <tr>
                     <th width="70%">Nome</td>
                     <th width="20%">Status</td>
-                    <th width="10%">A&ccedil;&atilde;o</td>
+                    <th width="10%"></td>
                 </tr>
             ';
 
