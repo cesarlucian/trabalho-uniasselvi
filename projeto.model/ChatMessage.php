@@ -171,7 +171,7 @@ class ChatMessage {
 			$sql = "
 					SELECT * FROM chat_message 
 					WHERE cd_destinatario = '0' AND DATE_FORMAT(dt_mensagem,'%Y-%m-%d') = '".date("Y-m-d")."'
-					ORDER BY dt_mensagem ASC
+					ORDER BY dt_mensagem DESC
 					";	
 
 			$conn = TTransaction::get();
@@ -251,7 +251,7 @@ class ChatMessage {
 					AND cd_destinatario = '".$cd_destinatario."' AND DATE_FORMAT(dt_mensagem,'%Y-%m-%d') = '".date("Y-m-d")."') 
 					OR (cd_remetente = '".$cd_destinatario."' 
 					AND cd_destinatario = '".$cd_remetente."' AND DATE_FORMAT(dt_mensagem,'%Y-%m-%d') = '".date("Y-m-d")."') 
-					ORDER BY dt_mensagem ASC
+					ORDER BY dt_mensagem DESC
 					";	
 
 			$conn = TTransaction::get();
