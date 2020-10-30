@@ -64,6 +64,9 @@ class Email {
         }
         catch (Exception $ex){
             echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            fclose($file); 
         }
     }
 }

@@ -21,10 +21,12 @@ try{
 
     $stmt->bindParam(':ds_login', $ds_login);
 
-    $stmt->execute();
+    $stmt->execute();    
 
     $data = $stmt->fetch(PDO::FETCH_ASSOC);
+
     unset($conn);
+    TTransaction::close();
     
         if($data['cd_usuario']){
 
@@ -44,11 +46,36 @@ try{
 
             } else if(password_verify($ds_senha, $data['ds_senha'])) {
 
-                session_set_cookie_params(900);
-                
                 new TSession;
 
                 TSession::setValue('usuario', $usuario);
+
+                try {
+
+                    TTransaction::open("projeto01");
+
+                    $sql = "
+                    INSERT INTO login_details 
+                    (cd_usuario) 
+                    VALUES ('".$data['cd_usuario']."')
+                    ";
+
+                    $conn = TTransaction::get();
+                    $result = $conn->query($sql);
+
+                    TSession::setValue('cd_login_detalhe', $conn->lastInsertId());
+
+                    TTransaction::close();
+
+                } catch(Exception $ex) {
+
+                    echo $ex->getMessage();
+                    $file = fopen("../../projeto.log/log.txt","a+");
+                    fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+                    fclose($file);
+                    TTransaction::rollback();      
+                    return false;
+                }
 
                 header("location: inicial.php");
 
@@ -61,8 +88,10 @@ try{
         } 
 
     } catch (Exception $ex) {
-        $ex->getMessage();
-        exit;
+        echo $ex->getMessage();
+        $file = fopen("../../projeto.log/log.txt","a+");
+        fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+        fclose($file);
     }
 
 

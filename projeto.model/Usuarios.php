@@ -48,6 +48,7 @@ class Usuarios {
             echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            fclose($file);
         }
     }
 
@@ -77,6 +78,39 @@ class Usuarios {
             echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            fclose($file);
+        }
+    }
+
+    static public function getPrimeiroNome($id){
+        try{
+            TTransaction::open();
+
+            $sql = "SELECT nm_usuario "
+                    . "FROM usuarios "
+                    . "WHERE cd_usuario = '".$id."' ";
+
+            $conn = TTransaction::get();
+            $result = $conn->query($sql);
+
+            $quebra_nome = null;
+            $primeiro_nome = null;
+
+            foreach($result as $data) {
+                $quebra_nome = explode(" ", $data["nm_usuario"]);
+                $primeiro_nome = $quebra_nome[0];
+            }
+
+            return $primeiro_nome;
+
+            unset($conn);
+            TTransaction::close();
+            
+        } catch (Exception $ex) {
+            echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            fclose($file);
         }
     }
 
@@ -111,6 +145,7 @@ class Usuarios {
             echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            fclose($file);
         }
     }
     
@@ -162,6 +197,7 @@ class Usuarios {
             echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            fclose($file);
             TTransaction::rollback();      
             return false;
         }
@@ -198,6 +234,7 @@ class Usuarios {
             echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            fclose($file);
             TTransaction::rollback();      
             return false;
         }
@@ -219,6 +256,7 @@ class Usuarios {
             echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            fclose($file);
             TTransaction::rollback();      
             return false;
         }
@@ -280,7 +318,71 @@ class Usuarios {
             echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            fclose($file);
         }
+    }
+
+    static public function getUsuarioChat() {
+
+        try {
+
+            TTransaction::open();
+
+            $sql = "
+            SELECT cd_usuario, nm_usuario FROM usuarios 
+            WHERE cd_usuario != '".$_SESSION["usuario"]->cd_usuario."' 
+            ";
+
+            $conn = TTransaction::get();
+            $result = $conn->query($sql);
+            $output = '';
+
+            $output = '
+            <table class="table table-bordered table-striped">
+                <tr>
+                    <th width="70%">Nome</td>
+                    <th width="20%">Status</td>
+                    <th width="10%">A&ccedil;&atilde;o</td>
+                </tr>
+            ';
+
+            foreach($result as $data){
+
+                $status = '';
+                $data_hora_atual = strtotime(date("Y-m-d H:i:s") . '- 10 second');
+                $data_hora_atual = date('Y-m-d H:i:s', $data_hora_atual);
+                $ultima_atividade = LoginDetalhes::buscarUltimaAtividade($data['cd_usuario']);
+
+                if($ultima_atividade > $data_hora_atual)
+                {
+                    $status = '<span class="label label-success">Online</span>';
+                }
+                else
+                {
+                    $status = '<span class="label label-danger">Offline</span>';
+                }
+                $output .= '
+                <tr>
+                    <td>'.$data['nm_usuario'].' '.ChatMessage::mensagensNaoVistas($data['cd_usuario'], $_SESSION['usuario']->cd_usuario).' '.LoginDetalhes::verificaSeEstaDigitando($data['cd_usuario']).'</td>
+                    <td>'.$status.'</td>
+                    <td><button type="button" class="btn btn-info btn-xs start_chat" data-touserid="'.$data['cd_usuario'].'" data-tousername="'.self::getPrimeiroNome($data['cd_usuario']).'">Iniciar Conversa</button></td>
+                </tr>
+                ';          
+            }
+
+            unset($conn);
+            
+            $output .= '</table>';
+            echo $output;
+
+        } catch(Exception $ex) {
+
+            echo $ex->getMessage();
+            $file = fopen("../../projeto.log/log.txt","a+");
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            fclose($file);
+        }
+
     }
 
 }

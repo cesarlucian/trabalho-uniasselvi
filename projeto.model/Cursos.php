@@ -40,7 +40,8 @@ class Cursos {
 
             echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
-            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");   
+            fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            fclose($file);   
         }
     }
     
@@ -97,6 +98,7 @@ class Cursos {
             echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            fclose($file);
             TTransaction::rollback();      
             return false;
         }
@@ -134,6 +136,7 @@ class Cursos {
             echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            fclose($file);
             TTransaction::rollback();      
             return false;
         }
@@ -159,6 +162,7 @@ class Cursos {
             echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            fclose($file);
             TTransaction::rollback();      
             return false;
         }
@@ -206,6 +210,7 @@ class Cursos {
             echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            fclose($file);
         }
     }
 
@@ -261,6 +266,7 @@ class Cursos {
             echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            fclose($file);
 
         }
     }
@@ -306,6 +312,7 @@ class Cursos {
             echo $ex->getMessage();
             $file = fopen("../../projeto.log/log.txt","a+");
             fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
+            fclose($file);
 
         }
     }

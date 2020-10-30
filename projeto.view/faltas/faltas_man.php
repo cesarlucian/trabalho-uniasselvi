@@ -18,7 +18,7 @@ if(isset($evento)){
             $chamada = new Chamada();
 
             $file = $_FILES["nm_arquivo"];
-            $pasta_destino = "../../projeto.arquivos";
+            $pasta_destino = "../../projeto.arquivos/faltas";
             $arquivo_ext = explode(".",$file["name"]);
             $ext = $arquivo_ext[1];
 
