@@ -8345,3 +8345,33 @@ Foi realizada uma consulta das faltas justificadas   - 2020-10-30 13:44:16
 Falta justificada registrada com sucesso - 2020-10-30 13:44:22
 Foi realizada uma consulta das faltas justificadas   - 2020-10-30 13:44:22
 Foi realizada uma consulta das faltas justificadas   - 2020-10-30 13:45:14
+Foi realizada uma consulta dos usuarios  - 2020-10-30 16:04:04
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 'fsfs', 1)' at line 3 - 2020-10-30 16:34:37
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 'asgfsa', 1)' at line 3 - 2020-10-30 16:34:43
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 'gdsagds', 1)' at line 3 - 2020-10-30 16:35:33
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 'gfhjfgd', 1)' at line 3 - 2020-10-30 16:36:09
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 'dsafsa', 1)' at line 3 - 2020-10-30 16:36:37
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 'dsafasd', 1)' at line 3 - 2020-10-30 16:36:48
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 'gsdagsda', 1)' at line 3 - 2020-10-30 16:36:53
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-10-30 17:14:53
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-30 17:14:54
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-10-30 17:15:02
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-30 17:15:02
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-10-30 17:15:03
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-10-30 18:03:28
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-30 18:03:29
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-10-30 18:03:30
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-10-30 18:06:04
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-30 18:06:04
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-10-30 18:06:08
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-30 18:06:08
+Foi realizada uma consulta das faltas justificadas   - 2020-10-30 18:06:09
+Foi realizada uma consulta dos cursos '' - 2020-10-30 18:06:10
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-30 18:06:12
+Foi realizada uma consulta das faltas justificadas   - 2020-10-30 18:06:12
+Foi realizada uma consulta dos cursos '' - 2020-10-30 18:06:13
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-30 18:06:14
+Foi realizada uma consulta dos usuarios  - 2020-10-30 18:06:14
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-30 18:06:15
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-30 18:06:19
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-10-30 18:06:20

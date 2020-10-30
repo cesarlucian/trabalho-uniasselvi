@@ -32,42 +32,45 @@ if(isset($evento)) {
 		break;
 
 		case 'chat_em_grupo':
+			ChatMessage::inserirMensagemGrupo();
+		break;
 
-			if($_POST["action"] == "insert_data") {
-				ChatMessage::inserirMensagemGrupo($_SESSION["usuario"]->cd_usuario,$_POST["chat_message"],'1');
-			}
-
-			if($_POST["action"] == "fetch_data") {
-				ChatMessage::buscarHistoricoChatEmGrupo();
-			}
-			
+		case 'buscar_historico_chat_em_grupo':
+			ChatMessage::buscarHistoricoChatEmGrupo();
 		break;
 
 		case 'remover_chat':
-			ChatMessage::removerChat();
+			ChatMessage::removerMensagem();
 		break;
 
-		/*case 'upload_arquivo_chat':
+		case 'upload_arquivo_chat':
 
-			if(!empty($_FILES))
-				{
-					if(is_uploaded_file($_FILES['uploadFile']['tmp_name']))
-					{
-						$ext = pathinfo($_FILES['uploadFile']['name'], PATHINFO_EXTENSION);
-						$allow_ext = array('jpg', 'png');
-						if(in_array($ext, $allow_ext))
-						{
-							$_source_path = $_FILES['uploadFile']['tmp_name'];
-							$target_path = '/trabalho-uniasselvi/projeto.arquivos/chat/' . $_FILES['uploadFile']['name'];
-							if(move_uploaded_file($_source_path, $target_path))
-							{
-								echo '<p><img src="'.$target_path.'" class="img-thumbnail" width="200" height="160" /></p><br />';
-							}
-							//echo $ext;
-						}
-					}
-				}
-		break;*/
+			if(!empty($_FILES)) { 
+
+				$file = $_FILES["uploadFile"];
+	            $pasta_destino = "../../projeto.arquivos/chat";
+	            $arquivo_ext = explode(".",$file["name"]);
+	            $ext = $arquivo_ext[1];
+
+	            $local_arquivo = "/trabalho-uniasselvi/projeto.arquivos/chat/".$file["name"];
+
+	            // ------------------------
+
+	            /* metodo servidor upload 
+	            
+	            $upload = new Upload;
+	            $upload->efetuaUpload('trabalho-uniasselvi/projeto.arquivos/chat/'.$file, $file['tmp_name']);
+
+	            */
+
+	            $nome_arquivo = $file["name"];
+
+	            if(move_uploaded_file($file["tmp_name"], $pasta_destino . "/". $nome_arquivo)) {
+	            	echo '<p><img src="'.$local_arquivo.'" class="img-thumbnail" width="200" height="160" /></p><br />';
+	            }
+
+        	}
+		break;
 
 	}
 }

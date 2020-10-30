@@ -5,7 +5,7 @@ class ChatMessageForm {
 	static public function chatEmGrupo() {
 		?>
 		<div id="group_chat_dialog" title="Chat em Grupo">
-			<div id="group_chat_history" style="height:400px; border:1px solid #ccc; overflow-y: scroll; margin-bottom:24px; padding:16px;">
+			<div class="group_chat_history" id="group_chat_history">
 
 			</div>
 			<div class="form-group">
@@ -17,7 +17,7 @@ class ChatMessageForm {
 					<div class="image_upload">
 						<form id="uploadImage" method="post" action="/trabalho-uniasselvi/projeto.view/chat/chat_man.php">
 							<input type="hidden" name="evento" id="evento" value="upload_arquivo_chat">
-							<label for="uploadFile"><img src="upload.png" /></label>
+							<label for="uploadFile"><img src="/trabalho-uniasselvi/projeto.arquivos/upload.png" /></label>
 							<input type="file" name="uploadFile" id="uploadFile" accept=".jpg, .png" />
 						</form>
 					</div>
@@ -39,7 +39,7 @@ class ChatMessageForm {
 				fetch_user();
 				update_chat_history_data();
 				fetch_group_chat_history();
-			}, 5000);
+			}, 500);
 
 			function fetch_user()
 			{
@@ -66,7 +66,7 @@ class ChatMessageForm {
 			function make_chat_dialog_box(to_user_id, to_user_name)
 			{
 				var modal_content = '<div id="user_dialog_'+to_user_id+'" class="user_dialog" title="Conversando com '+to_user_name+'">';
-				modal_content += '<div style="height:400px; border:1px solid #ccc; overflow-y: scroll; margin-bottom:24px; padding:16px;" class="chat_history" data-touserid="'+to_user_id+'" id="chat_history_'+to_user_id+'">';
+				modal_content += '<div class="chat_history" data-touserid="'+to_user_id+'" id="chat_history_'+to_user_id+'">';
 				modal_content += fetch_user_chat_history(to_user_id);
 				modal_content += '</div>';
 				modal_content += '<div class="form-group">';
@@ -75,6 +75,8 @@ class ChatMessageForm {
 				modal_content+= '<button type="button" name="send_chat" id="'+to_user_id+'" class="btn btn-info send_chat">Enviar</button></div></div>';
 				$('#user_model_details').html(modal_content);
 			}
+
+
 
 			$(document).on('click', '.start_chat', function(){
 				var to_user_id = $(this).data('touserid');
@@ -85,10 +87,7 @@ class ChatMessageForm {
 					width:400
 				});
 				$('#user_dialog_'+to_user_id).dialog('open');
-				$('#chat_message_'+to_user_id).emojioneArea({
-					pickerPosition:"top",
-					toneStyle: "bullet"
-				});
+				$('#chat_message_'+to_user_id);
 			});
 
 			$(document).on('click', '.send_chat', function(){
@@ -102,16 +101,18 @@ class ChatMessageForm {
 						data:{to_user_id:to_user_id, chat_message:chat_message},
 						success:function(data)
 						{
-							//$('#chat_message_'+to_user_id).val('');
-							var element = $('#chat_message_'+to_user_id).emojioneArea();
-							element[0].emojioneArea.setText('');
+							var element = document.getElementById("chat_history_"+to_user_id);
+			   	 			element.scrollTop = element.scrollHeight;
+							
+							$('#chat_message_'+to_user_id).val('');
+							var element = $('#chat_message_'+to_user_id);
 							$('#chat_history_'+to_user_id).html(data);
 						}
 					})
 				}
 				else
 				{
-					alert('Type something');
+					alert('Escreva algo');
 				}
 			});
 
@@ -194,7 +195,7 @@ class ChatMessageForm {
 				}
 				else
 				{
-					alert('Type something');
+					alert('Escreva algo');
 				}
 			});
 
@@ -205,7 +206,7 @@ class ChatMessageForm {
 				if(group_chat_dialog_active == 'yes')
 				{
 					$.ajax({
-						url:"/trabalho-uniasselvi/projeto.view/chat/chat_man.php?evento=chat_em_grupo",
+						url:"/trabalho-uniasselvi/projeto.view/chat/chat_man.php?evento=buscar_historico_chat_em_grupo",
 						method:"POST",
 						data:{action:action},
 						success:function(data)
@@ -240,6 +241,7 @@ class ChatMessageForm {
 			});
 			
 		});  
+
 		</script>
 
 		<?php

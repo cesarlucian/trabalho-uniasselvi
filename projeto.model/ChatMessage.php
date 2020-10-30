@@ -64,15 +64,21 @@ class ChatMessage {
 	}
 
 	static public function inserirMensagem($cd_destinatario,$cd_remetente,$chat_mensagem,$status) {
-		ini_set('display_errors', 'on');
-		error_reporting(E_ALL | E_STRICT);
+
 		try{
 
             TTransaction::open();
 
+            $data = array(
+				'cd_destinatario'   =>	$_POST['to_user_id'],
+				'cd_remetente'		=>	$_SESSION["usuario"]->cd_usuario,
+				'chat_mensagem'		=>	$_POST['chat_message'],
+				'status'			=>	'1'
+			);
+
             $sql = "INSERT INTO chat_message 
 					(cd_destinatario, cd_remetente, chat_mensagem, status) 
-					VALUES (".$cd_destinatario.",".$cd_remetente.",'".$chat_mensagem."',".$status.")
+					VALUES (".$data["cd_destinatario"].",".$data["cd_remetente"].",'".$data["chat_mensagem"]."',".$data["status"].")
 					";
 
             $conn = TTransaction::get();
@@ -92,16 +98,22 @@ class ChatMessage {
         }
 	}
 
-	static public function inserirMensagemGrupo($cd_remetente,$chat_mensagem,$status) {
+	static public function inserirMensagemGrupo() {
 
 		try {
 
 			TTransaction::open();
 
+			$data = array(
+				'cd_remetente'		=>	$_SESSION["usuario"]->cd_usuario,
+				'chat_mensagem'		=>	$_POST['chat_message'],
+				'status'			=>	'1'
+			);
+
 			$sql = "
 			INSERT INTO chat_message 
 			(cd_remetente, chat_mensagem, status) 
-			VALUES (".$cd_remetente.", '".$chat_mensagem."', ".$status.")
+			VALUES (".$data["cd_remetente"].", '".$data["chat_mensagem"]."', ".$data["status"].")
 			";
 
 			$conn = TTransaction::get();
@@ -121,7 +133,7 @@ class ChatMessage {
 		}
 	}
 
-	static public function removerChat() {
+	static public function removerMensagem() {
 
 		try {
 
@@ -160,7 +172,7 @@ class ChatMessage {
 					SELECT * FROM chat_message 
 					WHERE cd_destinatario = '0' AND DATE_FORMAT(dt_mensagem,'%Y-%m-%d') = '".date("Y-m-d")."'
 					ORDER BY dt_mensagem ASC
-					";		
+					";	
 
 			$conn = TTransaction::get();
 			$result = $conn->query($sql);
@@ -206,7 +218,7 @@ class ChatMessage {
 				$output .= '
 
 				<hr>
-					<p>'.$user_name.' - '.$chat_message.' 
+					<p>'.$user_name.': '.$chat_message.' 
 						<div align="right">
 							<small><em>'.$data['dt_mensagem'].'</em></small>
 						</div>
@@ -283,7 +295,7 @@ class ChatMessage {
 				}
 				$output .= '
 				<hr>
-					<p>'.$user_name.' - '.$chat_message.'
+					<p>'.$user_name.': '.$chat_message.'
 						<div align="right">
 							<small><em>'.$data['dt_mensagem'].'</em></small>
 						</div>
