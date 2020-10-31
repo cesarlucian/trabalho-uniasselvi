@@ -8404,3 +8404,24 @@ Foi realizada uma consulta dos cursos '' - 2020-10-31 12:36:44
 Foi realizada uma consulta dos cursos '' - 2020-10-31 12:36:46
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-31 12:36:47
 Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-31 12:36:52
+Foi realizada uma consulta das faltas justificadas   - 2020-10-31 12:38:26
+Foi realizada uma consulta das faltas justificadas   - 2020-10-31 12:38:35
+Foi realizada uma consulta dos cursos '' - 2020-10-31 12:38:36
+Foi realizada uma consulta dos usuarios  - 2020-10-31 12:38:41
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-31 12:38:54
+Foi realizada uma consulta dos usuarios  - 2020-10-31 12:38:54
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-10-31 12:38:57
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-31 12:38:58
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-10-31 12:38:58
+Foi realizada uma consulta dos alunos pelo filtro:  'Nome'  , pesquisa realizada: 'c' - 2020-10-31 12:39:00
+Foi realizada uma consulta dos alunos pelo filtro:  'Nome'  , pesquisa realizada: 'c' - 2020-10-31 12:40:06
+Foi realizada uma consulta dos alunos pelo filtro:  'Nome'  , pesquisa realizada: 'sad' - 2020-10-31 12:40:10
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'  , pesquisa realizada: '33' - 2020-10-31 12:40:13
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'  , pesquisa realizada: '33' - 2020-10-31 12:40:46
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'  , pesquisa realizada: '10' - 2020-10-31 12:40:51
+Foi realizada uma consulta dos alunos pelo filtro:  'Curso'  , pesquisa realizada: 'ana' - 2020-10-31 12:40:58
+Foi realizada uma consulta dos alunos pelo filtro:  'Nome'  , pesquisa realizada: 'fghfhg' - 2020-10-31 12:41:01
+Foi realizada uma consulta dos alunos pelo filtro:  'Nome'   - 2020-10-31 12:41:03
+Foi realizada uma consulta dos alunos pelo filtro:  'Nome'   - 2020-10-31 12:41:04
+Foi realizada uma consulta dos alunos pelo filtro:  'Nome'   - 2020-10-31 12:41:04
+Foi realizada uma consulta dos alunos pelo filtro:  'Nome'   - 2020-10-31 12:41:05

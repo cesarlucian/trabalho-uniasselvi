@@ -217,7 +217,7 @@ class Alunos {
 
             switch ($filtro) {
                 case '1':
-                    $sql_filtro = "WHERE alunos.nm_principal LIKE '%$pesquisa_filtro%' AND alunos.ds_sexo LIKE '%$ds_sexo%' ";
+                    $sql_filtro = "WHERE alunos.nm_principal LIKE '%$pesquisa_filtro%' ";
                     break;
 
                 case '2':

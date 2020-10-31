@@ -37,7 +37,7 @@ class AlunosForm {
                     <div class="row">
                         <div id="div_filtro" class="col-md-2 col-lg-2">
                             <label for="filtro">Filtro:</label>
-                            <select id="filtro" name="filtro" class="form-control" onchange="buscaFiltro();">
+                            <select id="filtro" name="filtro" class="form-control">
                                 <option value="1" selected="selected">Nome</option>
                                 <option value="3">Matr&iacute;cula</option>
                                 <option value="2">Curso</option>
