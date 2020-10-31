@@ -8425,3 +8425,38 @@ Foi realizada uma consulta dos alunos pelo filtro:  'Nome'   - 2020-10-31 12:41:
 Foi realizada uma consulta dos alunos pelo filtro:  'Nome'   - 2020-10-31 12:41:04
 Foi realizada uma consulta dos alunos pelo filtro:  'Nome'   - 2020-10-31 12:41:04
 Foi realizada uma consulta dos alunos pelo filtro:  'Nome'   - 2020-10-31 12:41:05
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-10-31 12:41:45
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-31 12:41:45
+Foi realizada uma consulta das faltas justificadas   - 2020-10-31 12:41:46
+Foi realizada uma consulta dos cursos '' - 2020-10-31 12:41:47
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-31 12:41:52
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-31 12:41:54
+Foi realizada uma consulta dos usuarios  - 2020-10-31 12:41:55
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-31 12:41:56
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-31 12:45:37
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-31 12:46:08
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-31 12:46:46
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-31 12:46:50
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-31 12:47:26
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 - 2020-10-31 12:47:32
+A turma id '20' teve seu curso desvinculado na base de dados - 2020-10-31 12:47:32
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-31 12:47:32
+Foi realizada uma consulta das faltas justificadas   - 2020-10-31 12:47:37
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-31 12:47:37
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-31 12:50:00
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-31 12:51:01
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-31 12:51:08
+Foi realizada uma consulta dos cursos '' - 2020-10-31 12:51:09
+Foi realizada uma consulta das faltas justificadas   - 2020-10-31 12:51:10
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-10-31 12:51:10
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-10-31 12:51:11
+Foi realizada uma consulta dos cursos '' - 2020-10-31 12:51:21
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-31 12:51:22
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-31 12:54:14
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-31 12:54:17
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-31 12:54:18
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-31 12:55:09
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-31 12:55:14
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-31 12:56:17
+O curso id '76' foi vinculado a turma id '9' na base de dados - 2020-10-31 12:56:21
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-31 12:56:21

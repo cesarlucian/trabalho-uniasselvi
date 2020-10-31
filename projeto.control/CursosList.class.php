@@ -91,7 +91,7 @@ class CursosList {
                                             <tr>                                             
                                                  <td align='center'>
 
-                                                <button type="submit" class="btn btn-default btn-sm" onclick="vincular('<?= $cd_turma; ?>','<?= $curso->cd_curso; ?>','<?= $form; ?>')">
+                                                <button type="submit" class="btn btn-default btn-sm" onclick="vincular('<?= $cd_turma; ?>','<?= $curso->cd_curso; ?>')">
                                                   <i class="fa fa-reply">Selecionar</i>
                                                 </button>
                                             </td>
