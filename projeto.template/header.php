@@ -1,3 +1,4 @@
+<?php new TSession; ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
