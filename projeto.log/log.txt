@@ -8538,3 +8538,20 @@ Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-11-02 21:3
 Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-11-02 21:30:08
 Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'  , pesquisa realizada: '10' - 2020-11-02 21:30:13
 Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'  , pesquisa realizada: '777777' - 2020-11-02 21:30:17
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-11-02 21:38:21
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-11-02 21:38:22
+Foi realizada uma consulta das faltas justificadas   - 2020-11-02 21:38:23
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-11-02 21:38:24
+Foi realizada uma consulta dos usuarios  - 2020-11-02 21:38:24
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-11-02 21:38:25
+Foi realizada uma consulta dos cursos '' - 2020-11-02 21:38:25
+Foi realizada uma consulta das faltas justificadas   - 2020-11-02 21:38:25
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-11-02 21:38:26
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-11-02 21:39:09
+Foi realizada uma consulta dos usuarios  - 2020-11-02 21:39:10
+Foi realizada uma consulta dos usuarios  - 2020-11-02 21:39:17
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-11-02 21:39:20
+Foi realizada uma consulta dos cursos '' - 2020-11-02 21:39:25
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-11-02 21:39:25
+Foi realizada uma consulta dos usuarios  - 2020-11-02 21:39:25
+Foi realizada uma consulta dos usuarios  - 2020-11-02 21:40:13

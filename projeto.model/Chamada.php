@@ -279,7 +279,7 @@ class Chamada {
         }
     }
 
-    public function realizaChamada($cd_aluno,$situacao,$cd_turma) {
+    static public function realizaChamada($cd_aluno,$situacao,$cd_turma) {
         $linhas = null;
         
         try{
