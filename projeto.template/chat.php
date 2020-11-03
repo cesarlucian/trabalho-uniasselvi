@@ -12,8 +12,6 @@
 		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.js"></script>
-  		<audio src="/trabalho-uniasselvi/projeto.sound/notificacao.mp3" id="blip"></audio>
-        <script src="/trabalho-uniasselvi/js/scripts.js"></script>
     </head>  
     <body>  
         <div class="container">

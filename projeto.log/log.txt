@@ -8460,3 +8460,37 @@ Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-31 12:55:14
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-31 12:56:17
 O curso id '76' foi vinculado a turma id '9' na base de dados - 2020-10-31 12:56:21
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-10-31 12:56:21
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-11-02 21:22:18
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-11-02 21:22:19
+Foi realizada uma consulta das faltas justificadas   - 2020-11-02 21:22:21
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-11-02 21:22:22
+Foi realizada uma consulta das faltas justificadas   - 2020-11-02 21:22:23
+Foi realizada uma consulta dos cursos '' - 2020-11-02 21:22:23
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-11-02 21:22:24
+Foi realizada uma consulta dos usuarios  - 2020-11-02 21:22:25
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-11-02 21:22:25
+Foi realizada uma consulta dos cursos '' - 2020-11-02 21:22:27
+Foi realizada uma consulta das faltas justificadas   - 2020-11-02 21:22:28
+Foi realizada uma consulta das faltas justificadas   - 2020-11-02 21:22:40
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-11-02 21:22:42
+Foi realizada uma consulta das faltas justificadas   - 2020-11-02 21:22:45
+Foi realizada uma consulta dos cursos '' - 2020-11-02 21:22:45
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-11-02 21:22:47
+Foi realizada uma consulta dos usuarios  - 2020-11-02 21:22:47
+Foi realizada uma consulta das faltas justificadas   - 2020-11-02 21:22:48
+Foi realizada uma consulta dos cursos '' - 2020-11-02 21:22:49
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-11-02 21:22:50
+Foi realizada uma consulta dos usuarios  - 2020-11-02 21:22:51
+Foi realizada uma consulta dos usuarios  - 2020-11-02 21:22:55
+Foi realizada uma consulta das faltas justificadas   - 2020-11-02 21:23:02
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-11-02 21:23:03
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-11-02 21:23:54
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-11-02 21:23:54
+Foi realizada uma consulta das faltas justificadas   - 2020-11-02 21:23:55
+Foi realizada uma consulta dos cursos '' - 2020-11-02 21:23:56
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-11-02 21:23:57
+Foi realizada uma consulta dos usuarios  - 2020-11-02 21:23:57
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-11-02 21:23:58
+Foi realizada uma consulta das faltas justificadas   - 2020-11-02 21:24:00
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-11-02 21:24:00
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-11-02 21:24:01

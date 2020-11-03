@@ -41,13 +41,7 @@ class ChatMessage {
 
 			if($count > 0)
 			{
-				$output = '
-                <audio src="/trabalho-uniasselvi/projeto.sound/notificacao.mp3" id="blip"></audio>
-                <script src="/trabalho-uniasselvi/js/scripts.js"></script>
-                <script>
-                	play();
-                </script>
-				<span class="label label-success">'.$count.'</span>';
+				$output = '<span class="label label-success">'.$count.'</span>';
 			}
 			return $output;
 		
