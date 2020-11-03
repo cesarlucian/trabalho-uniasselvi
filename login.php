@@ -50,31 +50,20 @@ try{
 
                 TSession::setValue('usuario', $usuario);
 
-                try {
+                TTransaction::open("projeto01");
 
-                    TTransaction::open("projeto01");
+                $sql = "
+                INSERT INTO login_details 
+                (cd_usuario) 
+                VALUES ('".$data['cd_usuario']."')
+                ";
 
-                    $sql = "
-                    INSERT INTO login_details 
-                    (cd_usuario) 
-                    VALUES ('".$data['cd_usuario']."')
-                    ";
+                $conn = TTransaction::get();
+                $result = $conn->query($sql);
 
-                    $conn = TTransaction::get();
-                    $result = $conn->query($sql);
+                TSession::setValue('cd_login_detalhe', $conn->lastInsertId());
 
-                    TSession::setValue('cd_login_detalhe', $conn->lastInsertId());
-
-                    TTransaction::close();
-
-                } catch(Exception $ex) {
-
-                    $file = fopen("../../projeto.log/log.txt","a+");
-                    fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
-                    fclose($file);
-                    TTransaction::rollback();      
-                    return false;
-                }
+                TTransaction::close();
 
                 header("location: inicial.php");
 
@@ -88,7 +77,7 @@ try{
 
     } catch (Exception $ex) {
         echo $ex->getMessage();
-        $file = fopen("../../projeto.log/log.txt","a+");
+        $file = fopen("projeto.log/log.txt","a+");
         fwrite($file,"Erro: ".$ex->getMessage()." - ".date("Y-m-d H:i:s")."\r\n");
         fclose($file);
     }

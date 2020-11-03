@@ -8555,3 +8555,4 @@ Foi realizada uma consulta dos cursos '' - 2020-11-02 21:39:25
 Foi realizada uma consulta das turmas, pelo numero:  - 2020-11-02 21:39:25
 Foi realizada uma consulta dos usuarios  - 2020-11-02 21:39:25
 Foi realizada uma consulta dos usuarios  - 2020-11-02 21:40:13
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-11-02 21:42:05
