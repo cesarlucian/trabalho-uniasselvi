@@ -57,7 +57,7 @@ class ChatMessage {
 
 	}
 
-	static public function inserirMensagem($cd_destinatario,$cd_remetente,$chat_mensagem,$status) {
+	static public function inserirMensagem() {
 
 		try{
 

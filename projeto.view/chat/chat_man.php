@@ -20,7 +20,7 @@ if(isset($evento)) {
 		break;
 
 		case 'inserir_mensagem':
-			ChatMessage::inserirMensagem($_POST["to_user_id"],$_SESSION["usuario"]->cd_usuario,$_POST["chat_message"],'1');
+			ChatMessage::inserirMensagem();
 		break;
 
 		case 'buscar_historico_chat_usuario':

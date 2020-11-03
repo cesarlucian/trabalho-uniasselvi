@@ -8494,3 +8494,47 @@ Foi realizada uma consulta das turmas, pelo numero:  - 2020-11-02 21:23:58
 Foi realizada uma consulta das faltas justificadas   - 2020-11-02 21:24:00
 Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-11-02 21:24:00
 Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-11-02 21:24:01
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-11-02 21:26:38
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-11-02 21:26:40
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-11-02 21:26:57
+Foi realizada uma consulta dos cursos '' - 2020-11-02 21:26:58
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-11-02 21:26:59
+Foi realizada uma consulta dos cursos '' - 2020-11-02 21:27:01
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-11-02 21:27:02
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-11-02 21:27:02
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-11-02 21:27:23
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-11-02 21:27:35
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-11-02 21:27:43
+Foi realizada uma consulta das faltas justificadas   - 2020-11-02 21:27:44
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-11-02 21:27:45
+Foi realizada uma consulta dos alunos da turma '702' do curso 'Análise e Desenvolvimento de Sistemas' para realizar a chamada do dia: 2020-11-02 21:27:51
+Chamada realizada com sucesso - 2020-11-02 21:28:02
+Foi realizada uma consulta dos alunos da turma '' do curso '' para realizar a chamada do dia: 2020-11-02 21:28:02
+Foi realizada uma consulta das faltas justificadas   - 2020-11-02 21:28:06
+Falta justificada registrada com sucesso - 2020-11-02 21:28:38
+Foi realizada uma consulta das faltas justificadas   - 2020-11-02 21:28:38
+Foi realizada uma consulta das faltas justificadas   - 2020-11-02 21:29:00
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-11-02 21:29:01
+O curso id '39' foi vinculado a turma id '22' na base de dados - 2020-11-02 21:29:05
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-11-02 21:29:06
+Foi realizada uma consulta das turmas, pelo numero: 8 - 2020-11-02 21:29:18
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-11-02 21:29:20
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-11-02 21:29:26
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-11-02 21:29:28
+Foi realizada uma consulta dos usuarios  - 2020-11-02 21:29:31
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-11-02 21:29:32
+Foi realizada uma consulta dos usuarios  - 2020-11-02 21:29:33
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-11-02 21:29:33
+Foi realizada uma consulta dos cursos '' - 2020-11-02 21:29:35
+Foi realizada uma consulta dos usuarios  - 2020-11-02 21:29:36
+Foi realizada uma consulta dos usuarios , pesquisa realizada: '2' - 2020-11-02 21:29:40
+Foi realizada uma consulta das turmas, pelo numero:  - 2020-11-02 21:29:43
+Foi realizada uma consulta dos cursos '' - 2020-11-02 21:29:44
+Foi realizada uma consulta das faltas justificadas   - 2020-11-02 21:29:49
+Foi realizada uma consulta das faltas justificadas  , data da falta pesquisada: '2020-11-02' - 2020-11-02 21:30:00
+Foi realizada uma consulta das faltas justificadas   - 2020-11-02 21:30:01
+Foi realizada uma consulta das faltas justificadas   - 2020-11-02 21:30:03
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-11-02 21:30:04
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-11-02 21:30:08
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'  , pesquisa realizada: '10' - 2020-11-02 21:30:13
+Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'  , pesquisa realizada: '777777' - 2020-11-02 21:30:17
