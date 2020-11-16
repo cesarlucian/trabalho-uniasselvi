@@ -64,7 +64,7 @@ class LoginForm {
 		?>
 
 		<br><main class="card-padrao">
-		    <form id="nova_senha" name="nova_senha" action="/trabalho-uniasselvi/projeto.view/usuarios/usuarios_man.php" class="login d-flex align-items-center flex-column justify-content-center" method="POST">
+		    <form id="nova_senha_form" name="nova_senha_form" action="/trabalho-uniasselvi/projeto.view/usuarios/usuarios_man.php" class="login d-flex align-items-center flex-column justify-content-center" method="POST">
 		    	<input type="hidden" name="evento" id="evento" value="nova_senha">
 		    	<input type="hidden" name="cd_usuario" id="cd_usuario" value="<?= $usuario->cd_usuario; ?>">
 		        <h3 class="title">Altere sua senha</h3><br> 
@@ -93,7 +93,7 @@ class LoginForm {
 
 		        <div class="col-lg-12 col-md-12">
 		        	<center><br>
-		            	<button class="btn btn-success" onclick="salvar('')" type="submit" >Alterar</button>
+		            	<button class="btn btn-success" onclick="return salvar()" type="submit" >Alterar</button>
 		        	</center>
 		        </div><br>
 
@@ -101,26 +101,32 @@ class LoginForm {
 		    <script>
 
 		    	function salvar(){
-                        var confirma_nova_senha = document.nova_senha.confirma_nova_senha.value;
-                        var nova_senha = document.nova_senha.nova_senha.value;
+
+                        var confirma_nova_senha = document.nova_senha_form.confirma_nova_senha.value;
+                        var nova_senha = document.nova_senha_form.nova_senha.value;
                         
                         if(nova_senha == "<?= strtolower($senha_default); ?>"){
                             alert('A senha padr\u00e3o deve ser modificada.');
                             return false;    
                         }
 
-                        var validaSenha = isOkPass(nova_senha);
+                        
+						 if(nova_senha == confirma_nova_senha){
+						                    
+		                    var validaSenha = isOkPass(nova_senha);
 
-                        if(nova_senha != confirma_nova_senha){
-                            alert("Confirma\u00e7\u00e3o de senha incorreta!");                      
-                        } else{
-                            if(validaSenha.result){
-                                document.form_senha.submit();
-                            }
-                            else{
-                                alert(validaSenha.error);
-                            }
-                        }                                        
+		                    if(!validaSenha.result){
+		                        alert(validaSenha.error);
+		                        return false;
+		                    }
+		                    else{
+		                        document.nova_senha_form.submit();
+		                    }                   
+		                }
+		                else{
+		                    alert('Os campos devem ser iguais.');
+		                    return false;
+		                }                                         
                     }
 
                     function isOkPass(p){

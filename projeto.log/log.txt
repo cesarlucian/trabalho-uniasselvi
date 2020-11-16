@@ -8556,3 +8556,22 @@ Foi realizada uma consulta das turmas, pelo numero:  - 2020-11-02 21:39:25
 Foi realizada uma consulta dos usuarios  - 2020-11-02 21:39:25
 Foi realizada uma consulta dos usuarios  - 2020-11-02 21:40:13
 Foi realizada uma consulta dos alunos pelo filtro:  'Nenhum'   - 2020-11-02 21:42:05
+Foi realizada uma consulta dos usuarios  - 2020-11-16 19:36:41
+O usuario id '1' foi atualizado na base de dados - 2020-11-16 19:36:47
+O Usuário id '1' alterou sua senha com sucesso - 2020-11-16 19:37:02
+Foi realizada uma consulta dos usuarios  - 2020-11-16 19:40:27
+O usuario id '1' foi atualizado na base de dados - 2020-11-16 19:40:32
+O Usuário id '1' alterou sua senha com sucesso - 2020-11-16 19:46:16
+Foi realizada uma consulta dos usuarios  - 2020-11-16 19:46:23
+O usuario id '1' foi atualizado na base de dados - 2020-11-16 19:46:26
+O Usuário id '1' alterou sua senha com sucesso - 2020-11-16 19:48:28
+Foi realizada uma consulta dos usuarios  - 2020-11-16 19:48:35
+O usuario id '1' foi atualizado na base de dados - 2020-11-16 19:48:39
+O Usuário id '1' alterou sua senha com sucesso - 2020-11-16 19:48:59
+Foi realizada uma consulta dos usuarios  - 2020-11-16 19:49:11
+Foi realizada uma consulta dos usuarios  - 2020-11-16 19:49:15
+Foi inserido um novo usuario na base de dados - 2020-11-16 19:49:32
+O Usuário id '5' alterou sua senha com sucesso - 2020-11-16 19:52:10
+Foi realizada uma consulta dos usuarios  - 2020-11-16 19:52:28
+O usuario id '5' foi atualizado na base de dados - 2020-11-16 19:52:32
+O Usuário id '5' alterou sua senha com sucesso - 2020-11-16 19:53:46

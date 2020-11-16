@@ -40,32 +40,35 @@ try{
 
             $senha_padrao = "@".$primeiro_nome."123";
 
-            if(password_verify($senha_padrao, $data['ds_senha'])) {
+            if(password_verify($ds_senha, $data['ds_senha'])) {
 
-                header("location: nova_senha.php?cd_usuario=".$data['cd_usuario']);
+                if($ds_senha === $senha_padrao) {
 
-            } else if(password_verify($ds_senha, $data['ds_senha'])) {
+                    header("location: nova_senha.php?cd_usuario=".$data['cd_usuario']);
 
-                new TSession;
+                } else {
 
-                TSession::setValue('usuario', $usuario);
+                    new TSession;
 
-                TTransaction::open("projeto01");
+                    TSession::setValue('usuario', $usuario);
 
-                $sql = "
-                INSERT INTO login_details 
-                (cd_usuario) 
-                VALUES ('".$data['cd_usuario']."')
-                ";
+                    TTransaction::open("projeto01");
 
-                $conn = TTransaction::get();
-                $result = $conn->query($sql);
+                    $sql = "
+                    INSERT INTO login_details 
+                    (cd_usuario) 
+                    VALUES ('".$data['cd_usuario']."')
+                    ";
 
-                TSession::setValue('cd_login_detalhe', $conn->lastInsertId());
+                    $conn = TTransaction::get();
+                    $result = $conn->query($sql);
 
-                TTransaction::close();
+                    TSession::setValue('cd_login_detalhe', $conn->lastInsertId());
 
-                header("location: inicial.php");
+                    TTransaction::close();
+
+                    header("location: inicial.php");
+                }
 
             } else {
                 echo "<script>alert('Senha informada incorreta!');history.back();</script>";
