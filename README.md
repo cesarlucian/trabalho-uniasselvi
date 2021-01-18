@@ -5,4 +5,6 @@ Data máxima para entrega: 12/2020
 
 por Léo e Luciano.
 
+Projeto finalizado 11/2020
+
 /* -------------------------------------- */
